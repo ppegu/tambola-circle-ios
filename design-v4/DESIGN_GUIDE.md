@@ -1,0 +1,88 @@
+# Tambola Circle — Design v4
+
+Updated 24 September 2026. This is the current design reference, combining v3 with the later approved hub, history, wallet, lobby, caller and pause-dialog images.
+
+Open `index.html` for the gallery. `screens/` contains 27 current screen/workflow references; `archive/` preserves eight earlier versions. All 35 PNGs retain their original bytes. `manifest.json` records source paths, dimensions and SHA-256 checksums. The voice and Android update workflow boards are included alongside the phone mockups.
+
+## Which reference wins
+
+The user's latest accepted copy and behavior changes (recorded below and beside each image) take precedence over the latest approved image, which takes precedence over an older v3 image. Some images still show controls removed later. These are design references, not screenshots of the shipped app or evidence of a new pixel comparison. Names, balances, dates and sample tables in the images are illustrative only.
+
+## Shared visual system
+
+- The 20 bundled table avatars are previewed in `table-avatars.png`. Hosts choose one during creation or by tapping the table avatar in Table settings. Stable IDs persist through the server, table lists and round archives. Changing artwork never changes readiness, rules, calls or coins.
+- Live caller: keep the previous number inside the Numbers widget and one central glowing current ball. Captain speed choices (4s / 5s / 7s) share a single compact row with the called/left counts; never add a separate full-width speed card above the tickets. The single speaker button shows a percentage badge and opens a native volume slider; it is not a mute toggle. The same controls apply to the watching Captain.
+- Pause dialog: curved gold title, gold beveled frame, purple cloth texture, stars, and three glossy pill actions with play/restart/home medallions. English curves on a native SVG path; Assamese/Hindi use native shaped text for legibility.
+
+- Preserve the purple game environment, gold outlines, glows, stars, textures, cartoon artwork and dimensional buttons. Use the bundled icon family and logo, not platform emoji.
+- Reuse the same compact coin indicator on Home, online screens and the lobby. Show zero for absent/non-finite balances; otherwise use the real wallet value.
+- Use Fredoka for Latin game text and a font with Indic glyph support for Assamese and Hindi. Allow translated labels to wrap without clipping.
+- Decorative graphics cannot intercept touches. Cache small bundled images; do not show blank/white surfaces while waiting to apply gradient styling.
+- Keep usable touch targets without oversized visual buttons. Give immediate press feedback and optional haptics. Loading occupies a stable icon slot without moving labels.
+- Native screens push horizontally. Compact confirmations use native modals. API screens have shaped first-load placeholders, retained data on refresh and local error/retry states.
+
+## Screen contracts
+
+| Screen | Reference | Current requirements and later overrides |
+| --- | --- | --- |
+| Home | `screens/01-home.png` | Fixed, non-scrollable. Play online and Offline caller only; remove My tables. Cartoon icons, game type and shared wallet chip. Returning Home resets the offline round. |
+| Play online | `screens/02-online-hub.png` | Create/join widgets separate from ongoing cards. History icon opens a separate page. No tabs, “Watching is always free”, refresh button or heading spinner. Pull to refresh only. |
+| Table history | `screens/03-table-history.png` | Same card family, actual statuses, pull to refresh. Details show winner/reason and called-number board rather than raw events. |
+| Registration | `screens/04-registration.png` | Name, Mobile number and Registration wording. Android selected device number with Change; iOS manual input. At least 15 selectable avatars. Continuing agrees to linked Terms and Privacy Policy. No “Why we save this”, UUID explanation or service-unavailable banner. |
+| Join table | `screens/05-join-table.png` | Code or shared invite; real table preview and API state. Table code is an invitation, not phone verification. |
+| Create table | `screens/06-create-table.png` | Private by default, no visibility choice. Calls 3–10 seconds; half/full coin costs. Host can watch. Manual start unless an optional schedule is explicitly chosen. No co-host picker before creation. |
+| Lobby | `screens/07-table-lobby.png` | Compact code/copy/share row, settings beside title, shared coin chip. Readiness summary below roster. Fixed ticket/play/watch/start footer. Hide My tickets while watching. No selection timeout. |
+| Ticket chooser | `screens/08-ticket-selection.png` | Half = 3 tickets, Full = 6. Compact icon selectors with prices. Regenerate/check icons in footer, no duplicate coin explanation. Minimal paper seams and maximum vertical space. |
+| Live game | `screens/09-live-game.png` | Ticket first, clear current call and called/remaining counts. Expand history/board on left, players on right. Tap outside closes overlays. Manual marking only; no drawing settings. |
+| Called numbers | `screens/10-numbers-board.png` | Light cells and clear called states; history and icon-only close. Reuse the modern board in results/history. |
+| Players | `screens/11-ranked-players.png` | Rank real progress. Details show name/mobile and live ticket. Authorized remove, transfer-host and co-host actions live here. |
+| Table settings | `screens/12-table-settings.png` | Keep approved visual style but merge controls/settings. Rules inline. Remove More/Fewer options and Back to game. Direct OS share sheet. End round only while active; player management moves to details. |
+| Verification | `screens/13-auto-verification.png` | Pause calls for bounded automatic server verification. Everyone sees ticket, progress and called board. Manual review/challenge is removed. |
+| Round result | `screens/14-round-result.png` | Winner: “You won!” and “Congratulations!”; other participants: “Better luck next time!”; watchers: neutral full-house announcement. Show who won, the winning ticket, then the called-number board expanded by default, followed by the viewer's ticket options. Preserve actual ended/cancelled reasons and refunds; never invent a winner. Any member can return to the lobby. |
+| Recovery | `screens/15-verification-recovery.png` | Actual outcome with supported resume/lobby action. No endless verification loop. |
+| Wallet | `screens/16-wallet.png` | Real available/reserved balances, recent activity, Top up and See all. Remove duplicate Transaction history button. |
+| Transactions | `screens/17-transactions.png` | Server pagination, filters, dates, signed amounts and entry/refund states. Consumed reservation is not a second debit. |
+| Top up | `screens/18-top-up.png` | Backend coin plans, free test purchase for now. No duplicate history button. Payments and ads remain TODO. |
+| Low coins | `screens/19-low-coins.png` | Top up or watch. Insufficient balance cannot enter paid play. |
+| Preferences | `screens/20-preferences.png` | Native sliders, manual marking color, stars/haptics and motion settings. Female preview clips prepared on mount and released on exit. No Replay last call or auto-mark. Language and App Updates available. |
+| End confirmation | `screens/21-end-round.png` | Explicit confirmation for everyone with actual refund behavior; separate from the result screen. |
+| Offline caller | `screens/22-offline-caller.png` | Logo header. One speaker by the called number, percentage badge and native volume slider. Direct 4 / 5 / 7 choices override the pictured selector. Gold current-number frame, red Play/Pause, light board with red circles filling remaining height. No page scroll. |
+| Caller pause menu | `screens/23-offline-menu.png` | Small immediate native modal: Keep playing, Restart game, Back to home. Restart/Home clear the round. |
+| Caller voices | `screens/24-caller-voices.png` | Female packs and offline previews, prepared on entry and released on exit. Remove Replay last call. |
+| App Updates | `screens/25-app-updates.png` | Optional/required states, explicit download and native installer. Validate APK bytes, package, build and signer before installation. |
+| Access states | `screens/26-access-guards.png` | Signed server policy controls restrictions and recovery. Downloading/installing does not bypass a device or account restriction. |
+| Public download | `screens/27-download-pages.png` | Live release version, notes, download and Android installation help. No account is needed to download. |
+
+## Ticket behavior and responsiveness
+
+Each ticket has three rows, nine columns and 15 populated numbers. Half/full strips are compact and scroll vertically when needed. Preserve paper texture, borders and perforations without making number targets too small.
+
+A tap changes that exact cell immediately with the user's bold marking color (default red), optional short stars and haptics. Reconcile optimistic local marks with the server, preserve rapid tap order and recover failed saves. Saving must not flicker or unnecessarily disable Win. There is no auto-mark.
+
+## Server data and round behavior
+
+- Wallets, coin plans, players, tables, history, calls and marks are authenticated server data. Loading states must not display plausible sample data.
+- Ready reserves entry coins; start consumes them; unready releases them; supported host cancellation refunds them. Retries cannot double-charge/refund.
+- The host starts manually unless an optional schedule was set. Watching needs no ticket. Paid roster players may watch/resume without another charge; late spectators cannot join a running paid roster.
+- The server owns calls, round state, win verification, events, host/co-host authorization and reconnect recovery. Clients synchronize through it.
+- Sharing opens the native OS share sheet directly. There is no separate Invite your circle screen.
+
+## Language and audio
+
+English is default. If no choice is stored, show a modal with English, অসমীয়া and हिन्दी. Persist the choice and allow changes in Settings. Translations are bundled, not fetched. Personal names, mobile numbers, invite codes and ticket numbers remain unchanged.
+
+The language modal is documented in `../docs/LOCALIZATION.md`; it has no separately approved generated mockup. Do not present a new image as approved without review.
+
+Female voices only. Calls use consistent digits, a half-second gap, then the full number. Preview clips ship offline for immediate playback. Choosing an Assamese/Hindi UI does not imply spoken number packs in those languages.
+
+## Deferred features
+
+Real-money checkout, advertisement SDKs and voice chat remain TODO. Preserve approved coming-later visuals with truthful disabled/test states. Do not restore recovery codes, manual claim review, public-table selection, automatic ticket marking or duplicate My tables.
+
+## Review and provenance
+
+September 24 implementation refinements: table creation uses a large centered avatar above the name field, without the extra Create table / Private heading. Both avatar pickers show a large selected preview above the scrollable gallery. Lobby settings use a visible gold gear, with paper filigree framing the roster. Selection controls retain their native drawing layer when toggled. Numbers and Players are presented as native RNN modal stacks, with bottom-up transitions and outside-tap dismissal; they continue receiving live server snapshots.
+
+Compare one reference at a time against the native phone screen. Check short/tall phones, Indic labels, large balances, real tables and empty/loading/error/refresh states. Prior evidence: `../docs/DESIGN-SCREEN-PROGRESS.md`, `../docs/NATIVE-NAVIGATION-QA.md`, `../docs/LOCALIZATION.md`. Historical QA applies to its tested build.
+
+Open `index.html` directly, or after sourcing the D-drive environment, run `python -m http.server 8094 --bind 127.0.0.1 --directory design-v4`. Re-copy originals with `node scripts/prepare-design-v4.mjs` while source artifact folders are available. The committed folder itself is self-contained for viewing.
