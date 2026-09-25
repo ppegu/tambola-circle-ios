@@ -1,0 +1,12 @@
+* text=auto
+*.sh text eol=lf
+*.yml text eol=lf
+*.mjs text eol=lf
+*.wav binary
+*.png binary
+*.jar binary
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# D1 remote trigger parser requires LF SQL migrations.
+*.sql text eol=lf

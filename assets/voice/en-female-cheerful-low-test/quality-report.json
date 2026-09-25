@@ -1,0 +1,593 @@
+{
+  "checkedCalls": 90,
+  "originalPacksUnchanged": true,
+  "originalSpeedAndPhraseGaps": true,
+  "outerQuietTrimmed": true,
+  "medianMeasuredPitchShiftSemitones": -1.954,
+  "voicedFramesCompared": 604,
+  "measurements": [
+    {
+      "number": 1,
+      "volumeDeltaDb": -0.006,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.68
+    },
+    {
+      "number": 2,
+      "volumeDeltaDb": -0.024,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 3,
+      "volumeDeltaDb": -0.065,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.4
+    },
+    {
+      "number": 4,
+      "volumeDeltaDb": -0.005,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 5,
+      "volumeDeltaDb": -0.018,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.31
+    },
+    {
+      "number": 6,
+      "volumeDeltaDb": -0.06,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 7,
+      "volumeDeltaDb": -0.008,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 8,
+      "volumeDeltaDb": -0.055,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 9,
+      "volumeDeltaDb": -0.014,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 10,
+      "volumeDeltaDb": -0.214,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 11,
+      "volumeDeltaDb": -0.159,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.22
+    },
+    {
+      "number": 12,
+      "volumeDeltaDb": -0.122,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 13,
+      "volumeDeltaDb": -0.067,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.49
+    },
+    {
+      "number": 14,
+      "volumeDeltaDb": -0.259,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 15,
+      "volumeDeltaDb": -0.235,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 16,
+      "volumeDeltaDb": -0.156,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 17,
+      "volumeDeltaDb": -0.248,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 18,
+      "volumeDeltaDb": -0.133,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 19,
+      "volumeDeltaDb": -0.084,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 20,
+      "volumeDeltaDb": -0.082,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.04
+    },
+    {
+      "number": 21,
+      "volumeDeltaDb": -0.153,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 22,
+      "volumeDeltaDb": -0.02,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 23,
+      "volumeDeltaDb": -0.031,
+      "leadingQuietMs": 2.04,
+      "trailingQuietMs": 3.9
+    },
+    {
+      "number": 24,
+      "volumeDeltaDb": -0.009,
+      "leadingQuietMs": 0.73,
+      "trailingQuietMs": 2.68
+    },
+    {
+      "number": 25,
+      "volumeDeltaDb": -0.025,
+      "leadingQuietMs": 2.49,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 26,
+      "volumeDeltaDb": -0.03,
+      "leadingQuietMs": 1.72,
+      "trailingQuietMs": 2.13
+    },
+    {
+      "number": 27,
+      "volumeDeltaDb": -0.028,
+      "leadingQuietMs": 4.35,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 28,
+      "volumeDeltaDb": -0.057,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 29,
+      "volumeDeltaDb": -0.062,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.76
+    },
+    {
+      "number": 30,
+      "volumeDeltaDb": -0.086,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 31,
+      "volumeDeltaDb": -0.011,
+      "leadingQuietMs": 4.76,
+      "trailingQuietMs": 2.4
+    },
+    {
+      "number": 32,
+      "volumeDeltaDb": -0.109,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 33,
+      "volumeDeltaDb": -0.101,
+      "leadingQuietMs": 4.9,
+      "trailingQuietMs": 2.45
+    },
+    {
+      "number": 34,
+      "volumeDeltaDb": -0.053,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 35,
+      "volumeDeltaDb": -0.051,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.81
+    },
+    {
+      "number": 36,
+      "volumeDeltaDb": -0.163,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 37,
+      "volumeDeltaDb": -0.084,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 38,
+      "volumeDeltaDb": -0.076,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 39,
+      "volumeDeltaDb": -0.085,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 40,
+      "volumeDeltaDb": -0.277,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.9
+    },
+    {
+      "number": 41,
+      "volumeDeltaDb": -0.134,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.36
+    },
+    {
+      "number": 42,
+      "volumeDeltaDb": -0.216,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 43,
+      "volumeDeltaDb": -0.114,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 44,
+      "volumeDeltaDb": -0.092,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 45,
+      "volumeDeltaDb": -0.044,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 46,
+      "volumeDeltaDb": -0.124,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 47,
+      "volumeDeltaDb": -0.374,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 48,
+      "volumeDeltaDb": -0.098,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 49,
+      "volumeDeltaDb": -0.075,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 50,
+      "volumeDeltaDb": -0.186,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 51,
+      "volumeDeltaDb": -0.041,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 52,
+      "volumeDeltaDb": -0.13,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 53,
+      "volumeDeltaDb": -0.085,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 54,
+      "volumeDeltaDb": -0.016,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.68
+    },
+    {
+      "number": 55,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 56,
+      "volumeDeltaDb": -0.104,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 57,
+      "volumeDeltaDb": -0.097,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 58,
+      "volumeDeltaDb": -0.069,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 59,
+      "volumeDeltaDb": -0.042,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 60,
+      "volumeDeltaDb": -0.038,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 61,
+      "volumeDeltaDb": -0.039,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 62,
+      "volumeDeltaDb": -0.197,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 63,
+      "volumeDeltaDb": -0.068,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.4
+    },
+    {
+      "number": 64,
+      "volumeDeltaDb": -0.08,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 65,
+      "volumeDeltaDb": -0.106,
+      "leadingQuietMs": 2.86,
+      "trailingQuietMs": 4.85
+    },
+    {
+      "number": 66,
+      "volumeDeltaDb": -0.176,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 67,
+      "volumeDeltaDb": -0.047,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 68,
+      "volumeDeltaDb": -0.156,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 69,
+      "volumeDeltaDb": -0.021,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 70,
+      "volumeDeltaDb": -0.112,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 71,
+      "volumeDeltaDb": -0.082,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 72,
+      "volumeDeltaDb": -0.185,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.49
+    },
+    {
+      "number": 73,
+      "volumeDeltaDb": -0.157,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 74,
+      "volumeDeltaDb": -0.075,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 75,
+      "volumeDeltaDb": -0.006,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.94
+    },
+    {
+      "number": 76,
+      "volumeDeltaDb": -0.229,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 77,
+      "volumeDeltaDb": -0.104,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 78,
+      "volumeDeltaDb": -0.203,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 79,
+      "volumeDeltaDb": -0.064,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.27
+    },
+    {
+      "number": 80,
+      "volumeDeltaDb": -0.116,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 81,
+      "volumeDeltaDb": -0.104,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 82,
+      "volumeDeltaDb": -0.064,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.54
+    },
+    {
+      "number": 83,
+      "volumeDeltaDb": -0.074,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 84,
+      "volumeDeltaDb": -0.111,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 85,
+      "volumeDeltaDb": -0.081,
+      "leadingQuietMs": 1.0,
+      "trailingQuietMs": 2.68
+    },
+    {
+      "number": 86,
+      "volumeDeltaDb": -0.061,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.9
+    },
+    {
+      "number": 87,
+      "volumeDeltaDb": -0.101,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 88,
+      "volumeDeltaDb": -0.093,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 89,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    },
+    {
+      "number": 90,
+      "volumeDeltaDb": -0.132,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99
+    }
+  ],
+  "automatedTranscripts": [
+    {
+      "number": 1,
+      "transcript": "Single number one."
+    },
+    {
+      "number": 4,
+      "transcript": "Single number 4."
+    },
+    {
+      "number": 6,
+      "transcript": "Single number 6"
+    },
+    {
+      "number": 7,
+      "transcript": "Single number 7"
+    },
+    {
+      "number": 12,
+      "transcript": "1, 2, 12"
+    },
+    {
+      "number": 30,
+      "transcript": "3, 0, 30"
+    },
+    {
+      "number": 47,
+      "transcript": "47 47"
+    },
+    {
+      "number": 67,
+      "transcript": "67 67"
+    },
+    {
+      "number": 77,
+      "transcript": "77 77"
+    },
+    {
+      "number": 90,
+      "transcript": "9 0 90"
+    }
+  ],
+  "note": "Pitch is measured using voiced-frame autocorrelation. Listening is required to judge timbre."
+}

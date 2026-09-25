@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tambola Circle · Design v4</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="catalog.js" defer></script><script src="gallery.js" defer></script>
+</head>
+<body>
+  <header class="hero"><div class="eyebrow">TAMBOLA CIRCLE / DESIGN LIBRARY</div><div class="heading"><h1>Your circle, in one place<span>Design v4</span></h1><a class="guide" href="guide.html">Read the design guide ↗</a></div><p>The v3 collection and latest approved revisions, together. Open any screen to inspect it at full size.</p><div class="notice">References preserve the original artwork. The notes beside each screen record later approved changes to copy and controls. Names, balances and dates inside mockups are illustrative.</div></header>
+  <main>
+    <p><a class="guide" href="table-avatars.png">View all 20 table avatars</a></p>
+    <div class="toolbar"><div class="tabs" role="group" aria-label="Reference versions"><button data-view="current" aria-pressed="true">Current references</button><button data-view="archive" aria-pressed="false">Earlier versions</button><button data-view="all" aria-pressed="false">All images</button></div><label class="search">Find a screen<input id="search" type="search" placeholder="Lobby, wallet, offline…"></label></div>
+    <div class="filters"><label>Flow <select id="group"><option value="all">Every flow</option><option>Start</option><option>Table</option><option>Game</option><option>Wallet</option><option>Settings</option><option>Offline</option><option>Updates</option></select></label><p id="count" role="status"></p></div>
+    <div id="grid" class="grid"></div><p id="empty" hidden>No screens match. Try another word or flow.</p>
+  </main>
+  <footer>24 September 2026 · Original PNGs retained without alteration · <a href="manifest.json">Source manifest &amp; checksums</a></footer>
+  <dialog id="viewer" aria-labelledby="screen-title"><div class="viewer-shell"><div class="preview"><img id="full" alt=""></div><aside><div class="viewer-bar"><span id="position"></span><button id="close" aria-label="Close image">✕</button></div><p id="revision" class="eyebrow"></p><h2 id="screen-title"></h2><p id="note"></p><p id="dimensions"></p><a id="original" target="_blank" rel="noopener">Open original image ↗</a><nav aria-label="Browse screens"><button id="previous" aria-label="Previous screen">← Previous</button><button id="next" aria-label="Next screen">Next →</button></nav><p class="hint">Arrow keys to browse · Escape to close</p></aside></div></dialog>
+</body></html>
