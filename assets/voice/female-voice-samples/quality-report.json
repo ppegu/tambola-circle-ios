@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-09-23T04:39:12.050417+00:00",
+  "protectedFilesUnchanged": true,
+  "asr": "faster-whisper base.en, CPU int8, beam size 5; numeral and for/four-seven homophone normalization; text check only, not subjective audio quality",
+  "voices": [
+    {
+      "name": "Neerja",
+      "file": "01-neerja.wav",
+      "durationSeconds": 12.37061224489796,
+      "rms": 0.17793710430375373,
+      "peak": 0.9499801629688406,
+      "leadingQuietMs": 5.714285714285714,
+      "trailingQuietMs": 3.038548752834467,
+      "transcript": "single number one, single number four, single number six, single number seven, four, seven, 47",
+      "checks": {
+        "format": true,
+        "duration": true,
+        "noClipping": true,
+        "matchedRms": true,
+        "outerQuiet": true,
+        "sha256": true,
+        "expectedWords": true
+      }
+    },
+    {
+      "name": "Ava",
+      "file": "02-ava.wav",
+      "durationSeconds": 9.090839002267574,
+      "rms": 0.17957768876239064,
+      "peak": 0.9497054963835566,
+      "leadingQuietMs": 6.303854875283447,
+      "trailingQuietMs": 6.077097505668934,
+      "transcript": "single number one, single number four, single number six, single number seven, four seven, forty seven.",
+      "checks": {
+        "format": true,
+        "duration": true,
+        "noClipping": true,
+        "matchedRms": true,
+        "outerQuiet": true,
+        "sha256": true,
+        "expectedWords": true
+      }
+    },
+    {
+      "name": "Emma",
+      "file": "03-emma.wav",
+      "durationSeconds": 9.439365079365079,
+      "rms": 0.17999998099245418,
+      "peak": 0.8320261238441115,
+      "leadingQuietMs": 9.297052154195011,
+      "trailingQuietMs": 6.077097505668934,
+      "transcript": "single number one, single number four, single number six, single number seven, for seven, 47",
+      "checks": {
+        "format": true,
+        "duration": true,
+        "noClipping": true,
+        "matchedRms": true,
+        "outerQuiet": true,
+        "sha256": true,
+        "expectedWords": true
+      }
+    },
+    {
+      "name": "Sonia",
+      "file": "04-sonia.wav",
+      "durationSeconds": 10.47156462585034,
+      "rms": 0.179997459021053,
+      "peak": 0.9252601702932829,
+      "leadingQuietMs": 7.528344671201814,
+      "trailingQuietMs": 4.081632653061225,
+      "transcript": "Single number one. Single number four. Single number six. Single number seven. Four. Seven. Forty-seven.",
+      "checks": {
+        "format": true,
+        "duration": true,
+        "noClipping": true,
+        "matchedRms": true,
+        "outerQuiet": true,
+        "sha256": true,
+        "expectedWords": true
+      }
+    },
+    {
+      "name": "Aria",
+      "file": "05-aria.wav",
+      "durationSeconds": 12.427891156462586,
+      "rms": 0.17919697421572667,
+      "peak": 0.9499496444593646,
+      "leadingQuietMs": 8.02721088435374,
+      "trailingQuietMs": 4.489795918367347,
+      "transcript": "single number one single number four single number six single number seven four seven forty seven",
+      "checks": {
+        "format": true,
+        "duration": true,
+        "noClipping": true,
+        "matchedRms": true,
+        "outerQuiet": true,
+        "sha256": true,
+        "expectedWords": true
+      }
+    }
+  ],
+  "passed": true
+}

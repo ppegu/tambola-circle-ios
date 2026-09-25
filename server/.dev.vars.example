@@ -1,0 +1,10 @@
+# Generate a different random secret for production. Never commit .dev.vars.
+AUTH_SECRET=replace-with-at-least-32-random-characters
+
+SFU_APP_ID=""
+
+SFU_APP_SECRET=""
+
+TURN_KEY_ID=""
+
+TURN_API_TOKEN=""
