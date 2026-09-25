@@ -1,0 +1,5 @@
+Screens prepare their content before sliding into view for smoother navigation.
+Faster ticket screen mounting with cached layouts and fewer unnecessary redraws.
+Updated Tambola Circle online services and voice downloads, preserving existing accounts and game history.
+In-app updates continue working for both existing installations and the new service addresses.
+Includes the latest v4 game visuals, table avatars, native player/number panels, wallet, languages and offline caller improvements.

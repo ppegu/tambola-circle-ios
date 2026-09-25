@@ -1,0 +1,7 @@
+Captain controls: pause or resume by tapping the current number, and change caller speed during a live round.
+A synchronized five-second countdown appears before the first number. Captains can start after confirming their tickets.
+Compact speed controls and lobby buttons leave more room for tickets and prevent wrapped labels.
+Results celebrate the winner and show the winning ticket and called-number board immediately, followed by your ticket options.
+Rejected full-house claims show the missing numbers and switch the player to watching for the rest of the round.
+Any player can return to the lobby after a round. Sharing links now consistently use Tambola Circle.
+Improved first-launch connection handling, with English, Assamese and Hindi copy for the new controls.
