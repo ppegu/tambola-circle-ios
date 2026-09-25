@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "boards": 9,
+  "screens": 36,
+  "pngDimensions": [
+    {
+      "file": "01-entry-and-sim.png",
+      "width": 1705,
+      "height": 923
+    },
+    {
+      "file": "02-tables-and-lobby.png",
+      "width": 1704,
+      "height": 923
+    },
+    {
+      "file": "03-ticket-strips.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "04-immersive-play.png",
+      "width": 1704,
+      "height": 923
+    },
+    {
+      "file": "05-reviews-and-proof.png",
+      "width": 1704,
+      "height": 923
+    },
+    {
+      "file": "06-host-controls.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "07-results-and-rejoin.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "08-ownership-and-history.png",
+      "width": 1704,
+      "height": 923
+    },
+    {
+      "file": "09-details-and-next-round.png",
+      "width": 1704,
+      "height": 923
+    }
+  ],
+  "fixture": "6 valid panels, 90 unique numbers; Half contains 3 panels / 45 unique numbers",
+  "gallery": "72 navigation targets covering 36 unique screens; local links valid; JavaScript syntax valid",
+  "scope": "Static design-artifact verification only; browser/native/game runtime not tested"
+}

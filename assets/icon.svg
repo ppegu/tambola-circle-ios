@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs><radialGradient id="velvet"><stop stop-color="#8c36b8"/><stop offset="1" stop-color="#2e0751"/></radialGradient></defs>
+  <rect width="1024" height="1024" fill="url(#velvet)"/>
+  <image href="game-v3/game-hero.png" x="58" y="58" width="908" height="908"/>
+</svg>
