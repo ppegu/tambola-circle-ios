@@ -1,0 +1,24 @@
+[
+  {
+    "key": "classic",
+    "model": "en_US-joe-medium",
+    "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+    "base_url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/en/en_US/joe/medium/",
+    "sha256": {
+      "en_US-joe-medium.onnx": "58afce0321b8d9c46d7cdf9c16500cc55a793b4220212dba6b70fb788b3baf06",
+      "en_US-joe-medium.onnx.json": "3d6d5410b3795cb1950595247ef8f06190719e6fdbfa3a2356d8ec368e1aad33",
+      "MODEL_CARD": "d2caa63aca0fccb155105e959e393e5c0c0f03a1f388ef5ba217b83ef860c760"
+    }
+  },
+  {
+    "key": "female",
+    "model": "en_US-ljspeech-high",
+    "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+    "base_url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/en/en_US/ljspeech/high/",
+    "sha256": {
+      "en_US-ljspeech-high.onnx": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+      "en_US-ljspeech-high.onnx.json": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14",
+      "MODEL_CARD": "289f7421072d689a3d91f6c632f486af46f9b8b04417536104a4ea667b8a394b"
+    }
+  }
+]

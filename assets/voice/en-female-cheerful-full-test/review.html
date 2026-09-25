@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Female voices · Fullness comparison</title>
+<style>
+  :root { color-scheme: dark; font: 16px/1.55 system-ui, sans-serif; background: #141321; color: #f7f4ff; }
+  * { box-sizing: border-box; }
+  body { max-width: 960px; margin: auto; padding: 40px 24px; }
+  .eyebrow { color: #e7adff; letter-spacing: .12em; text-transform: uppercase; font-size: .78rem; font-weight: 700; }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; margin: 12px 0 20px; }
+  p { color: #c9c3d9; max-width: 720px; }
+  .panel { background: #211f34; border: 1px solid #45405f; border-radius: 20px; padding: 24px; margin: 28px 0; }
+  .call { display: flex; align-items: center; gap: 22px; margin-bottom: 24px; }
+  #number { font-size: 3.6rem; font-weight: 750; color: #f7c479; min-width: 88px; }
+  #phrase { font-size: 1.2rem; font-weight: 650; }
+  .muted { color: #aaa2bf; font-size: .88rem; }
+  .players { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  label { display: block; margin-bottom: 10px; font-weight: 650; }
+  audio { width: 100%; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+  button { cursor: pointer; font: inherit; border-radius: 10px; border: 1px solid #665b83; background: #302a45; color: #fff; padding: 10px 16px; }
+  button:hover { background: #514363; }
+  button:focus-visible, audio:focus-visible { outline: 3px solid #f7c479; outline-offset: 3px; }
+  button.primary { background: #d1a5f4; color: #22132e; border-color: #d1a5f4; font-weight: 700; }
+  #status { min-height: 1.5em; margin-top: 14px; }
+  #grid { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 8px; }
+  #grid button { padding: 10px 0; }
+  #grid button[aria-pressed="true"] { background: #f7c479; color: #1c1424; border-color: #f7c479; }
+  footer { color: #aaa2bf; margin-top: 26px; font-size: .82rem; }
+  a { color: #e7adff; }
+  @media(max-width: 760px) { .players { grid-template-columns: 1fr; } #grid { grid-template-columns: repeat(6, minmax(0, 1fr)); } body { padding: 24px 16px; } .panel { padding: 18px; } }
+</style>
+<div class="eyebrow">Tambola Circle · Voice lab</div>
+<h1>A fuller, thicker voice.</h1>
+<p>The new version has deeper vocal resonance and more body, with the original
+pitch and cheerful delivery. Pick a number to compare its warmth and clarity
+with the original cheerful voice and the standard voice.</p>
+<section class="panel" aria-label="Voice comparison">
+  <div class="call"><div id="number">1</div><div><div id="phrase">Single number one</div><div class="muted">Cheerful female voice · Fuller resonance test</div></div></div>
+  <div class="players">
+    <div><label for="fuller">Fuller voice · New</label><audio id="fuller" controls preload="none" src="../en-female-cheerful-full-test/1.wav?v=fuller-v1"></audio></div>
+    <div><label for="cheerful">Original cheerful voice</label><audio id="cheerful" controls preload="none" src="../en-female-cheerful-test/1.wav"></audio></div>
+    <div><label for="approved">Standard voice</label><audio id="approved" controls preload="none" src="../en-female/1.wav"></audio></div>
+  </div>
+  <div class="actions"><button class="primary" id="samples">Play 10 fuller-voice samples</button><button id="stop">Stop</button><button id="next">Next number →</button></div>
+  <div id="status" class="muted" role="status" aria-live="polite">Ready to compare. The app’s voice has not changed.</div>
+</section>
+<h2>Choose a call</h2>
+<div id="grid" aria-label="Numbers 1 to 90"></div>
+<footer>Local listening test. Synthetic audio; tone still needs your approval.
+  Source: DFKI SEMAINE / Piper, Poppy speaker. Noncommercial test pack under
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+  <a href="../en-female-cheerful-full-test/README.md">Fuller voice details</a>.
+</footer>
+<script>
+  const fuller = document.querySelector('#fuller');
+  const cheerful = document.querySelector('#cheerful');
+  const approved = document.querySelector('#approved');
+  const players = [fuller, cheerful, approved];
+  const status = document.querySelector('#status');
+  const small = ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
+  const tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+  let selected = 1, queue = [], timer;
+  function words(n) { return n < 20 ? small[n] : tens[Math.floor(n/10)] + (n%10 ? ' ' + small[n%10] : ''); }
+  function cancel() { clearTimeout(timer); queue = []; players.forEach(player => player.pause()); }
+  function select(n) {
+    players.forEach(player => player.pause()); selected = n;
+    fuller.src = '../en-female-cheerful-full-test/' + n + '.wav?v=fuller-v1';
+    cheerful.src = '../en-female-cheerful-test/' + n + '.wav'; approved.src = '../en-female/' + n + '.wav';
+    document.querySelector('#number').textContent = n;
+    document.querySelector('#phrase').textContent = n < 10 ? 'Single number ' + words(n) : small[Math.floor(n/10)] + ', ' + small[n%10] + ' — ' + words(n);
+    document.querySelectorAll('#grid button').forEach(b => b.setAttribute('aria-pressed', String(Number(b.textContent) === n)));
+  }
+  for (let n=1; n<=90; n++) {
+    const button = document.createElement('button'); button.textContent = n;
+    button.setAttribute('aria-label', 'Select number ' + n); button.setAttribute('aria-pressed', String(n === 1));
+    button.onclick = () => { cancel(); select(n); status.textContent = 'Number ' + n + ' selected.'; };
+    document.querySelector('#grid').append(button);
+  }
+  async function playSample() {
+    if (!queue.length) { status.textContent = 'Sample sequence complete.'; return; }
+    select(queue.shift()); status.textContent = 'Playing fuller-voice sample ' + selected + '.';
+    try { await fuller.play(); } catch { cancel(); status.textContent = 'Press the audio play button to listen.'; }
+  }
+  players.forEach(player => player.addEventListener('play', () => {
+    players.filter(other => other !== player).forEach(other => other.pause());
+    if (player !== fuller) { clearTimeout(timer); queue = []; }
+  }));
+  fuller.addEventListener('ended', () => { if(queue.length) timer = setTimeout(playSample, 650); else status.textContent = 'Finished number ' + selected + '.'; });
+  players.forEach(player => player.addEventListener('error', () => { cancel(); status.textContent = 'Could not load this audio file. Open the review page from its original pack folder.'; }));
+  document.querySelector('#samples').onclick = () => { cancel(); queue = [1,4,6,7,12,30,47,67,77,90]; playSample(); };
+  document.querySelector('#stop').onclick = () => { cancel(); players.forEach(player => { player.currentTime = 0; }); status.textContent = 'Stopped.'; };
+  document.querySelector('#next').onclick = () => { cancel(); select(selected % 90 + 1); status.textContent = 'Number ' + selected + ' selected.'; };
+</script>
+</html>
