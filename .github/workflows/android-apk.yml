@@ -1,0 +1,83 @@
+name: Build Android APK
+on:
+  # Publish a v* release, or manually build an existing v* tag. Branch pushes
+  # never build; one release event avoids duplicate tag + release builds.
+  release:
+    types: [published]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: android-apk-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  apk:
+    # A verified local release already contains its APK; do not rebuild it.
+    if: startsWith(github.ref, 'refs/tags/v') && (github.event_name != 'release' || !contains(github.event.release.body, '<!-- native-build:local -->'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      APP_PUBLIC_API_URL: https://tambola-circle.ffegu0617.workers.dev
+      NODE_ENV: production
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22.22.2'
+          cache: npm
+      - uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6.0.1
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+          cache-dependency-path: package-lock.json
+      - name: Install and check
+        run: |
+          npm ci --include=dev
+          npm run check
+      - name: Verify downloadable caller voices
+        run: node scripts/verify-voice-cdn.mjs artifacts/voice-cdn-verification.json
+      - name: Build signed standalone APK
+        id: build
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          test -n "$ANDROID_KEYSTORE_BASE64"
+          test -n "$ANDROID_KEYSTORE_PASSWORD"
+          export ANDROID_KEYSTORE_FILE="$RUNNER_TEMP/trust-tambola-release.jks"
+          printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$ANDROID_KEYSTORE_FILE"
+          chmod 600 "$ANDROID_KEYSTORE_FILE"
+          chmod +x android/gradlew
+          cd android
+          ./gradlew :app:assembleRelease --build-cache --no-daemon --max-workers=2 -PreactNativeArchitectures=arm64-v8a,armeabi-v7a,x86_64
+      - name: Verify and package APK
+        id: verify
+        run: |
+          mkdir -p artifacts
+          version="$(node -p 'require("./app.json").version')"
+          apk="tambola-circle-${version}.apk"
+          cp android/app/build/outputs/apk/release/app-release.apk "artifacts/$apk"
+          BUILD_TOOLS="$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -n 1)"
+          "$BUILD_TOOLS/apksigner" verify --verbose --print-certs "artifacts/$apk" > artifacts/signature.txt
+          "$BUILD_TOOLS/aapt" dump badging "artifacts/$apk" > artifacts/apk-info.txt
+          "$BUILD_TOOLS/aapt" dump permissions "artifacts/$apk" > artifacts/permissions.txt
+          (cd artifacts && sha256sum "$apk" > SHA256SUMS.txt)
+          node scripts/verify-apk.mjs
+          node scripts/app-release.mjs inspect "artifacts/$apk" --notes "docs/releases/$version.txt" --out artifacts/release.json
+          cp shared/voicePacks.json artifacts/voice-catalog.json
+          printf '{"sourceCommit":"%s","workflowRun":"%s"}\n' "$GITHUB_SHA" "$GITHUB_RUN_ID" > artifacts/build-info.json
+      - name: Upload APK and verification
+        if: success() && steps.verify.outcome == 'success'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: tambola-circle-apk
+          path: artifacts/
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+      - name: Remove temporary signing key
+        if: always()
+        run: rm -f "$RUNNER_TEMP/trust-tambola-release.jks"
