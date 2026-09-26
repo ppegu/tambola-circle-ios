@@ -1,0 +1,127 @@
+{
+  "generator": "Built-in image_gen",
+  "size": 256,
+  "promptTemplate": "Single square polished friendly 3D cartoon circular portrait badge of {subject}. Glossy deep purple enamel background, narrow bevelled golden rim, warm studio light, expressive faces, jewel tones. Centered close busts, readable at 64px. Circle fits fully in square, outside circle deep purple #31065b. No text, numbers, watermark or extra panels. Final mobile game asset.",
+  "avatars": [
+    {
+      "id": "01-family",
+      "subject": "Indian multigenerational family",
+      "file": "01-family.png",
+      "sha256": "bf4e686132547bfd4e7d45f846bd61ff01a6b89ba2866eb88418c2f3828ee12b"
+    },
+    {
+      "id": "02-friends",
+      "subject": "three joyful Indian adult best friends, two women and one man in colourful casual clothes",
+      "file": "02-friends.png",
+      "sha256": "6ddecb507b6af2b521f7aa7ddac52229c47ad2728113915ff85aade2e73db7d8"
+    },
+    {
+      "id": "03-cousins",
+      "subject": "three smiling young adult Indian cousins in festive teal coral and yellow clothes",
+      "file": "03-cousins.png",
+      "sha256": "71c6e949ee80d65052231b4d7d227d05376a15306d1651331102b7f9c2982aa7"
+    },
+    {
+      "id": "04-couple",
+      "subject": "a smiling affectionate Indian adult couple in colourful casual clothes",
+      "file": "04-couple.png",
+      "sha256": "aea6dfcf44be4dc30d0c630c34bac549ad83b92e32149519f6249231af77b339"
+    },
+    {
+      "id": "05-grandparents",
+      "subject": "two joyful Indian grandparents, a silver-haired grandmother in sari and grandfather in kurta",
+      "file": "05-grandparents.png",
+      "sha256": "22df3f7e35e4b709a374eef6130c796771c6eeea9b8d0f55091bd2355f436bbe"
+    },
+    {
+      "id": "06-sisters",
+      "subject": "three laughing adult Indian sisters in colourful contemporary clothes",
+      "file": "06-sisters.png",
+      "sha256": "700166a44ef8771c21ac67fe462d96013479875658a272fa84afbfc2ca8bd3cf"
+    },
+    {
+      "id": "07-brothers",
+      "subject": "three happy adult Indian brothers in colourful contemporary clothes",
+      "file": "07-brothers.png",
+      "sha256": "6caf2f00ff41658595ad66ec404c392c902acfdb239592ce31c9fbd48e3ad0c6"
+    },
+    {
+      "id": "08-colleagues",
+      "subject": "three friendly diverse adult office colleagues, relaxed neat casual outfits",
+      "file": "08-colleagues.png",
+      "sha256": "a6b04329525eeed638ca04d006ce41e97feb44b53eaabbf86941484c3409547f"
+    },
+    {
+      "id": "09-neighbours",
+      "subject": "three friendly adult neighbours of different ages smiling together",
+      "file": "09-neighbours.png",
+      "sha256": "5c889ad9a26205ecff1be2b80cb0e7935fc993e8573f72b8d48ca1065d7c7f6e"
+    },
+    {
+      "id": "10-college",
+      "subject": "three joyful Indian adult college friends with colourful hoodies",
+      "file": "10-college.png",
+      "sha256": "b5ddf9867e6e79f7ec433db31aec734bdf376e2d84b27db886876a893029d0cc"
+    },
+    {
+      "id": "11-reunion",
+      "subject": "three joyful adult school reunion friends with different hairstyles and glasses",
+      "file": "11-reunion.png",
+      "sha256": "f1e1733332592b13503bdb09a014735298532127aee95d3ccf170dececed6781"
+    },
+    {
+      "id": "12-birthday",
+      "subject": "a smiling adult woman and two adult friends with a small birthday cake and party hats",
+      "file": "12-birthday.png",
+      "sha256": "d3a073aff05f15ee699b4cbc24eba93aa83c20e3579a9d5184761c0711bba383"
+    },
+    {
+      "id": "13-festival",
+      "subject": "three joyful Indian adults holding small glowing festival lamps, festive clothes",
+      "file": "13-festival.png",
+      "sha256": "62a035da93f36d9fbcb7d26e9f65427e9dcedeafcd176a38971cd8cca0d5586b"
+    },
+    {
+      "id": "14-weekend",
+      "subject": "three relaxed cheerful adult friends with mugs enjoying weekend games",
+      "file": "14-weekend.png",
+      "sha256": "cce15c7c5685064067e5d728a1f65a5b1e5134825e34079a68d1c4a6a6d59ae8"
+    },
+    {
+      "id": "15-champions",
+      "subject": "two smiling adult friends holding a small golden star trophy together",
+      "file": "15-champions.png",
+      "sha256": "9885ed4abea5e9e46c42320bdc9f0c1e13861bf4ff3eb91e6c8e0aa76b6e3a17"
+    },
+    {
+      "id": "16-music",
+      "subject": "three cheerful adult music-loving friends with one small guitar",
+      "file": "16-music.png",
+      "sha256": "4bc251d31a7fede37adf0ebfe87640980abcabc4639361b76f0eda838d745aed"
+    },
+    {
+      "id": "17-cricket",
+      "subject": "three cheerful adult cricket friends with a small cricket bat and ball",
+      "file": "17-cricket.png",
+      "sha256": "f691f2106a9ce382b852637a5788f1598a45bb698867b8e0d7ddcd8906655c90"
+    },
+    {
+      "id": "18-book-club",
+      "subject": "three joyful adult book club friends holding two colourful books",
+      "file": "18-book-club.png",
+      "sha256": "b234eccb82d6891465b19df50349a1d1b4a59e8ae615aba5ace19999f4faf906"
+    },
+    {
+      "id": "19-travel",
+      "subject": "three smiling adult travel buddies in casual outfits with one small backpack",
+      "file": "19-travel.png",
+      "sha256": "2bf6cc7bef929423502eb786fee7976d7d0423c5c22f071663e32b03091a853f"
+    },
+    {
+      "id": "20-tea-club",
+      "subject": "three happy Indian adult tea club friends, one woman holding a small cup",
+      "file": "20-tea-club.png",
+      "sha256": "4347e7cb02881381daef19a153d1cad317c50c23b2426323ce69ad164911e53f"
+    }
+  ]
+}

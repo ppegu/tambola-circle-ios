@@ -1,0 +1,109 @@
+﻿name: Build unsigned iOS IPA
+
+on:
+  # A versioned release is the only automatic build trigger. Manual builds
+  # must also select a v* tag; ordinary main pushes consume no runners.
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-ipa-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Locally published Android releases do not need an unrelated iOS build.
+    if: startsWith(github.ref, 'refs/tags/v') && (github.event_name != 'release' || !contains(github.event.release.body, '<!-- native-build:local -->'))
+    runs-on: macos-26
+    timeout-minutes: 60
+    env:
+      CI: "1"
+
+      APP_PUBLIC_API_URL: https://tambola-circle.ffegu0617.workers.dev
+      NODE_ENV: production
+      DEVELOPER_DIR: /Applications/Xcode_26.6.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "22.22.2"
+          cache: npm
+      - name: Check toolchain
+        run: |
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
+          pod --version
+      - name: Install and check
+        run: |
+          npm ci --include=dev
+          npm run typecheck
+          npm test
+          python3 -m unittest discover -s scripts/tests -p 'test_*.py'
+      - name: Verify downloadable caller voices
+        run: |
+          node scripts/verify-voice-cdn.mjs artifacts/ios/voice-cdn-verification.json
+          cp shared/voicePacks.json artifacts/ios/voice-catalog.json
+      - name: Install CocoaPods
+        run: |
+          mkdir -p artifacts/ios-logs
+          pod install --project-directory=ios 2>&1 | tee artifacts/ios-logs/pods.log
+      - name: Archive unsigned device app and package IPA
+        run: bash scripts/build-ios-unsigned.sh
+      - name: Upload verified IPA
+        id: upload
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: tambola-circle-ios-unsigned
+          path: artifacts/ios/
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
+      - name: Link downloadable artifact
+        env:
+          ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+        run: printf '\n[Download unsigned IPA artifact](%s)\n' "$ARTIFACT_URL" >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload build diagnostics
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: ios-build-diagnostics
+          path: artifacts/ios-logs/
+          if-no-files-found: ignore
+          retention-days: 7
+
+  publish:
+    needs: build
+    if: github.event_name == 'release' && startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - name: Download verified IPA
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: tambola-circle-ios-unsigned
+          path: release
+      - name: Attach IPA to the requested release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd release
+          sha256sum --check SHA256SUMS.txt
+          cp SHA256SUMS.txt ios-SHA256SUMS.txt
+          cp INSTALL.md ios-INSTALL.md
+          gh release upload "$RELEASE_TAG" \
+            ./*.ipa ios-SHA256SUMS.txt ipa-info.json ios-INSTALL.md
+          printf '\n[Download IPA from GitHub Releases](https://github.com/%s/releases/tag/%s)\n' "$GITHUB_REPOSITORY" "$RELEASE_TAG" >> "$GITHUB_STEP_SUMMARY"
+

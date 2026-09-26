@@ -1,0 +1,72 @@
+{
+  "name": "trust-tambola",
+  "version": "1.5.31",
+  "private": true,
+  "main": "index.js",
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "android:release:build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-local-apk.ps1 -Action Build",
+    "android:release:verify": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-local-apk.ps1 -Action Verify",
+    "android:release:inspect": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-local-apk.ps1 -Action Inspect",
+    "android:release:publish": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-local-apk.ps1 -Action Publish",
+    "android:release:local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/release-local-apk.ps1 -Action Release",
+    "ios": "react-native run-ios",
+    "ios:public:sync": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync-public-ios-repo.ps1",
+    "typecheck": "tsc --noEmit && npm run typecheck --workspace server",
+    "test": "vitest run",
+    "test:api": "node scripts/test-api.mjs",
+    "api:dev": "npm run dev --workspace server",
+    "api:migrate": "npm run db:local --workspace server",
+    "api:deploy": "npm run deploy --workspace server",
+    "voice:generate": "node scripts/generate-voice.mjs",
+    "check": "npm run typecheck && npm test && npm run test:native",
+    "test:online": "node scripts/test-online.mjs",
+    "test:updates": "node scripts/test-updates.mjs",
+    "test:table-lists": "node scripts/test-table-lists.mjs",
+    "bundle:android": "node scripts/bundle-native.mjs android",
+    "bundle:ios": "node scripts/bundle-native.mjs ios",
+    "bundle:native": "npm run bundle:android && npm run bundle:ios && node scripts/verify-native-bundles.mjs",
+    "test:native": "node --test scripts/tests/native-config.test.cjs",
+    "test:coins": "python -m unittest scripts.tests.test_coin_ledger -v",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/slider": "5.2.0",
+    "circle-device": "file:modules/circle-device",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-navigation": "8.9.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-svg": "15.15.4",
+    "react-native-webrtc": "124.0.7",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "20.1.0",
+    "@react-native-community/cli-platform-android": "20.1.0",
+    "@react-native-community/cli-platform-ios": "20.1.0",
+    "@react-native/babel-preset": "0.86.3",
+    "@react-native/metro-config": "0.86.3",
+    "@react-native/typescript-config": "0.86.3",
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/node": "^22.0.0",
+    "@types/react": "~19.2.0",
+    "dotenv": "^16.6.1",
+    "react-dom": "^19.2.3",
+    "react-native-web": "^0.21.2",
+    "typescript": "~6.0.3",
+    "vitest": "4.0.18",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
