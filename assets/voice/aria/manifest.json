@@ -1,0 +1,641 @@
+{
+  "id": "aria",
+  "name": "Aria",
+  "accent": "US English",
+  "serviceVoice": "en-US-AriaNeural",
+  "revision": "febb0678e581074c",
+  "bundled": true,
+  "totalBytes": 11617960,
+  "files": [
+    {
+      "number": 1,
+      "bytes": 54426,
+      "sha256": "7e532a404afae396023c0a0269c6b6757d3d259d817a6eb2927a470139a0e68e",
+      "durationMs": 1233.152,
+      "text": "Single number one."
+    },
+    {
+      "number": 2,
+      "bytes": 57544,
+      "sha256": "9eafad6500b404a5958c670c32ac8abc8c5eef69598231e2501bdf3a127cc558",
+      "durationMs": 1303.855,
+      "text": "Single number two."
+    },
+    {
+      "number": 3,
+      "bytes": 57958,
+      "sha256": "9c39a327d182d41950ea39558c94cf7e3e3d7c005922ff56bd4e933bd28ab92c",
+      "durationMs": 1313.243,
+      "text": "Single number three."
+    },
+    {
+      "number": 4,
+      "bytes": 57474,
+      "sha256": "150558000b0ac2f14ed982abee62592937bd8edeebc7741fbfb85dabf3b0adc9",
+      "durationMs": 1302.268,
+      "text": "Single number four."
+    },
+    {
+      "number": 5,
+      "bytes": 58150,
+      "sha256": "68c5c6e5c6735533444767a4d6f34709fbce41d53c5a8320aad90b2ee815d57b",
+      "durationMs": 1317.596,
+      "text": "Single number five."
+    },
+    {
+      "number": 6,
+      "bytes": 62698,
+      "sha256": "a77a7629d41ee2a60499a7270f75f0c4f6e7781ccada28ccbe3d35b8fd06d6f9",
+      "durationMs": 1420.726,
+      "text": "Single number six."
+    },
+    {
+      "number": 7,
+      "bytes": 57986,
+      "sha256": "fea57cc6d044d852f7681e80c70edc0509e512723ddbf06ced7fc6f4d3143cb4",
+      "durationMs": 1313.878,
+      "text": "Single number seven."
+    },
+    {
+      "number": 8,
+      "bytes": 55886,
+      "sha256": "bdd278e9e5bd39720a6aea9d6a805febc6da9aa91fafd73205ce2ddab4b162d9",
+      "durationMs": 1266.259,
+      "text": "Single number eight."
+    },
+    {
+      "number": 9,
+      "bytes": 56660,
+      "sha256": "3f1b0217ece6f8352a5dbe1e22159afa1996287d4c5140a3ebc20dbf01da2193",
+      "durationMs": 1283.81,
+      "text": "Single number nine."
+    },
+    {
+      "number": 10,
+      "bytes": 122212,
+      "sha256": "a4f669c63c9592ecd11c48f93fa61b339b2ba667057537f415d999275b8b2fac",
+      "durationMs": 2770.249,
+      "text": "One, zero. Ten."
+    },
+    {
+      "number": 11,
+      "bytes": 122834,
+      "sha256": "0d9f62b6c85e3361e243975283072ef4f36da7dc770195e97e72bbda351ec119",
+      "durationMs": 2784.354,
+      "text": "One, one. Eleven."
+    },
+    {
+      "number": 12,
+      "bytes": 119202,
+      "sha256": "a1470e4a16289766d4c9628606788cbf433df3fa5f57e71fa791e6fa3ecfa72b",
+      "durationMs": 2701.995,
+      "text": "One, two. Twelve."
+    },
+    {
+      "number": 13,
+      "bytes": 134510,
+      "sha256": "b37b4caf94b04ee5243c0cc2f4236179347fbe10af9f3f9df72ba3f296302963",
+      "durationMs": 3049.116,
+      "text": "One, three. Thirteen."
+    },
+    {
+      "number": 14,
+      "bytes": 134490,
+      "sha256": "2595acf407b9c51a660da918cd3f2c478db6c98ba4abc37f9121881e10551777",
+      "durationMs": 3048.662,
+      "text": "One, four. Fourteen."
+    },
+    {
+      "number": 15,
+      "bytes": 140002,
+      "sha256": "f7f3f7190e0a6452a2a36ab0ad3e2bce0ef6e1612720a49616c7e2d1934ba77b",
+      "durationMs": 3173.651,
+      "text": "One, five. Fifteen."
+    },
+    {
+      "number": 16,
+      "bytes": 139384,
+      "sha256": "27dab2d31cd49830fade2f0e5cecd28c27fc728395f3e79782d544794e03e17f",
+      "durationMs": 3159.637,
+      "text": "One, six. Sixteen."
+    },
+    {
+      "number": 17,
+      "bytes": 144560,
+      "sha256": "b11fbc56bae3e154edaa311c479b1c115b9a843bafbe0d22867f87597614434c",
+      "durationMs": 3277.007,
+      "text": "One, seven. Seventeen."
+    },
+    {
+      "number": 18,
+      "bytes": 126350,
+      "sha256": "b485e7abb3d9fd091cdc0aa17beebd6aa4460df8220864da2fcb725f076c98b6",
+      "durationMs": 2864.082,
+      "text": "One, eight. Eighteen."
+    },
+    {
+      "number": 19,
+      "bytes": 133446,
+      "sha256": "cd39ef379e44042e18041d754281a187aa15117623957d02e6a74e54adf8be3a",
+      "durationMs": 3024.989,
+      "text": "One, nine. Nineteen."
+    },
+    {
+      "number": 20,
+      "bytes": 125684,
+      "sha256": "6f0a3cd36995956fa3396763eaa12ecbd0943fe28c219de537c5dfb5bbc2b1ea",
+      "durationMs": 2848.98,
+      "text": "Two, zero. Twenty."
+    },
+    {
+      "number": 21,
+      "bytes": 130666,
+      "sha256": "67c98d9c489edf00d53c6cd32833bea69137d0e717cddd5f9ed9cec71978a8d7",
+      "durationMs": 2961.95,
+      "text": "Two, one. Twenty one."
+    },
+    {
+      "number": 22,
+      "bytes": 128298,
+      "sha256": "0208d6975b457ec78886424e436417b0e33b19929fb7e9d9cf63c233dd80a8dc",
+      "durationMs": 2908.254,
+      "text": "Two, two. Twenty two."
+    },
+    {
+      "number": 23,
+      "bytes": 131876,
+      "sha256": "e6f505ca8768d4840663ee6e761a119510a8ed65583c0c574282bf7a34693a37",
+      "durationMs": 2989.388,
+      "text": "Two, three. Twenty three."
+    },
+    {
+      "number": 24,
+      "bytes": 133328,
+      "sha256": "9bc741e8872228893c0d8e2051cd1a3a55a45f77846b8caeedcc23912b17d3dd",
+      "durationMs": 3022.313,
+      "text": "Two, four. Twenty four."
+    },
+    {
+      "number": 25,
+      "bytes": 136330,
+      "sha256": "53c15a64129f66f87c1304a72b66d77a3aa11026e3609aeac2354bb52deded75",
+      "durationMs": 3090.385,
+      "text": "Two, five. Twenty five."
+    },
+    {
+      "number": 26,
+      "bytes": 140444,
+      "sha256": "d01560df5c30284d043e9bf25ce07997cd51b274059a3f4a604f7a499e879b21",
+      "durationMs": 3183.673,
+      "text": "Two, six. Twenty six."
+    },
+    {
+      "number": 27,
+      "bytes": 134312,
+      "sha256": "9a771e3dd0a75778228bd77199b0ebecbaa1a0927f00c7503e5b83dbd2b2c6ce",
+      "durationMs": 3044.626,
+      "text": "Two, seven. Twenty seven."
+    },
+    {
+      "number": 28,
+      "bytes": 121930,
+      "sha256": "e701a7cc23ae90a91fea22402f6467575f9087b433da7c33fc630a130fe3d8b5",
+      "durationMs": 2763.855,
+      "text": "Two, eight. Twenty eight."
+    },
+    {
+      "number": 29,
+      "bytes": 131278,
+      "sha256": "72f7647525620a7773f12e9aa6123fc5a3f874135f1c6e334dfe9a83474587cb",
+      "durationMs": 2975.828,
+      "text": "Two, nine. Twenty nine."
+    },
+    {
+      "number": 30,
+      "bytes": 120418,
+      "sha256": "be477e3fb3d5aeca572c438442000bd6997cfdf538e504b496573ad1fbb5903a",
+      "durationMs": 2729.569,
+      "text": "Three, zero. Thirty."
+    },
+    {
+      "number": 31,
+      "bytes": 127140,
+      "sha256": "3504e04c8037691e01a136a2de71058051d0d1b2a1473c5f2a2e9dd057bc81da",
+      "durationMs": 2881.995,
+      "text": "Three, one. Thirty one."
+    },
+    {
+      "number": 32,
+      "bytes": 128706,
+      "sha256": "8c15065122f6f8a738f8a1066a5361b91eb39795c2890c3fb7c49ed00b54b20a",
+      "durationMs": 2917.506,
+      "text": "Three, two. Thirty two."
+    },
+    {
+      "number": 33,
+      "bytes": 130214,
+      "sha256": "65e3eeb62688dd5b50fe76977406c783bc2798fce518bd62357a3369401e8dfc",
+      "durationMs": 2951.701,
+      "text": "Three, three. Thirty three."
+    },
+    {
+      "number": 34,
+      "bytes": 133240,
+      "sha256": "8bc0d8b95a20df5f2349a0ca8804366c2c7778ed4e0a7a7c42f30bc408f85b24",
+      "durationMs": 3020.317,
+      "text": "Three, four. Thirty four."
+    },
+    {
+      "number": 35,
+      "bytes": 136776,
+      "sha256": "1d9eab5fd021140838ba83e70561f89ef7056108eb3e8e28ce88b559a49c4376",
+      "durationMs": 3100.499,
+      "text": "Three, five. Thirty five."
+    },
+    {
+      "number": 36,
+      "bytes": 142106,
+      "sha256": "7a666db2085ee4bfd9b095b8e364463d842af8b3356ff1e73ff74b1600ffc793",
+      "durationMs": 3221.361,
+      "text": "Three, six. Thirty six."
+    },
+    {
+      "number": 37,
+      "bytes": 133400,
+      "sha256": "f4752e6d45ef2443d20ad86f77a33793fdf50974643ff1305452eaaff49cfd57",
+      "durationMs": 3023.946,
+      "text": "Three, seven. Thirty seven."
+    },
+    {
+      "number": 38,
+      "bytes": 124882,
+      "sha256": "9d0f94e75200e54e943729d6e99262567a77ef20508f62b6e993fb804e0b3c0a",
+      "durationMs": 2830.794,
+      "text": "Three, eight. Thirty eight."
+    },
+    {
+      "number": 39,
+      "bytes": 128532,
+      "sha256": "5fc4b9313f3da4051e874e25193dabdde7680f6c41a0c2581fac44ea32d5cd47",
+      "durationMs": 2913.56,
+      "text": "Three, nine. Thirty nine."
+    },
+    {
+      "number": 40,
+      "bytes": 131538,
+      "sha256": "7243181559f8c858332aae066f57c97b2f7224aa086f9f0026514b114fc32f89",
+      "durationMs": 2981.723,
+      "text": "Four, zero. Forty."
+    },
+    {
+      "number": 41,
+      "bytes": 137404,
+      "sha256": "c7a1288d9a1c2f1656149283ed39a826ea7eb9dbc045d6ad18c87b54350d13df",
+      "durationMs": 3114.739,
+      "text": "Four, one. Forty one."
+    },
+    {
+      "number": 42,
+      "bytes": 139094,
+      "sha256": "a310994c9d76d62fcbc47939ce7509e0a4dd1e829820acdd69f344e75f93db26",
+      "durationMs": 3153.061,
+      "text": "Four, two. Forty two."
+    },
+    {
+      "number": 43,
+      "bytes": 140012,
+      "sha256": "8faa105efd8459d2db5545468f1d08c1a26714a11aa33aa051d5e13d9c046d64",
+      "durationMs": 3173.878,
+      "text": "Four, three. Forty three."
+    },
+    {
+      "number": 44,
+      "bytes": 141006,
+      "sha256": "13c16060482bb038e6882c990d7b69a8d19d33c336007d9928766f0f1219a57e",
+      "durationMs": 3196.417,
+      "text": "Four, four. Forty four."
+    },
+    {
+      "number": 45,
+      "bytes": 143724,
+      "sha256": "85a673f1d3349b5eb8f0b0ff4e563c781cb9dab80accb631acc1626360f7bcbe",
+      "durationMs": 3258.05,
+      "text": "Four, five. Forty five."
+    },
+    {
+      "number": 46,
+      "bytes": 148186,
+      "sha256": "fc5ca35b7adaf663b5baf5656c475ad2c764f80c4ee3b08f6fc96d330c61fd7a",
+      "durationMs": 3359.229,
+      "text": "Four, six. Forty six."
+    },
+    {
+      "number": 47,
+      "bytes": 144262,
+      "sha256": "9f36e090c7b32f683739f19c410aba53cd05d59ece97596f0e9772a3e64fcd91",
+      "durationMs": 3270.249,
+      "text": "Four, seven. Forty seven."
+    },
+    {
+      "number": 48,
+      "bytes": 129512,
+      "sha256": "569b50f8c95598405687809355733f096983f3e3694bf61f7467130516876fe5",
+      "durationMs": 2935.782,
+      "text": "Four, eight. Forty eight."
+    },
+    {
+      "number": 49,
+      "bytes": 139274,
+      "sha256": "7a8ab6272ef6fe9e9d18c8bebc641bdd4664f01d009473426c0082cc6dafd487",
+      "durationMs": 3157.143,
+      "text": "Four, nine. Forty nine."
+    },
+    {
+      "number": 50,
+      "bytes": 131196,
+      "sha256": "63fb8199e7ac89887202e12706897375287e16dfc67b9d7ddbe0c6b7ef17b967",
+      "durationMs": 2973.968,
+      "text": "Five, zero. Fifty."
+    },
+    {
+      "number": 51,
+      "bytes": 139416,
+      "sha256": "80d0fbbf49e960712cc45c176135173ebede17efdfba906590d397afc31e0456",
+      "durationMs": 3160.363,
+      "text": "Five, one. Fifty one."
+    },
+    {
+      "number": 52,
+      "bytes": 140932,
+      "sha256": "37c02feaeb3d1428903735962648630403845b6b2c7f3335a46d8d564a604889",
+      "durationMs": 3194.739,
+      "text": "Five, two. Fifty two."
+    },
+    {
+      "number": 53,
+      "bytes": 141880,
+      "sha256": "53bc37a1e8ed1479c5867855a1a337518490f931061446db8704830301145ef4",
+      "durationMs": 3216.236,
+      "text": "Five, three. Fifty three."
+    },
+    {
+      "number": 54,
+      "bytes": 145778,
+      "sha256": "97e17457a7fc9437917f1ff4b83fa2a4857ab57c17404736c86d6e5eea9fc45d",
+      "durationMs": 3304.626,
+      "text": "Five, four. Fifty four."
+    },
+    {
+      "number": 55,
+      "bytes": 146884,
+      "sha256": "0077ca051f77e19446d0872366ef4ce70c5b024882ddb5e8128607bb2143b3aa",
+      "durationMs": 3329.705,
+      "text": "Five, five. Fifty five."
+    },
+    {
+      "number": 56,
+      "bytes": 151308,
+      "sha256": "2369dae9a84d39244f77257eb169e8367ffbac5fe96bb9c7cc6d4ea997a3377e",
+      "durationMs": 3430.023,
+      "text": "Five, six. Fifty six."
+    },
+    {
+      "number": 57,
+      "bytes": 150084,
+      "sha256": "beaec70718f2cc903a6d26eb9786d669e5bf623eb0c25b712ca713d3b8a10295",
+      "durationMs": 3402.268,
+      "text": "Five, seven. Fifty seven."
+    },
+    {
+      "number": 58,
+      "bytes": 133930,
+      "sha256": "b04678bd1a779745bd98d97154115954ec858cfb15f1f13cdc32592e9cb74c24",
+      "durationMs": 3035.964,
+      "text": "Five, eight. Fifty eight."
+    },
+    {
+      "number": 59,
+      "bytes": 141948,
+      "sha256": "287bc8bdffe5d430968f28356f5fb9cacdc3cb42266140500e7de283f8461839",
+      "durationMs": 3217.778,
+      "text": "Five, nine. Fifty nine."
+    },
+    {
+      "number": 60,
+      "bytes": 139810,
+      "sha256": "7ca8b7cf5b4242528ac6cc9bbfe99de32acf9d31c3d47965baca01b07631da09",
+      "durationMs": 3169.297,
+      "text": "Six, zero. Sixty."
+    },
+    {
+      "number": 61,
+      "bytes": 143612,
+      "sha256": "9b91b31ec36e3da421080d1cba4fed680d9bc2d5aab5f2e40eff5452c5559f22",
+      "durationMs": 3255.51,
+      "text": "Six, one. Sixty one."
+    },
+    {
+      "number": 62,
+      "bytes": 140088,
+      "sha256": "9583f5c08b14ebaf662418e6de602a0b436ce93dd1c1fb7214ca992aa3687289",
+      "durationMs": 3175.601,
+      "text": "Six, two. Sixty two."
+    },
+    {
+      "number": 63,
+      "bytes": 141896,
+      "sha256": "38472220f7f2f532008a3205861c9469750f79ba869fc976505c1f61b400e8d9",
+      "durationMs": 3216.599,
+      "text": "Six, three. Sixty three."
+    },
+    {
+      "number": 64,
+      "bytes": 144210,
+      "sha256": "39fa11fdf2e02e51673422f8c5cc65fbd0a67b4033c29cb47796fe49512536e3",
+      "durationMs": 3269.07,
+      "text": "Six, four. Sixty four."
+    },
+    {
+      "number": 65,
+      "bytes": 151610,
+      "sha256": "70a238560af77fd681122f33e917466fd4a643e069d005e228eca63e11eae9ed",
+      "durationMs": 3436.871,
+      "text": "Six, five. Sixty five."
+    },
+    {
+      "number": 66,
+      "bytes": 152290,
+      "sha256": "f4ff173bb9b47d0520833433401604100caad64e46702816c08daed3dd2cd352",
+      "durationMs": 3452.29,
+      "text": "Six, six. Sixty six."
+    },
+    {
+      "number": 67,
+      "bytes": 150520,
+      "sha256": "c694baa147a8b0ddcaa8873d6443fec1fa78b9be9d5d0f8ccedc44f6a058424e",
+      "durationMs": 3412.154,
+      "text": "Six, seven. Sixty seven."
+    },
+    {
+      "number": 68,
+      "bytes": 135770,
+      "sha256": "e85f6b09d20b99c5926ff9e01fe40773c834eb6bfbfe813e3008f06ce6f097f3",
+      "durationMs": 3077.687,
+      "text": "Six, eight. Sixty eight."
+    },
+    {
+      "number": 69,
+      "bytes": 146924,
+      "sha256": "13192c0bfa05899229c536ba499275c9786881d608fa6607fc8052cd1f562880",
+      "durationMs": 3330.612,
+      "text": "Six, nine. Sixty nine."
+    },
+    {
+      "number": 70,
+      "bytes": 146614,
+      "sha256": "81d3dae851c593050c514158d4a366b01022c03efefd9e7d25df9f645ac13bff",
+      "durationMs": 3323.583,
+      "text": "Seven, zero. Seventy."
+    },
+    {
+      "number": 71,
+      "bytes": 146288,
+      "sha256": "56fda27e5494d537fff4b07ac18d9b31eb5e62760d9b3aba97316dfe9711bd26",
+      "durationMs": 3316.19,
+      "text": "Seven, one. Seventy one."
+    },
+    {
+      "number": 72,
+      "bytes": 148328,
+      "sha256": "d7cb81c2eb0f923ef1e8e4b4ee32a77165d4bb78a88ffd1b55237af9880a85b3",
+      "durationMs": 3362.449,
+      "text": "Seven, two. Seventy two."
+    },
+    {
+      "number": 73,
+      "bytes": 149392,
+      "sha256": "ae0148ed424fb79e08da6dcc682accb3e4e146294e95e48f10e34b3b3eea0773",
+      "durationMs": 3386.576,
+      "text": "Seven, three. Seventy three."
+    },
+    {
+      "number": 74,
+      "bytes": 148968,
+      "sha256": "6c57d812b2f12f468415d13c3422a608516afef00648fe4f0403160b4a3c939c",
+      "durationMs": 3376.961,
+      "text": "Seven, four. Seventy four."
+    },
+    {
+      "number": 75,
+      "bytes": 157296,
+      "sha256": "aaaff0abc430006db999734eb273d6e4d390dbc2470156109aa4e3389bac1734",
+      "durationMs": 3565.805,
+      "text": "Seven, five. Seventy five."
+    },
+    {
+      "number": 76,
+      "bytes": 158248,
+      "sha256": "1c3be7116b1e5ba460a99a1e301057b7759f586071c9a48e7330e8480fa95550",
+      "durationMs": 3587.392,
+      "text": "Seven, six. Seventy six."
+    },
+    {
+      "number": 77,
+      "bytes": 154090,
+      "sha256": "59d7cd809f30d5506cf54c402ab31463be9a8915ad27e81790f022bca2bdabae",
+      "durationMs": 3493.107,
+      "text": "Seven, seven. Seventy seven."
+    },
+    {
+      "number": 78,
+      "bytes": 140376,
+      "sha256": "0d5310e17757a1d90637c1492bb4d9f2bc45a0d3bab3497721c3fbddf4fa883e",
+      "durationMs": 3182.132,
+      "text": "Seven, eight. Seventy eight."
+    },
+    {
+      "number": 79,
+      "bytes": 150260,
+      "sha256": "ce7ccc72e139f5c4851aa171ab0155022b05c17759616c9360f9af88dfe70f75",
+      "durationMs": 3406.259,
+      "text": "Seven, nine. Seventy nine."
+    },
+    {
+      "number": 80,
+      "bytes": 117152,
+      "sha256": "88975e806b5bcd2f4660cea5c311eadee6d664c9721271115f5b25391c5772f3",
+      "durationMs": 2655.51,
+      "text": "Eight, zero. Eighty."
+    },
+    {
+      "number": 81,
+      "bytes": 123716,
+      "sha256": "41118d1673296b5a64be14b30ae427441ee1565fb1c94ac8169ed61434b2cddb",
+      "durationMs": 2804.354,
+      "text": "Eight, one. Eighty one."
+    },
+    {
+      "number": 82,
+      "bytes": 126424,
+      "sha256": "0ccb32abeadee270ed30ffd75174a2de159ae2c2ed29e8c9016ae8c56f54ff09",
+      "durationMs": 2865.76,
+      "text": "Eight, two. Eighty two."
+    },
+    {
+      "number": 83,
+      "bytes": 122936,
+      "sha256": "c7332a32c1e4e584cc5b8beb79c0568929c1ba44599e9be0eab56c1e37a41c18",
+      "durationMs": 2786.667,
+      "text": "Eight, three. Eighty three."
+    },
+    {
+      "number": 84,
+      "bytes": 127118,
+      "sha256": "b479f107f0f0d31ae05df96910633b387c289a60121a382cf16b942496467627",
+      "durationMs": 2881.497,
+      "text": "Eight, four. Eighty four."
+    },
+    {
+      "number": 85,
+      "bytes": 132382,
+      "sha256": "7331da2ec891c66530c485fcb0838ee96e7a48e3a927b830c0a8632aa1b3208b",
+      "durationMs": 3000.862,
+      "text": "Eight, five. Eighty five."
+    },
+    {
+      "number": 86,
+      "bytes": 137602,
+      "sha256": "cbb9d01c6ff591f93a6211e0f3d388965bdbdb6c03ea6392ebb4fc2b04f591f3",
+      "durationMs": 3119.229,
+      "text": "Eight, six. Eighty six."
+    },
+    {
+      "number": 87,
+      "bytes": 131886,
+      "sha256": "48f6a9902c376def9cd617c15b0a8d1d0ef9602f0c0371d4e21e77c0d64810d6",
+      "durationMs": 2989.615,
+      "text": "Eight, seven. Eighty seven."
+    },
+    {
+      "number": 88,
+      "bytes": 119858,
+      "sha256": "a1f01480cb2b4b6d4fc60de43b5087714cafabc316388cbf0ec47b6d03ae2af5",
+      "durationMs": 2716.871,
+      "text": "Eight, eight. Eighty eight."
+    },
+    {
+      "number": 89,
+      "bytes": 128736,
+      "sha256": "e1abc7859fd2e33fcd3283eabb1557bfbfdccd5d4f11bddb88e946449fc0d099",
+      "durationMs": 2918.186,
+      "text": "Eight, nine. Eighty nine."
+    },
+    {
+      "number": 90,
+      "bytes": 130860,
+      "sha256": "03e347d47e62fe34c4fe86e9cdb9562c0ff5087bc7e200a9d9278082c4cf49f0",
+      "durationMs": 2966.349,
+      "text": "Nine, zero. Ninety."
+    }
+  ]
+}

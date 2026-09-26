@@ -1,0 +1,3557 @@
+[
+  {
+    "voice": "female",
+    "number": 1,
+    "part": "full",
+    "text": "single number one.",
+    "digits": null,
+    "full": "single number one",
+    "file": "en-female/1.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 43512,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "one",
+        "startSample": 34552,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 1973.3333333333335,
+    "sampleRate": 22050,
+    "sha256": "5cb12527c069d6cee40eeecf45e9dc5fffe4846414f546e00aa4e2f5be6aa8f4"
+  },
+  {
+    "voice": "female",
+    "number": 2,
+    "part": "full",
+    "text": "single number two.",
+    "digits": null,
+    "full": "single number two",
+    "file": "en-female/2.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 43767,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "two",
+        "startSample": 34552,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 1984.8979591836735,
+    "sampleRate": 22050,
+    "sha256": "62e588a92632f8247a340314627466d7048568a3527c43c15d4f3e19390741f2"
+  },
+  {
+    "voice": "female",
+    "number": 3,
+    "part": "full",
+    "text": "single number three.",
+    "digits": null,
+    "full": "single number three",
+    "file": "en-female/3.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 42744,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "three",
+        "startSample": 34552,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 1938.5034013605443,
+    "sampleRate": 22050,
+    "sha256": "2f761951bac0fe411449f821d2758515814c5e065338f349d4c4f5072f31b4df"
+  },
+  {
+    "voice": "female",
+    "number": 4,
+    "part": "full",
+    "text": "single number four.",
+    "digits": null,
+    "full": "single number four",
+    "file": "en-female/4.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 45301,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "four",
+        "startSample": 34552,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 2054.467120181406,
+    "sampleRate": 22050,
+    "sha256": "f3c7f892f94ffa94c332adbe4f8169387b9db67ee016b768df50529d9fcd8fcb"
+  },
+  {
+    "voice": "female",
+    "number": 5,
+    "part": "full",
+    "text": "single number five.",
+    "digits": null,
+    "full": "single number five",
+    "file": "en-female/5.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 45813,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "five",
+        "startSample": 34552,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 2077.687074829932,
+    "sampleRate": 22050,
+    "sha256": "72b90dfbfa7b7475f0041188f289a48a7ae115d6d4a8989d867e467e0b513067"
+  },
+  {
+    "voice": "female",
+    "number": 6,
+    "part": "full",
+    "text": "single number six.",
+    "digits": null,
+    "full": "single number six",
+    "file": "en-female/6.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 53752,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "six",
+        "startSample": 34552,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 2437.732426303855,
+    "sampleRate": 22050,
+    "sha256": "1a35f0a9705441074919ea292fe565a7bb9dd8d71f887aa8f67bc07a0fdc5dc5"
+  },
+  {
+    "voice": "female",
+    "number": 7,
+    "part": "full",
+    "text": "single number seven.",
+    "digits": null,
+    "full": "single number seven",
+    "file": "en-female/7.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 49645,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "seven",
+        "startSample": 34552,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 2251.4739229024945,
+    "sampleRate": 22050,
+    "sha256": "1517bed9cfa23ce071912c68747a750dcfd2f33daad13a1254191e4405fd32bd"
+  },
+  {
+    "voice": "female",
+    "number": 8,
+    "part": "full",
+    "text": "single number eight.",
+    "digits": null,
+    "full": "single number eight",
+    "file": "en-female/8.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 45558,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "eight",
+        "startSample": 34552,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 2066.122448979592,
+    "sampleRate": 22050,
+    "sha256": "5db1a4da2b47913ab9da86ed5891fbf8dd2e298d1bc6079ecd742bd43387fa6f"
+  },
+  {
+    "voice": "female",
+    "number": 9,
+    "part": "full",
+    "text": "single number nine.",
+    "digits": null,
+    "full": "single number nine",
+    "file": "en-female/9.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 0,
+    "fullSamples": 46840,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "single",
+        "startSample": 0,
+        "samples": 14592
+      },
+      {
+        "word": "number",
+        "startSample": 18561,
+        "samples": 12022
+      },
+      {
+        "word": "nine",
+        "startSample": 34552,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 0,
+    "durationMs": 2124.263038548753,
+    "sampleRate": 22050,
+    "sha256": "2a4174d55664ab2c8d9e67b2534f3715d658ee56b5590720b9d4600e58303f88"
+  },
+  {
+    "voice": "female",
+    "number": 10,
+    "part": "full",
+    "text": "one zero. ten.",
+    "digits": "one zero",
+    "full": "ten",
+    "file": "en-female/10.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 28795,
+    "fullSamples": 11776,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "zero",
+        "startSample": 12929,
+        "samples": 15866
+      },
+      {
+        "word": "ten",
+        "startSample": 39820,
+        "samples": 11776
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2339.954648526077,
+    "sampleRate": 22050,
+    "sha256": "06d3ee774ad8e2e96dc038d8c006c4b58572834f289061dd7ae9a64796815f83"
+  },
+  {
+    "voice": "female",
+    "number": 11,
+    "part": "full",
+    "text": "one one. eleven.",
+    "digits": "one one",
+    "full": "eleven",
+    "file": "en-female/11.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 21889,
+    "fullSamples": 16128,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "one",
+        "startSample": 12929,
+        "samples": 8960
+      },
+      {
+        "word": "eleven",
+        "startSample": 32914,
+        "samples": 16128
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2224.126984126984,
+    "sampleRate": 22050,
+    "sha256": "7860df144cbaea8541bb14699aba5cce5c61e9bf7011fefa724f347e3bb38fc1"
+  },
+  {
+    "voice": "female",
+    "number": 12,
+    "part": "full",
+    "text": "one two. twelve.",
+    "digits": "one two",
+    "full": "twelve",
+    "file": "en-female/12.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 22144,
+    "fullSamples": 13312,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "two",
+        "startSample": 12929,
+        "samples": 9215
+      },
+      {
+        "word": "twelve",
+        "startSample": 33169,
+        "samples": 13312
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2107.981859410431,
+    "sampleRate": 22050,
+    "sha256": "021bd5bd5ed7e5237ad7df881fcf95d14473f35afbfdd7497b7dc01712a2188e"
+  },
+  {
+    "voice": "female",
+    "number": 13,
+    "part": "full",
+    "text": "one three. thirteen.",
+    "digits": "one three",
+    "full": "thirteen",
+    "file": "en-female/13.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 21121,
+    "fullSamples": 17920,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "three",
+        "startSample": 12929,
+        "samples": 8192
+      },
+      {
+        "word": "thirteen",
+        "startSample": 32146,
+        "samples": 17920
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2270.566893424036,
+    "sampleRate": 22050,
+    "sha256": "8586a22243019da68fdf2465c36ab75ed2bf823d082aa1c5d1e6bc89c7965ecc"
+  },
+  {
+    "voice": "female",
+    "number": 14,
+    "part": "full",
+    "text": "one four. fourteen.",
+    "digits": "one four",
+    "full": "fourteen",
+    "file": "en-female/14.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23678,
+    "fullSamples": 17919,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "four",
+        "startSample": 12929,
+        "samples": 10749
+      },
+      {
+        "word": "fourteen",
+        "startSample": 34703,
+        "samples": 17919
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2386.485260770975,
+    "sampleRate": 22050,
+    "sha256": "880e2c96ea9cbc97096d669bdd3a845ea76b45cc40462a2cdfa949d2362f37ac"
+  },
+  {
+    "voice": "female",
+    "number": 15,
+    "part": "full",
+    "text": "one five. fifteen.",
+    "digits": "one five",
+    "full": "fifteen",
+    "file": "en-female/15.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 24190,
+    "fullSamples": 16895,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "five",
+        "startSample": 12929,
+        "samples": 11261
+      },
+      {
+        "word": "fifteen",
+        "startSample": 35215,
+        "samples": 16895
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2363.2653061224487,
+    "sampleRate": 22050,
+    "sha256": "7aacaa04d24899f85ea2899baca8db50f88a797097a32ec573d971c2bdfc3cec"
+  },
+  {
+    "voice": "female",
+    "number": 16,
+    "part": "full",
+    "text": "one six. sixteen.",
+    "digits": "one six",
+    "full": "sixteen",
+    "file": "en-female/16.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 32129,
+    "fullSamples": 19968,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "six",
+        "startSample": 12929,
+        "samples": 19200
+      },
+      {
+        "word": "sixteen",
+        "startSample": 43154,
+        "samples": 19968
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2862.675736961451,
+    "sampleRate": 22050,
+    "sha256": "9fee45ed0dd2ee6225015e33edca413d1880510e45ad9c02d6ac1ccb1c4ce1c4"
+  },
+  {
+    "voice": "female",
+    "number": 17,
+    "part": "full",
+    "text": "one seven. seventeen.",
+    "digits": "one seven",
+    "full": "seventeen",
+    "file": "en-female/17.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 28022,
+    "fullSamples": 21504,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "seven",
+        "startSample": 12929,
+        "samples": 15093
+      },
+      {
+        "word": "seventeen",
+        "startSample": 39047,
+        "samples": 21504
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2746.077097505669,
+    "sampleRate": 22050,
+    "sha256": "834bcfd9168cb51992186462f9e1951c606cfd41a2bdfca8891a94b59231242a"
+  },
+  {
+    "voice": "female",
+    "number": 18,
+    "part": "full",
+    "text": "one eight. eighteen.",
+    "digits": "one eight",
+    "full": "eighteen",
+    "file": "en-female/18.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23935,
+    "fullSamples": 17920,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "eight",
+        "startSample": 12929,
+        "samples": 11006
+      },
+      {
+        "word": "eighteen",
+        "startSample": 34960,
+        "samples": 17920
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2398.185941043084,
+    "sampleRate": 22050,
+    "sha256": "b8fae1ec0545942a94342cfec4c2c7e064e1787ebd13ff265c09c00da7d63987"
+  },
+  {
+    "voice": "female",
+    "number": 19,
+    "part": "full",
+    "text": "one nine. nineteen.",
+    "digits": "one nine",
+    "full": "nineteen",
+    "file": "en-female/19.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25217,
+    "fullSamples": 16119,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "one",
+        "startSample": 0,
+        "samples": 8960
+      },
+      {
+        "word": "nine",
+        "startSample": 12929,
+        "samples": 12288
+      },
+      {
+        "word": "nineteen",
+        "startSample": 36242,
+        "samples": 16119
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2374.6485260770974,
+    "sampleRate": 22050,
+    "sha256": "e835383b70dba759e76c77f31e3ac37bc804c13a4a5319c1b1b6ed292fdac401"
+  },
+  {
+    "voice": "female",
+    "number": 20,
+    "part": "full",
+    "text": "two zero. twenty.",
+    "digits": "two zero",
+    "full": "twenty",
+    "file": "en-female/20.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 29050,
+    "fullSamples": 13824,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "zero",
+        "startSample": 13184,
+        "samples": 15866
+      },
+      {
+        "word": "twenty",
+        "startSample": 40075,
+        "samples": 13824
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2444.399092970522,
+    "sampleRate": 22050,
+    "sha256": "6f4eb944a6ee72f36b7b25f9b55ec9a90bff01fa4e2f38883fb291f647f61c89"
+  },
+  {
+    "voice": "female",
+    "number": 21,
+    "part": "full",
+    "text": "two one. twenty one.",
+    "digits": "two one",
+    "full": "twenty one",
+    "file": "en-female/21.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 22144,
+    "fullSamples": 26753,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "one",
+        "startSample": 13184,
+        "samples": 8960
+      },
+      {
+        "word": "twenty",
+        "startSample": 33169,
+        "samples": 13824
+      },
+      {
+        "word": "one",
+        "startSample": 50962,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2717.5510204081634,
+    "sampleRate": 22050,
+    "sha256": "5af4e723ce8c4114b93e63f18d58bcc48b62a0ee8a639cbd1129488c4b9f078d"
+  },
+  {
+    "voice": "female",
+    "number": 22,
+    "part": "full",
+    "text": "two two. twenty two.",
+    "digits": "two two",
+    "full": "twenty two",
+    "file": "en-female/22.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 22399,
+    "fullSamples": 27008,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "two",
+        "startSample": 13184,
+        "samples": 9215
+      },
+      {
+        "word": "twenty",
+        "startSample": 33424,
+        "samples": 13824
+      },
+      {
+        "word": "two",
+        "startSample": 51217,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2740.680272108844,
+    "sampleRate": 22050,
+    "sha256": "50a9c836058eefdb207080101a8d1b15c0058212d3dfbcf23ea41c5ca4aea4cb"
+  },
+  {
+    "voice": "female",
+    "number": 23,
+    "part": "full",
+    "text": "two three. twenty three.",
+    "digits": "two three",
+    "full": "twenty three",
+    "file": "en-female/23.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 21376,
+    "fullSamples": 25985,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "three",
+        "startSample": 13184,
+        "samples": 8192
+      },
+      {
+        "word": "twenty",
+        "startSample": 32401,
+        "samples": 13824
+      },
+      {
+        "word": "three",
+        "startSample": 50194,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2647.891156462585,
+    "sampleRate": 22050,
+    "sha256": "3e035107f6e25dac30feafa1e24e6fb883d1f50a953f9e8442d84356d79c33cf"
+  },
+  {
+    "voice": "female",
+    "number": 24,
+    "part": "full",
+    "text": "two four. twenty four.",
+    "digits": "two four",
+    "full": "twenty four",
+    "file": "en-female/24.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23933,
+    "fullSamples": 28542,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "four",
+        "startSample": 13184,
+        "samples": 10749
+      },
+      {
+        "word": "twenty",
+        "startSample": 34958,
+        "samples": 13824
+      },
+      {
+        "word": "four",
+        "startSample": 52751,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2879.818594104308,
+    "sampleRate": 22050,
+    "sha256": "fa7b23aad256d95e8c663be0a31dfb09f0f1db7594a90c0ad1a8537e33569ca9"
+  },
+  {
+    "voice": "female",
+    "number": 25,
+    "part": "full",
+    "text": "two five. twenty five.",
+    "digits": "two five",
+    "full": "twenty five",
+    "file": "en-female/25.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 24445,
+    "fullSamples": 29054,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "five",
+        "startSample": 13184,
+        "samples": 11261
+      },
+      {
+        "word": "twenty",
+        "startSample": 35470,
+        "samples": 13824
+      },
+      {
+        "word": "five",
+        "startSample": 53263,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2926.2585034013605,
+    "sampleRate": 22050,
+    "sha256": "22176d6eb6c9ff5d78551d44d6fabb97cf67c4883612cfaee0e252bbd0de4710"
+  },
+  {
+    "voice": "female",
+    "number": 26,
+    "part": "full",
+    "text": "two six. twenty six.",
+    "digits": "two six",
+    "full": "twenty six",
+    "file": "en-female/26.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 32384,
+    "fullSamples": 36993,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "six",
+        "startSample": 13184,
+        "samples": 19200
+      },
+      {
+        "word": "twenty",
+        "startSample": 43409,
+        "samples": 13824
+      },
+      {
+        "word": "six",
+        "startSample": 61202,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3646.3492063492063,
+    "sampleRate": 22050,
+    "sha256": "1cd32f71b9f84259e1e9461db6ee345a7232c432ff6611d75333eee0444863f4"
+  },
+  {
+    "voice": "female",
+    "number": 27,
+    "part": "full",
+    "text": "two seven. twenty seven.",
+    "digits": "two seven",
+    "full": "twenty seven",
+    "file": "en-female/27.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 28277,
+    "fullSamples": 32886,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "seven",
+        "startSample": 13184,
+        "samples": 15093
+      },
+      {
+        "word": "twenty",
+        "startSample": 39302,
+        "samples": 13824
+      },
+      {
+        "word": "seven",
+        "startSample": 57095,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3273.8321995464853,
+    "sampleRate": 22050,
+    "sha256": "61229a93931ee6d66da892cb0ac64cd809ea80788274306be6447031b6e8dcbd"
+  },
+  {
+    "voice": "female",
+    "number": 28,
+    "part": "full",
+    "text": "two eight. twenty eight.",
+    "digits": "two eight",
+    "full": "twenty eight",
+    "file": "en-female/28.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 24190,
+    "fullSamples": 28799,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "eight",
+        "startSample": 13184,
+        "samples": 11006
+      },
+      {
+        "word": "twenty",
+        "startSample": 35215,
+        "samples": 13824
+      },
+      {
+        "word": "eight",
+        "startSample": 53008,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2903.12925170068,
+    "sampleRate": 22050,
+    "sha256": "f5f38c50bb7532a96e99b1e62894029ec540d86662865ddf850e4faf26473e26"
+  },
+  {
+    "voice": "female",
+    "number": 29,
+    "part": "full",
+    "text": "two nine. twenty nine.",
+    "digits": "two nine",
+    "full": "twenty nine",
+    "file": "en-female/29.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25472,
+    "fullSamples": 30081,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "two",
+        "startSample": 0,
+        "samples": 9215
+      },
+      {
+        "word": "nine",
+        "startSample": 13184,
+        "samples": 12288
+      },
+      {
+        "word": "twenty",
+        "startSample": 36497,
+        "samples": 13824
+      },
+      {
+        "word": "nine",
+        "startSample": 54290,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3019.4104308390024,
+    "sampleRate": 22050,
+    "sha256": "69ea5a7d2b158f6d9f442650343c918a9b6df6c66e9d25dbc7b4e9c37c7bfbda"
+  },
+  {
+    "voice": "female",
+    "number": 30,
+    "part": "full",
+    "text": "three zero. thirty.",
+    "digits": "three zero",
+    "full": "thirty",
+    "file": "en-female/30.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 28027,
+    "fullSamples": 12288,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "zero",
+        "startSample": 12161,
+        "samples": 15866
+      },
+      {
+        "word": "thirty",
+        "startSample": 39052,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2328.344671201814,
+    "sampleRate": 22050,
+    "sha256": "d9e20b58160233632b5a4416ac39a545c09520abd655c785710f7fac3b947778"
+  },
+  {
+    "voice": "female",
+    "number": 31,
+    "part": "full",
+    "text": "three one. thirty one.",
+    "digits": "three one",
+    "full": "thirty one",
+    "file": "en-female/31.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 21121,
+    "fullSamples": 25217,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "one",
+        "startSample": 12161,
+        "samples": 8960
+      },
+      {
+        "word": "thirty",
+        "startSample": 32146,
+        "samples": 12288
+      },
+      {
+        "word": "one",
+        "startSample": 48403,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2601.496598639456,
+    "sampleRate": 22050,
+    "sha256": "ea7cb551c368d5f34cafebdf3f635d3c8bee5d5dc345654043563469c627edad"
+  },
+  {
+    "voice": "female",
+    "number": 32,
+    "part": "full",
+    "text": "three two. thirty two.",
+    "digits": "three two",
+    "full": "thirty two",
+    "file": "en-female/32.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 21376,
+    "fullSamples": 25472,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "two",
+        "startSample": 12161,
+        "samples": 9215
+      },
+      {
+        "word": "thirty",
+        "startSample": 32401,
+        "samples": 12288
+      },
+      {
+        "word": "two",
+        "startSample": 48658,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2624.625850340136,
+    "sampleRate": 22050,
+    "sha256": "0924c15d1af1f88605bb49d2a6123eb778d26b53e877c16591c019b798eb0a61"
+  },
+  {
+    "voice": "female",
+    "number": 33,
+    "part": "full",
+    "text": "three three. thirty three.",
+    "digits": "three three",
+    "full": "thirty three",
+    "file": "en-female/33.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 20353,
+    "fullSamples": 24449,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "three",
+        "startSample": 12161,
+        "samples": 8192
+      },
+      {
+        "word": "thirty",
+        "startSample": 31378,
+        "samples": 12288
+      },
+      {
+        "word": "three",
+        "startSample": 47635,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2531.8367346938776,
+    "sampleRate": 22050,
+    "sha256": "93d363da4f7905fef6c182e9b20b26c3c8a09a11fb05247938c3ff9b5349a6f1"
+  },
+  {
+    "voice": "female",
+    "number": 34,
+    "part": "full",
+    "text": "three four. thirty four.",
+    "digits": "three four",
+    "full": "thirty four",
+    "file": "en-female/34.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 22910,
+    "fullSamples": 27006,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "four",
+        "startSample": 12161,
+        "samples": 10749
+      },
+      {
+        "word": "thirty",
+        "startSample": 33935,
+        "samples": 12288
+      },
+      {
+        "word": "four",
+        "startSample": 50192,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2763.764172335601,
+    "sampleRate": 22050,
+    "sha256": "d50affe1b56755f87a940d26cdc00577bc0524037dfec4d6f7c2931635fc86b9"
+  },
+  {
+    "voice": "female",
+    "number": 35,
+    "part": "full",
+    "text": "three five. thirty five.",
+    "digits": "three five",
+    "full": "thirty five",
+    "file": "en-female/35.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23422,
+    "fullSamples": 27518,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "five",
+        "startSample": 12161,
+        "samples": 11261
+      },
+      {
+        "word": "thirty",
+        "startSample": 34447,
+        "samples": 12288
+      },
+      {
+        "word": "five",
+        "startSample": 50704,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2810.204081632653,
+    "sampleRate": 22050,
+    "sha256": "b54fcb3430ce7a33a4d0d2b7e7f02d338b38d4f117c84f5fbeb1875160cfa18e"
+  },
+  {
+    "voice": "female",
+    "number": 36,
+    "part": "full",
+    "text": "three six. thirty six.",
+    "digits": "three six",
+    "full": "thirty six",
+    "file": "en-female/36.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 31361,
+    "fullSamples": 35457,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "six",
+        "startSample": 12161,
+        "samples": 19200
+      },
+      {
+        "word": "thirty",
+        "startSample": 42386,
+        "samples": 12288
+      },
+      {
+        "word": "six",
+        "startSample": 58643,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3530.294784580499,
+    "sampleRate": 22050,
+    "sha256": "937c8fc5873bab029c7be6559144b0db1d035f613920903b6ad66cc6bc281701"
+  },
+  {
+    "voice": "female",
+    "number": 37,
+    "part": "full",
+    "text": "three seven. thirty seven.",
+    "digits": "three seven",
+    "full": "thirty seven",
+    "file": "en-female/37.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 27254,
+    "fullSamples": 31350,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "seven",
+        "startSample": 12161,
+        "samples": 15093
+      },
+      {
+        "word": "thirty",
+        "startSample": 38279,
+        "samples": 12288
+      },
+      {
+        "word": "seven",
+        "startSample": 54536,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3157.7777777777774,
+    "sampleRate": 22050,
+    "sha256": "cbcee4c0fd21c34b7a4db93589be697814dec87f32bf728f2123c04bd6b9285d"
+  },
+  {
+    "voice": "female",
+    "number": 38,
+    "part": "full",
+    "text": "three eight. thirty eight.",
+    "digits": "three eight",
+    "full": "thirty eight",
+    "file": "en-female/38.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23167,
+    "fullSamples": 27263,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "eight",
+        "startSample": 12161,
+        "samples": 11006
+      },
+      {
+        "word": "thirty",
+        "startSample": 34192,
+        "samples": 12288
+      },
+      {
+        "word": "eight",
+        "startSample": 50449,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2787.074829931973,
+    "sampleRate": 22050,
+    "sha256": "7bf1a35e1a6b98b0fe7836b0aa147d6804501265533b48127e73fb7e880a9c83"
+  },
+  {
+    "voice": "female",
+    "number": 39,
+    "part": "full",
+    "text": "three nine. thirty nine.",
+    "digits": "three nine",
+    "full": "thirty nine",
+    "file": "en-female/39.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 24449,
+    "fullSamples": 28545,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "three",
+        "startSample": 0,
+        "samples": 8192
+      },
+      {
+        "word": "nine",
+        "startSample": 12161,
+        "samples": 12288
+      },
+      {
+        "word": "thirty",
+        "startSample": 35474,
+        "samples": 12288
+      },
+      {
+        "word": "nine",
+        "startSample": 51731,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2903.356009070295,
+    "sampleRate": 22050,
+    "sha256": "a478753c241b2c38f978d3456413f3a5b7ffee54d431ebda37264f901acbab4d"
+  },
+  {
+    "voice": "female",
+    "number": 40,
+    "part": "full",
+    "text": "four zero. forty.",
+    "digits": "four zero",
+    "full": "forty",
+    "file": "en-female/40.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 30584,
+    "fullSamples": 9470,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "zero",
+        "startSample": 14718,
+        "samples": 15866
+      },
+      {
+        "word": "forty",
+        "startSample": 41609,
+        "samples": 9470
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2316.507936507937,
+    "sampleRate": 22050,
+    "sha256": "95bc595611a3af83be838ed76699992cba6c6ac901b3281473bf36ce9fbcbe8d"
+  },
+  {
+    "voice": "female",
+    "number": 41,
+    "part": "full",
+    "text": "four one. forty one.",
+    "digits": "four one",
+    "full": "forty one",
+    "file": "en-female/41.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23678,
+    "fullSamples": 22399,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "one",
+        "startSample": 14718,
+        "samples": 8960
+      },
+      {
+        "word": "forty",
+        "startSample": 34703,
+        "samples": 9470
+      },
+      {
+        "word": "one",
+        "startSample": 48142,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2589.6598639455783,
+    "sampleRate": 22050,
+    "sha256": "a8d72b5947f4495851b5c41ea2a1bbb5939b9f017cb29058a2e93aac03cee94a"
+  },
+  {
+    "voice": "female",
+    "number": 42,
+    "part": "full",
+    "text": "four two. forty two.",
+    "digits": "four two",
+    "full": "forty two",
+    "file": "en-female/42.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23933,
+    "fullSamples": 22654,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "two",
+        "startSample": 14718,
+        "samples": 9215
+      },
+      {
+        "word": "forty",
+        "startSample": 34958,
+        "samples": 9470
+      },
+      {
+        "word": "two",
+        "startSample": 48397,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2612.789115646259,
+    "sampleRate": 22050,
+    "sha256": "1a1f5e1db77100dd8ff7c385dd47344b36cfe4eb8fbffd7a9d91f4e982b08000"
+  },
+  {
+    "voice": "female",
+    "number": 43,
+    "part": "full",
+    "text": "four three. forty three.",
+    "digits": "four three",
+    "full": "forty three",
+    "file": "en-female/43.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 22910,
+    "fullSamples": 21631,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "three",
+        "startSample": 14718,
+        "samples": 8192
+      },
+      {
+        "word": "forty",
+        "startSample": 33935,
+        "samples": 9470
+      },
+      {
+        "word": "three",
+        "startSample": 47374,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2520.0,
+    "sampleRate": 22050,
+    "sha256": "d49ac9b87fa69d6b81b1b263119d39771c402184d05d21fabee92268162083ac"
+  },
+  {
+    "voice": "female",
+    "number": 44,
+    "part": "full",
+    "text": "four four. forty four.",
+    "digits": "four four",
+    "full": "forty four",
+    "file": "en-female/44.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25467,
+    "fullSamples": 24188,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "four",
+        "startSample": 14718,
+        "samples": 10749
+      },
+      {
+        "word": "forty",
+        "startSample": 36492,
+        "samples": 9470
+      },
+      {
+        "word": "four",
+        "startSample": 49931,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2751.9274376417234,
+    "sampleRate": 22050,
+    "sha256": "b4dee9f899a47acf3afdc2f0b41a9d107596c317c705c888f43e022421c0fc13"
+  },
+  {
+    "voice": "female",
+    "number": 45,
+    "part": "full",
+    "text": "four five. forty five.",
+    "digits": "four five",
+    "full": "forty five",
+    "file": "en-female/45.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25979,
+    "fullSamples": 24700,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "five",
+        "startSample": 14718,
+        "samples": 11261
+      },
+      {
+        "word": "forty",
+        "startSample": 37004,
+        "samples": 9470
+      },
+      {
+        "word": "five",
+        "startSample": 50443,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2798.3673469387754,
+    "sampleRate": 22050,
+    "sha256": "4d851750b45b68fd9b46cef58c1aea534c18895873b012007d9c49a2ae8f67a6"
+  },
+  {
+    "voice": "female",
+    "number": 46,
+    "part": "full",
+    "text": "four six. forty six.",
+    "digits": "four six",
+    "full": "forty six",
+    "file": "en-female/46.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 33918,
+    "fullSamples": 32639,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "six",
+        "startSample": 14718,
+        "samples": 19200
+      },
+      {
+        "word": "forty",
+        "startSample": 44943,
+        "samples": 9470
+      },
+      {
+        "word": "six",
+        "startSample": 58382,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3518.458049886621,
+    "sampleRate": 22050,
+    "sha256": "d4b79821f7e7bbeb02e9fe3408b99ce3096e92178b87149f3482e99a42699616"
+  },
+  {
+    "voice": "female",
+    "number": 47,
+    "part": "full",
+    "text": "four seven. forty seven.",
+    "digits": "four seven",
+    "full": "forty seven",
+    "file": "en-female/47.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 29811,
+    "fullSamples": 28532,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "seven",
+        "startSample": 14718,
+        "samples": 15093
+      },
+      {
+        "word": "forty",
+        "startSample": 40836,
+        "samples": 9470
+      },
+      {
+        "word": "seven",
+        "startSample": 54275,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3145.9410430839002,
+    "sampleRate": 22050,
+    "sha256": "a1642a8995ee45556d6c858c5d461673b25f69dcde75f830cb090b6257ab0ce0"
+  },
+  {
+    "voice": "female",
+    "number": 48,
+    "part": "full",
+    "text": "four eight. forty eight.",
+    "digits": "four eight",
+    "full": "forty eight",
+    "file": "en-female/48.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25724,
+    "fullSamples": 24445,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "eight",
+        "startSample": 14718,
+        "samples": 11006
+      },
+      {
+        "word": "forty",
+        "startSample": 36749,
+        "samples": 9470
+      },
+      {
+        "word": "eight",
+        "startSample": 50188,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2775.238095238095,
+    "sampleRate": 22050,
+    "sha256": "e9c6017edbe0dd5907eba74d1814fd57ff28deaf1f685ede0655c38d14992428"
+  },
+  {
+    "voice": "female",
+    "number": 49,
+    "part": "full",
+    "text": "four nine. forty nine.",
+    "digits": "four nine",
+    "full": "forty nine",
+    "file": "en-female/49.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 27006,
+    "fullSamples": 25727,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "four",
+        "startSample": 0,
+        "samples": 10749
+      },
+      {
+        "word": "nine",
+        "startSample": 14718,
+        "samples": 12288
+      },
+      {
+        "word": "forty",
+        "startSample": 38031,
+        "samples": 9470
+      },
+      {
+        "word": "nine",
+        "startSample": 51470,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2891.5192743764173,
+    "sampleRate": 22050,
+    "sha256": "2f3c0177d4d84599e689892aa12413a8fdb5f0b5936aaf25f1b931ef5a8de5fc"
+  },
+  {
+    "voice": "female",
+    "number": 50,
+    "part": "full",
+    "text": "five zero. fifty.",
+    "digits": "five zero",
+    "full": "fifty",
+    "file": "en-female/50.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 31096,
+    "fullSamples": 11771,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "zero",
+        "startSample": 15230,
+        "samples": 15866
+      },
+      {
+        "word": "fifty",
+        "startSample": 42121,
+        "samples": 11771
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2444.081632653061,
+    "sampleRate": 22050,
+    "sha256": "cc5dd1ef0d197d70a7dae06d03e69a417c7e90054e83ff2e365cbe03f76cc3ec"
+  },
+  {
+    "voice": "female",
+    "number": 51,
+    "part": "full",
+    "text": "five one. fifty one.",
+    "digits": "five one",
+    "full": "fifty one",
+    "file": "en-female/51.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 24190,
+    "fullSamples": 24700,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "one",
+        "startSample": 15230,
+        "samples": 8960
+      },
+      {
+        "word": "fifty",
+        "startSample": 35215,
+        "samples": 11771
+      },
+      {
+        "word": "one",
+        "startSample": 50955,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2717.233560090703,
+    "sampleRate": 22050,
+    "sha256": "8c30b6a65daf112cf2bbe20a109222ad665f63c514a1f648994d5993d5351c00"
+  },
+  {
+    "voice": "female",
+    "number": 52,
+    "part": "full",
+    "text": "five two. fifty two.",
+    "digits": "five two",
+    "full": "fifty two",
+    "file": "en-female/52.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 24445,
+    "fullSamples": 24955,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "two",
+        "startSample": 15230,
+        "samples": 9215
+      },
+      {
+        "word": "fifty",
+        "startSample": 35470,
+        "samples": 11771
+      },
+      {
+        "word": "two",
+        "startSample": 51210,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2740.362811791383,
+    "sampleRate": 22050,
+    "sha256": "4d10e38caef8e2805089805b5c45b9c1e3648fd2b59549be571783ac2c7964cc"
+  },
+  {
+    "voice": "female",
+    "number": 53,
+    "part": "full",
+    "text": "five three. fifty three.",
+    "digits": "five three",
+    "full": "fifty three",
+    "file": "en-female/53.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23422,
+    "fullSamples": 23932,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "three",
+        "startSample": 15230,
+        "samples": 8192
+      },
+      {
+        "word": "fifty",
+        "startSample": 34447,
+        "samples": 11771
+      },
+      {
+        "word": "three",
+        "startSample": 50187,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2647.573696145125,
+    "sampleRate": 22050,
+    "sha256": "a91d2d39c1c8fa111ef5b82b7a2adb92a1737323f2daa47077e541e169f31c5c"
+  },
+  {
+    "voice": "female",
+    "number": 54,
+    "part": "full",
+    "text": "five four. fifty four.",
+    "digits": "five four",
+    "full": "fifty four",
+    "file": "en-female/54.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25979,
+    "fullSamples": 26489,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "four",
+        "startSample": 15230,
+        "samples": 10749
+      },
+      {
+        "word": "fifty",
+        "startSample": 37004,
+        "samples": 11771
+      },
+      {
+        "word": "four",
+        "startSample": 52744,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2879.501133786848,
+    "sampleRate": 22050,
+    "sha256": "777f42ef8d1e7e1d7a4cc5dbf558e648dcf36bd8f78c1e82fff3e19908716b34"
+  },
+  {
+    "voice": "female",
+    "number": 55,
+    "part": "full",
+    "text": "five five. fifty five.",
+    "digits": "five five",
+    "full": "fifty five",
+    "file": "en-female/55.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 26491,
+    "fullSamples": 27001,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "five",
+        "startSample": 15230,
+        "samples": 11261
+      },
+      {
+        "word": "fifty",
+        "startSample": 37516,
+        "samples": 11771
+      },
+      {
+        "word": "five",
+        "startSample": 53256,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2925.9410430839002,
+    "sampleRate": 22050,
+    "sha256": "95b1ae30e7ec0954876c9ce04ef78ccf06d9ef88e5687625c640c5c346654117"
+  },
+  {
+    "voice": "female",
+    "number": 56,
+    "part": "full",
+    "text": "five six. fifty six.",
+    "digits": "five six",
+    "full": "fifty six",
+    "file": "en-female/56.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 34430,
+    "fullSamples": 34940,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "six",
+        "startSample": 15230,
+        "samples": 19200
+      },
+      {
+        "word": "fifty",
+        "startSample": 45455,
+        "samples": 11771
+      },
+      {
+        "word": "six",
+        "startSample": 61195,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3646.031746031746,
+    "sampleRate": 22050,
+    "sha256": "5d5d54e6f6e5519fd968471f24f4f60d7c85b7e3186c7df95ffda08e2481ddd1"
+  },
+  {
+    "voice": "female",
+    "number": 57,
+    "part": "full",
+    "text": "five seven. fifty seven.",
+    "digits": "five seven",
+    "full": "fifty seven",
+    "file": "en-female/57.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 30323,
+    "fullSamples": 30833,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "seven",
+        "startSample": 15230,
+        "samples": 15093
+      },
+      {
+        "word": "fifty",
+        "startSample": 41348,
+        "samples": 11771
+      },
+      {
+        "word": "seven",
+        "startSample": 57088,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3273.514739229025,
+    "sampleRate": 22050,
+    "sha256": "e397be5f5ee2fa78e1b7a14a9b5b971abf7b973635ff2e1084b2fc1690d18dc5"
+  },
+  {
+    "voice": "female",
+    "number": 58,
+    "part": "full",
+    "text": "five eight. fifty eight.",
+    "digits": "five eight",
+    "full": "fifty eight",
+    "file": "en-female/58.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 26236,
+    "fullSamples": 26746,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "eight",
+        "startSample": 15230,
+        "samples": 11006
+      },
+      {
+        "word": "fifty",
+        "startSample": 37261,
+        "samples": 11771
+      },
+      {
+        "word": "eight",
+        "startSample": 53001,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2902.81179138322,
+    "sampleRate": 22050,
+    "sha256": "3d1f3d1f7218b6acdd2c7a143389df43162bf0c46a17e2d50d53034db8551f40"
+  },
+  {
+    "voice": "female",
+    "number": 59,
+    "part": "full",
+    "text": "five nine. fifty nine.",
+    "digits": "five nine",
+    "full": "fifty nine",
+    "file": "en-female/59.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 27518,
+    "fullSamples": 28028,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "five",
+        "startSample": 0,
+        "samples": 11261
+      },
+      {
+        "word": "nine",
+        "startSample": 15230,
+        "samples": 12288
+      },
+      {
+        "word": "fifty",
+        "startSample": 38543,
+        "samples": 11771
+      },
+      {
+        "word": "nine",
+        "startSample": 54283,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3019.0929705215417,
+    "sampleRate": 22050,
+    "sha256": "59d97f86ac52e049c28e73320ed75d0bf76b72c8ad582887a1b0609a4b4c6368"
+  },
+  {
+    "voice": "female",
+    "number": 60,
+    "part": "full",
+    "text": "six zero. sixty.",
+    "digits": "six zero",
+    "full": "sixty",
+    "file": "en-female/60.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 39035,
+    "fullSamples": 17152,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "zero",
+        "startSample": 23169,
+        "samples": 15866
+      },
+      {
+        "word": "sixty",
+        "startSample": 50060,
+        "samples": 17152
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3048.1632653061224,
+    "sampleRate": 22050,
+    "sha256": "e0eb7ac4a837133c9878a18ea9cc8ea16f28ede0d5eb080334a754d721ad6777"
+  },
+  {
+    "voice": "female",
+    "number": 61,
+    "part": "full",
+    "text": "six one. sixty one.",
+    "digits": "six one",
+    "full": "sixty one",
+    "file": "en-female/61.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 32129,
+    "fullSamples": 30081,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "one",
+        "startSample": 23169,
+        "samples": 8960
+      },
+      {
+        "word": "sixty",
+        "startSample": 43154,
+        "samples": 17152
+      },
+      {
+        "word": "one",
+        "startSample": 64275,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3321.3151927437643,
+    "sampleRate": 22050,
+    "sha256": "9b5bd323381ae3a72944f716bf81130073d4d63f8f3441c8fb41baf8a43c7fb1"
+  },
+  {
+    "voice": "female",
+    "number": 62,
+    "part": "full",
+    "text": "six two. sixty two.",
+    "digits": "six two",
+    "full": "sixty two",
+    "file": "en-female/62.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 32384,
+    "fullSamples": 30336,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "two",
+        "startSample": 23169,
+        "samples": 9215
+      },
+      {
+        "word": "sixty",
+        "startSample": 43409,
+        "samples": 17152
+      },
+      {
+        "word": "two",
+        "startSample": 64530,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3344.4444444444443,
+    "sampleRate": 22050,
+    "sha256": "f0d47b464da6eb61fdf646bf2d38aba4f1bceff8153f42e68d73fc76cb1f5263"
+  },
+  {
+    "voice": "female",
+    "number": 63,
+    "part": "full",
+    "text": "six three. sixty three.",
+    "digits": "six three",
+    "full": "sixty three",
+    "file": "en-female/63.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 31361,
+    "fullSamples": 29313,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "three",
+        "startSample": 23169,
+        "samples": 8192
+      },
+      {
+        "word": "sixty",
+        "startSample": 42386,
+        "samples": 17152
+      },
+      {
+        "word": "three",
+        "startSample": 63507,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3251.655328798186,
+    "sampleRate": 22050,
+    "sha256": "eea3ed07c2f1a6e95adfff71a1f3bc7a28eb26893b8e2b4bc9c378c09e1252a4"
+  },
+  {
+    "voice": "female",
+    "number": 64,
+    "part": "full",
+    "text": "six four. sixty four.",
+    "digits": "six four",
+    "full": "sixty four",
+    "file": "en-female/64.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 33918,
+    "fullSamples": 31870,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "four",
+        "startSample": 23169,
+        "samples": 10749
+      },
+      {
+        "word": "sixty",
+        "startSample": 44943,
+        "samples": 17152
+      },
+      {
+        "word": "four",
+        "startSample": 66064,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3483.5827664399094,
+    "sampleRate": 22050,
+    "sha256": "4f0785c9062aae2db731560decd1263070b9f68f95e61e65a1869a0b4a77595c"
+  },
+  {
+    "voice": "female",
+    "number": 65,
+    "part": "full",
+    "text": "six five. sixty five.",
+    "digits": "six five",
+    "full": "sixty five",
+    "file": "en-female/65.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 34430,
+    "fullSamples": 32382,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "five",
+        "startSample": 23169,
+        "samples": 11261
+      },
+      {
+        "word": "sixty",
+        "startSample": 45455,
+        "samples": 17152
+      },
+      {
+        "word": "five",
+        "startSample": 66576,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3530.0226757369614,
+    "sampleRate": 22050,
+    "sha256": "295e7f63f83a75214e67b20072b8f60949af6d8b802198aa5750a3f70bf527b3"
+  },
+  {
+    "voice": "female",
+    "number": 66,
+    "part": "full",
+    "text": "six six. sixty six.",
+    "digits": "six six",
+    "full": "sixty six",
+    "file": "en-female/66.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 42369,
+    "fullSamples": 40321,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "six",
+        "startSample": 23169,
+        "samples": 19200
+      },
+      {
+        "word": "sixty",
+        "startSample": 53394,
+        "samples": 17152
+      },
+      {
+        "word": "six",
+        "startSample": 74515,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 4250.113378684807,
+    "sampleRate": 22050,
+    "sha256": "fc5992d881007b62d3f9d56599d37d2b0bcbea1e10472a0402fd4c8c599eb1fc"
+  },
+  {
+    "voice": "female",
+    "number": 67,
+    "part": "full",
+    "text": "six seven. sixty seven.",
+    "digits": "six seven",
+    "full": "sixty seven",
+    "file": "en-female/67.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 38262,
+    "fullSamples": 36214,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "seven",
+        "startSample": 23169,
+        "samples": 15093
+      },
+      {
+        "word": "sixty",
+        "startSample": 49287,
+        "samples": 17152
+      },
+      {
+        "word": "seven",
+        "startSample": 70408,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3877.5963718820863,
+    "sampleRate": 22050,
+    "sha256": "d5792b01a95df24fde886560edca8ac0d0409d46187d0db5b2f6c0328321f6da"
+  },
+  {
+    "voice": "female",
+    "number": 68,
+    "part": "full",
+    "text": "six eight. sixty eight.",
+    "digits": "six eight",
+    "full": "sixty eight",
+    "file": "en-female/68.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 34175,
+    "fullSamples": 32127,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "eight",
+        "startSample": 23169,
+        "samples": 11006
+      },
+      {
+        "word": "sixty",
+        "startSample": 45200,
+        "samples": 17152
+      },
+      {
+        "word": "eight",
+        "startSample": 66321,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3506.893424036281,
+    "sampleRate": 22050,
+    "sha256": "2903a0b14fe64983e5f28b9c92cf9a6a7fe83227beb5ca8cf34abf7e2eb7f6ec"
+  },
+  {
+    "voice": "female",
+    "number": 69,
+    "part": "full",
+    "text": "six nine. sixty nine.",
+    "digits": "six nine",
+    "full": "sixty nine",
+    "file": "en-female/69.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 35457,
+    "fullSamples": 33409,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "six",
+        "startSample": 0,
+        "samples": 19200
+      },
+      {
+        "word": "nine",
+        "startSample": 23169,
+        "samples": 12288
+      },
+      {
+        "word": "sixty",
+        "startSample": 46482,
+        "samples": 17152
+      },
+      {
+        "word": "nine",
+        "startSample": 67603,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3623.1746031746034,
+    "sampleRate": 22050,
+    "sha256": "0688c798ee3d1170a9529f5ccbd189f793dde8ef4f6ce5a06ced98044ac6d98e"
+  },
+  {
+    "voice": "female",
+    "number": 70,
+    "part": "full",
+    "text": "seven zero. seventy.",
+    "digits": "seven zero",
+    "full": "seventy",
+    "file": "en-female/70.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 34928,
+    "fullSamples": 17408,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "zero",
+        "startSample": 19062,
+        "samples": 15866
+      },
+      {
+        "word": "seventy",
+        "startSample": 45953,
+        "samples": 17408
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2873.5147392290246,
+    "sampleRate": 22050,
+    "sha256": "53afe7dd683a0841a80cfd3e28dfe8e93aaaf4577f51568f755307cf6016ef73"
+  },
+  {
+    "voice": "female",
+    "number": 71,
+    "part": "full",
+    "text": "seven one. seventy one.",
+    "digits": "seven one",
+    "full": "seventy one",
+    "file": "en-female/71.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 28022,
+    "fullSamples": 30337,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "one",
+        "startSample": 19062,
+        "samples": 8960
+      },
+      {
+        "word": "seventy",
+        "startSample": 39047,
+        "samples": 17408
+      },
+      {
+        "word": "one",
+        "startSample": 60424,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3146.6666666666665,
+    "sampleRate": 22050,
+    "sha256": "284885b991d64d7d110c6cfc96860a09d7a5d850974e59f6e2b67c00c61516eb"
+  },
+  {
+    "voice": "female",
+    "number": 72,
+    "part": "full",
+    "text": "seven two. seventy two.",
+    "digits": "seven two",
+    "full": "seventy two",
+    "file": "en-female/72.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 28277,
+    "fullSamples": 30592,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "two",
+        "startSample": 19062,
+        "samples": 9215
+      },
+      {
+        "word": "seventy",
+        "startSample": 39302,
+        "samples": 17408
+      },
+      {
+        "word": "two",
+        "startSample": 60679,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3169.7959183673465,
+    "sampleRate": 22050,
+    "sha256": "f6d9150d579cda86687b4a0a88b47485ad5a504735440c47d1a2154182d071a4"
+  },
+  {
+    "voice": "female",
+    "number": 73,
+    "part": "full",
+    "text": "seven three. seventy three.",
+    "digits": "seven three",
+    "full": "seventy three",
+    "file": "en-female/73.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 27254,
+    "fullSamples": 29569,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "three",
+        "startSample": 19062,
+        "samples": 8192
+      },
+      {
+        "word": "seventy",
+        "startSample": 38279,
+        "samples": 17408
+      },
+      {
+        "word": "three",
+        "startSample": 59656,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3077.0068027210887,
+    "sampleRate": 22050,
+    "sha256": "00887dc40811c0ac094a71bd17d778e3ca5b0a596e4fa4b3ffbd2d91b01aa04a"
+  },
+  {
+    "voice": "female",
+    "number": 74,
+    "part": "full",
+    "text": "seven four. seventy four.",
+    "digits": "seven four",
+    "full": "seventy four",
+    "file": "en-female/74.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 29811,
+    "fullSamples": 32126,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "four",
+        "startSample": 19062,
+        "samples": 10749
+      },
+      {
+        "word": "seventy",
+        "startSample": 40836,
+        "samples": 17408
+      },
+      {
+        "word": "four",
+        "startSample": 62213,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3308.9342403628116,
+    "sampleRate": 22050,
+    "sha256": "a0dbc815a2c0c68f30730675cee9793ae4d8bc9996ccc77640e72648500668e1"
+  },
+  {
+    "voice": "female",
+    "number": 75,
+    "part": "full",
+    "text": "seven five. seventy five.",
+    "digits": "seven five",
+    "full": "seventy five",
+    "file": "en-female/75.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 30323,
+    "fullSamples": 32638,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "five",
+        "startSample": 19062,
+        "samples": 11261
+      },
+      {
+        "word": "seventy",
+        "startSample": 41348,
+        "samples": 17408
+      },
+      {
+        "word": "five",
+        "startSample": 62725,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3355.374149659864,
+    "sampleRate": 22050,
+    "sha256": "20631d89840006e1db960e42e98536379d4483f1efb1115f74548caf4ad5cf4d"
+  },
+  {
+    "voice": "female",
+    "number": 76,
+    "part": "full",
+    "text": "seven six. seventy six.",
+    "digits": "seven six",
+    "full": "seventy six",
+    "file": "en-female/76.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 38262,
+    "fullSamples": 40577,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "six",
+        "startSample": 19062,
+        "samples": 19200
+      },
+      {
+        "word": "seventy",
+        "startSample": 49287,
+        "samples": 17408
+      },
+      {
+        "word": "six",
+        "startSample": 70664,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 4075.46485260771,
+    "sampleRate": 22050,
+    "sha256": "5dec57a1f390ea11986e7a3af35aea69c5189a1729d5e5f60cbf6aeee92fb340"
+  },
+  {
+    "voice": "female",
+    "number": 77,
+    "part": "full",
+    "text": "seven seven. seventy seven.",
+    "digits": "seven seven",
+    "full": "seventy seven",
+    "file": "en-female/77.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 34155,
+    "fullSamples": 36470,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "seven",
+        "startSample": 19062,
+        "samples": 15093
+      },
+      {
+        "word": "seventy",
+        "startSample": 45180,
+        "samples": 17408
+      },
+      {
+        "word": "seven",
+        "startSample": 66557,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3702.947845804989,
+    "sampleRate": 22050,
+    "sha256": "3a2da0353a4af9bd7616aa4a4ea58ca1781d53aa97e328ea3056a6f917b289d3"
+  },
+  {
+    "voice": "female",
+    "number": 78,
+    "part": "full",
+    "text": "seven eight. seventy eight.",
+    "digits": "seven eight",
+    "full": "seventy eight",
+    "file": "en-female/78.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 30068,
+    "fullSamples": 32383,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "eight",
+        "startSample": 19062,
+        "samples": 11006
+      },
+      {
+        "word": "seventy",
+        "startSample": 41093,
+        "samples": 17408
+      },
+      {
+        "word": "eight",
+        "startSample": 62470,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3332.2448979591836,
+    "sampleRate": 22050,
+    "sha256": "240f9f18dbaec2ab826c54ef631ca9cf5aced25ce72ac1bfe50f60e7b9520369"
+  },
+  {
+    "voice": "female",
+    "number": 79,
+    "part": "full",
+    "text": "seven nine. seventy nine.",
+    "digits": "seven nine",
+    "full": "seventy nine",
+    "file": "en-female/79.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 31350,
+    "fullSamples": 33665,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "seven",
+        "startSample": 0,
+        "samples": 15093
+      },
+      {
+        "word": "nine",
+        "startSample": 19062,
+        "samples": 12288
+      },
+      {
+        "word": "seventy",
+        "startSample": 42375,
+        "samples": 17408
+      },
+      {
+        "word": "nine",
+        "startSample": 63752,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3448.5260770975055,
+    "sampleRate": 22050,
+    "sha256": "ebbc26503c5f7e5a561a026d7fc9231292407bf90f7f3708a0078b26c5af3752"
+  },
+  {
+    "voice": "female",
+    "number": 80,
+    "part": "full",
+    "text": "eight zero. eighty.",
+    "digits": "eight zero",
+    "full": "eighty",
+    "file": "en-female/80.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 30841,
+    "fullSamples": 11776,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "zero",
+        "startSample": 14975,
+        "samples": 15866
+      },
+      {
+        "word": "eighty",
+        "startSample": 41866,
+        "samples": 11776
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2432.7437641723354,
+    "sampleRate": 22050,
+    "sha256": "91c1015f496e425ae60d46388e74d8b367e9c11b5a2ce43f2ee9bdbb218673e8"
+  },
+  {
+    "voice": "female",
+    "number": 81,
+    "part": "full",
+    "text": "eight one. eighty one.",
+    "digits": "eight one",
+    "full": "eighty one",
+    "file": "en-female/81.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23935,
+    "fullSamples": 24705,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "one",
+        "startSample": 14975,
+        "samples": 8960
+      },
+      {
+        "word": "eighty",
+        "startSample": 34960,
+        "samples": 11776
+      },
+      {
+        "word": "one",
+        "startSample": 50705,
+        "samples": 8960
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2705.8956916099773,
+    "sampleRate": 22050,
+    "sha256": "173b5d2d621c17b919f8c803d257539e41b8191afb4e2474b5c88996524fdfb0"
+  },
+  {
+    "voice": "female",
+    "number": 82,
+    "part": "full",
+    "text": "eight two. eighty two.",
+    "digits": "eight two",
+    "full": "eighty two",
+    "file": "en-female/82.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 24190,
+    "fullSamples": 24960,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "two",
+        "startSample": 14975,
+        "samples": 9215
+      },
+      {
+        "word": "eighty",
+        "startSample": 35215,
+        "samples": 11776
+      },
+      {
+        "word": "two",
+        "startSample": 50960,
+        "samples": 9215
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2729.0249433106574,
+    "sampleRate": 22050,
+    "sha256": "186d46692b1a2a893ff33f2ae844d1e7fc1d8dd378c66782c406f9ded5701a95"
+  },
+  {
+    "voice": "female",
+    "number": 83,
+    "part": "full",
+    "text": "eight three. eighty three.",
+    "digits": "eight three",
+    "full": "eighty three",
+    "file": "en-female/83.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 23167,
+    "fullSamples": 23937,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "three",
+        "startSample": 14975,
+        "samples": 8192
+      },
+      {
+        "word": "eighty",
+        "startSample": 34192,
+        "samples": 11776
+      },
+      {
+        "word": "three",
+        "startSample": 49937,
+        "samples": 8192
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2636.235827664399,
+    "sampleRate": 22050,
+    "sha256": "751705ffb7e384cc80d07fc4d4df33c39bd3087f8ab9c8c72fe4c0751cf04477"
+  },
+  {
+    "voice": "female",
+    "number": 84,
+    "part": "full",
+    "text": "eight four. eighty four.",
+    "digits": "eight four",
+    "full": "eighty four",
+    "file": "en-female/84.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25724,
+    "fullSamples": 26494,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "four",
+        "startSample": 14975,
+        "samples": 10749
+      },
+      {
+        "word": "eighty",
+        "startSample": 36749,
+        "samples": 11776
+      },
+      {
+        "word": "four",
+        "startSample": 52494,
+        "samples": 10749
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2868.1632653061224,
+    "sampleRate": 22050,
+    "sha256": "9d5e2fa2983d2e73577a5e47c08c8913d54272127caeceb5e0c691aa389e1e23"
+  },
+  {
+    "voice": "female",
+    "number": 85,
+    "part": "full",
+    "text": "eight five. eighty five.",
+    "digits": "eight five",
+    "full": "eighty five",
+    "file": "en-female/85.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 26236,
+    "fullSamples": 27006,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "five",
+        "startSample": 14975,
+        "samples": 11261
+      },
+      {
+        "word": "eighty",
+        "startSample": 37261,
+        "samples": 11776
+      },
+      {
+        "word": "five",
+        "startSample": 53006,
+        "samples": 11261
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2914.6031746031745,
+    "sampleRate": 22050,
+    "sha256": "cfb39e57d13857817376fbbd60020f42fb0e7d54a66b15edc6973905ff7f7654"
+  },
+  {
+    "voice": "female",
+    "number": 86,
+    "part": "full",
+    "text": "eight six. eighty six.",
+    "digits": "eight six",
+    "full": "eighty six",
+    "file": "en-female/86.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 34175,
+    "fullSamples": 34945,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "six",
+        "startSample": 14975,
+        "samples": 19200
+      },
+      {
+        "word": "eighty",
+        "startSample": 45200,
+        "samples": 11776
+      },
+      {
+        "word": "six",
+        "startSample": 60945,
+        "samples": 19200
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3634.6938775510203,
+    "sampleRate": 22050,
+    "sha256": "338d03c2a722ccf7ce93983a06b08133b161e939bf2979bf7515a5b5558cbe3e"
+  },
+  {
+    "voice": "female",
+    "number": 87,
+    "part": "full",
+    "text": "eight seven. eighty seven.",
+    "digits": "eight seven",
+    "full": "eighty seven",
+    "file": "en-female/87.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 30068,
+    "fullSamples": 30838,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "seven",
+        "startSample": 14975,
+        "samples": 15093
+      },
+      {
+        "word": "eighty",
+        "startSample": 41093,
+        "samples": 11776
+      },
+      {
+        "word": "seven",
+        "startSample": 56838,
+        "samples": 15093
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3262.1768707482993,
+    "sampleRate": 22050,
+    "sha256": "09338747ced133fd319e759872ad712951aab8adc404088279c1e9405f027b21"
+  },
+  {
+    "voice": "female",
+    "number": 88,
+    "part": "full",
+    "text": "eight eight. eighty eight.",
+    "digits": "eight eight",
+    "full": "eighty eight",
+    "file": "en-female/88.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 25981,
+    "fullSamples": 26751,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "eight",
+        "startSample": 14975,
+        "samples": 11006
+      },
+      {
+        "word": "eighty",
+        "startSample": 37006,
+        "samples": 11776
+      },
+      {
+        "word": "eight",
+        "startSample": 52751,
+        "samples": 11006
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2891.4739229024945,
+    "sampleRate": 22050,
+    "sha256": "2411bfbd9c8f39b956c428412384714a993f5de7eb25581bd75faf22a9fcbbf1"
+  },
+  {
+    "voice": "female",
+    "number": 89,
+    "part": "full",
+    "text": "eight nine. eighty nine.",
+    "digits": "eight nine",
+    "full": "eighty nine",
+    "file": "en-female/89.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 27263,
+    "fullSamples": 28033,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "eight",
+        "startSample": 0,
+        "samples": 11006
+      },
+      {
+        "word": "nine",
+        "startSample": 14975,
+        "samples": 12288
+      },
+      {
+        "word": "eighty",
+        "startSample": 38288,
+        "samples": 11776
+      },
+      {
+        "word": "nine",
+        "startSample": 54033,
+        "samples": 12288
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 3007.7551020408164,
+    "sampleRate": 22050,
+    "sha256": "a751082b23cfb2d9eb900e90b3f5272393859ad131ee91fe27f80315a618a871"
+  },
+  {
+    "voice": "female",
+    "number": 90,
+    "part": "full",
+    "text": "nine zero. ninety.",
+    "digits": "nine zero",
+    "full": "ninety",
+    "file": "en-female/90.wav",
+    "model": "en_US-ljspeech-high",
+    "cadenceVersion": 8,
+    "digitSamples": 32123,
+    "fullSamples": 14072,
+    "lengthScale": 1.2,
+    "wordGapMs": 180,
+    "segments": [
+      {
+        "word": "nine",
+        "startSample": 0,
+        "samples": 12288
+      },
+      {
+        "word": "zero",
+        "startSample": 16257,
+        "samples": 15866
+      },
+      {
+        "word": "ninety",
+        "startSample": 43148,
+        "samples": 14072
+      }
+    ],
+    "gapMs": 500,
+    "durationMs": 2595.0113378684805,
+    "sampleRate": 22050,
+    "sha256": "03c8f1f7bee4139097e0a04ab104adb9c8abb583986dfe655599520f022c915e"
+  }
+]

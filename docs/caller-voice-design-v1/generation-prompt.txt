@@ -1,0 +1,59 @@
+Use case: ui-mockup.
+Asset type: a high-fidelity UX concept board for the existing Tambola Circle mobile app, showing FOUR complete portrait mobile screens side by side, ordered left to right, with small numbered captions above them. Generate one wide, very high resolution raster image, approximately 3840 by 2160. Each screen must be fully visible with enough room for readable interface text. Flat straight-on UI presentation, no angled devices, no hands.
+
+Primary request: Design the voice settings flow before implementation. Aria is the female default voice bundled inside both Android and iOS apps. The other four female voices (Neerja, Ava, Emma, Sonia) are optional downloads, stored on the device for subsequent offline use. The user can preview, download, and explicitly select a voice. Downloading never switches the active voice automatically.
+
+Visual style of the CURRENT APP to match faithfully: rich deep purple background (#28054b) with subtle radial violet glow and restrained tiny gold sparkles near the edges, large rounded warm cream cards (#fff0ce), white and gold card borders with a dark gold lower edge for slight raised dimension, bold friendly rounded typography, dark purple text. Circular glossy purple back buttons with white chevrons. Primary buttons are glossy warm golden yellow with brown text and soft dimensional bottom shadow. Secondary preview actions are turquoise, positive badges and selection checkmarks green. This is a polished, friendly family Tambola game, not a corporate dashboard. Keep ornamental graphics subtle and keep content extremely legible. Small abstract sound-wave badges rather than invented portraits of named voices. Consistent status bars 9:41, no device mockup hardware. Outer presentation board a very pale warm cream so the purple screens stand out. Compact brand text "TAMBOLA CIRCLE" at top of board; headline "Choose your caller voice". Small footer beneath screens: "UX concept · Download sizes are illustrative".
+
+SCREEN 1 caption "01 · Settings"
+Header with round back button and text "Game settings".
+A cream "Sound & voice" card with green ON toggle.
+Within it a prominent actionable row:
+"Caller voice"
+"Aria"
+green "Active" badge
+small subtext "Included with app · Works offline"
+right chevron indicating navigation.
+Below: a "Voice volume" slider at 80%, a turquoise "Test voice" button.
+Another compact cream card showing "Tap vibration" toggle ON, "Star celebration" toggle ON, "Reduce motion" toggle OFF, to preserve familiar game settings context.
+At the bottom a yellow "Done" button.
+Give the caller voice row clear prominence.
+
+SCREEN 2 caption "02 · Browse & preview"
+Header "Caller voices" with round purple back button.
+Small helper: "Preview a voice, then download to use it."
+Five compact cream voice cards in one vertical list, all visible:
+Aria — "US English" — badges "Included" and "Active"; a small play icon with label "Preview".
+Neerja — "Indian English" — play "Preview" and a purple "Download · 12 MB" button.
+Ava — "US English" — play "Preview" and "Download · 12 MB".
+Emma — "US English" — play "Preview" and "Download · 12 MB".
+Sonia — "British English" — play "Preview" and "Download · 12 MB".
+At the bottom a small unobtrusive line with download icon: "Download once. Use offline anytime."
+Distinct clearly separated Preview and Download actions; the design must not confuse audition playback with selection.
+
+SCREEN 3 caption "03 · Download"
+Header "Caller voices".
+A compact cream status card near top: green check icon, "Current voice: Aria", "Ready offline".
+A large focused cream download card:
+"Downloading Emma"
+"US English"
+abstract friendly turquoise waveform in a purple circular badge
+a turquoise progress bar filled 64%, with exact text "64%" and "7.7 MB of 12 MB".
+A supporting line "Aria stays active while this downloads."
+A clear outlined "Cancel download" button.
+Below in a softer cream information card: "Keep your favourites" and "Downloaded voices stay on this device for offline play."
+At the bottom button "Back to voices". Use spacious but functional proportions, no popup permission or purchase flow.
+
+SCREEN 4 caption "04 · Downloaded & selected"
+Header "Caller voices".
+Green compact confirmation banner: "Emma is now your caller voice".
+Small helper text "Switch between saved voices anytime."
+Section heading "On this device".
+Emma cream card with green selected radio/check, "Emma", "US English", badges "Downloaded" and "Active"; small "Preview" action.
+Aria cream card with an unselected radio, "Aria", "US English", badge "Included"; small "Preview" action and clear "Use voice" button.
+A small section heading "More voices" followed by three compact rows Neerja, Ava, Sonia, each with accent and a download icon/action.
+A subtle text link "Manage downloads".
+At bottom a yellow "Done" button.
+This screen illustrates the state AFTER the person downloaded Emma and deliberately selected it. Aria remains included, permanently available.
+
+Constraints: render the exact short labels carefully, correct English spelling, no giant empty spaces, no overlapping elements, no clipped screens or text. Android and iOS share the same app design. No cloud provider jargon in the product UI. No payment, subscriptions, credit counts, or extra voice options. Keep choices to Aria, Neerja, Ava, Emma, Sonia only. Full interface mockup suitable for user review, no app implementation code.
