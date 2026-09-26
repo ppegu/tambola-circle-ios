@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "tambola-circle-voices",
+  "compatibility_date": "2026-09-23",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "html_handling": "none",
+    "not_found_handling": "none",
+  },
+}

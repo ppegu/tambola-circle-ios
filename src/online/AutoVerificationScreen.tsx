@@ -1,0 +1,747 @@
+import { t as tr, useLanguage } from "../i18n";
+import React, { useEffect, useRef } from "react";
+import {
+  ActivityIndicator,
+  Animated,
+  StyleSheet,
+  useWindowDimensions,
+} from "react-native";
+import { cellKey, type Claim, type RoomSnapshot } from "../../shared/online";
+import {
+  Avatar,
+  GameIcon,
+  Icon,
+  Pressable,
+  ScrollView,
+  Text,
+  View,
+} from "./components";
+import { GameButton, GameLogo } from "../components/GameArtwork";
+import { LinearGradient } from "../components/LinearGradient";
+import { PaperSurface } from "../components/PaperSurface";
+import { gameFont } from "../gameTypography";
+import { useGamePreferences } from "../gamePreferences";
+
+export function ClaimedTicket({
+  claim,
+  name,
+  showHeading = true,
+}: {
+  claim: Claim;
+  name: string;
+  showHeading?: boolean;
+}) {
+  useLanguage();
+  const preferences = useGamePreferences();
+  return (
+    <PaperSurface style={styles.ticket}>
+      {showHeading && (
+        <View style={styles.ticketHeading}>
+          <Text numberOfLines={1} style={styles.ticketName}>
+            {name}
+            {tr("’s ticket")}
+          </Text>
+          <Text style={styles.ticketSubtitle}>{tr("Claimed Full House")}</Text>
+        </View>
+      )}
+      <View style={styles.ticketGrid}>
+        {claim.panel.map((row, r) => (
+          <View key={r} style={styles.ticketRow}>
+            {row.map((number, c) => {
+              const marked =
+                !!claim.marks[cellKey(claim.panelIndex, r * 9 + c)];
+              return (
+                <View
+                  key={c}
+                  accessibilityLabel={
+                    number
+                      ? `${number}${marked ? ", " + tr("marked") : ""}`
+                      : tr("Blank")
+                  }
+                  style={styles.ticketCell}
+                >
+                  {number !== null && (
+                    <View
+                      style={[
+                        styles.mark,
+                        marked && {
+                          backgroundColor: preferences.markColor,
+                          borderColor: "#fff8df",
+                        },
+                      ]}
+                    >
+                      <Text
+                        maxFontSizeMultiplier={1.15}
+                        adjustsFontSizeToFit
+                        style={[
+                          styles.ticketNumber,
+                          marked && { color: "#fff" },
+                        ]}
+                      >
+                        {number}
+                      </Text>
+                    </View>
+                  )}
+                </View>
+              );
+            })}
+          </View>
+        ))}
+      </View>
+    </PaperSurface>
+  );
+}
+
+export function VerificationBoard({
+  calls,
+  onReplay,
+  onHistory,
+  compact = false,
+}: {
+  calls: number[];
+  onReplay: (number: number) => void;
+  onHistory?: () => void;
+  compact?: boolean;
+}) {
+  useLanguage();
+  const { height } = useWindowDimensions();
+  const called = new Set(calls);
+  return (
+    <LinearGradient
+      colors={["#542283", "#2c0c59"]}
+      style={[
+        styles.boardCard,
+        {
+          height: compact
+            ? Math.max(240, height * 0.31)
+            : Math.max(280, height * 0.35),
+        },
+      ]}
+    >
+      <View style={styles.boardHeading}>
+        <View style={styles.boardTitleRow}>
+          <Icon
+            name={onHistory ? "board" : "sound"}
+            size={onHistory ? 19 : 25}
+            color="#d59cff"
+          />
+          <Text style={styles.boardTitle}>
+            {tr("Called numbers")}{" "}
+            <Text style={styles.gold}>· {calls.length}</Text>
+          </Text>
+        </View>
+        {onHistory ? (
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={tr("Numbers board and history")}
+            onPress={onHistory}
+            style={{
+              width: 40,
+              height: 40,
+              borderRadius: 14,
+              borderWidth: 1,
+              borderColor: "#ab6bd5",
+              alignItems: "center",
+              justifyContent: "center",
+              backgroundColor: "#653192",
+            }}
+          >
+            <Icon name="history" size={22} color="#ffe49a" />
+          </Pressable>
+        ) : (
+          <View style={styles.recent}>
+            <Text style={styles.recentTitle}>{tr("Recent calls")}</Text>
+            <View style={styles.recentBalls}>
+              {calls
+                .slice(-4)
+                .reverse()
+                .map((n) => (
+                  <Pressable
+                    key={n}
+                    accessibilityRole="button"
+                    accessibilityLabel={tr("Replay {v0}", { v0: n })}
+                    onPress={() => onReplay(n)}
+                  >
+                    <LinearGradient
+                      colors={["#ff98b0", "#f30c49", "#9d002c"]}
+                      style={styles.ball}
+                    >
+                      <View style={styles.ballFace}>
+                        <Text style={styles.ballNumber}>{n}</Text>
+                      </View>
+                    </LinearGradient>
+                  </Pressable>
+                ))}
+            </View>
+          </View>
+        )}
+      </View>
+      <LinearGradient
+        accessibilityLabel={tr("{v0} numbers called, {v1} remaining", {
+          v0: calls.length,
+          v1: 90 - calls.length,
+        })}
+        colors={["#fff6df", "#f4d9a8"]}
+        style={styles.board}
+      >
+        {Array.from({ length: 9 }, (_, row) => (
+          <View key={row} style={styles.boardRow}>
+            {Array.from({ length: 10 }, (_, col) => {
+              const number = row * 10 + col + 1,
+                marked = called.has(number);
+              return (
+                <Pressable
+                  key={number}
+                  accessibilityRole={marked ? "button" : "text"}
+                  accessibilityLabel={`${number}, ${marked ? tr("called, replay") : tr("not called")}`}
+                  disabled={!marked}
+                  onPress={() => onReplay(number)}
+                  style={styles.boardCell}
+                >
+                  <View
+                    key={marked ? "called" : "waiting"}
+                    style={[styles.boardFace, marked && styles.called]}
+                  >
+                    <Text
+                      maxFontSizeMultiplier={1.1}
+                      style={[styles.boardNumber, marked && { color: "#fff" }]}
+                    >
+                      {number}
+                    </Text>
+                  </View>
+                </Pressable>
+              );
+            })}
+          </View>
+        ))}
+      </LinearGradient>
+    </LinearGradient>
+  );
+}
+
+export function AutoVerificationScreen({
+  snapshot: s,
+  connected,
+  busy,
+  onRetry,
+  onEnd,
+  onNext,
+  onReplay,
+}: {
+  snapshot: RoomSnapshot;
+  connected: boolean;
+  busy: boolean;
+  onRetry: () => void;
+  onEnd: () => void;
+  onNext: () => void;
+  onReplay: (number: number) => void;
+}) {
+  useLanguage();
+  const c = s.claim!,
+    person = s.members[c.by],
+    checked = Math.max(0, Math.min(15, c.checked ?? 0));
+  const failed = s.phase === "finished",
+    recovery = !connected || failed,
+    host = s.hostId === s.viewerId;
+  const preferences = useGamePreferences(),
+    progress = useRef(new Animated.Value(checked / 15)).current;
+  useEffect(() => {
+    const animation = Animated.timing(progress, {
+      toValue: checked / 15,
+      duration: preferences.reducedMotion ? 0 : 350,
+      useNativeDriver: false,
+    });
+    animation.start();
+    return () => animation.stop();
+  }, [checked, preferences.reducedMotion, progress]);
+  return (
+    <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.screen}>
+      <View style={styles.logo}>
+        <GameLogo width={148} />
+      </View>
+      <View style={styles.claimant}>
+        <Avatar
+          name={person?.name ?? tr("Player")}
+          avatarId={person?.avatarId}
+          photo={person?.avatarPhoto}
+          size={59}
+        />
+        <View style={{ flex: 1, minWidth: 0 }}>
+          <Text style={styles.checking}>
+            {recovery ? tr("Check interrupted") : tr("Checking")}
+          </Text>
+          <Text
+            numberOfLines={2}
+            adjustsFontSizeToFit
+            minimumFontScale={0.8}
+            style={styles.claimantName}
+          >
+            {failed
+              ? tr("Round ended")
+              : recovery
+                ? tr("Reconnecting…")
+                : tr("{v0}’s full house", { v0: person?.name ?? tr("Player") })}
+          </Text>
+        </View>
+        <LinearGradient colors={["#63411c", "#251126"]} style={styles.paused}>
+          <View style={styles.pauseIcon}>
+            <View style={styles.pauseBar} />
+            <View style={styles.pauseBar} />
+          </View>
+          <Text style={styles.pauseText}>
+            {failed
+              ? tr("Calls stopped")
+              : recovery
+                ? tr("Last update: paused")
+                : tr("Calls paused")}
+          </Text>
+        </LinearGradient>
+      </View>
+      <ClaimedTicket claim={c} name={person?.name ?? tr("Player")} />
+      {recovery ? (
+        <LinearGradient
+          colors={["#582381", "#260a54"]}
+          style={styles.recoveryCard}
+        >
+          <Icon name={failed ? "info" : "wifi"} size={37} color="#ff6389" />
+          <View style={{ flex: 1, gap: 3 }}>
+            <Text style={styles.recoveryTitle}>
+              {failed ? tr("Check couldn’t finish") : tr("Connection lost")}
+            </Text>
+            <Text style={styles.recoveryText}>
+              {failed
+                ? tr("Entry coins have been returned.")
+                : tr("Ticket and calls are saved.")}
+            </Text>
+          </View>
+          {!connected && (
+            <View style={styles.reconnecting}>
+              <ActivityIndicator color="#52deff" />
+              <Text style={styles.recoverySmall}>{tr("Reconnecting…")}</Text>
+            </View>
+          )}
+        </LinearGradient>
+      ) : (
+        <LinearGradient
+          colors={["#582381", "#260a54"]}
+          style={styles.progressCard}
+        >
+          <Text accessibilityLiveRegion="polite" style={styles.progressTitle}>
+            <Text style={styles.gold}>
+              {checked} {tr("of 15")}
+            </Text>{" "}
+            {tr("checked")}
+          </Text>
+          <View
+            accessible
+            accessibilityRole="progressbar"
+            accessibilityLabel={tr("Ticket verification")}
+            accessibilityValue={{ min: 0, max: 15, now: checked }}
+            style={styles.progressTrack}
+          >
+            <Animated.View
+              style={{
+                width: progress.interpolate({
+                  inputRange: [0, 1],
+                  outputRange: ["0%", "100%"],
+                }),
+                height: "100%",
+              }}
+            >
+              <LinearGradient
+                colors={["#fff393", "#ffd638", "#ee9909"]}
+                style={styles.progressFill}
+              >
+                <View style={styles.stripes}>
+                  {Array.from({ length: 20 }, (_, i) => (
+                    <View key={i} style={styles.stripe} />
+                  ))}
+                </View>
+              </LinearGradient>
+            </Animated.View>
+          </View>
+          <View style={styles.statusRow}>
+            <View style={styles.checkBadge}>
+              <Icon name="check" size={18} color="#153a24" />
+            </View>
+            <Text style={styles.statusText}>{tr("Ticket received")}</Text>
+            <View style={styles.divider} />
+            <Text style={styles.matching}>
+              {tr("Matching called numbers…")}
+            </Text>
+          </View>
+        </LinearGradient>
+      )}
+      <VerificationBoard
+        calls={c.calls}
+        onReplay={onReplay}
+        compact={recovery}
+      />
+      {recovery ? (
+        <View style={[styles.recoveryActions, { backgroundColor: "#39135f" }]}>
+          <LinearGradient
+            pointerEvents="none"
+            colors={["#552386", "#361162"]}
+            style={[StyleSheet.absoluteFill, { borderRadius: 18 }]}
+          />
+          <View collapsable={false} style={{ zIndex: 1, gap: 7 }}>
+            <View style={styles.recoveryActionsTitle}>
+              <Icon
+                name={host ? "settings" : "wifi"}
+                size={23}
+                color="#c88aff"
+              />
+              <Text style={styles.footerTitle}>
+                {host ? tr("Captain options") : tr("Your connection")}
+              </Text>
+            </View>
+            <View style={{ flexDirection: "row", gap: 7 }}>
+              <GameButton small onPress={onRetry} style={{ flex: 1 }}>
+                {tr("Retry connection")}
+              </GameButton>
+              {(host || failed) && (
+                <GameButton
+                  small
+                  tone="red"
+                  disabled={busy || !connected}
+                  onPress={failed ? onNext : onEnd}
+                  style={{ flex: 1 }}
+                >
+                  {failed ? tr("Back to lobby") : tr("End round")}
+                </GameButton>
+              )}
+            </View>
+            <Text style={styles.recoveryNote}>
+              {failed
+                ? tr("Return to the lobby for a fresh round.")
+                : tr("The latest result appears when you reconnect.")}
+            </Text>
+          </View>
+        </View>
+      ) : (
+        <LinearGradient colors={["#552386", "#361162"]} style={styles.footer}>
+          <GameIcon index={0} size={53} />
+          <View style={styles.footerCopy}>
+            <Text style={styles.footerTitle}>
+              {tr("Everyone sees the same check")}
+            </Text>
+            <Text style={styles.footerText}>
+              {tr("A fair game for your circle")}
+            </Text>
+          </View>
+        </LinearGradient>
+      )}
+      <Text style={styles.wordmark}>{tr("— TAMBOLA CIRCLE —")}</Text>
+    </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  recoveryCard: {
+    minHeight: 76,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+    padding: 10,
+    borderRadius: 19,
+    borderWidth: 1.5,
+    borderBottomWidth: 3,
+    borderColor: "#a650df",
+    borderBottomColor: "#70319f",
+  },
+  recoveryTitle: {
+    fontFamily: gameFont.medium,
+    fontSize: 17,
+    color: "#fff6ec",
+  },
+  recoveryText: { fontFamily: gameFont.medium, fontSize: 12, color: "#f0daff" },
+  reconnecting: {
+    borderLeftWidth: 1,
+    borderColor: "#a366c7",
+    paddingLeft: 10,
+    gap: 5,
+    alignItems: "center",
+  },
+  recoverySmall: {
+    color: "#e4d2ff",
+    fontFamily: gameFont.medium,
+    fontSize: 10,
+  },
+  recoveryActions: {
+    borderRadius: 20,
+    borderWidth: 1.5,
+    borderColor: "#a466cc",
+    padding: 9,
+    gap: 7,
+  },
+  recoveryActionsTitle: { flexDirection: "row", alignItems: "center", gap: 7 },
+  recoveryNote: {
+    color: "#e9d1f5",
+    fontFamily: gameFont.medium,
+    fontSize: 11,
+    textAlign: "center",
+  },
+  screen: { flexGrow: 1, paddingHorizontal: 8, paddingBottom: 8, gap: 8 },
+  logo: { alignItems: "center", height: 70, justifyContent: "center" },
+  claimant: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 7,
+    minHeight: 60,
+  },
+  checking: { color: "#fff6ea", fontFamily: gameFont.medium, fontSize: 16 },
+  claimantName: { color: "#ffdf58", fontFamily: gameFont.medium, fontSize: 18 },
+  paused: {
+    maxWidth: 106,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
+    padding: 4,
+    paddingRight: 7,
+    borderRadius: 20,
+    borderWidth: 1.5,
+    borderColor: "#ffc23f",
+  },
+  pauseIcon: {
+    width: 26,
+    height: 26,
+    borderRadius: 14,
+    backgroundColor: "#f4a720",
+    borderWidth: 1,
+    borderColor: "#ffef9e",
+    flexDirection: "row",
+    gap: 4,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  pauseBar: {
+    width: 4,
+    height: 13,
+    backgroundColor: "#fffce0",
+    borderRadius: 1,
+  },
+  pauseText: {
+    flexShrink: 1,
+    textAlign: "center",
+    color: "#ffe76a",
+    fontFamily: gameFont.medium,
+    fontSize: 11,
+  },
+  ticket: {
+    backgroundColor: "#fff0d1",
+    borderRadius: 16,
+    overflow: "hidden",
+    borderWidth: 1.5,
+    borderColor: "#fff1c4",
+    borderBottomWidth: 3,
+    borderBottomColor: "#bb8747",
+    padding: 7,
+    paddingBottom: 8,
+  },
+  ticketHeading: {
+    flexDirection: "row",
+    gap: 5,
+    alignItems: "baseline",
+    paddingBottom: 4,
+  },
+  ticketName: {
+    fontFamily: gameFont.medium,
+    color: "#2c152d",
+    fontSize: 17,
+    flexShrink: 1,
+  },
+  ticketSubtitle: {
+    color: "#6d218f",
+    fontFamily: gameFont.medium,
+    fontSize: 10,
+  },
+  ticketGrid: {
+    borderWidth: 0.8,
+    borderColor: "#ac794d",
+    borderRadius: 5,
+    overflow: "hidden",
+  },
+  ticketRow: { flexDirection: "row" },
+  ticketCell: {
+    flex: 1,
+    minWidth: 0,
+    height: 32,
+    borderWidth: 0.35,
+    borderColor: "#ba9469",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  mark: {
+    width: "92%",
+    aspectRatio: 1,
+    maxHeight: 32,
+    maxWidth: 32,
+    borderRadius: 30,
+    overflow: "hidden",
+    borderWidth: 0.7,
+    borderColor: "transparent",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  ticketNumber: { fontFamily: gameFont.medium, fontSize: 19, color: "#2c1921" },
+  progressCard: {
+    padding: 10,
+    gap: 7,
+    borderRadius: 19,
+    borderWidth: 1.5,
+    borderColor: "#a64dde",
+    borderBottomWidth: 3,
+    borderBottomColor: "#7930b2",
+  },
+  progressTitle: {
+    fontFamily: gameFont.medium,
+    fontSize: 20,
+    color: "#fff7e8",
+  },
+  gold: { color: "#ffdd52" },
+  progressTrack: {
+    height: 18,
+    padding: 2,
+    borderRadius: 15,
+    borderWidth: 1,
+    borderColor: "#c36afa",
+    backgroundColor: "#170836",
+    overflow: "hidden",
+  },
+  progressFill: {
+    flex: 1,
+    borderRadius: 12,
+    borderWidth: 0.7,
+    borderColor: "#ffe683",
+  },
+  stripes: { flexDirection: "row", height: "100%", gap: 8, overflow: "hidden" },
+  stripe: {
+    width: 8,
+    height: 30,
+    marginTop: -8,
+    backgroundColor: "#ffe89570",
+    transform: [{ rotate: "35deg" }],
+  },
+  statusRow: { flexDirection: "row", alignItems: "center", gap: 5 },
+  checkBadge: {
+    width: 23,
+    height: 23,
+    borderRadius: 13,
+    backgroundColor: "#28e66a",
+    borderWidth: 1,
+    borderColor: "#a9f9b6",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  statusText: { color: "#fff9ec", fontFamily: gameFont.medium, fontSize: 12 },
+  divider: {
+    width: 1,
+    alignSelf: "stretch",
+    backgroundColor: "#9752be",
+    marginHorizontal: 2,
+  },
+  matching: {
+    flex: 1,
+    color: "#f3e6ff",
+    fontFamily: gameFont.medium,
+    fontSize: 11,
+  },
+  boardCard: {
+    padding: 3,
+    borderRadius: 18,
+    borderWidth: 1.5,
+    borderColor: "#ffdb67",
+    borderBottomWidth: 3,
+    borderBottomColor: "#bc7516",
+  },
+  boardHeading: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 5,
+    paddingVertical: 5,
+    gap: 5,
+  },
+  boardTitleRow: {
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 5,
+  },
+  boardTitle: { color: "#fff4e3", fontFamily: gameFont.medium, fontSize: 14 },
+  recent: { gap: 2 },
+  recentTitle: { fontFamily: gameFont.medium, fontSize: 10, color: "#fff4e3" },
+  recentBalls: { flexDirection: "row", gap: 3 },
+  ball: {
+    width: 25,
+    height: 25,
+    padding: 3,
+    borderRadius: 14,
+    borderWidth: 0.5,
+    borderColor: "#ffce95",
+  },
+  ballFace: {
+    flex: 1,
+    borderRadius: 12,
+    backgroundColor: "#fff9ee",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  ballNumber: { fontFamily: gameFont.medium, fontSize: 12, color: "#201319" },
+  board: {
+    flex: 1,
+    borderRadius: 13,
+    borderWidth: 1,
+    borderColor: "#ffebbb",
+    padding: 2,
+  },
+  boardRow: { flex: 1, flexDirection: "row", minHeight: 0 },
+  boardCell: {
+    flex: 1,
+    minWidth: 0,
+    borderWidth: 0.35,
+    borderColor: "#d0ae7a",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  boardFace: {
+    width: "91%",
+    aspectRatio: 1,
+    maxWidth: 28,
+    maxHeight: "96%",
+    borderRadius: 30,
+    borderWidth: 0.7,
+    borderColor: "transparent",
+    overflow: "hidden",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  called: { backgroundColor: "#fb1936", borderColor: "#fff9d9" },
+  boardNumber: { fontFamily: gameFont.medium, fontSize: 13, color: "#2a1726" },
+  footer: {
+    flexDirection: "row",
+    alignItems: "center",
+    borderWidth: 1.2,
+    borderBottomWidth: 3,
+    borderColor: "#9f59cb",
+    borderBottomColor: "#6d309c",
+    borderRadius: 34,
+    paddingHorizontal: 10,
+  },
+  footerCopy: {
+    flex: 1,
+    borderLeftWidth: 1,
+    borderColor: "#a564c6",
+    paddingLeft: 10,
+    gap: 3,
+  },
+  footerTitle: { color: "#fff8e9", fontFamily: gameFont.medium, fontSize: 13 },
+  footerText: { color: "#e4c9f5", fontFamily: gameFont.medium, fontSize: 11 },
+  wordmark: {
+    color: "#c176e8",
+    fontFamily: gameFont.medium,
+    fontSize: 10,
+    textAlign: "center",
+    letterSpacing: 2,
+  },
+});
