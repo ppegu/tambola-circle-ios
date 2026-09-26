@@ -1,0 +1,84 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "tambola-circle",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "r2_buckets": [
+    {
+      "binding": "RELEASES",
+      "bucket_name": "tambola-circle-releases",
+    },
+    {
+      "binding": "AVATARS",
+      "bucket_name": "tambola-circle-avatars",
+    },
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "WEB_ASSETS",
+    "run_worker_first": true,
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "TABLES",
+        "class_name": "TableRoom",
+      },
+      {
+        "name": "VOICE_ROOMS",
+        "class_name": "VoiceRoom",
+      },
+    ],
+  },
+  "migrations": [
+    {
+      "tag": "v1-tables",
+      "new_sqlite_classes": ["TableRoom"],
+    },
+    {
+      "tag": "v2-voice",
+      "new_sqlite_classes": ["VoiceRoom"],
+    },
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+  },
+  "vars": {
+    "ALLOWED_ORIGINS": "http://localhost:8081,http://localhost:8082,http://127.0.0.1:8081",
+    "TEST_COIN_PURCHASES": "true",
+    "MIGRATION_PAUSED": "false",
+    "VOICE_ENABLED": "true",
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tambola-circle",
+      "database_id": "0e6773c3-3908-477c-948d-63ebc8baf2d6",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "ratelimits": [
+    {
+      "name": "AUTH_LIMITER",
+      "namespace_id": "90101",
+      "simple": {
+        "limit": 10,
+        "period": 60,
+      },
+    },
+    {
+      "name": "API_LIMITER",
+      "namespace_id": "90102",
+      "simple": {
+        "limit": 120,
+        "period": 60,
+      },
+    },
+  ],
+  "triggers": {
+    "crons": ["0 3 * * *"],
+  },
+}

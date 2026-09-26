@@ -1,0 +1,12 @@
+{
+  "name": "TambolaCircle",
+  "displayName": "Tambola Circle",
+  "version": "1.5.32",
+  "ios": {
+    "bundleIdentifier": "com.ppegu.tambola"
+  },
+  "android": {
+    "package": "com.ppegu.tambola",
+    "versionCode": 15
+  }
+}
