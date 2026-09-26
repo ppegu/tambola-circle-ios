@@ -1,0 +1,11 @@
+Choose English, Assamese or Hindi on first launch, and change language in Settings.
+Native horizontal screen navigation, immediate ticket marks and smoother sliders.
+Updated offline caller with 4, 5 and 7 second controls, volume slider and pause menu.
+Compact table lobby with fixed play/watch, ticket and host start controls.
+Wallet, top-ups and transaction history with real account balances.
+Improved ticket selection, player controls and round history with called-number boards.
+Bundled female voice previews and App Updates available from Settings.
+20 bundled table avatars; hosts can choose during creation or change in Table settings.
+Live calls use one volume badge and native slider, a glowing current ball, previous number in Numbers and compact called/left progress.
+Refined glossy buttons, curved pause-menu title, icon medallions, paper details and background stars.
+Large avatar previews, stable play/watch selectors and native Numbers/Players modal screens.

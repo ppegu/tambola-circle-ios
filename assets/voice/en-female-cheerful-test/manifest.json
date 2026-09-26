@@ -1,0 +1,2411 @@
+{
+  "pack": "en-female-cheerful-test",
+  "experimental": true,
+  "model": "en_GB-semaine-medium",
+  "modelRevision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+  "modelSha256": "d6dab6f3b92db43ea3f78c7f20dc8eadb47a1f15d8a1c9d451cf3ccd201a2f66",
+  "configSha256": "6425dcb878684043b77d772b173ae006d86a583b110303edda48b8438ecee5ee",
+  "speaker": "poppy",
+  "speakerId": 3,
+  "lengthScale": 1.12,
+  "noiseScale": 0.667,
+  "noiseWScale": 0.0,
+  "seed": 20260923,
+  "generationOrder": "ascending number; digits then full phrase",
+  "license": "CC-BY-NC-SA-4.0",
+  "approvedFiles": {
+    "assets/voice/en-female/1.wav": "5cb12527c069d6cee40eeecf45e9dc5fffe4846414f546e00aa4e2f5be6aa8f4",
+    "assets/voice/en-female/10.wav": "06d3ee774ad8e2e96dc038d8c006c4b58572834f289061dd7ae9a64796815f83",
+    "assets/voice/en-female/11.wav": "7860df144cbaea8541bb14699aba5cce5c61e9bf7011fefa724f347e3bb38fc1",
+    "assets/voice/en-female/12.wav": "021bd5bd5ed7e5237ad7df881fcf95d14473f35afbfdd7497b7dc01712a2188e",
+    "assets/voice/en-female/13.wav": "8586a22243019da68fdf2465c36ab75ed2bf823d082aa1c5d1e6bc89c7965ecc",
+    "assets/voice/en-female/14.wav": "880e2c96ea9cbc97096d669bdd3a845ea76b45cc40462a2cdfa949d2362f37ac",
+    "assets/voice/en-female/15.wav": "7aacaa04d24899f85ea2899baca8db50f88a797097a32ec573d971c2bdfc3cec",
+    "assets/voice/en-female/16.wav": "9fee45ed0dd2ee6225015e33edca413d1880510e45ad9c02d6ac1ccb1c4ce1c4",
+    "assets/voice/en-female/17.wav": "834bcfd9168cb51992186462f9e1951c606cfd41a2bdfca8891a94b59231242a",
+    "assets/voice/en-female/18.wav": "b8fae1ec0545942a94342cfec4c2c7e064e1787ebd13ff265c09c00da7d63987",
+    "assets/voice/en-female/19.wav": "e835383b70dba759e76c77f31e3ac37bc804c13a4a5319c1b1b6ed292fdac401",
+    "assets/voice/en-female/2.wav": "62e588a92632f8247a340314627466d7048568a3527c43c15d4f3e19390741f2",
+    "assets/voice/en-female/20.wav": "6f4eb944a6ee72f36b7b25f9b55ec9a90bff01fa4e2f38883fb291f647f61c89",
+    "assets/voice/en-female/21.wav": "5af4e723ce8c4114b93e63f18d58bcc48b62a0ee8a639cbd1129488c4b9f078d",
+    "assets/voice/en-female/22.wav": "50a9c836058eefdb207080101a8d1b15c0058212d3dfbcf23ea41c5ca4aea4cb",
+    "assets/voice/en-female/23.wav": "3e035107f6e25dac30feafa1e24e6fb883d1f50a953f9e8442d84356d79c33cf",
+    "assets/voice/en-female/24.wav": "fa7b23aad256d95e8c663be0a31dfb09f0f1db7594a90c0ad1a8537e33569ca9",
+    "assets/voice/en-female/25.wav": "22176d6eb6c9ff5d78551d44d6fabb97cf67c4883612cfaee0e252bbd0de4710",
+    "assets/voice/en-female/26.wav": "1cd32f71b9f84259e1e9461db6ee345a7232c432ff6611d75333eee0444863f4",
+    "assets/voice/en-female/27.wav": "61229a93931ee6d66da892cb0ac64cd809ea80788274306be6447031b6e8dcbd",
+    "assets/voice/en-female/28.wav": "f5f38c50bb7532a96e99b1e62894029ec540d86662865ddf850e4faf26473e26",
+    "assets/voice/en-female/29.wav": "69ea5a7d2b158f6d9f442650343c918a9b6df6c66e9d25dbc7b4e9c37c7bfbda",
+    "assets/voice/en-female/3.wav": "2f761951bac0fe411449f821d2758515814c5e065338f349d4c4f5072f31b4df",
+    "assets/voice/en-female/30.wav": "d9e20b58160233632b5a4416ac39a545c09520abd655c785710f7fac3b947778",
+    "assets/voice/en-female/31.wav": "ea7cb551c368d5f34cafebdf3f635d3c8bee5d5dc345654043563469c627edad",
+    "assets/voice/en-female/32.wav": "0924c15d1af1f88605bb49d2a6123eb778d26b53e877c16591c019b798eb0a61",
+    "assets/voice/en-female/33.wav": "93d363da4f7905fef6c182e9b20b26c3c8a09a11fb05247938c3ff9b5349a6f1",
+    "assets/voice/en-female/34.wav": "d50affe1b56755f87a940d26cdc00577bc0524037dfec4d6f7c2931635fc86b9",
+    "assets/voice/en-female/35.wav": "b54fcb3430ce7a33a4d0d2b7e7f02d338b38d4f117c84f5fbeb1875160cfa18e",
+    "assets/voice/en-female/36.wav": "937c8fc5873bab029c7be6559144b0db1d035f613920903b6ad66cc6bc281701",
+    "assets/voice/en-female/37.wav": "cbcee4c0fd21c34b7a4db93589be697814dec87f32bf728f2123c04bd6b9285d",
+    "assets/voice/en-female/38.wav": "7bf1a35e1a6b98b0fe7836b0aa147d6804501265533b48127e73fb7e880a9c83",
+    "assets/voice/en-female/39.wav": "a478753c241b2c38f978d3456413f3a5b7ffee54d431ebda37264f901acbab4d",
+    "assets/voice/en-female/4.wav": "f3c7f892f94ffa94c332adbe4f8169387b9db67ee016b768df50529d9fcd8fcb",
+    "assets/voice/en-female/40.wav": "95bc595611a3af83be838ed76699992cba6c6ac901b3281473bf36ce9fbcbe8d",
+    "assets/voice/en-female/41.wav": "a8d72b5947f4495851b5c41ea2a1bbb5939b9f017cb29058a2e93aac03cee94a",
+    "assets/voice/en-female/42.wav": "1a1f5e1db77100dd8ff7c385dd47344b36cfe4eb8fbffd7a9d91f4e982b08000",
+    "assets/voice/en-female/43.wav": "d49ac9b87fa69d6b81b1b263119d39771c402184d05d21fabee92268162083ac",
+    "assets/voice/en-female/44.wav": "b4dee9f899a47acf3afdc2f0b41a9d107596c317c705c888f43e022421c0fc13",
+    "assets/voice/en-female/45.wav": "4d851750b45b68fd9b46cef58c1aea534c18895873b012007d9c49a2ae8f67a6",
+    "assets/voice/en-female/46.wav": "d4b79821f7e7bbeb02e9fe3408b99ce3096e92178b87149f3482e99a42699616",
+    "assets/voice/en-female/47.wav": "a1642a8995ee45556d6c858c5d461673b25f69dcde75f830cb090b6257ab0ce0",
+    "assets/voice/en-female/48.wav": "e9c6017edbe0dd5907eba74d1814fd57ff28deaf1f685ede0655c38d14992428",
+    "assets/voice/en-female/49.wav": "2f3c0177d4d84599e689892aa12413a8fdb5f0b5936aaf25f1b931ef5a8de5fc",
+    "assets/voice/en-female/5.wav": "72b90dfbfa7b7475f0041188f289a48a7ae115d6d4a8989d867e467e0b513067",
+    "assets/voice/en-female/50.wav": "cc5dd1ef0d197d70a7dae06d03e69a417c7e90054e83ff2e365cbe03f76cc3ec",
+    "assets/voice/en-female/51.wav": "8c30b6a65daf112cf2bbe20a109222ad665f63c514a1f648994d5993d5351c00",
+    "assets/voice/en-female/52.wav": "4d10e38caef8e2805089805b5c45b9c1e3648fd2b59549be571783ac2c7964cc",
+    "assets/voice/en-female/53.wav": "a91d2d39c1c8fa111ef5b82b7a2adb92a1737323f2daa47077e541e169f31c5c",
+    "assets/voice/en-female/54.wav": "777f42ef8d1e7e1d7a4cc5dbf558e648dcf36bd8f78c1e82fff3e19908716b34",
+    "assets/voice/en-female/55.wav": "95b1ae30e7ec0954876c9ce04ef78ccf06d9ef88e5687625c640c5c346654117",
+    "assets/voice/en-female/56.wav": "5d5d54e6f6e5519fd968471f24f4f60d7c85b7e3186c7df95ffda08e2481ddd1",
+    "assets/voice/en-female/57.wav": "e397be5f5ee2fa78e1b7a14a9b5b971abf7b973635ff2e1084b2fc1690d18dc5",
+    "assets/voice/en-female/58.wav": "3d1f3d1f7218b6acdd2c7a143389df43162bf0c46a17e2d50d53034db8551f40",
+    "assets/voice/en-female/59.wav": "59d97f86ac52e049c28e73320ed75d0bf76b72c8ad582887a1b0609a4b4c6368",
+    "assets/voice/en-female/6.wav": "1a35f0a9705441074919ea292fe565a7bb9dd8d71f887aa8f67bc07a0fdc5dc5",
+    "assets/voice/en-female/60.wav": "e0eb7ac4a837133c9878a18ea9cc8ea16f28ede0d5eb080334a754d721ad6777",
+    "assets/voice/en-female/61.wav": "9b5bd323381ae3a72944f716bf81130073d4d63f8f3441c8fb41baf8a43c7fb1",
+    "assets/voice/en-female/62.wav": "f0d47b464da6eb61fdf646bf2d38aba4f1bceff8153f42e68d73fc76cb1f5263",
+    "assets/voice/en-female/63.wav": "eea3ed07c2f1a6e95adfff71a1f3bc7a28eb26893b8e2b4bc9c378c09e1252a4",
+    "assets/voice/en-female/64.wav": "4f0785c9062aae2db731560decd1263070b9f68f95e61e65a1869a0b4a77595c",
+    "assets/voice/en-female/65.wav": "295e7f63f83a75214e67b20072b8f60949af6d8b802198aa5750a3f70bf527b3",
+    "assets/voice/en-female/66.wav": "fc5992d881007b62d3f9d56599d37d2b0bcbea1e10472a0402fd4c8c599eb1fc",
+    "assets/voice/en-female/67.wav": "d5792b01a95df24fde886560edca8ac0d0409d46187d0db5b2f6c0328321f6da",
+    "assets/voice/en-female/68.wav": "2903a0b14fe64983e5f28b9c92cf9a6a7fe83227beb5ca8cf34abf7e2eb7f6ec",
+    "assets/voice/en-female/69.wav": "0688c798ee3d1170a9529f5ccbd189f793dde8ef4f6ce5a06ced98044ac6d98e",
+    "assets/voice/en-female/7.wav": "1517bed9cfa23ce071912c68747a750dcfd2f33daad13a1254191e4405fd32bd",
+    "assets/voice/en-female/70.wav": "53afe7dd683a0841a80cfd3e28dfe8e93aaaf4577f51568f755307cf6016ef73",
+    "assets/voice/en-female/71.wav": "284885b991d64d7d110c6cfc96860a09d7a5d850974e59f6e2b67c00c61516eb",
+    "assets/voice/en-female/72.wav": "f6d9150d579cda86687b4a0a88b47485ad5a504735440c47d1a2154182d071a4",
+    "assets/voice/en-female/73.wav": "00887dc40811c0ac094a71bd17d778e3ca5b0a596e4fa4b3ffbd2d91b01aa04a",
+    "assets/voice/en-female/74.wav": "a0dbc815a2c0c68f30730675cee9793ae4d8bc9996ccc77640e72648500668e1",
+    "assets/voice/en-female/75.wav": "20631d89840006e1db960e42e98536379d4483f1efb1115f74548caf4ad5cf4d",
+    "assets/voice/en-female/76.wav": "5dec57a1f390ea11986e7a3af35aea69c5189a1729d5e5f60cbf6aeee92fb340",
+    "assets/voice/en-female/77.wav": "3a2da0353a4af9bd7616aa4a4ea58ca1781d53aa97e328ea3056a6f917b289d3",
+    "assets/voice/en-female/78.wav": "240f9f18dbaec2ab826c54ef631ca9cf5aced25ce72ac1bfe50f60e7b9520369",
+    "assets/voice/en-female/79.wav": "ebbc26503c5f7e5a561a026d7fc9231292407bf90f7f3708a0078b26c5af3752",
+    "assets/voice/en-female/8.wav": "5db1a4da2b47913ab9da86ed5891fbf8dd2e298d1bc6079ecd742bd43387fa6f",
+    "assets/voice/en-female/80.wav": "91c1015f496e425ae60d46388e74d8b367e9c11b5a2ce43f2ee9bdbb218673e8",
+    "assets/voice/en-female/81.wav": "173b5d2d621c17b919f8c803d257539e41b8191afb4e2474b5c88996524fdfb0",
+    "assets/voice/en-female/82.wav": "186d46692b1a2a893ff33f2ae844d1e7fc1d8dd378c66782c406f9ded5701a95",
+    "assets/voice/en-female/83.wav": "751705ffb7e384cc80d07fc4d4df33c39bd3087f8ab9c8c72fe4c0751cf04477",
+    "assets/voice/en-female/84.wav": "9d5e2fa2983d2e73577a5e47c08c8913d54272127caeceb5e0c691aa389e1e23",
+    "assets/voice/en-female/85.wav": "cfb39e57d13857817376fbbd60020f42fb0e7d54a66b15edc6973905ff7f7654",
+    "assets/voice/en-female/86.wav": "338d03c2a722ccf7ce93983a06b08133b161e939bf2979bf7515a5b5558cbe3e",
+    "assets/voice/en-female/87.wav": "09338747ced133fd319e759872ad712951aab8adc404088279c1e9405f027b21",
+    "assets/voice/en-female/88.wav": "2411bfbd9c8f39b956c428412384714a993f5de7eb25581bd75faf22a9fcbbf1",
+    "assets/voice/en-female/89.wav": "a751082b23cfb2d9eb900e90b3f5272393859ad131ee91fe27f80315a618a871",
+    "assets/voice/en-female/9.wav": "2a4174d55664ab2c8d9e67b2534f3715d658ee56b5590720b9d4600e58303f88",
+    "assets/voice/en-female/90.wav": "03c8f1f7bee4139097e0a04ab104adb9c8abb583986dfe655599520f022c915e",
+    "assets/voice/manifest.json": "b4055fdadb0ec1e6f8ac49e5a685648b3919e64a5d3c8b9c5da8601299556ee2",
+    "shared/voiceTiming.json": "393617a5e46909427ffdf8875ea66691df25b3fe1de351e2a0c0cb1e601116b5",
+    "src/voiceBank.ts": "2e7d726c454fbc667778daa343e2d800439c8f243231919b3a2d63b1d754ac41"
+  },
+  "calls": [
+    {
+      "number": 1,
+      "text": "single number one.",
+      "synthesisText": "Single, number, one!",
+      "digits": null,
+      "full": "single number one",
+      "file": "1.wav",
+      "durationMs": 1950.204,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, one!",
+          "startSample": 0,
+          "samples": 43002
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.8359,
+      "rms": 0.21073,
+      "sha256": "e65b31051b58116d9734236a997f283a5993b9394dc3c7edaaec0ec9439b6b95"
+    },
+    {
+      "number": 2,
+      "text": "single number two.",
+      "synthesisText": "Single, number, two!",
+      "digits": null,
+      "full": "single number two",
+      "file": "2.wav",
+      "durationMs": 1755.011,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, two!",
+          "startSample": 0,
+          "samples": 38698
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.84078,
+      "rms": 0.2235,
+      "sha256": "c58dfe4deb76cd484055cbfa99cfc0dc0ab8142aff6566c92dee05de6b99f3b7"
+    },
+    {
+      "number": 3,
+      "text": "single number three.",
+      "synthesisText": "Single, number, three!",
+      "digits": null,
+      "full": "single number three",
+      "file": "3.wav",
+      "durationMs": 2367.075,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, three!",
+          "startSample": 0,
+          "samples": 52194
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.89691,
+      "rms": 0.20808,
+      "sha256": "49e66486e94f408134a6fabb3c4078fefd68020c9e158d27b022c4a71ab3c690"
+    },
+    {
+      "number": 4,
+      "text": "single number four.",
+      "synthesisText": "Single, number, four!",
+      "digits": null,
+      "full": "single number four",
+      "file": "4.wav",
+      "durationMs": 1962.086,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, four!",
+          "startSample": 0,
+          "samples": 43264
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.8168,
+      "rms": 0.21208,
+      "sha256": "9e194c14ed8b3a9b8b912d596349056e4f300e7cd2ea1bb04a13bc783f80ca1e"
+    },
+    {
+      "number": 5,
+      "text": "single number five.",
+      "synthesisText": "Single, number, five!",
+      "digits": null,
+      "full": "single number five",
+      "file": "5.wav",
+      "durationMs": 2416.054,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, five!",
+          "startSample": 0,
+          "samples": 53274
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.87863,
+      "rms": 0.21705,
+      "sha256": "331b611bbea8ccb87790f006a2df1a0bb5934859a5233f55a289a177639cf44e"
+    },
+    {
+      "number": 6,
+      "text": "single number six.",
+      "synthesisText": "Single, number, six!",
+      "digits": null,
+      "full": "single number six",
+      "file": "6.wav",
+      "durationMs": 2248.98,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, six!",
+          "startSample": 0,
+          "samples": 49590
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.88556,
+      "rms": 0.20796,
+      "sha256": "71f1086875c9295e2d38caeecae7338028c74152395874a8384d27a2edfb6731"
+    },
+    {
+      "number": 7,
+      "text": "single number seven.",
+      "synthesisText": "Single, number, seven!",
+      "digits": null,
+      "full": "single number seven",
+      "file": "7.wav",
+      "durationMs": 2144.58,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, seven!",
+          "startSample": 0,
+          "samples": 47288
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.88009,
+      "rms": 0.21291,
+      "sha256": "a0df41314a55e91ee9f079fe4d45ccd8aa17053db9b9343dc7c9f34ae53c6d46"
+    },
+    {
+      "number": 8,
+      "text": "single number eight.",
+      "synthesisText": "Single, number, eight!",
+      "digits": null,
+      "full": "single number eight",
+      "file": "8.wav",
+      "durationMs": 2108.39,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, eight!",
+          "startSample": 0,
+          "samples": 46490
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.87588,
+      "rms": 0.20853,
+      "sha256": "ac8d837c93947fecda98aef5749141a199e17482f13a20cb78ace7d5baffee2b"
+    },
+    {
+      "number": 9,
+      "text": "single number nine.",
+      "synthesisText": "Single, number, nine!",
+      "digits": null,
+      "full": "single number nine",
+      "file": "9.wav",
+      "durationMs": 2163.129,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, nine!",
+          "startSample": 0,
+          "samples": 47697
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.87884,
+      "rms": 0.20928,
+      "sha256": "02b8a43ae2fc3b497f4b745ca6bdc15e03c891988d1d0067a946e1b63346dc01"
+    },
+    {
+      "number": 10,
+      "text": "one zero. ten.",
+      "synthesisText": "One, zero! Ten!",
+      "digits": "one zero",
+      "full": "ten",
+      "file": "10.wav",
+      "durationMs": 2994.104,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, zero!",
+          "startSample": 0,
+          "samples": 40921
+        },
+        {
+          "text": "Ten!",
+          "startSample": 51946,
+          "samples": 14074
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91623,
+      "rms": 0.18409,
+      "sha256": "780449d7f29629854688a45dcd2a3431b32182a05d2e55baea1df6275b948f31"
+    },
+    {
+      "number": 11,
+      "text": "one one. eleven.",
+      "synthesisText": "One, one! Eleven!",
+      "digits": "one one",
+      "full": "eleven",
+      "file": "11.wav",
+      "durationMs": 2636.19,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, one!",
+          "startSample": 0,
+          "samples": 37020
+        },
+        {
+          "text": "Eleven!",
+          "startSample": 48045,
+          "samples": 10083
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89349,
+      "rms": 0.19096,
+      "sha256": "71577fadd7f17914d6fe2511de8181c05c181b9e79adada26ee7e0564dae8e20"
+    },
+    {
+      "number": 12,
+      "text": "one two. twelve.",
+      "synthesisText": "One, two! Twelve!",
+      "digits": "one two",
+      "full": "twelve",
+      "file": "12.wav",
+      "durationMs": 2746.168,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, two!",
+          "startSample": 0,
+          "samples": 30121
+        },
+        {
+          "text": "Twelve!",
+          "startSample": 41146,
+          "samples": 19407
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87436,
+      "rms": 0.19107,
+      "sha256": "3780b29b0143fdca25651ff5823ca7f0ce4328a7bb2fc884188c6983f8dfc6e5"
+    },
+    {
+      "number": 13,
+      "text": "one three. thirteen.",
+      "synthesisText": "One, three! Thirteen!",
+      "digits": "one three",
+      "full": "thirteen",
+      "file": "13.wav",
+      "durationMs": 3168.707,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, three!",
+          "startSample": 0,
+          "samples": 38923
+        },
+        {
+          "text": "Thirteen!",
+          "startSample": 49948,
+          "samples": 19922
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91119,
+      "rms": 0.18699,
+      "sha256": "8a2a6aedd44c643273522371cb52fef70e278a17c7e26c1949631895a3421c8a"
+    },
+    {
+      "number": 14,
+      "text": "one four. fourteen.",
+      "synthesisText": "One, four! Fourteen!",
+      "digits": "one four",
+      "full": "fourteen",
+      "file": "14.wav",
+      "durationMs": 3347.664,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, four!",
+          "startSample": 0,
+          "samples": 35667
+        },
+        {
+          "text": "Fourteen!",
+          "startSample": 46692,
+          "samples": 27124
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93591,
+      "rms": 0.17708,
+      "sha256": "41e5c50abd78ab606eed4697240c0cad53ea183f82ec193336570d0d5fdc1388"
+    },
+    {
+      "number": 15,
+      "text": "one five. fifteen.",
+      "synthesisText": "One, five! Fifteen!",
+      "digits": "one five",
+      "full": "fifteen",
+      "file": "15.wav",
+      "durationMs": 3880.499,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, five!",
+          "startSample": 0,
+          "samples": 40741
+        },
+        {
+          "text": "Fifteen!",
+          "startSample": 51766,
+          "samples": 33799
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93844,
+      "rms": 0.17842,
+      "sha256": "f180feffb08ba8adeeba4820cee1cc6abafd7aa430b6d2ee6db17c8644da97e1"
+    },
+    {
+      "number": 16,
+      "text": "one six. sixteen.",
+      "synthesisText": "One, six! Sixteen!",
+      "digits": "one six",
+      "full": "sixteen",
+      "file": "16.wav",
+      "durationMs": 3084.898,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, six!",
+          "startSample": 0,
+          "samples": 34251
+        },
+        {
+          "text": "Sixteen!",
+          "startSample": 45276,
+          "samples": 22746
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90033,
+      "rms": 0.18283,
+      "sha256": "6aa80f0dce249d8c61aba3d15332917c695e07f6850048e16c6e4c1f2f8350e2"
+    },
+    {
+      "number": 17,
+      "text": "one seven. seventeen.",
+      "synthesisText": "One, seven! Seventeen!",
+      "digits": "one seven",
+      "full": "seventeen",
+      "file": "17.wav",
+      "durationMs": 3141.088,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, seven!",
+          "startSample": 0,
+          "samples": 37630
+        },
+        {
+          "text": "Seventeen!",
+          "startSample": 48655,
+          "samples": 20606
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89581,
+      "rms": 0.18641,
+      "sha256": "6c8c0cb5f19d1036eca20e7c1295d333449681bd2587427d941d8e27a41ae0c2"
+    },
+    {
+      "number": 18,
+      "text": "one eight. eighteen.",
+      "synthesisText": "One, eight! Eighteen!",
+      "digits": "one eight",
+      "full": "eighteen",
+      "file": "18.wav",
+      "durationMs": 3104.354,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, eight!",
+          "startSample": 0,
+          "samples": 33024
+        },
+        {
+          "text": "Eighteen!",
+          "startSample": 44049,
+          "samples": 24402
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92438,
+      "rms": 0.17971,
+      "sha256": "12b30438cae22e8c860225caf02205da6cd9b2aee47c35eb71a242ebe255dfc3"
+    },
+    {
+      "number": 19,
+      "text": "one nine. nineteen.",
+      "synthesisText": "One, nine! Nineteen!",
+      "digits": "one nine",
+      "full": "nineteen",
+      "file": "19.wav",
+      "durationMs": 3185.215,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, nine!",
+          "startSample": 0,
+          "samples": 32470
+        },
+        {
+          "text": "Nineteen!",
+          "startSample": 43495,
+          "samples": 26739
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88989,
+      "rms": 0.19255,
+      "sha256": "c4185aa560628161a4279b9cb7fb898f3074279b9f6ebf0df46dd1f81e00604c"
+    },
+    {
+      "number": 20,
+      "text": "two zero. twenty.",
+      "synthesisText": "Two, zero! Twenty!",
+      "digits": "two zero",
+      "full": "twenty",
+      "file": "20.wav",
+      "durationMs": 3089.841,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, zero!",
+          "startSample": 0,
+          "samples": 34203
+        },
+        {
+          "text": "Twenty!",
+          "startSample": 45228,
+          "samples": 22903
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.9118,
+      "rms": 0.18619,
+      "sha256": "a78c5b58ebdaa7b70ea92fd4f0fd938b9a27c4e177475832bdd159581f10f593"
+    },
+    {
+      "number": 21,
+      "text": "two one. twenty one.",
+      "synthesisText": "Two, one! Twenty one!",
+      "digits": "two one",
+      "full": "twenty one",
+      "file": "21.wav",
+      "durationMs": 2586.077,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, one!",
+          "startSample": 0,
+          "samples": 30160
+        },
+        {
+          "text": "Twenty one!",
+          "startSample": 41185,
+          "samples": 15838
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.85977,
+      "rms": 0.19126,
+      "sha256": "3151121e199a3058f73eb95b8728fd383256d58d1509ac4c135dce816b14de01"
+    },
+    {
+      "number": 22,
+      "text": "two two. twenty two.",
+      "synthesisText": "Two, two! Twenty two!",
+      "digits": "two two",
+      "full": "twenty two",
+      "file": "22.wav",
+      "durationMs": 2281.995,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, two!",
+          "startSample": 0,
+          "samples": 18891
+        },
+        {
+          "text": "Twenty two!",
+          "startSample": 29916,
+          "samples": 20402
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.86242,
+      "rms": 0.19512,
+      "sha256": "f770154060c2bc876fa9471dd8467eae8602373e0b5dbed30fd831a13040ab15"
+    },
+    {
+      "number": 23,
+      "text": "two three. twenty three.",
+      "synthesisText": "Two, three! Twenty three!",
+      "digits": "two three",
+      "full": "twenty three",
+      "file": "23.wav",
+      "durationMs": 2596.553,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, three!",
+          "startSample": 0,
+          "samples": 23327
+        },
+        {
+          "text": "Twenty three!",
+          "startSample": 34352,
+          "samples": 22902
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.84136,
+      "rms": 0.19022,
+      "sha256": "6ff92d44cdec20c9e528ff23b8f5d5fb95f5569d335314583e16f816217d0d87"
+    },
+    {
+      "number": 24,
+      "text": "two four. twenty four.",
+      "synthesisText": "Two, four! Twenty four!",
+      "digits": "two four",
+      "full": "twenty four",
+      "file": "24.wav",
+      "durationMs": 2139.32,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, four!",
+          "startSample": 0,
+          "samples": 16739
+        },
+        {
+          "text": "Twenty four!",
+          "startSample": 27764,
+          "samples": 19408
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88226,
+      "rms": 0.19865,
+      "sha256": "a68c9d9f81d99d70ea5a7f1faa8978078d51f512591c804d02b1fb635c7b8f22"
+    },
+    {
+      "number": 25,
+      "text": "two five. twenty five.",
+      "synthesisText": "Two, five! Twenty five!",
+      "digits": "two five",
+      "full": "twenty five",
+      "file": "25.wav",
+      "durationMs": 2465.624,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, five!",
+          "startSample": 0,
+          "samples": 24178
+        },
+        {
+          "text": "Twenty five!",
+          "startSample": 35203,
+          "samples": 19164
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.82894,
+      "rms": 0.20854,
+      "sha256": "ab8015ca00189603481a25c109ce09fbeb470895d2d500c27ce88a255016b7c7"
+    },
+    {
+      "number": 26,
+      "text": "two six. twenty six.",
+      "synthesisText": "Two, six! Twenty six!",
+      "digits": "two six",
+      "full": "twenty six",
+      "file": "26.wav",
+      "durationMs": 2628.617,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, six!",
+          "startSample": 0,
+          "samples": 25600
+        },
+        {
+          "text": "Twenty six!",
+          "startSample": 36625,
+          "samples": 21336
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87613,
+      "rms": 0.1836,
+      "sha256": "ca6b513f1ec3f34a13dbeda188e0192ab834f10d04bfd24848bac3993f7b22e2"
+    },
+    {
+      "number": 27,
+      "text": "two seven. twenty seven.",
+      "synthesisText": "Two, seven! Twenty seven!",
+      "digits": "two seven",
+      "full": "twenty seven",
+      "file": "27.wav",
+      "durationMs": 2174.286,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, seven!",
+          "startSample": 0,
+          "samples": 17588
+        },
+        {
+          "text": "Twenty seven!",
+          "startSample": 28613,
+          "samples": 19330
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90823,
+      "rms": 0.19007,
+      "sha256": "48d58e95124926eb7a4884b9ad4d9fde192621ae8433fa109ef584acfffcdf32"
+    },
+    {
+      "number": 28,
+      "text": "two eight. twenty eight.",
+      "synthesisText": "Two, eight! Twenty eight!",
+      "digits": "two eight",
+      "full": "twenty eight",
+      "file": "28.wav",
+      "durationMs": 2807.392,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, eight!",
+          "startSample": 0,
+          "samples": 29525
+        },
+        {
+          "text": "Twenty eight!",
+          "startSample": 40550,
+          "samples": 21353
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89471,
+      "rms": 0.18324,
+      "sha256": "107af5080733861442b15535b6b14521780ce7d147b3de8848765b073e4c4d8e"
+    },
+    {
+      "number": 29,
+      "text": "two nine. twenty nine.",
+      "synthesisText": "Two, nine! Twenty nine!",
+      "digits": "two nine",
+      "full": "twenty nine",
+      "file": "29.wav",
+      "durationMs": 2325.215,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, nine!",
+          "startSample": 0,
+          "samples": 23086
+        },
+        {
+          "text": "Twenty nine!",
+          "startSample": 34111,
+          "samples": 17160
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.80102,
+      "rms": 0.20048,
+      "sha256": "f2d1d6affe75aae48ecc45effff28f2a409102f06e81ae91a4fb088b7e643d55"
+    },
+    {
+      "number": 30,
+      "text": "three zero. thirty.",
+      "synthesisText": "Three. Zero! Thirty!",
+      "digits": "three zero",
+      "full": "thirty",
+      "file": "30.wav",
+      "durationMs": 4326.077,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three. Zero!",
+          "startSample": 0,
+          "samples": 61303
+        },
+        {
+          "text": "Thirty!",
+          "startSample": 72328,
+          "samples": 23062
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87774,
+      "rms": 0.18928,
+      "sha256": "388e0052963fb67b72d328775de8cefcecbaa41479f2516c05cb31990f246280"
+    },
+    {
+      "number": 31,
+      "text": "three one. thirty one.",
+      "synthesisText": "Three, one! Thirty one!",
+      "digits": "three one",
+      "full": "thirty one",
+      "file": "31.wav",
+      "durationMs": 3101.769,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, one!",
+          "startSample": 0,
+          "samples": 34672
+        },
+        {
+          "text": "Thirty one!",
+          "startSample": 45697,
+          "samples": 22697
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.81961,
+      "rms": 0.19076,
+      "sha256": "7437d1df95c86e55d87f5a92c71222906d589f8608838c894055b0f1b2922066"
+    },
+    {
+      "number": 32,
+      "text": "three two. thirty two.",
+      "synthesisText": "Three, two! Thirty two!",
+      "digits": "three two",
+      "full": "thirty two",
+      "file": "32.wav",
+      "durationMs": 3206.077,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, two!",
+          "startSample": 0,
+          "samples": 34841
+        },
+        {
+          "text": "Thirty two!",
+          "startSample": 45866,
+          "samples": 24828
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89831,
+      "rms": 0.18915,
+      "sha256": "517f387ee3cde8f03a853c5145491dc0bc29cad5764060cbc46f586420cff8d8"
+    },
+    {
+      "number": 33,
+      "text": "three three. thirty three.",
+      "synthesisText": "Three, three! Thirty three!",
+      "digits": "three three",
+      "full": "thirty three",
+      "file": "33.wav",
+      "durationMs": 4064.58,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, three!",
+          "startSample": 0,
+          "samples": 47360
+        },
+        {
+          "text": "Thirty three!",
+          "startSample": 58385,
+          "samples": 31239
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92978,
+      "rms": 0.18067,
+      "sha256": "67e25e3fa58b05d5f695f7ce98c083a561a9ff289849e9441c3f5803945b6fef"
+    },
+    {
+      "number": 34,
+      "text": "three four. thirty four.",
+      "synthesisText": "Three, four! Thirty four!",
+      "digits": "three four",
+      "full": "thirty four",
+      "file": "34.wav",
+      "durationMs": 3205.805,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, four!",
+          "startSample": 0,
+          "samples": 37888
+        },
+        {
+          "text": "Thirty four!",
+          "startSample": 48913,
+          "samples": 21775
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87555,
+      "rms": 0.1929,
+      "sha256": "9609d9b136d153e6bfbfa1fb516e542b5dd184270b94ca0350f1d41694e137be"
+    },
+    {
+      "number": 35,
+      "text": "three five. thirty five.",
+      "synthesisText": "Three, five! Thirty five!",
+      "digits": "three five",
+      "full": "thirty five",
+      "file": "35.wav",
+      "durationMs": 2901.542,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, five!",
+          "startSample": 0,
+          "samples": 28624
+        },
+        {
+          "text": "Thirty five!",
+          "startSample": 39649,
+          "samples": 24330
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90722,
+      "rms": 0.20543,
+      "sha256": "0fd2c83319a4a5c117d16c74c86ef3ab4ea2852cbd255e268af00b992b047df9"
+    },
+    {
+      "number": 36,
+      "text": "three six. thirty six.",
+      "synthesisText": "Three, six! Thirty six!",
+      "digits": "three six",
+      "full": "thirty six",
+      "file": "36.wav",
+      "durationMs": 3248.481,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, six!",
+          "startSample": 0,
+          "samples": 35184
+        },
+        {
+          "text": "Thirty six!",
+          "startSample": 46209,
+          "samples": 25420
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92673,
+      "rms": 0.18105,
+      "sha256": "321ea4f43d0b505f6d79be62cccc2e7ba1c42e271abeda12c893c99b22464965"
+    },
+    {
+      "number": 37,
+      "text": "three seven. thirty seven.",
+      "synthesisText": "Three, seven! Thirty seven!",
+      "digits": "three seven",
+      "full": "thirty seven",
+      "file": "37.wav",
+      "durationMs": 3407.755,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, seven!",
+          "startSample": 0,
+          "samples": 33803
+        },
+        {
+          "text": "Thirty seven!",
+          "startSample": 44828,
+          "samples": 30313
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92438,
+      "rms": 0.1803,
+      "sha256": "17e18ca31757358233fd7e2f19707f2887b06868460b77005d27f17a061f65a2"
+    },
+    {
+      "number": 38,
+      "text": "three eight. thirty eight.",
+      "synthesisText": "Three, eight! Thirty eight!",
+      "digits": "three eight",
+      "full": "thirty eight",
+      "file": "38.wav",
+      "durationMs": 3306.395,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, eight!",
+          "startSample": 0,
+          "samples": 33651
+        },
+        {
+          "text": "Thirty eight!",
+          "startSample": 44676,
+          "samples": 28230
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90158,
+      "rms": 0.18444,
+      "sha256": "70a6372dd737f51e82a17e6e4d9c2e5f01413aa7a31c22fb7a4cb56fa374da38"
+    },
+    {
+      "number": 39,
+      "text": "three nine. thirty nine.",
+      "synthesisText": "Three, nine! Thirty nine!",
+      "digits": "three nine",
+      "full": "thirty nine",
+      "file": "39.wav",
+      "durationMs": 2991.383,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, nine!",
+          "startSample": 0,
+          "samples": 34415
+        },
+        {
+          "text": "Thirty nine!",
+          "startSample": 45440,
+          "samples": 20520
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.85485,
+      "rms": 0.20489,
+      "sha256": "721f10e1f7c94e883ba9db76cc1ef32159a0819bf5750eb1e571603d9fde0db6"
+    },
+    {
+      "number": 40,
+      "text": "four zero. forty.",
+      "synthesisText": "Four, zero! Forty!",
+      "digits": "four zero",
+      "full": "forty",
+      "file": "40.wav",
+      "durationMs": 3768.254,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, zero!",
+          "startSample": 0,
+          "samples": 41752
+        },
+        {
+          "text": "Forty!",
+          "startSample": 52777,
+          "samples": 30313
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93793,
+      "rms": 0.17458,
+      "sha256": "e815db607bfeb8cc255cec0b8b035fc6e0f3355e18b14f2ed0db01592bcad0d8"
+    },
+    {
+      "number": 41,
+      "text": "four one. forty one.",
+      "synthesisText": "Four, one! Forty one!",
+      "digits": "four one",
+      "full": "forty one",
+      "file": "41.wav",
+      "durationMs": 3001.179,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, one!",
+          "startSample": 0,
+          "samples": 32993
+        },
+        {
+          "text": "Forty one!",
+          "startSample": 44018,
+          "samples": 22158
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92261,
+      "rms": 0.18034,
+      "sha256": "8b81c69d879e32b068c04ecd3f62b6c843210b943c23a76fd572b080ea0f9731"
+    },
+    {
+      "number": 42,
+      "text": "four two. forty two.",
+      "synthesisText": "Four, two! Forty two!",
+      "digits": "four two",
+      "full": "forty two",
+      "file": "42.wav",
+      "durationMs": 3442.449,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, two!",
+          "startSample": 0,
+          "samples": 34975
+        },
+        {
+          "text": "Forty two!",
+          "startSample": 46000,
+          "samples": 29906
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90997,
+      "rms": 0.18217,
+      "sha256": "57fd05960e47e4fa2dc480beab2f4edb18be73042d31e662eb8baadf0d3075bf"
+    },
+    {
+      "number": 43,
+      "text": "four three. forty three.",
+      "synthesisText": "Four, three! Forty three!",
+      "digits": "four three",
+      "full": "forty three",
+      "file": "43.wav",
+      "durationMs": 3933.696,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, three!",
+          "startSample": 0,
+          "samples": 39873
+        },
+        {
+          "text": "Forty three!",
+          "startSample": 50898,
+          "samples": 35840
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91189,
+      "rms": 0.17166,
+      "sha256": "abf0fce03973780174ba1587a5016d77389ef1d22250af6a7ac986ee2b8f135f"
+    },
+    {
+      "number": 44,
+      "text": "four four. forty four.",
+      "synthesisText": "Four, four! Forty four!",
+      "digits": "four four",
+      "full": "forty four",
+      "file": "44.wav",
+      "durationMs": 3394.422,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, four!",
+          "startSample": 0,
+          "samples": 31313
+        },
+        {
+          "text": "Forty four!",
+          "startSample": 42338,
+          "samples": 32509
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90875,
+      "rms": 0.18219,
+      "sha256": "d9d3d1a189a8247647c11451cb40c2c0de47dbf1eb5414ccf091b5e055b50d02"
+    },
+    {
+      "number": 45,
+      "text": "four five. forty five.",
+      "synthesisText": "Four, five! Forty five!",
+      "digits": "four five",
+      "full": "forty five",
+      "file": "45.wav",
+      "durationMs": 3010.249,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, five!",
+          "startSample": 0,
+          "samples": 35012
+        },
+        {
+          "text": "Forty five!",
+          "startSample": 46037,
+          "samples": 20339
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.8724,
+      "rms": 0.20988,
+      "sha256": "b215e3ea0d97567c5e9c3ae1149fde6d8984674a712c67ee49884b5aee23a333"
+    },
+    {
+      "number": 46,
+      "text": "four six. forty six.",
+      "synthesisText": "Four, six! Forty six!",
+      "digits": "four six",
+      "full": "forty six",
+      "file": "46.wav",
+      "durationMs": 3065.624,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, six!",
+          "startSample": 0,
+          "samples": 24614
+        },
+        {
+          "text": "Forty six!",
+          "startSample": 35639,
+          "samples": 31958
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88867,
+      "rms": 0.17922,
+      "sha256": "5bae02a944f17f515b6acd005c2b8c1527b9076b7619afe06871d5a802b738b5"
+    },
+    {
+      "number": 47,
+      "text": "four seven. forty seven.",
+      "synthesisText": "Four, seven! Forty seven!",
+      "digits": "four seven",
+      "full": "forty seven",
+      "file": "47.wav",
+      "durationMs": 3376.825,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, seven!",
+          "startSample": 0,
+          "samples": 31816
+        },
+        {
+          "text": "Forty seven!",
+          "startSample": 42841,
+          "samples": 31618
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92041,
+      "rms": 0.1748,
+      "sha256": "c69144638e88ab22d5b21f28e175203e87e1a34a954b6ffb401b6b4b449f451c"
+    },
+    {
+      "number": 48,
+      "text": "four eight. forty eight.",
+      "synthesisText": "Four, eight! Forty eight!",
+      "digits": "four eight",
+      "full": "forty eight",
+      "file": "48.wav",
+      "durationMs": 3440.317,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, eight!",
+          "startSample": 0,
+          "samples": 35685
+        },
+        {
+          "text": "Forty eight!",
+          "startSample": 46710,
+          "samples": 29149
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89651,
+      "rms": 0.18134,
+      "sha256": "d25d145cb302b44dfb4cadad55fa0f83fbbdd64c0271c667d15f075f0770e0f9"
+    },
+    {
+      "number": 49,
+      "text": "four nine. forty nine.",
+      "synthesisText": "Four, nine! Forty nine!",
+      "digits": "four nine",
+      "full": "forty nine",
+      "file": "49.wav",
+      "durationMs": 3044.49,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, nine!",
+          "startSample": 0,
+          "samples": 36225
+        },
+        {
+          "text": "Forty nine!",
+          "startSample": 47250,
+          "samples": 19881
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87143,
+      "rms": 0.19705,
+      "sha256": "12ef8b18bdc2143b5d4b6cdc8f500d1ccb8652cdf3a82ea0e80b2e2988536dd5"
+    },
+    {
+      "number": 50,
+      "text": "five zero. fifty.",
+      "synthesisText": "Five, zero! Fifty!",
+      "digits": "five zero",
+      "full": "fifty",
+      "file": "50.wav",
+      "durationMs": 3557.551,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, zero!",
+          "startSample": 0,
+          "samples": 40657
+        },
+        {
+          "text": "Fifty!",
+          "startSample": 51682,
+          "samples": 26762
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93655,
+      "rms": 0.17701,
+      "sha256": "aa006bb5ae55d2e44e2d221833fbeb71b1e755597d9b8f66af2da34a2ee1d60b"
+    },
+    {
+      "number": 51,
+      "text": "five one. fifty one.",
+      "synthesisText": "Five, one! Fifty one!",
+      "digits": "five one",
+      "full": "fifty one",
+      "file": "51.wav",
+      "durationMs": 2865.714,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, one!",
+          "startSample": 0,
+          "samples": 35326
+        },
+        {
+          "text": "Fifty one!",
+          "startSample": 46351,
+          "samples": 16838
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.86569,
+      "rms": 0.1853,
+      "sha256": "e7ef98467b800ed765a4df30afcf3e26cedf85b2631f92435892529412d56363"
+    },
+    {
+      "number": 52,
+      "text": "five two. fifty two.",
+      "synthesisText": "Five, two! Fifty two!",
+      "digits": "five two",
+      "full": "fifty two",
+      "file": "52.wav",
+      "durationMs": 2868.163,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, two!",
+          "startSample": 0,
+          "samples": 29396
+        },
+        {
+          "text": "Fifty two!",
+          "startSample": 40421,
+          "samples": 22822
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.9049,
+      "rms": 0.19154,
+      "sha256": "952d8f09996178115f71391377016f24ffdd52d84baeaa0768b422b484795a14"
+    },
+    {
+      "number": 53,
+      "text": "five three. fifty three.",
+      "synthesisText": "Five, three! Fifty three!",
+      "digits": "five three",
+      "full": "fifty three",
+      "file": "53.wav",
+      "durationMs": 3302.313,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, three!",
+          "startSample": 0,
+          "samples": 37255
+        },
+        {
+          "text": "Fifty three!",
+          "startSample": 48280,
+          "samples": 24536
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91235,
+      "rms": 0.18497,
+      "sha256": "6ffd72e7e43f4d886ab50d9dbf98be3c54d00bef9ef78a11ab7f793be3cf9de5"
+    },
+    {
+      "number": 54,
+      "text": "five four. fifty four.",
+      "synthesisText": "Five, four! Fifty four!",
+      "digits": "five four",
+      "full": "fifty four",
+      "file": "54.wav",
+      "durationMs": 2646.621,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, four!",
+          "startSample": 0,
+          "samples": 26109
+        },
+        {
+          "text": "Fifty four!",
+          "startSample": 37134,
+          "samples": 21224
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91162,
+      "rms": 0.19466,
+      "sha256": "1718c9ce795eec332da525e8282291c4de9ff658df4eeacb9ed213eaebc4c178"
+    },
+    {
+      "number": 55,
+      "text": "five five. fifty five.",
+      "synthesisText": "Five, five! Fifty five!",
+      "digits": "five five",
+      "full": "fifty five",
+      "file": "55.wav",
+      "durationMs": 2420.771,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, five!",
+          "startSample": 0,
+          "samples": 22594
+        },
+        {
+          "text": "Fifty five!",
+          "startSample": 33619,
+          "samples": 19759
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.78399,
+      "rms": 0.22278,
+      "sha256": "9f9e8508b23023d3660a2d42515ff36c9bd7e00cd7942bc2209b5e93f9d156ca"
+    },
+    {
+      "number": 56,
+      "text": "five six. fifty six.",
+      "synthesisText": "Five, six! Fifty six!",
+      "digits": "five six",
+      "full": "fifty six",
+      "file": "56.wav",
+      "durationMs": 2905.079,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, six!",
+          "startSample": 0,
+          "samples": 31167
+        },
+        {
+          "text": "Fifty six!",
+          "startSample": 42192,
+          "samples": 21865
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91479,
+      "rms": 0.19186,
+      "sha256": "93bb94b95ce363338e2a3a8520d9fe684e9bc45f868c76fad5c028f585680a9b"
+    },
+    {
+      "number": 57,
+      "text": "five seven. fifty seven.",
+      "synthesisText": "Five, seven! Fifty seven!",
+      "digits": "five seven",
+      "full": "fifty seven",
+      "file": "57.wav",
+      "durationMs": 3039.773,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, seven!",
+          "startSample": 0,
+          "samples": 31643
+        },
+        {
+          "text": "Fifty seven!",
+          "startSample": 42668,
+          "samples": 24359
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89908,
+      "rms": 0.19244,
+      "sha256": "95ff0f331f60c94733fe7cff8ea8ca8d7edbebe7dd10e97b1f4d5791c518fc24"
+    },
+    {
+      "number": 58,
+      "text": "five eight. fifty eight.",
+      "synthesisText": "Five, eight! Fifty eight!",
+      "digits": "five eight",
+      "full": "fifty eight",
+      "file": "58.wav",
+      "durationMs": 2505.85,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, eight!",
+          "startSample": 0,
+          "samples": 21572
+        },
+        {
+          "text": "Fifty eight!",
+          "startSample": 32597,
+          "samples": 22657
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88907,
+      "rms": 0.20923,
+      "sha256": "c7afa3e82113e643b6c02b381a5dc15da5399ddf181e517e174b68f1eab83575"
+    },
+    {
+      "number": 59,
+      "text": "five nine. fifty nine.",
+      "synthesisText": "Five, nine! Fifty nine!",
+      "digits": "five nine",
+      "full": "fifty nine",
+      "file": "59.wav",
+      "durationMs": 2462.086,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, nine!",
+          "startSample": 0,
+          "samples": 26862
+        },
+        {
+          "text": "Fifty nine!",
+          "startSample": 37887,
+          "samples": 16402
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.824,
+      "rms": 0.21286,
+      "sha256": "b93f030c921919cc7eb77115251c195727c7d9cff852d43c76475e088d77bd0f"
+    },
+    {
+      "number": 60,
+      "text": "six zero. sixty.",
+      "synthesisText": "Six, zero! Sixty!",
+      "digits": "six zero",
+      "full": "sixty",
+      "file": "60.wav",
+      "durationMs": 2660.091,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, zero!",
+          "startSample": 0,
+          "samples": 27639
+        },
+        {
+          "text": "Sixty!",
+          "startSample": 38664,
+          "samples": 19991
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88629,
+      "rms": 0.18056,
+      "sha256": "f3e57e732d76f7f68f5d029195836a99cb5124f7ec17b24f1d900e1adbd17c6e"
+    },
+    {
+      "number": 61,
+      "text": "six one. sixty one.",
+      "synthesisText": "Six, one! Sixty one!",
+      "digits": "six one",
+      "full": "sixty one",
+      "file": "61.wav",
+      "durationMs": 2720.272,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, one!",
+          "startSample": 0,
+          "samples": 26568
+        },
+        {
+          "text": "Sixty one!",
+          "startSample": 37593,
+          "samples": 22389
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88632,
+      "rms": 0.18041,
+      "sha256": "fc5665d67e3a6deaf0baaf6c2ca1b90188182822add9b979496cdd3e5a2838c7"
+    },
+    {
+      "number": 62,
+      "text": "six two. sixty two.",
+      "synthesisText": "Six, two! Sixty two!",
+      "digits": "six two",
+      "full": "sixty two",
+      "file": "62.wav",
+      "durationMs": 3059.819,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, two!",
+          "startSample": 0,
+          "samples": 32036
+        },
+        {
+          "text": "Sixty two!",
+          "startSample": 43061,
+          "samples": 24408
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91601,
+      "rms": 0.17556,
+      "sha256": "d5ae209a5abaf371f48a977e7a55766a9ded82fced12db56b6969e372e142485"
+    },
+    {
+      "number": 63,
+      "text": "six three. sixty three.",
+      "synthesisText": "Six, three! Sixty three!",
+      "digits": "six three",
+      "full": "sixty three",
+      "file": "63.wav",
+      "durationMs": 3176.009,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, three!",
+          "startSample": 0,
+          "samples": 31388
+        },
+        {
+          "text": "Sixty three!",
+          "startSample": 42413,
+          "samples": 27618
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87106,
+      "rms": 0.19385,
+      "sha256": "216387a5833b19576b9bcb286709eec3019adbc5cbebfdd84f0f6a75ffb24475"
+    },
+    {
+      "number": 64,
+      "text": "six four. sixty four.",
+      "synthesisText": "Six, four! Sixty four!",
+      "digits": "six four",
+      "full": "sixty four",
+      "file": "64.wav",
+      "durationMs": 3014.467,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, four!",
+          "startSample": 0,
+          "samples": 29829
+        },
+        {
+          "text": "Sixty four!",
+          "startSample": 40854,
+          "samples": 25615
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.8735,
+      "rms": 0.18568,
+      "sha256": "88628f036003c86e24d23621e987c9b6d26f4b42031e23d14eadb52cac6ef16a"
+    },
+    {
+      "number": 65,
+      "text": "six five. sixty five.",
+      "synthesisText": "Six, five! Sixty five!",
+      "digits": "six five",
+      "full": "sixty five",
+      "file": "65.wav",
+      "durationMs": 2890.975,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, five!",
+          "startSample": 0,
+          "samples": 31093
+        },
+        {
+          "text": "Sixty five!",
+          "startSample": 42118,
+          "samples": 21628
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.83258,
+      "rms": 0.19879,
+      "sha256": "a3c1ba342b63da84a307e637ea0bee4c1f7a4bd861f4f442223e4d7a08151ceb"
+    },
+    {
+      "number": 66,
+      "text": "six six. sixty six.",
+      "synthesisText": "Six, six! Sixty six!",
+      "digits": "six six",
+      "full": "sixty six",
+      "file": "66.wav",
+      "durationMs": 3034.059,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, six!",
+          "startSample": 0,
+          "samples": 29175
+        },
+        {
+          "text": "Sixty six!",
+          "startSample": 40200,
+          "samples": 26701
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92212,
+      "rms": 0.17618,
+      "sha256": "f9f893b7802460fcff89a353f3ebda5da6a7e660a622b8a2fdf8d87d7cf9e3be"
+    },
+    {
+      "number": 67,
+      "text": "six seven. sixty seven.",
+      "synthesisText": "Six, seven! Sixty seven!",
+      "digits": "six seven",
+      "full": "sixty seven",
+      "file": "67.wav",
+      "durationMs": 2951.565,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, seven!",
+          "startSample": 0,
+          "samples": 28445
+        },
+        {
+          "text": "Sixty seven!",
+          "startSample": 39470,
+          "samples": 25612
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89209,
+      "rms": 0.18566,
+      "sha256": "71b44dc30ff6a8da3df3ab9f1976c6964d450d19c818ed6b3054e51f9479a49d"
+    },
+    {
+      "number": 68,
+      "text": "six eight. sixty eight.",
+      "synthesisText": "Six, eight! Sixty eight!",
+      "digits": "six eight",
+      "full": "sixty eight",
+      "file": "68.wav",
+      "durationMs": 2794.785,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, eight!",
+          "startSample": 0,
+          "samples": 23615
+        },
+        {
+          "text": "Sixty eight!",
+          "startSample": 34640,
+          "samples": 26985
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90091,
+      "rms": 0.18088,
+      "sha256": "792e99330c2f4aaccd2fbf62ac9ce3b063b937feee246afedacc5a578292ae39"
+    },
+    {
+      "number": 69,
+      "text": "six nine. sixty nine.",
+      "synthesisText": "Six, nine! Sixty nine!",
+      "digits": "six nine",
+      "full": "sixty nine",
+      "file": "69.wav",
+      "durationMs": 2694.15,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, nine!",
+          "startSample": 0,
+          "samples": 27398
+        },
+        {
+          "text": "Sixty nine!",
+          "startSample": 38423,
+          "samples": 20983
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89923,
+      "rms": 0.19071,
+      "sha256": "4148ca43a58f83ffd73cfddcbd6a0328d2b3b0019265d2f3e08ab9e0cf40029e"
+    },
+    {
+      "number": 70,
+      "text": "seven zero. seventy.",
+      "synthesisText": "Seven, zero! Seventy!",
+      "digits": "seven zero",
+      "full": "seventy",
+      "file": "70.wav",
+      "durationMs": 2912.608,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, zero!",
+          "startSample": 0,
+          "samples": 32284
+        },
+        {
+          "text": "Seventy!",
+          "startSample": 43309,
+          "samples": 20914
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93252,
+      "rms": 0.173,
+      "sha256": "123b9ab46441be55cb23b28d2034cdbcefa33b416a2f8d527ce6f879a81718c4"
+    },
+    {
+      "number": 71,
+      "text": "seven one. seventy one.",
+      "synthesisText": "Seven, one! Seventy one!",
+      "digits": "seven one",
+      "full": "seventy one",
+      "file": "71.wav",
+      "durationMs": 2955.873,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, one!",
+          "startSample": 0,
+          "samples": 33016
+        },
+        {
+          "text": "Seventy one!",
+          "startSample": 44041,
+          "samples": 21136
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88241,
+      "rms": 0.1924,
+      "sha256": "37e1e379ad38b36c19d0e669df06f9934e554a6f0d57871060d26843ef5945c5"
+    },
+    {
+      "number": 72,
+      "text": "seven two. seventy two.",
+      "synthesisText": "Seven, two! Seventy two!",
+      "digits": "seven two",
+      "full": "seventy two",
+      "file": "72.wav",
+      "durationMs": 2482.676,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, two!",
+          "startSample": 0,
+          "samples": 20147
+        },
+        {
+          "text": "Seventy two!",
+          "startSample": 31172,
+          "samples": 23571
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91717,
+      "rms": 0.204,
+      "sha256": "6e6f73a9d1051946db1272ec425206226ed597c2e7a4be8dc8b55069e1fcd9db"
+    },
+    {
+      "number": 73,
+      "text": "seven three. seventy three.",
+      "synthesisText": "Seven, three! Seventy three!",
+      "digits": "seven three",
+      "full": "seventy three",
+      "file": "73.wav",
+      "durationMs": 3127.302,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, three!",
+          "startSample": 0,
+          "samples": 26968
+        },
+        {
+          "text": "Seventy three!",
+          "startSample": 37993,
+          "samples": 30964
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93326,
+      "rms": 0.17584,
+      "sha256": "11a1d7d24d36b65923173fea5d6a57ab6f03906e45636b58ed20d8d2e56b2a30"
+    },
+    {
+      "number": 74,
+      "text": "seven four. seventy four.",
+      "synthesisText": "Seven, four! Seventy four!",
+      "digits": "seven four",
+      "full": "seventy four",
+      "file": "74.wav",
+      "durationMs": 2804.399,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, four!",
+          "startSample": 0,
+          "samples": 19942
+        },
+        {
+          "text": "Seventy four!",
+          "startSample": 30967,
+          "samples": 30870
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92053,
+      "rms": 0.19371,
+      "sha256": "1f7f283a6b6e1a5ffd34baf9782e6684840e68fa8bf7a88f660c96c9c6b9704f"
+    },
+    {
+      "number": 75,
+      "text": "seven five. seventy five.",
+      "synthesisText": "Seven, five! Seventy five!",
+      "digits": "seven five",
+      "full": "seventy five",
+      "file": "75.wav",
+      "durationMs": 2672.381,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, five!",
+          "startSample": 0,
+          "samples": 24922
+        },
+        {
+          "text": "Seventy five!",
+          "startSample": 35947,
+          "samples": 22979
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.79177,
+      "rms": 0.20059,
+      "sha256": "cace708335351830e38606aef246e00c62d674c9b91ae1de6270275db184d0ab"
+    },
+    {
+      "number": 76,
+      "text": "seven six. seventy six.",
+      "synthesisText": "Seven, six! Seventy six!",
+      "digits": "seven six",
+      "full": "seventy six",
+      "file": "76.wav",
+      "durationMs": 3239.184,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, six!",
+          "startSample": 0,
+          "samples": 31308
+        },
+        {
+          "text": "Seventy six!",
+          "startSample": 42333,
+          "samples": 29091
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93942,
+      "rms": 0.16728,
+      "sha256": "11bc98e1cdef4a10a7c6a1bdf77d3e2045d9e0a3203d8906ca96202fcd036845"
+    },
+    {
+      "number": 77,
+      "text": "seven seven. seventy seven.",
+      "synthesisText": "Seven, seven! Seventy seven!",
+      "digits": "seven seven",
+      "full": "seventy seven",
+      "file": "77.wav",
+      "durationMs": 3218.458,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, seven!",
+          "startSample": 0,
+          "samples": 32022
+        },
+        {
+          "text": "Seventy seven!",
+          "startSample": 43047,
+          "samples": 27920
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91955,
+      "rms": 0.18241,
+      "sha256": "9ce0f76785dfd4690f333dfc35303b264a5c098f6ec456608786152808cb9f55"
+    },
+    {
+      "number": 78,
+      "text": "seven eight. seventy eight.",
+      "synthesisText": "Seven, eight! Seventy eight!",
+      "digits": "seven eight",
+      "full": "seventy eight",
+      "file": "78.wav",
+      "durationMs": 3286.939,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, eight!",
+          "startSample": 0,
+          "samples": 30788
+        },
+        {
+          "text": "Seventy eight!",
+          "startSample": 41813,
+          "samples": 30664
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93677,
+      "rms": 0.17009,
+      "sha256": "6445123b5a3a4e28609fe9212df7b4ebc2e17f4654e9a50a8003eaec89a22a1c"
+    },
+    {
+      "number": 79,
+      "text": "seven nine. seventy nine.",
+      "synthesisText": "Seven, nine! Seventy nine!",
+      "digits": "seven nine",
+      "full": "seventy nine",
+      "file": "79.wav",
+      "durationMs": 2701.315,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, nine!",
+          "startSample": 0,
+          "samples": 25604
+        },
+        {
+          "text": "Seventy nine!",
+          "startSample": 36629,
+          "samples": 22935
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90103,
+      "rms": 0.20579,
+      "sha256": "6e27238facdafda7fc290a22c0c2b80c7f51653b061886e11b77fc5e1215d497"
+    },
+    {
+      "number": 80,
+      "text": "eight zero. eighty.",
+      "synthesisText": "Eight, zero! Eighty!",
+      "digits": "eight zero",
+      "full": "eighty",
+      "file": "80.wav",
+      "durationMs": 2887.755,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, zero!",
+          "startSample": 0,
+          "samples": 39703
+        },
+        {
+          "text": "Eighty!",
+          "startSample": 50728,
+          "samples": 12947
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90808,
+      "rms": 0.19087,
+      "sha256": "a9b1987e95dba3b130b7eb1e2503255790244aca37675bee8f5f9f61357afae9"
+    },
+    {
+      "number": 81,
+      "text": "eight one. eighty one.",
+      "synthesisText": "Eight, one! Eighty one!",
+      "digits": "eight one",
+      "full": "eighty one",
+      "file": "81.wav",
+      "durationMs": 2700.045,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, one!",
+          "startSample": 0,
+          "samples": 32046
+        },
+        {
+          "text": "Eighty one!",
+          "startSample": 43071,
+          "samples": 16465
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88516,
+      "rms": 0.19032,
+      "sha256": "6b455869fcedbd44633f80bc4196d458bf8f49108b2373d080bff34d6f55ba9f"
+    },
+    {
+      "number": 82,
+      "text": "eight two. eighty two.",
+      "synthesisText": "Eight, two! Eighty two!",
+      "digits": "eight two",
+      "full": "eighty two",
+      "file": "82.wav",
+      "durationMs": 2446.077,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, two!",
+          "startSample": 0,
+          "samples": 24663
+        },
+        {
+          "text": "Eighty two!",
+          "startSample": 35688,
+          "samples": 18248
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88098,
+      "rms": 0.19218,
+      "sha256": "09e70a34370a8469352cbafde8686821d61f6495384a9912de975ddc97cee2a4"
+    },
+    {
+      "number": 83,
+      "text": "eight three. eighty three.",
+      "synthesisText": "Eight, three! Eighty three!",
+      "digits": "eight three",
+      "full": "eighty three",
+      "file": "83.wav",
+      "durationMs": 2940.952,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, three!",
+          "startSample": 0,
+          "samples": 31538
+        },
+        {
+          "text": "Eighty three!",
+          "startSample": 42563,
+          "samples": 22285
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90533,
+      "rms": 0.18492,
+      "sha256": "a1952795e7417e69c858574ca149abb72ec239d84ccb1291649feb0e57c47bb1"
+    },
+    {
+      "number": 84,
+      "text": "eight four. eighty four.",
+      "synthesisText": "Eight, four! Eighty four!",
+      "digits": "eight four",
+      "full": "eighty four",
+      "file": "84.wav",
+      "durationMs": 2986.667,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, four!",
+          "startSample": 0,
+          "samples": 32768
+        },
+        {
+          "text": "Eighty four!",
+          "startSample": 43793,
+          "samples": 22063
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87967,
+      "rms": 0.18925,
+      "sha256": "0ef625cb6789bac5c681c90d1148f97d76b40ad59a65e93984d51e358e5afb17"
+    },
+    {
+      "number": 85,
+      "text": "eight five. eighty five.",
+      "synthesisText": "Eight, five! Eighty five!",
+      "digits": "eight five",
+      "full": "eighty five",
+      "file": "85.wav",
+      "durationMs": 2518.73,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, five!",
+          "startSample": 0,
+          "samples": 26498
+        },
+        {
+          "text": "Eighty five!",
+          "startSample": 37523,
+          "samples": 18015
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.85366,
+      "rms": 0.22266,
+      "sha256": "f03f4b7cfaec6dc125ef400bcf7c24d1faa6a84e401aba09a991c7b698283a16"
+    },
+    {
+      "number": 86,
+      "text": "eight six. eighty six.",
+      "synthesisText": "Eight, six! Eighty six!",
+      "digits": "eight six",
+      "full": "eighty six",
+      "file": "86.wav",
+      "durationMs": 2886.757,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, six!",
+          "startSample": 0,
+          "samples": 27860
+        },
+        {
+          "text": "Eighty six!",
+          "startSample": 38885,
+          "samples": 24768
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90579,
+      "rms": 0.17772,
+      "sha256": "eb0ee0fb25614b6a928b5e871b1a54016a5945624004138a228f117670d6c3fc"
+    },
+    {
+      "number": 87,
+      "text": "eight seven. eighty seven.",
+      "synthesisText": "Eight, seven! Eighty seven!",
+      "digits": "eight seven",
+      "full": "eighty seven",
+      "file": "87.wav",
+      "durationMs": 2898.458,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, seven!",
+          "startSample": 0,
+          "samples": 26518
+        },
+        {
+          "text": "Eighty seven!",
+          "startSample": 37543,
+          "samples": 26368
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88598,
+      "rms": 0.18098,
+      "sha256": "4c98abbf6aa7a5f8301cc05d6f8120ee22e25559e1f42046846db5731d51baa7"
+    },
+    {
+      "number": 88,
+      "text": "eight eight. eighty eight.",
+      "synthesisText": "Eight, eight! Eighty eight!",
+      "digits": "eight eight",
+      "full": "eighty eight",
+      "file": "88.wav",
+      "durationMs": 2943.583,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, eight!",
+          "startSample": 0,
+          "samples": 29507
+        },
+        {
+          "text": "Eighty eight!",
+          "startSample": 40532,
+          "samples": 24374
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.8789,
+      "rms": 0.1795,
+      "sha256": "cf1a1cd4a0c21f1c625655b799ffc4a4cba69daeba80b0bd4db5a59277515dcc"
+    },
+    {
+      "number": 89,
+      "text": "eight nine. eighty nine.",
+      "synthesisText": "Eight, nine! Eighty nine!",
+      "digits": "eight nine",
+      "full": "eighty nine",
+      "file": "89.wav",
+      "durationMs": 2388.934,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, nine!",
+          "startSample": 0,
+          "samples": 24388
+        },
+        {
+          "text": "Eighty nine!",
+          "startSample": 35413,
+          "samples": 17263
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.84213,
+      "rms": 0.19975,
+      "sha256": "3610ee4b8042a968859638152bcd8b7375e7edef30a9a679d6c9cbb5d60ded31"
+    },
+    {
+      "number": 90,
+      "text": "nine zero. ninety.",
+      "synthesisText": "Nine, zero! Ninety!",
+      "digits": "nine zero",
+      "full": "ninety",
+      "file": "90.wav",
+      "durationMs": 3555.374,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Nine, zero!",
+          "startSample": 0,
+          "samples": 40614
+        },
+        {
+          "text": "Ninety!",
+          "startSample": 51639,
+          "samples": 26757
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90555,
+      "rms": 0.18426,
+      "sha256": "cc6653738a1b90a8091b2eb580e5536a1bfd774a3fc5e99e186d16f090663f64"
+    }
+  ],
+  "articulationOverrides": {
+    "Three, zero!": "Three. Zero!"
+  }
+}
