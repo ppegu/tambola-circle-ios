@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Five female voices · Tambola Circle</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: system-ui, sans-serif;
+        color: #f5f1eb;
+        background: #161a21;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 36px 22px;
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .eyebrow {
+        color: #edbf80;
+        letter-spacing: 0.13em;
+        font-size: 12px;
+        font-weight: 750;
+        text-transform: uppercase;
+      }
+      h1 {
+        font-size: clamp(28px, 5vw, 40px);
+        margin: 10px 0;
+        letter-spacing: -0.03em;
+      }
+      .intro,
+      .script,
+      footer {
+        color: #bbc0ca;
+        line-height: 1.55;
+      }
+      .intro {
+        margin: 0 0 22px;
+      }
+      .script {
+        background: #202632;
+        border: 1px solid #354052;
+        border-radius: 14px;
+        padding: 16px 20px;
+      }
+      .script strong {
+        display: block;
+        color: #f5f1eb;
+        margin-bottom: 6px;
+        font-size: 13px;
+      }
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        margin: 22px 0 14px;
+      }
+      button {
+        font: inherit;
+        font-weight: 650;
+        cursor: pointer;
+        border: 1px solid #576373;
+        border-radius: 9px;
+        padding: 10px 15px;
+        color: #f5f1eb;
+        background: #2b3443;
+      }
+      button:hover {
+        background: #3a4557;
+      }
+      button.primary {
+        background: #edbf80;
+        border-color: #edbf80;
+        color: #171b22;
+      }
+      button:focus-visible,
+      a:focus-visible,
+      audio:focus-visible {
+        outline: 3px solid #a5cef4;
+        outline-offset: 4px;
+      }
+      #status {
+        font-size: 13px;
+        color: #c5cbd5;
+        margin: 0 0 0 6px;
+      }
+      .voices {
+        display: grid;
+        gap: 10px;
+      }
+      article {
+        display: grid;
+        grid-template-columns: 42px minmax(115px, 1fr) auto;
+        align-items: center;
+        gap: 16px;
+        border: 1px solid #354052;
+        background: #202632;
+        border-radius: 14px;
+        padding: 16px 20px;
+      }
+      article.playing {
+        border-color: #edbf80;
+        box-shadow: inset 3px 0 #edbf80;
+      }
+      .number {
+        display: grid;
+        place-items: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #343d4d;
+        color: #edbf80;
+        font-weight: 750;
+      }
+      h2 {
+        margin: 0 0 3px;
+        font-size: 19px;
+      }
+      .accent {
+        margin: 0;
+        color: #b9c1ce;
+        font-size: 13px;
+      }
+      .player {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+      audio {
+        width: 310px;
+        height: 40px;
+      }
+      a {
+        color: #edbf80;
+        font-size: 13px;
+      }
+      footer {
+        font-size: 13px;
+        margin-top: 22px;
+      }
+      @media (max-width: 720px) {
+        body {
+          padding: 24px 16px;
+        }
+        article {
+          grid-template-columns: 36px 1fr;
+          gap: 12px;
+          padding: 16px;
+        }
+        .number {
+          width: 36px;
+          height: 36px;
+        }
+        .player {
+          grid-column: 1 / -1;
+        }
+        audio {
+          width: 100%;
+          min-width: 0;
+        }
+        #status {
+          width: 100%;
+          margin: 3px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">Tambola Circle · Voice audition</div>
+      <h1>Find the voice you like.</h1>
+      <p class="intro">
+        Five different female voices. The same calls, with matched audio levels
+        for comparison.
+      </p>
+      <div class="script">
+        <strong>EVERY VOICE READS</strong>Single number one. Single number four.
+        Single number six. Single number seven. Four, seven. Forty seven.
+      </div>
+      <div class="toolbar">
+        <button class="primary" id="play-all" type="button">
+          Play all five
+        </button>
+        <button id="stop" type="button">Stop</button>
+        <p id="status" role="status" aria-live="polite">
+          Choose a voice below to listen.
+        </p>
+      </div>
+      <section class="voices" aria-label="Five voice samples">
+        <article data-name="Neerja">
+          <span class="number" aria-hidden="true">1</span>
+          <div>
+            <h2>1. Neerja</h2>
+            <p class="accent">Indian English</p>
+          </div>
+          <div class="player">
+            <audio
+              controls
+              preload="auto"
+              aria-label="1. Neerja sample"
+              src="01-neerja.wav"
+            ></audio
+            ><a
+              href="01-neerja.wav"
+              download
+              aria-label="Download Neerja sample"
+              >WAV</a
+            >
+          </div>
+        </article>
+        <article data-name="Ava">
+          <span class="number" aria-hidden="true">2</span>
+          <div>
+            <h2>2. Ava</h2>
+            <p class="accent">US English</p>
+          </div>
+          <div class="player">
+            <audio
+              controls
+              preload="auto"
+              aria-label="2. Ava sample"
+              src="02-ava.wav"
+            ></audio
+            ><a href="02-ava.wav" download aria-label="Download Ava sample"
+              >WAV</a
+            >
+          </div>
+        </article>
+        <article data-name="Emma">
+          <span class="number" aria-hidden="true">3</span>
+          <div>
+            <h2>3. Emma</h2>
+            <p class="accent">US English</p>
+          </div>
+          <div class="player">
+            <audio
+              controls
+              preload="auto"
+              aria-label="3. Emma sample"
+              src="03-emma.wav"
+            ></audio
+            ><a href="03-emma.wav" download aria-label="Download Emma sample"
+              >WAV</a
+            >
+          </div>
+        </article>
+        <article data-name="Sonia">
+          <span class="number" aria-hidden="true">4</span>
+          <div>
+            <h2>4. Sonia</h2>
+            <p class="accent">British English</p>
+          </div>
+          <div class="player">
+            <audio
+              controls
+              preload="auto"
+              aria-label="4. Sonia sample"
+              src="04-sonia.wav"
+            ></audio
+            ><a href="04-sonia.wav" download aria-label="Download Sonia sample"
+              >WAV</a
+            >
+          </div>
+        </article>
+        <article data-name="Aria">
+          <span class="number" aria-hidden="true">5</span>
+          <div>
+            <h2>5. Aria</h2>
+            <p class="accent">US English</p>
+          </div>
+          <div class="player">
+            <audio
+              controls
+              preload="auto"
+              aria-label="5. Aria sample"
+              src="05-aria.wav"
+            ></audio
+            ><a href="05-aria.wav" download aria-label="Download Aria sample"
+              >WAV</a
+            >
+          </div>
+        </article>
+      </section>
+      <footer>
+        Listen for the voice's fullness and the clarity of “single,” “one,”
+        “four,” “six,” and “seven.” Tell me the number or name of your
+        favourite.
+      </footer>
+    </main>
+    <script>
+      const players = [...document.querySelectorAll("audio")];
+      const status = document.getElementById("status");
+      let sequence = false;
+      let expected = null;
+      let generation = 0;
+      const label = (player) => player.closest("article").dataset.name;
+
+      function stop() {
+        generation++;
+        sequence = false;
+        expected = null;
+        players.forEach((player) => {
+          player.pause();
+          player.currentTime = 0;
+        });
+        status.textContent = "Stopped. Choose a voice to listen again.";
+      }
+
+      async function playSample(player) {
+        const currentGeneration = generation;
+        expected = player;
+        player.currentTime = 0;
+        try {
+          await player.play();
+        } catch (error) {
+          if (currentGeneration !== generation || error.name === "AbortError")
+            return;
+          sequence = false;
+          status.textContent =
+            "Press the play control beside " + label(player) + " to listen.";
+        }
+      }
+
+      players.forEach((player, index) => {
+        player.addEventListener("play", () => {
+          if (sequence && expected !== player) {
+            sequence = false;
+            generation++;
+          }
+          expected = player;
+          players.forEach((other) => {
+            if (other !== player) other.pause();
+          });
+          player.closest("article").classList.add("playing");
+          status.textContent =
+            (sequence ? "Playing " + (index + 1) + " of 5: " : "Playing: ") +
+            label(player);
+        });
+        player.addEventListener("pause", () => {
+          player.closest("article").classList.remove("playing");
+          if (expected === player && !player.ended)
+            status.textContent = "Paused: " + label(player);
+        });
+        player.addEventListener("ended", () => {
+          player.closest("article").classList.remove("playing");
+          if (sequence && index < players.length - 1)
+            playSample(players[index + 1]);
+          else {
+            sequence = false;
+            expected = null;
+            status.textContent = "Finished. Replay any voice to compare.";
+          }
+        });
+        player.addEventListener("error", () => {
+          sequence = false;
+          status.textContent =
+            "Could not load " + label(player) + ". Please reload this page.";
+        });
+      });
+      document.getElementById("play-all").addEventListener("click", () => {
+        stop();
+        sequence = true;
+        playSample(players[0]);
+      });
+      document.getElementById("stop").addEventListener("click", stop);
+    </script>
+  </body>
+</html>
