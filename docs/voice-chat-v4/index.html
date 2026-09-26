@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  />
+  <title>Game V4 — compact table voice</title>
+  <style>
+    body {
+      margin: 0;
+      background: #1d0a30;
+      color: #fff3d7;
+      font:
+        16px system-ui,
+        sans-serif;
+    }
+    main {
+      max-width: 1050px;
+      margin: auto;
+      padding: 28px;
+    }
+    h1 {
+      font-size: 28px;
+      color: #ffdb72;
+      margin-bottom: 8px;
+    }
+    p {
+      line-height: 1.6;
+      color: #d9cbe6;
+    }
+    a {
+      color: #ffe391;
+    }
+    section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+    figure {
+      margin: 0;
+    }
+    img {
+      width: 100%;
+      display: block;
+      border: 1px solid #a27944;
+      border-radius: 18px;
+    }
+    figcaption {
+      padding: 12px 0;
+      font-weight: 600;
+    }
+    small {
+      color: #c9b6d8;
+    }
+    @media (max-width: 600px) {
+      section {
+        grid-template-columns: 1fr;
+      }
+      main {
+        padding: 18px;
+      }
+    }
+  </style>
+  <main>
+    <h1>Game V4 · Simple audio toggles</h1>
+    <p>
+      One small mic and one small speaker. Tap either to toggle muted/unmuted
+      directly. No overlay, picker or menu. Design proposal; voice chat is not
+      yet implemented.
+    </p>
+    <p>
+      <a href="PLAN.md">Review and implementation plan</a> ·
+      <a href="PROMPTS.md">Image prompts</a>
+    </p>
+    <section>
+      <figure>
+        <img
+          src="lobby-voice-v4.png"
+          alt="V4 lobby with mic muted and speaker unmuted, two small direct toggles"
+        />
+        <figcaption>Table lobby</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="game-voice-v4.png"
+          alt="V4 game with mic muted and speaker unmuted, clear tickets and no overlay"
+        />
+        <figcaption>Live game</figcaption>
+      </figure>
+    </section>
+    <p>
+      Mic defaults muted. Unmute lets everyone listening at the table hear you.
+      Speaker mutes/unmutes all incoming voice and number announcements,
+      restoring saved levels. Both controls are independent.
+    </p>
+  </main>
+</html>

@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "corrections": [
+    {
+      "id": "13-auto-verification",
+      "reference": "13-auto-verification",
+      "prompt": "Use case ui-mockup, precise correction of attached9:20phoneimage. Preserve entire layout, style, artwork, titleCheckingPriya'sfullhouse, Callspausedstatus,12of15checkedprogress, bottomEveryone sees the same check. Change ONLY ticket and board data for consistency. Replace the claimed ticket with this exact THREE-row NINE-column matrix, hyphen means an EMPTY ivory cell: row1 3,-,23,-,41,-,62,-,81; row2 -,12,-,34,-,56,-,74,86; row3 8,18,-,-,46,-,68,79,-. Exactly15numberedcells, FIVEperrow. All15 are red filled circles with white numerals. No extra numbers, columns or rows. Keep a complete10-column9-rowboard,1–90 in ascending row order. Colour cells1 through60 red, plus62,68,74,79,81,86 red; all other cells ivory. Heading '66 called · 24 left'. Recent calls23,46,68,81 remain visible. Use normal spaced words in all labels. Preserve same size and placement of every existing panel."
+    },
+    {
+      "id": "15-verification-recovery",
+      "reference": "13-auto-verification",
+      "prompt": "Use case ui-mockup. Create the verification-error state from THIS exact9:20phone verification screen; preserve purple/goldstyle, compact header, ticket ABOVE complete numberboard, same relative sizing and no giant error hero. Change header to 'Check interrupted' and small 'Calls paused'. Keep claimed ticket label 'Priya’s ticket'. Replace the claimed ticket with this exact THREE-row NINE-column matrix, hyphen means an EMPTY ivory cell: row1 3,-,23,-,41,-,62,-,81; row2 -,12,-,34,-,56,-,74,86; row3 8,18,-,-,46,-,68,79,-. Exactly15numberedcells, FIVEperrow. All15 are red filled circles with white numerals. No extra numbers, columns or rows. Replace middle progress panel with short status 'Connection lost. Ticket and calls are saved.' and small 'Reconnecting…'. Keep a complete10-column9-rowboard,1–90 in ascending row order. Colour cells1 through60 red, plus62,68,74,79,81,86 red; all other cells ivory. Heading '66 called · 24 left'. Recent calls23,46,68,81 remain visible. Replace bottom Everyone sees the same check panel with HOSTONLYactions: label'Host options', compactgold 'Retry check' button and redoutline 'End round & return to lobby'. Small line 'Entry coins will be returned'. No My ticket, no manual voting, no challenge, no ad, no successcheck. Keep all content within single tallphone. Use normal spaced readable words."
+    }
+  ]
+}

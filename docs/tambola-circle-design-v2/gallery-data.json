@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Join your circle",
+    "file": "01-entry-and-sim.png",
+    "note": "Home, private online play, supported SIM selection and the unavailable-device state.",
+    "screens": [
+      "Home",
+      "Online mode",
+      "Select your SIM",
+      "SIM selection unavailable"
+    ]
+  },
+  {
+    "title": "Set the table",
+    "file": "02-tables-and-lobby.png",
+    "note": "Private tables, code and link invites, two-minute settings and the timed lobby.",
+    "screens": [
+      "Create a table",
+      "Invite your circle",
+      "Join a table",
+      "Timed lobby"
+    ]
+  },
+  {
+    "title": "Pick your tickets",
+    "file": "03-ticket-strips.png",
+    "note": "Half has three panels. Full has six. Ready players' strips can be viewed.",
+    "screens": [
+      "Half ticket · 3 panels",
+      "Full ticket · 6 panels",
+      "View ready player's tickets",
+      "Ready window ended"
+    ]
+  },
+  {
+    "title": "Ticket-first live play",
+    "file": "04-immersive-play.png",
+    "note": "Tap to circle; calls on the left, players on the right, and tall scrolling tickets.",
+    "screens": [
+      "Live · panels closed",
+      "Calls expanded · left",
+      "Players expanded · right",
+      "Player tickets · live"
+    ]
+  },
+  {
+    "title": "Timed reviews",
+    "file": "05-reviews-and-proof.png",
+    "note": "Claim and proof reviews use the table's two-minute default. Unanswered reviews approve at expiry.",
+    "screens": [
+      "Declare this ticket",
+      "Review full house",
+      "Share proof",
+      "Review proof"
+    ]
+  },
+  {
+    "title": "Host controls",
+    "file": "06-host-controls.png",
+    "note": "Final dispute decisions, permanent transfer, co-host selection and temporary takeover.",
+    "screens": [
+      "Host final decision",
+      "Transfer host",
+      "Choose a co-host",
+      "Temporary host takeover"
+    ]
+  },
+  {
+    "title": "Come back to your circle",
+    "file": "07-results-and-rejoin.png",
+    "note": "Results, watching after a rejected claim, ongoing tables and restored sessions.",
+    "screens": [
+      "Round result",
+      "Rejected claim · watching",
+      "My tables & history",
+      "Reconnecting"
+    ]
+  },
+  {
+    "title": "Ownership & history",
+    "file": "08-ownership-and-history.png",
+    "note": "Reclaiming host, player moderation, event history and saved device sign-in.",
+    "screens": [
+      "Owner returns",
+      "Manage players",
+      "Round log & replay",
+      "Saved player profile"
+    ]
+  },
+  {
+    "title": "Details & next round",
+    "file": "09-details-and-next-round.png",
+    "note": "Member details, table timing controls, bounded disputes and the next lobby.",
+    "screens": [
+      "Member details",
+      "Table timing settings",
+      "Decision time ended",
+      "Next-round lobby"
+    ]
+  }
+]
