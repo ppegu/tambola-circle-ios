@@ -1,0 +1,25 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "types": ["react", "react-native"],
+    "ignoreDeprecations": "6.0"
+  },
+  "include": [
+    "App.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "shared/**/*.ts",
+    "modules/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "server",
+    "dist",
+    "android",
+    "ios",
+    ".tools",
+    "artifacts"
+  ]
+}

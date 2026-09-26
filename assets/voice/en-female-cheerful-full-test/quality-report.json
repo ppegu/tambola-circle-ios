@@ -1,0 +1,683 @@
+{
+  "checkedCalls": 90,
+  "originalPacksUnchanged": true,
+  "originalSpeedAndPhraseGaps": true,
+  "medianMeasuredPitchChangeSemitones": -0.189,
+  "voicedFramesCompared": 1184,
+  "medianLowMidToPresenceChangeDb": 4.452,
+  "measurements": [
+    {
+      "number": 1,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.72,
+      "lowMidToPresenceChangeDb": 8.052
+    },
+    {
+      "number": 2,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 3.4,
+      "trailingQuietMs": 4.76,
+      "lowMidToPresenceChangeDb": 6.074
+    },
+    {
+      "number": 3,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 2.86,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 7.269
+    },
+    {
+      "number": 4,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 2.68,
+      "trailingQuietMs": 2.72,
+      "lowMidToPresenceChangeDb": 8.091
+    },
+    {
+      "number": 5,
+      "volumeDeltaDb": -0.008,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.476
+    },
+    {
+      "number": 6,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.9,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.649
+    },
+    {
+      "number": 7,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.4,
+      "lowMidToPresenceChangeDb": 5.89
+    },
+    {
+      "number": 8,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 2.63,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.995
+    },
+    {
+      "number": 9,
+      "volumeDeltaDb": -0.003,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 7.736
+    },
+    {
+      "number": 10,
+      "volumeDeltaDb": -0.013,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.265
+    },
+    {
+      "number": 11,
+      "volumeDeltaDb": -0.007,
+      "leadingQuietMs": 3.76,
+      "trailingQuietMs": 4.63,
+      "lowMidToPresenceChangeDb": 4.591
+    },
+    {
+      "number": 12,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.15
+    },
+    {
+      "number": 13,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.937
+    },
+    {
+      "number": 14,
+      "volumeDeltaDb": -0.011,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.188
+    },
+    {
+      "number": 15,
+      "volumeDeltaDb": -0.012,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.101
+    },
+    {
+      "number": 16,
+      "volumeDeltaDb": -0.011,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.338
+    },
+    {
+      "number": 17,
+      "volumeDeltaDb": -0.006,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.045
+    },
+    {
+      "number": 18,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.285
+    },
+    {
+      "number": 19,
+      "volumeDeltaDb": -0.007,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.907
+    },
+    {
+      "number": 20,
+      "volumeDeltaDb": -0.003,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.17,
+      "lowMidToPresenceChangeDb": 3.721
+    },
+    {
+      "number": 21,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.99,
+      "lowMidToPresenceChangeDb": 4.183
+    },
+    {
+      "number": 22,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 3.45,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.475
+    },
+    {
+      "number": 23,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 2.639
+    },
+    {
+      "number": 24,
+      "volumeDeltaDb": -0.003,
+      "leadingQuietMs": 1.5,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.008
+    },
+    {
+      "number": 25,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.76,
+      "lowMidToPresenceChangeDb": 5.535
+    },
+    {
+      "number": 26,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 2.4,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.462
+    },
+    {
+      "number": 27,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.36,
+      "lowMidToPresenceChangeDb": 3.562
+    },
+    {
+      "number": 28,
+      "volumeDeltaDb": -0.002,
+      "leadingQuietMs": 2.81,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.238
+    },
+    {
+      "number": 29,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.76,
+      "lowMidToPresenceChangeDb": 6.296
+    },
+    {
+      "number": 30,
+      "volumeDeltaDb": -0.009,
+      "leadingQuietMs": 2.04,
+      "trailingQuietMs": 2.95,
+      "lowMidToPresenceChangeDb": 4.759
+    },
+    {
+      "number": 31,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 3.67,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.477
+    },
+    {
+      "number": 32,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.58,
+      "lowMidToPresenceChangeDb": 4.306
+    },
+    {
+      "number": 33,
+      "volumeDeltaDb": -0.008,
+      "leadingQuietMs": 3.08,
+      "trailingQuietMs": 4.31,
+      "lowMidToPresenceChangeDb": 4.328
+    },
+    {
+      "number": 34,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 2.77,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.987
+    },
+    {
+      "number": 35,
+      "volumeDeltaDb": -0.017,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.702
+    },
+    {
+      "number": 36,
+      "volumeDeltaDb": -0.014,
+      "leadingQuietMs": 2.86,
+      "trailingQuietMs": 4.63,
+      "lowMidToPresenceChangeDb": 4.031
+    },
+    {
+      "number": 37,
+      "volumeDeltaDb": -0.014,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 2.9,
+      "lowMidToPresenceChangeDb": 4.852
+    },
+    {
+      "number": 38,
+      "volumeDeltaDb": -0.005,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.63,
+      "lowMidToPresenceChangeDb": 3.723
+    },
+    {
+      "number": 39,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.005
+    },
+    {
+      "number": 40,
+      "volumeDeltaDb": -0.048,
+      "leadingQuietMs": 4.13,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.434
+    },
+    {
+      "number": 41,
+      "volumeDeltaDb": -0.012,
+      "leadingQuietMs": 2.72,
+      "trailingQuietMs": 4.49,
+      "lowMidToPresenceChangeDb": 5.199
+    },
+    {
+      "number": 42,
+      "volumeDeltaDb": -0.006,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.491
+    },
+    {
+      "number": 43,
+      "volumeDeltaDb": -0.02,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.735
+    },
+    {
+      "number": 44,
+      "volumeDeltaDb": -0.005,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.671
+    },
+    {
+      "number": 45,
+      "volumeDeltaDb": -0.009,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.77
+    },
+    {
+      "number": 46,
+      "volumeDeltaDb": -0.009,
+      "leadingQuietMs": 4.81,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.833
+    },
+    {
+      "number": 47,
+      "volumeDeltaDb": -0.023,
+      "leadingQuietMs": 3.81,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.877
+    },
+    {
+      "number": 48,
+      "volumeDeltaDb": -0.015,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.683
+    },
+    {
+      "number": 49,
+      "volumeDeltaDb": -0.009,
+      "leadingQuietMs": 2.63,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.451
+    },
+    {
+      "number": 50,
+      "volumeDeltaDb": -0.01,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.77
+    },
+    {
+      "number": 51,
+      "volumeDeltaDb": -0.009,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.679
+    },
+    {
+      "number": 52,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.109
+    },
+    {
+      "number": 53,
+      "volumeDeltaDb": -0.005,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.325
+    },
+    {
+      "number": 54,
+      "volumeDeltaDb": -0.005,
+      "leadingQuietMs": 2.59,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.953
+    },
+    {
+      "number": 55,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 4.81,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.738
+    },
+    {
+      "number": 56,
+      "volumeDeltaDb": -0.022,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.977
+    },
+    {
+      "number": 57,
+      "volumeDeltaDb": -0.009,
+      "leadingQuietMs": 3.45,
+      "trailingQuietMs": 3.08,
+      "lowMidToPresenceChangeDb": 3.722
+    },
+    {
+      "number": 58,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.539
+    },
+    {
+      "number": 59,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.726
+    },
+    {
+      "number": 60,
+      "volumeDeltaDb": -0.016,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.265
+    },
+    {
+      "number": 61,
+      "volumeDeltaDb": -0.013,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.85
+    },
+    {
+      "number": 62,
+      "volumeDeltaDb": -0.014,
+      "leadingQuietMs": 2.68,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 2.8
+    },
+    {
+      "number": 63,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.87
+    },
+    {
+      "number": 64,
+      "volumeDeltaDb": -0.003,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 3.13,
+      "lowMidToPresenceChangeDb": 3.704
+    },
+    {
+      "number": 65,
+      "volumeDeltaDb": -0.005,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.31
+    },
+    {
+      "number": 66,
+      "volumeDeltaDb": -0.079,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.087
+    },
+    {
+      "number": 67,
+      "volumeDeltaDb": -0.015,
+      "leadingQuietMs": 3.49,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.367
+    },
+    {
+      "number": 68,
+      "volumeDeltaDb": -0.012,
+      "leadingQuietMs": 2.86,
+      "trailingQuietMs": 3.36,
+      "lowMidToPresenceChangeDb": 3.513
+    },
+    {
+      "number": 69,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.44,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.169
+    },
+    {
+      "number": 70,
+      "volumeDeltaDb": -0.012,
+      "leadingQuietMs": 3.08,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.471
+    },
+    {
+      "number": 71,
+      "volumeDeltaDb": -0.008,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.232
+    },
+    {
+      "number": 72,
+      "volumeDeltaDb": -0.003,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.849
+    },
+    {
+      "number": 73,
+      "volumeDeltaDb": -0.002,
+      "leadingQuietMs": 4.58,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.434
+    },
+    {
+      "number": 74,
+      "volumeDeltaDb": -0.002,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.702
+    },
+    {
+      "number": 75,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 6.591
+    },
+    {
+      "number": 76,
+      "volumeDeltaDb": -0.049,
+      "leadingQuietMs": 2.86,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.788
+    },
+    {
+      "number": 77,
+      "volumeDeltaDb": -0.019,
+      "leadingQuietMs": 4.67,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.224
+    },
+    {
+      "number": 78,
+      "volumeDeltaDb": -0.02,
+      "leadingQuietMs": 3.95,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.217
+    },
+    {
+      "number": 79,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 7.012
+    },
+    {
+      "number": 80,
+      "volumeDeltaDb": -0.002,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.032
+    },
+    {
+      "number": 81,
+      "volumeDeltaDb": -0.003,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.598
+    },
+    {
+      "number": 82,
+      "volumeDeltaDb": -0.0,
+      "leadingQuietMs": 2.54,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.353
+    },
+    {
+      "number": 83,
+      "volumeDeltaDb": -0.004,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.186
+    },
+    {
+      "number": 84,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.027
+    },
+    {
+      "number": 85,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.67,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 4.68
+    },
+    {
+      "number": 86,
+      "volumeDeltaDb": -0.013,
+      "leadingQuietMs": 2.81,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 3.375
+    },
+    {
+      "number": 87,
+      "volumeDeltaDb": -0.012,
+      "leadingQuietMs": 2.86,
+      "trailingQuietMs": 2.9,
+      "lowMidToPresenceChangeDb": 3.72
+    },
+    {
+      "number": 88,
+      "volumeDeltaDb": -0.007,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 2.804
+    },
+    {
+      "number": 89,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.792
+    },
+    {
+      "number": 90,
+      "volumeDeltaDb": -0.001,
+      "leadingQuietMs": 4.99,
+      "trailingQuietMs": 4.99,
+      "lowMidToPresenceChangeDb": 5.135
+    }
+  ],
+  "automatedTranscripts": [
+    {
+      "number": 1,
+      "transcript": "Single number one"
+    },
+    {
+      "number": 4,
+      "transcript": "Single number 4."
+    },
+    {
+      "number": 6,
+      "transcript": "Single number six."
+    },
+    {
+      "number": 7,
+      "transcript": "Single number seven."
+    },
+    {
+      "number": 12,
+      "transcript": "One, two, twelve."
+    },
+    {
+      "number": 30,
+      "transcript": "3, 0, 30"
+    },
+    {
+      "number": 47,
+      "transcript": "47 47"
+    },
+    {
+      "number": 67,
+      "transcript": "67 67"
+    },
+    {
+      "number": 77,
+      "transcript": "77 77"
+    },
+    {
+      "number": 90,
+      "transcript": "90 90"
+    }
+  ],
+  "note": "Pitch and spectral balance are measured; subjective fullness and naturalness require listening."
+}

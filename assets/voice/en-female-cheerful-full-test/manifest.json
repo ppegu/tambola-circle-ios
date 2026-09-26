@@ -1,0 +1,2952 @@
+{
+  "pack": "en-female-cheerful-full-test",
+  "experimental": true,
+  "sourcePack": "en-female-cheerful-test",
+  "sourceManifestSha256": "c96cd6501a588286c85efd5ba9974c71d1b83a57b12ef12ae9c495e65f635b67",
+  "sourceModel": "en_GB-semaine-medium",
+  "speaker": "poppy",
+  "license": "CC-BY-NC-SA-4.0",
+  "formantShiftRatio": 0.84,
+  "pitchMedian": "unchanged",
+  "pitchRangeFactor": 1,
+  "speakingRateRatio": 1,
+  "preservePhrasePauses": true,
+  "bodyGainDb": 3.5,
+  "bodyCenterHz": 320,
+  "highShelfDb": -1.5,
+  "highShelfCenterHz": 4000,
+  "processingTool": "Praat 6.1.38 / Parselmouth 0.4.7",
+  "protectedFiles": {
+    "assets/voice/en-female-cheerful-test/1.wav": "e65b31051b58116d9734236a997f283a5993b9394dc3c7edaaec0ec9439b6b95",
+    "assets/voice/en-female-cheerful-test/2.wav": "c58dfe4deb76cd484055cbfa99cfc0dc0ab8142aff6566c92dee05de6b99f3b7",
+    "assets/voice/en-female-cheerful-test/3.wav": "49e66486e94f408134a6fabb3c4078fefd68020c9e158d27b022c4a71ab3c690",
+    "assets/voice/en-female-cheerful-test/4.wav": "9e194c14ed8b3a9b8b912d596349056e4f300e7cd2ea1bb04a13bc783f80ca1e",
+    "assets/voice/en-female-cheerful-test/5.wav": "331b611bbea8ccb87790f006a2df1a0bb5934859a5233f55a289a177639cf44e",
+    "assets/voice/en-female-cheerful-test/6.wav": "71f1086875c9295e2d38caeecae7338028c74152395874a8384d27a2edfb6731",
+    "assets/voice/en-female-cheerful-test/7.wav": "a0df41314a55e91ee9f079fe4d45ccd8aa17053db9b9343dc7c9f34ae53c6d46",
+    "assets/voice/en-female-cheerful-test/8.wav": "ac8d837c93947fecda98aef5749141a199e17482f13a20cb78ace7d5baffee2b",
+    "assets/voice/en-female-cheerful-test/9.wav": "02b8a43ae2fc3b497f4b745ca6bdc15e03c891988d1d0067a946e1b63346dc01",
+    "assets/voice/en-female-cheerful-test/10.wav": "780449d7f29629854688a45dcd2a3431b32182a05d2e55baea1df6275b948f31",
+    "assets/voice/en-female-cheerful-test/11.wav": "71577fadd7f17914d6fe2511de8181c05c181b9e79adada26ee7e0564dae8e20",
+    "assets/voice/en-female-cheerful-test/12.wav": "3780b29b0143fdca25651ff5823ca7f0ce4328a7bb2fc884188c6983f8dfc6e5",
+    "assets/voice/en-female-cheerful-test/13.wav": "8a2a6aedd44c643273522371cb52fef70e278a17c7e26c1949631895a3421c8a",
+    "assets/voice/en-female-cheerful-test/14.wav": "41e5c50abd78ab606eed4697240c0cad53ea183f82ec193336570d0d5fdc1388",
+    "assets/voice/en-female-cheerful-test/15.wav": "f180feffb08ba8adeeba4820cee1cc6abafd7aa430b6d2ee6db17c8644da97e1",
+    "assets/voice/en-female-cheerful-test/16.wav": "6aa80f0dce249d8c61aba3d15332917c695e07f6850048e16c6e4c1f2f8350e2",
+    "assets/voice/en-female-cheerful-test/17.wav": "6c8c0cb5f19d1036eca20e7c1295d333449681bd2587427d941d8e27a41ae0c2",
+    "assets/voice/en-female-cheerful-test/18.wav": "12b30438cae22e8c860225caf02205da6cd9b2aee47c35eb71a242ebe255dfc3",
+    "assets/voice/en-female-cheerful-test/19.wav": "c4185aa560628161a4279b9cb7fb898f3074279b9f6ebf0df46dd1f81e00604c",
+    "assets/voice/en-female-cheerful-test/20.wav": "a78c5b58ebdaa7b70ea92fd4f0fd938b9a27c4e177475832bdd159581f10f593",
+    "assets/voice/en-female-cheerful-test/21.wav": "3151121e199a3058f73eb95b8728fd383256d58d1509ac4c135dce816b14de01",
+    "assets/voice/en-female-cheerful-test/22.wav": "f770154060c2bc876fa9471dd8467eae8602373e0b5dbed30fd831a13040ab15",
+    "assets/voice/en-female-cheerful-test/23.wav": "6ff92d44cdec20c9e528ff23b8f5d5fb95f5569d335314583e16f816217d0d87",
+    "assets/voice/en-female-cheerful-test/24.wav": "a68c9d9f81d99d70ea5a7f1faa8978078d51f512591c804d02b1fb635c7b8f22",
+    "assets/voice/en-female-cheerful-test/25.wav": "ab8015ca00189603481a25c109ce09fbeb470895d2d500c27ce88a255016b7c7",
+    "assets/voice/en-female-cheerful-test/26.wav": "ca6b513f1ec3f34a13dbeda188e0192ab834f10d04bfd24848bac3993f7b22e2",
+    "assets/voice/en-female-cheerful-test/27.wav": "48d58e95124926eb7a4884b9ad4d9fde192621ae8433fa109ef584acfffcdf32",
+    "assets/voice/en-female-cheerful-test/28.wav": "107af5080733861442b15535b6b14521780ce7d147b3de8848765b073e4c4d8e",
+    "assets/voice/en-female-cheerful-test/29.wav": "f2d1d6affe75aae48ecc45effff28f2a409102f06e81ae91a4fb088b7e643d55",
+    "assets/voice/en-female-cheerful-test/30.wav": "388e0052963fb67b72d328775de8cefcecbaa41479f2516c05cb31990f246280",
+    "assets/voice/en-female-cheerful-test/31.wav": "7437d1df95c86e55d87f5a92c71222906d589f8608838c894055b0f1b2922066",
+    "assets/voice/en-female-cheerful-test/32.wav": "517f387ee3cde8f03a853c5145491dc0bc29cad5764060cbc46f586420cff8d8",
+    "assets/voice/en-female-cheerful-test/33.wav": "67e25e3fa58b05d5f695f7ce98c083a561a9ff289849e9441c3f5803945b6fef",
+    "assets/voice/en-female-cheerful-test/34.wav": "9609d9b136d153e6bfbfa1fb516e542b5dd184270b94ca0350f1d41694e137be",
+    "assets/voice/en-female-cheerful-test/35.wav": "0fd2c83319a4a5c117d16c74c86ef3ab4ea2852cbd255e268af00b992b047df9",
+    "assets/voice/en-female-cheerful-test/36.wav": "321ea4f43d0b505f6d79be62cccc2e7ba1c42e271abeda12c893c99b22464965",
+    "assets/voice/en-female-cheerful-test/37.wav": "17e18ca31757358233fd7e2f19707f2887b06868460b77005d27f17a061f65a2",
+    "assets/voice/en-female-cheerful-test/38.wav": "70a6372dd737f51e82a17e6e4d9c2e5f01413aa7a31c22fb7a4cb56fa374da38",
+    "assets/voice/en-female-cheerful-test/39.wav": "721f10e1f7c94e883ba9db76cc1ef32159a0819bf5750eb1e571603d9fde0db6",
+    "assets/voice/en-female-cheerful-test/40.wav": "e815db607bfeb8cc255cec0b8b035fc6e0f3355e18b14f2ed0db01592bcad0d8",
+    "assets/voice/en-female-cheerful-test/41.wav": "8b81c69d879e32b068c04ecd3f62b6c843210b943c23a76fd572b080ea0f9731",
+    "assets/voice/en-female-cheerful-test/42.wav": "57fd05960e47e4fa2dc480beab2f4edb18be73042d31e662eb8baadf0d3075bf",
+    "assets/voice/en-female-cheerful-test/43.wav": "abf0fce03973780174ba1587a5016d77389ef1d22250af6a7ac986ee2b8f135f",
+    "assets/voice/en-female-cheerful-test/44.wav": "d9d3d1a189a8247647c11451cb40c2c0de47dbf1eb5414ccf091b5e055b50d02",
+    "assets/voice/en-female-cheerful-test/45.wav": "b215e3ea0d97567c5e9c3ae1149fde6d8984674a712c67ee49884b5aee23a333",
+    "assets/voice/en-female-cheerful-test/46.wav": "5bae02a944f17f515b6acd005c2b8c1527b9076b7619afe06871d5a802b738b5",
+    "assets/voice/en-female-cheerful-test/47.wav": "c69144638e88ab22d5b21f28e175203e87e1a34a954b6ffb401b6b4b449f451c",
+    "assets/voice/en-female-cheerful-test/48.wav": "d25d145cb302b44dfb4cadad55fa0f83fbbdd64c0271c667d15f075f0770e0f9",
+    "assets/voice/en-female-cheerful-test/49.wav": "12ef8b18bdc2143b5d4b6cdc8f500d1ccb8652cdf3a82ea0e80b2e2988536dd5",
+    "assets/voice/en-female-cheerful-test/50.wav": "aa006bb5ae55d2e44e2d221833fbeb71b1e755597d9b8f66af2da34a2ee1d60b",
+    "assets/voice/en-female-cheerful-test/51.wav": "e7ef98467b800ed765a4df30afcf3e26cedf85b2631f92435892529412d56363",
+    "assets/voice/en-female-cheerful-test/52.wav": "952d8f09996178115f71391377016f24ffdd52d84baeaa0768b422b484795a14",
+    "assets/voice/en-female-cheerful-test/53.wav": "6ffd72e7e43f4d886ab50d9dbf98be3c54d00bef9ef78a11ab7f793be3cf9de5",
+    "assets/voice/en-female-cheerful-test/54.wav": "1718c9ce795eec332da525e8282291c4de9ff658df4eeacb9ed213eaebc4c178",
+    "assets/voice/en-female-cheerful-test/55.wav": "9f9e8508b23023d3660a2d42515ff36c9bd7e00cd7942bc2209b5e93f9d156ca",
+    "assets/voice/en-female-cheerful-test/56.wav": "93bb94b95ce363338e2a3a8520d9fe684e9bc45f868c76fad5c028f585680a9b",
+    "assets/voice/en-female-cheerful-test/57.wav": "95ff0f331f60c94733fe7cff8ea8ca8d7edbebe7dd10e97b1f4d5791c518fc24",
+    "assets/voice/en-female-cheerful-test/58.wav": "c7afa3e82113e643b6c02b381a5dc15da5399ddf181e517e174b68f1eab83575",
+    "assets/voice/en-female-cheerful-test/59.wav": "b93f030c921919cc7eb77115251c195727c7d9cff852d43c76475e088d77bd0f",
+    "assets/voice/en-female-cheerful-test/60.wav": "f3e57e732d76f7f68f5d029195836a99cb5124f7ec17b24f1d900e1adbd17c6e",
+    "assets/voice/en-female-cheerful-test/61.wav": "fc5665d67e3a6deaf0baaf6c2ca1b90188182822add9b979496cdd3e5a2838c7",
+    "assets/voice/en-female-cheerful-test/62.wav": "d5ae209a5abaf371f48a977e7a55766a9ded82fced12db56b6969e372e142485",
+    "assets/voice/en-female-cheerful-test/63.wav": "216387a5833b19576b9bcb286709eec3019adbc5cbebfdd84f0f6a75ffb24475",
+    "assets/voice/en-female-cheerful-test/64.wav": "88628f036003c86e24d23621e987c9b6d26f4b42031e23d14eadb52cac6ef16a",
+    "assets/voice/en-female-cheerful-test/65.wav": "a3c1ba342b63da84a307e637ea0bee4c1f7a4bd861f4f442223e4d7a08151ceb",
+    "assets/voice/en-female-cheerful-test/66.wav": "f9f893b7802460fcff89a353f3ebda5da6a7e660a622b8a2fdf8d87d7cf9e3be",
+    "assets/voice/en-female-cheerful-test/67.wav": "71b44dc30ff6a8da3df3ab9f1976c6964d450d19c818ed6b3054e51f9479a49d",
+    "assets/voice/en-female-cheerful-test/68.wav": "792e99330c2f4aaccd2fbf62ac9ce3b063b937feee246afedacc5a578292ae39",
+    "assets/voice/en-female-cheerful-test/69.wav": "4148ca43a58f83ffd73cfddcbd6a0328d2b3b0019265d2f3e08ab9e0cf40029e",
+    "assets/voice/en-female-cheerful-test/70.wav": "123b9ab46441be55cb23b28d2034cdbcefa33b416a2f8d527ce6f879a81718c4",
+    "assets/voice/en-female-cheerful-test/71.wav": "37e1e379ad38b36c19d0e669df06f9934e554a6f0d57871060d26843ef5945c5",
+    "assets/voice/en-female-cheerful-test/72.wav": "6e6f73a9d1051946db1272ec425206226ed597c2e7a4be8dc8b55069e1fcd9db",
+    "assets/voice/en-female-cheerful-test/73.wav": "11a1d7d24d36b65923173fea5d6a57ab6f03906e45636b58ed20d8d2e56b2a30",
+    "assets/voice/en-female-cheerful-test/74.wav": "1f7f283a6b6e1a5ffd34baf9782e6684840e68fa8bf7a88f660c96c9c6b9704f",
+    "assets/voice/en-female-cheerful-test/75.wav": "cace708335351830e38606aef246e00c62d674c9b91ae1de6270275db184d0ab",
+    "assets/voice/en-female-cheerful-test/76.wav": "11bc98e1cdef4a10a7c6a1bdf77d3e2045d9e0a3203d8906ca96202fcd036845",
+    "assets/voice/en-female-cheerful-test/77.wav": "9ce0f76785dfd4690f333dfc35303b264a5c098f6ec456608786152808cb9f55",
+    "assets/voice/en-female-cheerful-test/78.wav": "6445123b5a3a4e28609fe9212df7b4ebc2e17f4654e9a50a8003eaec89a22a1c",
+    "assets/voice/en-female-cheerful-test/79.wav": "6e27238facdafda7fc290a22c0c2b80c7f51653b061886e11b77fc5e1215d497",
+    "assets/voice/en-female-cheerful-test/80.wav": "a9b1987e95dba3b130b7eb1e2503255790244aca37675bee8f5f9f61357afae9",
+    "assets/voice/en-female-cheerful-test/81.wav": "6b455869fcedbd44633f80bc4196d458bf8f49108b2373d080bff34d6f55ba9f",
+    "assets/voice/en-female-cheerful-test/82.wav": "09e70a34370a8469352cbafde8686821d61f6495384a9912de975ddc97cee2a4",
+    "assets/voice/en-female-cheerful-test/83.wav": "a1952795e7417e69c858574ca149abb72ec239d84ccb1291649feb0e57c47bb1",
+    "assets/voice/en-female-cheerful-test/84.wav": "0ef625cb6789bac5c681c90d1148f97d76b40ad59a65e93984d51e358e5afb17",
+    "assets/voice/en-female-cheerful-test/85.wav": "f03f4b7cfaec6dc125ef400bcf7c24d1faa6a84e401aba09a991c7b698283a16",
+    "assets/voice/en-female-cheerful-test/86.wav": "eb0ee0fb25614b6a928b5e871b1a54016a5945624004138a228f117670d6c3fc",
+    "assets/voice/en-female-cheerful-test/87.wav": "4c98abbf6aa7a5f8301cc05d6f8120ee22e25559e1f42046846db5731d51baa7",
+    "assets/voice/en-female-cheerful-test/88.wav": "cf1a1cd4a0c21f1c625655b799ffc4a4cba69daeba80b0bd4db5a59277515dcc",
+    "assets/voice/en-female-cheerful-test/89.wav": "3610ee4b8042a968859638152bcd8b7375e7edef30a9a679d6c9cbb5d60ded31",
+    "assets/voice/en-female-cheerful-test/90.wav": "cc6653738a1b90a8091b2eb580e5536a1bfd774a3fc5e99e186d16f090663f64",
+    "assets/voice/en-female/1.wav": "5cb12527c069d6cee40eeecf45e9dc5fffe4846414f546e00aa4e2f5be6aa8f4",
+    "assets/voice/en-female/10.wav": "06d3ee774ad8e2e96dc038d8c006c4b58572834f289061dd7ae9a64796815f83",
+    "assets/voice/en-female/11.wav": "7860df144cbaea8541bb14699aba5cce5c61e9bf7011fefa724f347e3bb38fc1",
+    "assets/voice/en-female/12.wav": "021bd5bd5ed7e5237ad7df881fcf95d14473f35afbfdd7497b7dc01712a2188e",
+    "assets/voice/en-female/13.wav": "8586a22243019da68fdf2465c36ab75ed2bf823d082aa1c5d1e6bc89c7965ecc",
+    "assets/voice/en-female/14.wav": "880e2c96ea9cbc97096d669bdd3a845ea76b45cc40462a2cdfa949d2362f37ac",
+    "assets/voice/en-female/15.wav": "7aacaa04d24899f85ea2899baca8db50f88a797097a32ec573d971c2bdfc3cec",
+    "assets/voice/en-female/16.wav": "9fee45ed0dd2ee6225015e33edca413d1880510e45ad9c02d6ac1ccb1c4ce1c4",
+    "assets/voice/en-female/17.wav": "834bcfd9168cb51992186462f9e1951c606cfd41a2bdfca8891a94b59231242a",
+    "assets/voice/en-female/18.wav": "b8fae1ec0545942a94342cfec4c2c7e064e1787ebd13ff265c09c00da7d63987",
+    "assets/voice/en-female/19.wav": "e835383b70dba759e76c77f31e3ac37bc804c13a4a5319c1b1b6ed292fdac401",
+    "assets/voice/en-female/2.wav": "62e588a92632f8247a340314627466d7048568a3527c43c15d4f3e19390741f2",
+    "assets/voice/en-female/20.wav": "6f4eb944a6ee72f36b7b25f9b55ec9a90bff01fa4e2f38883fb291f647f61c89",
+    "assets/voice/en-female/21.wav": "5af4e723ce8c4114b93e63f18d58bcc48b62a0ee8a639cbd1129488c4b9f078d",
+    "assets/voice/en-female/22.wav": "50a9c836058eefdb207080101a8d1b15c0058212d3dfbcf23ea41c5ca4aea4cb",
+    "assets/voice/en-female/23.wav": "3e035107f6e25dac30feafa1e24e6fb883d1f50a953f9e8442d84356d79c33cf",
+    "assets/voice/en-female/24.wav": "fa7b23aad256d95e8c663be0a31dfb09f0f1db7594a90c0ad1a8537e33569ca9",
+    "assets/voice/en-female/25.wav": "22176d6eb6c9ff5d78551d44d6fabb97cf67c4883612cfaee0e252bbd0de4710",
+    "assets/voice/en-female/26.wav": "1cd32f71b9f84259e1e9461db6ee345a7232c432ff6611d75333eee0444863f4",
+    "assets/voice/en-female/27.wav": "61229a93931ee6d66da892cb0ac64cd809ea80788274306be6447031b6e8dcbd",
+    "assets/voice/en-female/28.wav": "f5f38c50bb7532a96e99b1e62894029ec540d86662865ddf850e4faf26473e26",
+    "assets/voice/en-female/29.wav": "69ea5a7d2b158f6d9f442650343c918a9b6df6c66e9d25dbc7b4e9c37c7bfbda",
+    "assets/voice/en-female/3.wav": "2f761951bac0fe411449f821d2758515814c5e065338f349d4c4f5072f31b4df",
+    "assets/voice/en-female/30.wav": "d9e20b58160233632b5a4416ac39a545c09520abd655c785710f7fac3b947778",
+    "assets/voice/en-female/31.wav": "ea7cb551c368d5f34cafebdf3f635d3c8bee5d5dc345654043563469c627edad",
+    "assets/voice/en-female/32.wav": "0924c15d1af1f88605bb49d2a6123eb778d26b53e877c16591c019b798eb0a61",
+    "assets/voice/en-female/33.wav": "93d363da4f7905fef6c182e9b20b26c3c8a09a11fb05247938c3ff9b5349a6f1",
+    "assets/voice/en-female/34.wav": "d50affe1b56755f87a940d26cdc00577bc0524037dfec4d6f7c2931635fc86b9",
+    "assets/voice/en-female/35.wav": "b54fcb3430ce7a33a4d0d2b7e7f02d338b38d4f117c84f5fbeb1875160cfa18e",
+    "assets/voice/en-female/36.wav": "937c8fc5873bab029c7be6559144b0db1d035f613920903b6ad66cc6bc281701",
+    "assets/voice/en-female/37.wav": "cbcee4c0fd21c34b7a4db93589be697814dec87f32bf728f2123c04bd6b9285d",
+    "assets/voice/en-female/38.wav": "7bf1a35e1a6b98b0fe7836b0aa147d6804501265533b48127e73fb7e880a9c83",
+    "assets/voice/en-female/39.wav": "a478753c241b2c38f978d3456413f3a5b7ffee54d431ebda37264f901acbab4d",
+    "assets/voice/en-female/4.wav": "f3c7f892f94ffa94c332adbe4f8169387b9db67ee016b768df50529d9fcd8fcb",
+    "assets/voice/en-female/40.wav": "95bc595611a3af83be838ed76699992cba6c6ac901b3281473bf36ce9fbcbe8d",
+    "assets/voice/en-female/41.wav": "a8d72b5947f4495851b5c41ea2a1bbb5939b9f017cb29058a2e93aac03cee94a",
+    "assets/voice/en-female/42.wav": "1a1f5e1db77100dd8ff7c385dd47344b36cfe4eb8fbffd7a9d91f4e982b08000",
+    "assets/voice/en-female/43.wav": "d49ac9b87fa69d6b81b1b263119d39771c402184d05d21fabee92268162083ac",
+    "assets/voice/en-female/44.wav": "b4dee9f899a47acf3afdc2f0b41a9d107596c317c705c888f43e022421c0fc13",
+    "assets/voice/en-female/45.wav": "4d851750b45b68fd9b46cef58c1aea534c18895873b012007d9c49a2ae8f67a6",
+    "assets/voice/en-female/46.wav": "d4b79821f7e7bbeb02e9fe3408b99ce3096e92178b87149f3482e99a42699616",
+    "assets/voice/en-female/47.wav": "a1642a8995ee45556d6c858c5d461673b25f69dcde75f830cb090b6257ab0ce0",
+    "assets/voice/en-female/48.wav": "e9c6017edbe0dd5907eba74d1814fd57ff28deaf1f685ede0655c38d14992428",
+    "assets/voice/en-female/49.wav": "2f3c0177d4d84599e689892aa12413a8fdb5f0b5936aaf25f1b931ef5a8de5fc",
+    "assets/voice/en-female/5.wav": "72b90dfbfa7b7475f0041188f289a48a7ae115d6d4a8989d867e467e0b513067",
+    "assets/voice/en-female/50.wav": "cc5dd1ef0d197d70a7dae06d03e69a417c7e90054e83ff2e365cbe03f76cc3ec",
+    "assets/voice/en-female/51.wav": "8c30b6a65daf112cf2bbe20a109222ad665f63c514a1f648994d5993d5351c00",
+    "assets/voice/en-female/52.wav": "4d10e38caef8e2805089805b5c45b9c1e3648fd2b59549be571783ac2c7964cc",
+    "assets/voice/en-female/53.wav": "a91d2d39c1c8fa111ef5b82b7a2adb92a1737323f2daa47077e541e169f31c5c",
+    "assets/voice/en-female/54.wav": "777f42ef8d1e7e1d7a4cc5dbf558e648dcf36bd8f78c1e82fff3e19908716b34",
+    "assets/voice/en-female/55.wav": "95b1ae30e7ec0954876c9ce04ef78ccf06d9ef88e5687625c640c5c346654117",
+    "assets/voice/en-female/56.wav": "5d5d54e6f6e5519fd968471f24f4f60d7c85b7e3186c7df95ffda08e2481ddd1",
+    "assets/voice/en-female/57.wav": "e397be5f5ee2fa78e1b7a14a9b5b971abf7b973635ff2e1084b2fc1690d18dc5",
+    "assets/voice/en-female/58.wav": "3d1f3d1f7218b6acdd2c7a143389df43162bf0c46a17e2d50d53034db8551f40",
+    "assets/voice/en-female/59.wav": "59d97f86ac52e049c28e73320ed75d0bf76b72c8ad582887a1b0609a4b4c6368",
+    "assets/voice/en-female/6.wav": "1a35f0a9705441074919ea292fe565a7bb9dd8d71f887aa8f67bc07a0fdc5dc5",
+    "assets/voice/en-female/60.wav": "e0eb7ac4a837133c9878a18ea9cc8ea16f28ede0d5eb080334a754d721ad6777",
+    "assets/voice/en-female/61.wav": "9b5bd323381ae3a72944f716bf81130073d4d63f8f3441c8fb41baf8a43c7fb1",
+    "assets/voice/en-female/62.wav": "f0d47b464da6eb61fdf646bf2d38aba4f1bceff8153f42e68d73fc76cb1f5263",
+    "assets/voice/en-female/63.wav": "eea3ed07c2f1a6e95adfff71a1f3bc7a28eb26893b8e2b4bc9c378c09e1252a4",
+    "assets/voice/en-female/64.wav": "4f0785c9062aae2db731560decd1263070b9f68f95e61e65a1869a0b4a77595c",
+    "assets/voice/en-female/65.wav": "295e7f63f83a75214e67b20072b8f60949af6d8b802198aa5750a3f70bf527b3",
+    "assets/voice/en-female/66.wav": "fc5992d881007b62d3f9d56599d37d2b0bcbea1e10472a0402fd4c8c599eb1fc",
+    "assets/voice/en-female/67.wav": "d5792b01a95df24fde886560edca8ac0d0409d46187d0db5b2f6c0328321f6da",
+    "assets/voice/en-female/68.wav": "2903a0b14fe64983e5f28b9c92cf9a6a7fe83227beb5ca8cf34abf7e2eb7f6ec",
+    "assets/voice/en-female/69.wav": "0688c798ee3d1170a9529f5ccbd189f793dde8ef4f6ce5a06ced98044ac6d98e",
+    "assets/voice/en-female/7.wav": "1517bed9cfa23ce071912c68747a750dcfd2f33daad13a1254191e4405fd32bd",
+    "assets/voice/en-female/70.wav": "53afe7dd683a0841a80cfd3e28dfe8e93aaaf4577f51568f755307cf6016ef73",
+    "assets/voice/en-female/71.wav": "284885b991d64d7d110c6cfc96860a09d7a5d850974e59f6e2b67c00c61516eb",
+    "assets/voice/en-female/72.wav": "f6d9150d579cda86687b4a0a88b47485ad5a504735440c47d1a2154182d071a4",
+    "assets/voice/en-female/73.wav": "00887dc40811c0ac094a71bd17d778e3ca5b0a596e4fa4b3ffbd2d91b01aa04a",
+    "assets/voice/en-female/74.wav": "a0dbc815a2c0c68f30730675cee9793ae4d8bc9996ccc77640e72648500668e1",
+    "assets/voice/en-female/75.wav": "20631d89840006e1db960e42e98536379d4483f1efb1115f74548caf4ad5cf4d",
+    "assets/voice/en-female/76.wav": "5dec57a1f390ea11986e7a3af35aea69c5189a1729d5e5f60cbf6aeee92fb340",
+    "assets/voice/en-female/77.wav": "3a2da0353a4af9bd7616aa4a4ea58ca1781d53aa97e328ea3056a6f917b289d3",
+    "assets/voice/en-female/78.wav": "240f9f18dbaec2ab826c54ef631ca9cf5aced25ce72ac1bfe50f60e7b9520369",
+    "assets/voice/en-female/79.wav": "ebbc26503c5f7e5a561a026d7fc9231292407bf90f7f3708a0078b26c5af3752",
+    "assets/voice/en-female/8.wav": "5db1a4da2b47913ab9da86ed5891fbf8dd2e298d1bc6079ecd742bd43387fa6f",
+    "assets/voice/en-female/80.wav": "91c1015f496e425ae60d46388e74d8b367e9c11b5a2ce43f2ee9bdbb218673e8",
+    "assets/voice/en-female/81.wav": "173b5d2d621c17b919f8c803d257539e41b8191afb4e2474b5c88996524fdfb0",
+    "assets/voice/en-female/82.wav": "186d46692b1a2a893ff33f2ae844d1e7fc1d8dd378c66782c406f9ded5701a95",
+    "assets/voice/en-female/83.wav": "751705ffb7e384cc80d07fc4d4df33c39bd3087f8ab9c8c72fe4c0751cf04477",
+    "assets/voice/en-female/84.wav": "9d5e2fa2983d2e73577a5e47c08c8913d54272127caeceb5e0c691aa389e1e23",
+    "assets/voice/en-female/85.wav": "cfb39e57d13857817376fbbd60020f42fb0e7d54a66b15edc6973905ff7f7654",
+    "assets/voice/en-female/86.wav": "338d03c2a722ccf7ce93983a06b08133b161e939bf2979bf7515a5b5558cbe3e",
+    "assets/voice/en-female/87.wav": "09338747ced133fd319e759872ad712951aab8adc404088279c1e9405f027b21",
+    "assets/voice/en-female/88.wav": "2411bfbd9c8f39b956c428412384714a993f5de7eb25581bd75faf22a9fcbbf1",
+    "assets/voice/en-female/89.wav": "a751082b23cfb2d9eb900e90b3f5272393859ad131ee91fe27f80315a618a871",
+    "assets/voice/en-female/9.wav": "2a4174d55664ab2c8d9e67b2534f3715d658ee56b5590720b9d4600e58303f88",
+    "assets/voice/en-female/90.wav": "03c8f1f7bee4139097e0a04ab104adb9c8abb583986dfe655599520f022c915e",
+    "assets/voice/en-female-cheerful-low-test/1.wav": "13f646435f44939ce57d55d01d4c9d2e5d5fdfcaa1e4dacc39ae247f62952dc5",
+    "assets/voice/en-female-cheerful-low-test/10.wav": "e33e468c5cb3fd69070b0515e73ec90e48ced2a457410a5aae5349795b55beb4",
+    "assets/voice/en-female-cheerful-low-test/11.wav": "3221edce0916eb59b21a6fa70efea10863ece823cd2012bc9e959442c7257988",
+    "assets/voice/en-female-cheerful-low-test/12.wav": "0f2bb087e7de278e4b6e745121daab40b9a867fdbdecc2f72023fb280554be12",
+    "assets/voice/en-female-cheerful-low-test/13.wav": "ff2b5c8e0713d5171dd1a8252a00cdbdd3e9945cfb6af8389e8e59a5999ece5e",
+    "assets/voice/en-female-cheerful-low-test/14.wav": "1ff623466450afd36a159d85b122977f425d7a1338e517fa4b18fb4569ae1bb7",
+    "assets/voice/en-female-cheerful-low-test/15.wav": "6f42c8084c3bdeeabadd03ac72ae75cbe9168d46be4fbae9412ba00cbe0853db",
+    "assets/voice/en-female-cheerful-low-test/16.wav": "374303773f8a97f5f58f8ff1153511cafcc36138640c34417b72c20c405bf227",
+    "assets/voice/en-female-cheerful-low-test/17.wav": "5ba43ab205482a01fb65a210527d0ed0ca5d14477ea4405b8376db7851615b07",
+    "assets/voice/en-female-cheerful-low-test/18.wav": "4c82e3a454f8b4576931b1c8a7dbb4b4d25b73175220eecb24422b10cd31d468",
+    "assets/voice/en-female-cheerful-low-test/19.wav": "7f2e7456ce7c9e3ce86e1d583f473cb22bda3cd14571bbd3818a129a924c66ff",
+    "assets/voice/en-female-cheerful-low-test/2.wav": "54fbee7da6d44ded57f6643692c50e7eca23e10400eb024270dee995ceb3e0e9",
+    "assets/voice/en-female-cheerful-low-test/20.wav": "fdda20d1629bb70e3f38a39e146bb0dda54a44fd3c436b6818f1b928b3a00f87",
+    "assets/voice/en-female-cheerful-low-test/21.wav": "455efccf9add3ee49095779ba810eddd9fc93a629ef48426d1e3ff5659139c3a",
+    "assets/voice/en-female-cheerful-low-test/22.wav": "4e9b752bd301b85fccd8cc86bfc8bdd0b654c2bf422850dea943a9ce8c53dd8e",
+    "assets/voice/en-female-cheerful-low-test/23.wav": "6fc4b92c501e215b247407d26be6c610bf0b212e4e654656d6ceb71f5e16e606",
+    "assets/voice/en-female-cheerful-low-test/24.wav": "b7b3b2f640aa633dcfe4d6bec30954fafc289c034a89204617939dcd67cdfdfe",
+    "assets/voice/en-female-cheerful-low-test/25.wav": "8344308be71bd23fa1cb686df0b973edb2e4f117b28f954e5e695caded233456",
+    "assets/voice/en-female-cheerful-low-test/26.wav": "2d4c00bb95f20f04370fd358683b0cff1957fd13f98826d20b0d27a65e5fa0c1",
+    "assets/voice/en-female-cheerful-low-test/27.wav": "0dc4b93a98f42e6be728b81a8d8ecc73213523b581caa278bfdab4e411b8e560",
+    "assets/voice/en-female-cheerful-low-test/28.wav": "076a076da1a0375cb49e7a20cb8310e38c4fa560226b17c4fdb253b1757f9957",
+    "assets/voice/en-female-cheerful-low-test/29.wav": "fb273722c381802f1bde9f6e0e59a69d2ab9bab6274c09aedf130d2704bc9364",
+    "assets/voice/en-female-cheerful-low-test/3.wav": "4f0b3939a45848b1dbd78c2de780f578bdb805674f9d8aa3d19e0f5922e83f44",
+    "assets/voice/en-female-cheerful-low-test/30.wav": "54360e442e224051ed0e2cdac15ccfec84b31e9987ddbbbdd2e133670fe59c14",
+    "assets/voice/en-female-cheerful-low-test/31.wav": "6c265ffd6b58c30d1f766e93e880b9a37397d6fe1bb565dbc50c6403faf55b5f",
+    "assets/voice/en-female-cheerful-low-test/32.wav": "685e965a5578c1e450021c1b3edbabb9692778fdbbc6dcc89e6900778fa70e7c",
+    "assets/voice/en-female-cheerful-low-test/33.wav": "519ce5de41e6dd6dbc37a52ef0760d0785a34033a16e59b2f9121f1706c9dcba",
+    "assets/voice/en-female-cheerful-low-test/34.wav": "ebc24cccd5d80d3b5caa8330fe77a4583fd169dac55e08c087616bb33ee5bd7b",
+    "assets/voice/en-female-cheerful-low-test/35.wav": "8b969cb6e342f6b0430215618ce7d28c0e6a0da40ce4bd48a614ec76ad0eea7e",
+    "assets/voice/en-female-cheerful-low-test/36.wav": "3a119cea7301e67bc9823cdf5b3450d5d4c7b9fc4bea573561c5f6129a0ffa72",
+    "assets/voice/en-female-cheerful-low-test/37.wav": "aa1003839596ac1e6ab87e4f236ad00783ef01b8be9905101470f9f28bd374cb",
+    "assets/voice/en-female-cheerful-low-test/38.wav": "47b4ebfcf9f7d1a30162a41a97ace0d6b6a7feb2c7320225657abc277985416c",
+    "assets/voice/en-female-cheerful-low-test/39.wav": "0773a97485c7ede4115432c2ccf7cdc790a9e203d76fbd9e02ceda602bed6b46",
+    "assets/voice/en-female-cheerful-low-test/4.wav": "92fc5c663c5508cc3a456051fd51b5153798ce3044a256111706f0eab718820d",
+    "assets/voice/en-female-cheerful-low-test/40.wav": "c4592d29acb8cd4953421bad0a67e7dd7298ead464e76d0d1e8eacaf4def8979",
+    "assets/voice/en-female-cheerful-low-test/41.wav": "023379db84e4cdb26a34501bae65e4e4db0d37dea3fa988bd694442571e2377c",
+    "assets/voice/en-female-cheerful-low-test/42.wav": "e0b6a0a94af78d5c8fa1c80c4cfad83097620652dd0558a8f696e39c06f74942",
+    "assets/voice/en-female-cheerful-low-test/43.wav": "90d6b28b265f6292dcfb71e81d5e47d91cd9b457997f07f267762d57512a919c",
+    "assets/voice/en-female-cheerful-low-test/44.wav": "1ec89649531c126d1c1f15582f4d69b3e4640213ab5f47f37c7820100754466d",
+    "assets/voice/en-female-cheerful-low-test/45.wav": "db7bf47fb3618fc0e6ce5afc835413cb7dc388b26149ff6bb4b750b589e62d0f",
+    "assets/voice/en-female-cheerful-low-test/46.wav": "c7dadc4069c3f746253520dce0f525199a82d467505a0d22592e37b2be8ea7d4",
+    "assets/voice/en-female-cheerful-low-test/47.wav": "ef23557145ec5a958a2bb9b746bfe531c3fef4d945d7e28549094c13a3e086a3",
+    "assets/voice/en-female-cheerful-low-test/48.wav": "3c4671e0d83379f2882b53a5adefe8be723c77478507b883327a6339a148f34f",
+    "assets/voice/en-female-cheerful-low-test/49.wav": "eb05633c382673d6aae767cb87b63a505be10f3e523ac80f97ecf9584fef4d9a",
+    "assets/voice/en-female-cheerful-low-test/5.wav": "be9ec2095c51ea2bf0f955cab32d259bfee1d03a2bee26817217ad7610d60667",
+    "assets/voice/en-female-cheerful-low-test/50.wav": "2d62adb65ad0322dcc038115389c3c2720fccf846765ad19963821552e842656",
+    "assets/voice/en-female-cheerful-low-test/51.wav": "8887b4cbbbd568515e96cb9d6321ccfd111902b801a4fd049d14a97b2065f8a8",
+    "assets/voice/en-female-cheerful-low-test/52.wav": "83dba130f5a4632651344165e5b66528c8de04b4af7ec2e84397215598978565",
+    "assets/voice/en-female-cheerful-low-test/53.wav": "ea9003343e15fb58a7969e521d3a18a2702cf2b02c472885bfac7e2c7b36252a",
+    "assets/voice/en-female-cheerful-low-test/54.wav": "f59df81802c7782c962378afae9e9bdcc002f7dafe93102eb0c306ab2533b592",
+    "assets/voice/en-female-cheerful-low-test/55.wav": "898dd69e454ea4e854ec1e0ca8bee201170192dbda838aa210d31273e997f22a",
+    "assets/voice/en-female-cheerful-low-test/56.wav": "7ef8c82cb0027ecd22350cce66f77ad9a65777d814656f44f2904339db822a37",
+    "assets/voice/en-female-cheerful-low-test/57.wav": "f147d8a64b8f0a3bb689119c2a1bf8ffdcf6e4c31e7e06d02997501b6643cef8",
+    "assets/voice/en-female-cheerful-low-test/58.wav": "b78a6a569247f4854b86a3779bb7951a476b00007f2a5fdca9ee0eb31e87b934",
+    "assets/voice/en-female-cheerful-low-test/59.wav": "f4e3582ba94f926e756664f1fcbad3b6da87ef08801e4c9237014c59d37de937",
+    "assets/voice/en-female-cheerful-low-test/6.wav": "d10f6735c24c64e7082016800f8a9b94468a58fe33d4a41359f4a19ae01c8c6e",
+    "assets/voice/en-female-cheerful-low-test/60.wav": "6502c1a3e1e50b85e028b6c3594fb92e723187a9ac6a52d13db1e758cc9ddd1e",
+    "assets/voice/en-female-cheerful-low-test/61.wav": "1d84d88a7a6509915537cc113cfb6867d79da7a5fbc7f117d7cb741d09709129",
+    "assets/voice/en-female-cheerful-low-test/62.wav": "d01533b44ab1613d07790dcbd9375ab3702ced6525ae76b6cb8945133310a5fe",
+    "assets/voice/en-female-cheerful-low-test/63.wav": "c246ae95ef3bf7379f63c4d2987d0f0d3819814accce74010f8ac35738cfc77f",
+    "assets/voice/en-female-cheerful-low-test/64.wav": "5aad9240434f111a9fd7870e625bd8e70c1c0b88d0c2169d6b776df1b4aab8e1",
+    "assets/voice/en-female-cheerful-low-test/65.wav": "a9fa60c43771e5854c622f5411261df3c44b4c2271b379d3d9b42ef51bb267bb",
+    "assets/voice/en-female-cheerful-low-test/66.wav": "21b44de9ebcf5297856c04e6381e71d2235a98d0343997138dcde3e075e5dc40",
+    "assets/voice/en-female-cheerful-low-test/67.wav": "85711d9260a3e781653ce1afc38f6f62d176695b1a9bc96ab3a645fb22be5a68",
+    "assets/voice/en-female-cheerful-low-test/68.wav": "9bf49aab025d666259453945794000b7490ba9f22c82fa67dd1e51d3936aff27",
+    "assets/voice/en-female-cheerful-low-test/69.wav": "d07ff971de007b984995706407b5f24d88e06c75d8b807c8c191cc5ee70bd95a",
+    "assets/voice/en-female-cheerful-low-test/7.wav": "9b4b877b146b603eb8a550a1ddb67f356ddc7a4b2d00280b227cb8478506fcd3",
+    "assets/voice/en-female-cheerful-low-test/70.wav": "cbd2936ce416347e9c575d5580aa7ab19992f9df19c3d8fb090ab594826a6153",
+    "assets/voice/en-female-cheerful-low-test/71.wav": "af468694e76d957201d02604b35d98e9832d6760fd8784571c6bc1d77ddd41d4",
+    "assets/voice/en-female-cheerful-low-test/72.wav": "9201df3ffff4c8c715eddb11b4494bf97754d8c6f0c8422f5b734d6da690b2d5",
+    "assets/voice/en-female-cheerful-low-test/73.wav": "dd56815252e020419978f932ffc8ff095cf248e3ec85283e9cceb7c5fca3aa1e",
+    "assets/voice/en-female-cheerful-low-test/74.wav": "fc0caa77b9497aecb4f4fb0894608549f9d73d990700d88ed3b51018f09a336e",
+    "assets/voice/en-female-cheerful-low-test/75.wav": "d53dd49b212ef446eeea1c34526d3965dcd155878a850d8623a68f58217a05f4",
+    "assets/voice/en-female-cheerful-low-test/76.wav": "40c1d5da963d2ff50f79a42b2ef478aacb7190698a58c49ec5244438b043a5ba",
+    "assets/voice/en-female-cheerful-low-test/77.wav": "73031de104aa84a34177a5d785c1940e78468afe39740a00aa43deb016ce81fb",
+    "assets/voice/en-female-cheerful-low-test/78.wav": "d963955a9f063dead505117fe3ec98815ea1e7b57bf03f29d4d600fb384208d7",
+    "assets/voice/en-female-cheerful-low-test/79.wav": "806634479330e90f49c272d06b3bfd88c7987d7703b8b4b4260a4e16add3606c",
+    "assets/voice/en-female-cheerful-low-test/8.wav": "8765d33f8ceafa96e74b8f26d23931b12e9b0a0b4bde801ba8d37aa176c6dc39",
+    "assets/voice/en-female-cheerful-low-test/80.wav": "557c943e3124ed688e55703b3d2578a91074402559b39fa363a62720d7f3f4e2",
+    "assets/voice/en-female-cheerful-low-test/81.wav": "245e40a49315d784dfd5ac0639af55f5d842e85b3c0534d563791a1124867a11",
+    "assets/voice/en-female-cheerful-low-test/82.wav": "4b2964fd483dd002e2f74b54a9da5b08647fe2e94a113a024f8de6f333a8ee4d",
+    "assets/voice/en-female-cheerful-low-test/83.wav": "eb1d60b077fd367243f4aa5cb77f278dcc36744f44d314dc8ef1467259c35bcb",
+    "assets/voice/en-female-cheerful-low-test/84.wav": "05c3de3a001d60395a8795b2cf7d07a83cdbd5ded3916d36a750908ddf12d05c",
+    "assets/voice/en-female-cheerful-low-test/85.wav": "7e0c6fc740f1e543eb21a842f3220f2150a1be379bd3971a84241628229eab75",
+    "assets/voice/en-female-cheerful-low-test/86.wav": "fc4519c7a95ddbc3c9ff5a080695f53e4753ab8854c0db52488ff9491eff45d8",
+    "assets/voice/en-female-cheerful-low-test/87.wav": "b80e778adfb290ab5810b035330c3ac5de55b3d3ee5ab108d8444d0cdaa876b0",
+    "assets/voice/en-female-cheerful-low-test/88.wav": "fce3d1d9fd4b9f355cfb3c37807abe21b1282fbab35aeef0835aceb007ebd40b",
+    "assets/voice/en-female-cheerful-low-test/89.wav": "4fbf37033e81595a766df643f9a8f4966c40d28e1e3b3c43c2680e5f62f4b8dd",
+    "assets/voice/en-female-cheerful-low-test/9.wav": "57e8e9d6551679406591bd912413575d33a2c5033ddd26c67ef7eb56367ae394",
+    "assets/voice/en-female-cheerful-low-test/90.wav": "26066fd57dc42d59fa443f48e7db979deb79e354d7aa04feb864d3a971171302",
+    "assets/voice/en-female-cheerful-test/manifest.json": "c96cd6501a588286c85efd5ba9974c71d1b83a57b12ef12ae9c495e65f635b67",
+    "assets/voice/manifest.json": "b4055fdadb0ec1e6f8ac49e5a685648b3919e64a5d3c8b9c5da8601299556ee2",
+    "src/voiceBank.ts": "2e7d726c454fbc667778daa343e2d800439c8f243231919b3a2d63b1d754ac41",
+    "shared/voiceTiming.json": "393617a5e46909427ffdf8875ea66691df25b3fe1de351e2a0c0cb1e601116b5"
+  },
+  "calls": [
+    {
+      "number": 1,
+      "text": "single number one.",
+      "synthesisText": "Single, number, one!",
+      "digits": null,
+      "full": "single number one",
+      "file": "1.wav",
+      "durationMs": 1947.483,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, one!",
+          "startSample": 0,
+          "samples": 42942
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.87051,
+      "rms": 0.21086,
+      "sha256": "428eadc2be13ac04c622310bb3b1e3888df74231bfa42c3ecf1819c9f55eab7d",
+      "sourceDurationMs": 1950.204,
+      "trimStartSamples": 60,
+      "trimEndSamples": 0,
+      "sourceSha256": "e65b31051b58116d9734236a997f283a5993b9394dc3c7edaaec0ec9439b6b95"
+    },
+    {
+      "number": 2,
+      "text": "single number two.",
+      "synthesisText": "Single, number, two!",
+      "digits": null,
+      "full": "single number two",
+      "file": "2.wav",
+      "durationMs": 1755.011,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, two!",
+          "startSample": 0,
+          "samples": 38698
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.8496,
+      "rms": 0.2235,
+      "sha256": "d2cc31b92ab6046e4eaf7aedf700817cb50723947792c172e1ff20ba5c436676",
+      "sourceDurationMs": 1755.011,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "c58dfe4deb76cd484055cbfa99cfc0dc0ab8142aff6566c92dee05de6b99f3b7"
+    },
+    {
+      "number": 3,
+      "text": "single number three.",
+      "synthesisText": "Single, number, three!",
+      "digits": null,
+      "full": "single number three",
+      "file": "3.wav",
+      "durationMs": 2362.041,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, three!",
+          "startSample": 0,
+          "samples": 52083
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.8786,
+      "rms": 0.2083,
+      "sha256": "4757351e8898355c9c7b959fa2b8ca804b6ce753b6ac9ce293b43bcf88d42881",
+      "sourceDurationMs": 2367.075,
+      "trimStartSamples": 0,
+      "trimEndSamples": 111,
+      "sourceSha256": "49e66486e94f408134a6fabb3c4078fefd68020c9e158d27b022c4a71ab3c690"
+    },
+    {
+      "number": 4,
+      "text": "single number four.",
+      "synthesisText": "Single, number, four!",
+      "digits": null,
+      "full": "single number four",
+      "file": "4.wav",
+      "durationMs": 1962.086,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, four!",
+          "startSample": 0,
+          "samples": 43264
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.85717,
+      "rms": 0.21208,
+      "sha256": "9beacdf5f0c913f73900631277dced43cae86cd8d85bce69e1eac99fc8a612a8",
+      "sourceDurationMs": 1962.086,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "9e194c14ed8b3a9b8b912d596349056e4f300e7cd2ea1bb04a13bc783f80ca1e"
+    },
+    {
+      "number": 5,
+      "text": "single number five.",
+      "synthesisText": "Single, number, five!",
+      "digits": null,
+      "full": "single number five",
+      "file": "5.wav",
+      "durationMs": 2392.653,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, five!",
+          "startSample": 0,
+          "samples": 52758
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.92199,
+      "rms": 0.2179,
+      "sha256": "10b2c4678ef365bbee815532255bd5714992e94f5346d085509ab482832e0a6d",
+      "sourceDurationMs": 2416.054,
+      "trimStartSamples": 65,
+      "trimEndSamples": 451,
+      "sourceSha256": "331b611bbea8ccb87790f006a2df1a0bb5934859a5233f55a289a177639cf44e"
+    },
+    {
+      "number": 6,
+      "text": "single number six.",
+      "synthesisText": "Single, number, six!",
+      "digits": null,
+      "full": "single number six",
+      "file": "6.wav",
+      "durationMs": 2243.492,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, six!",
+          "startSample": 0,
+          "samples": 49469
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.90774,
+      "rms": 0.20819,
+      "sha256": "594cfd688d822d08089c6965e72d8e26e0d9eaa503423b801e704f3760e5e8e0",
+      "sourceDurationMs": 2248.98,
+      "trimStartSamples": 0,
+      "trimEndSamples": 121,
+      "sourceSha256": "71f1086875c9295e2d38caeecae7338028c74152395874a8384d27a2edfb6731"
+    },
+    {
+      "number": 7,
+      "text": "single number seven.",
+      "synthesisText": "Single, number, seven!",
+      "digits": null,
+      "full": "single number seven",
+      "file": "7.wav",
+      "durationMs": 2111.293,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, seven!",
+          "startSample": 0,
+          "samples": 46554
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.86938,
+      "rms": 0.21457,
+      "sha256": "2b48c10670a217a19ea59781887593fd44abc2ee0230c1e0ae73e75a27cddcbb",
+      "sourceDurationMs": 2144.58,
+      "trimStartSamples": 734,
+      "trimEndSamples": 0,
+      "sourceSha256": "a0df41314a55e91ee9f079fe4d45ccd8aa17053db9b9343dc7c9f34ae53c6d46"
+    },
+    {
+      "number": 8,
+      "text": "single number eight.",
+      "synthesisText": "Single, number, eight!",
+      "digits": null,
+      "full": "single number eight",
+      "file": "8.wav",
+      "durationMs": 2101.315,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, eight!",
+          "startSample": 0,
+          "samples": 46334
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.89459,
+      "rms": 0.20886,
+      "sha256": "24ac74fb329064a5d76c14c529e1c6a41bb7cc6106f75fbfc54a72cb94bccb84",
+      "sourceDurationMs": 2108.39,
+      "trimStartSamples": 0,
+      "trimEndSamples": 156,
+      "sourceSha256": "ac8d837c93947fecda98aef5749141a199e17482f13a20cb78ace7d5baffee2b"
+    },
+    {
+      "number": 9,
+      "text": "single number nine.",
+      "synthesisText": "Single, number, nine!",
+      "digits": null,
+      "full": "single number nine",
+      "file": "9.wav",
+      "durationMs": 2103.855,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Single, number, nine!",
+          "startSample": 0,
+          "samples": 46390
+        }
+      ],
+      "gapMs": 0,
+      "peak": 0.9017,
+      "rms": 0.21214,
+      "sha256": "6e7ecb5e46ba7fd099c514760a56e9fc59665e731c2aa1a16e726fcd3cc78c19",
+      "sourceDurationMs": 2163.129,
+      "trimStartSamples": 880,
+      "trimEndSamples": 427,
+      "sourceSha256": "02b8a43ae2fc3b497f4b745ca6bdc15e03c891988d1d0067a946e1b63346dc01"
+    },
+    {
+      "number": 10,
+      "text": "one zero. ten.",
+      "synthesisText": "One, zero! Ten!",
+      "digits": "one zero",
+      "full": "ten",
+      "file": "10.wav",
+      "durationMs": 2963.356,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, zero!",
+          "startSample": 0,
+          "samples": 40879
+        },
+        {
+          "text": "Ten!",
+          "startSample": 51904,
+          "samples": 13438
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.9292,
+      "rms": 0.18477,
+      "sha256": "ccab3c08f674163cdad4510402f6808e2dc8600899b92b47b20007ebd1a705c6",
+      "sourceDurationMs": 2994.104,
+      "trimStartSamples": 42,
+      "trimEndSamples": 636,
+      "sourceSha256": "780449d7f29629854688a45dcd2a3431b32182a05d2e55baea1df6275b948f31"
+    },
+    {
+      "number": 11,
+      "text": "one one. eleven.",
+      "synthesisText": "One, one! Eleven!",
+      "digits": "one one",
+      "full": "eleven",
+      "file": "11.wav",
+      "durationMs": 2636.19,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, one!",
+          "startSample": 0,
+          "samples": 37020
+        },
+        {
+          "text": "Eleven!",
+          "startSample": 48045,
+          "samples": 10083
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92306,
+      "rms": 0.1908,
+      "sha256": "e018ac9c2979c91ffd87dd7e7d58b5d5c184119e5f9102b1ae557477c63bfb3e",
+      "sourceDurationMs": 2636.19,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "71577fadd7f17914d6fe2511de8181c05c181b9e79adada26ee7e0564dae8e20"
+    },
+    {
+      "number": 12,
+      "text": "one two. twelve.",
+      "synthesisText": "One, two! Twelve!",
+      "digits": "one two",
+      "full": "twelve",
+      "file": "12.wav",
+      "durationMs": 2743.81,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, two!",
+          "startSample": 0,
+          "samples": 30121
+        },
+        {
+          "text": "Twelve!",
+          "startSample": 41146,
+          "samples": 19355
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90258,
+      "rms": 0.19106,
+      "sha256": "58fb67e5db3ea4aa586c03ba0e5f5d39946a0b1abe6481e293e53c45cb7124e8",
+      "sourceDurationMs": 2746.168,
+      "trimStartSamples": 0,
+      "trimEndSamples": 52,
+      "sourceSha256": "3780b29b0143fdca25651ff5823ca7f0ce4328a7bb2fc884188c6983f8dfc6e5"
+    },
+    {
+      "number": 13,
+      "text": "one three. thirteen.",
+      "synthesisText": "One, three! Thirteen!",
+      "digits": "one three",
+      "full": "thirteen",
+      "file": "13.wav",
+      "durationMs": 3159.456,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, three!",
+          "startSample": 0,
+          "samples": 38795
+        },
+        {
+          "text": "Thirteen!",
+          "startSample": 49820,
+          "samples": 19846
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88156,
+      "rms": 0.18724,
+      "sha256": "e1d70d93cb13964aab990f9136c01b2ce145c814f4fdd930ce0d67f703159e79",
+      "sourceDurationMs": 3168.707,
+      "trimStartSamples": 128,
+      "trimEndSamples": 76,
+      "sourceSha256": "8a2a6aedd44c643273522371cb52fef70e278a17c7e26c1949631895a3421c8a"
+    },
+    {
+      "number": 14,
+      "text": "one four. fourteen.",
+      "synthesisText": "One, four! Fourteen!",
+      "digits": "one four",
+      "full": "fourteen",
+      "file": "14.wav",
+      "durationMs": 3308.889,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, four!",
+          "startSample": 0,
+          "samples": 34991
+        },
+        {
+          "text": "Fourteen!",
+          "startSample": 46016,
+          "samples": 26945
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91482,
+      "rms": 0.17789,
+      "sha256": "fe3c2482aab3eba6aa92c0097730fde228214a30e6ca2a265f9b95ab7dee8f16",
+      "sourceDurationMs": 3347.664,
+      "trimStartSamples": 676,
+      "trimEndSamples": 179,
+      "sourceSha256": "41e5c50abd78ab606eed4697240c0cad53ea183f82ec193336570d0d5fdc1388"
+    },
+    {
+      "number": 15,
+      "text": "one five. fifteen.",
+      "synthesisText": "One, five! Fifteen!",
+      "digits": "one five",
+      "full": "fifteen",
+      "file": "15.wav",
+      "durationMs": 3832.154,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, five!",
+          "startSample": 0,
+          "samples": 39682
+        },
+        {
+          "text": "Fifteen!",
+          "startSample": 50707,
+          "samples": 33792
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92651,
+      "rms": 0.1793,
+      "sha256": "9b3d284bdad0274c6aef7f454834019721c0128237e3ba758b9c1bf810b2cfb0",
+      "sourceDurationMs": 3880.499,
+      "trimStartSamples": 1059,
+      "trimEndSamples": 7,
+      "sourceSha256": "f180feffb08ba8adeeba4820cee1cc6abafd7aa430b6d2ee6db17c8644da97e1"
+    },
+    {
+      "number": 16,
+      "text": "one six. sixteen.",
+      "synthesisText": "One, six! Sixteen!",
+      "digits": "one six",
+      "full": "sixteen",
+      "file": "16.wav",
+      "durationMs": 3079.32,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, six!",
+          "startSample": 0,
+          "samples": 34132
+        },
+        {
+          "text": "Sixteen!",
+          "startSample": 45157,
+          "samples": 22742
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93432,
+      "rms": 0.18276,
+      "sha256": "448d3ec7d6bf8183ade82836d2cd357963e2f62c60a14999958cb1d3855b4d6f",
+      "sourceDurationMs": 3084.898,
+      "trimStartSamples": 119,
+      "trimEndSamples": 4,
+      "sourceSha256": "6aa80f0dce249d8c61aba3d15332917c695e07f6850048e16c6e4c1f2f8350e2"
+    },
+    {
+      "number": 17,
+      "text": "one seven. seventeen.",
+      "synthesisText": "One, seven! Seventeen!",
+      "digits": "one seven",
+      "full": "seventeen",
+      "file": "17.wav",
+      "durationMs": 3041.27,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, seven!",
+          "startSample": 0,
+          "samples": 37509
+        },
+        {
+          "text": "Seventeen!",
+          "startSample": 48534,
+          "samples": 18526
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90939,
+      "rms": 0.18931,
+      "sha256": "b2097afe6e146b97c6fdff0b5441b9442b1491184fca8256becdf880a315b536",
+      "sourceDurationMs": 3141.088,
+      "trimStartSamples": 121,
+      "trimEndSamples": 2080,
+      "sourceSha256": "6c8c0cb5f19d1036eca20e7c1295d333449681bd2587427d941d8e27a41ae0c2"
+    },
+    {
+      "number": 18,
+      "text": "one eight. eighteen.",
+      "synthesisText": "One, eight! Eighteen!",
+      "digits": "one eight",
+      "full": "eighteen",
+      "file": "18.wav",
+      "durationMs": 3051.156,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, eight!",
+          "startSample": 0,
+          "samples": 32988
+        },
+        {
+          "text": "Eighteen!",
+          "startSample": 44013,
+          "samples": 23265
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.8569,
+      "rms": 0.18126,
+      "sha256": "144b3937be1331c4661e95b2a1b407bb351198ad179f6486661f0d0feb3bb869",
+      "sourceDurationMs": 3104.354,
+      "trimStartSamples": 36,
+      "trimEndSamples": 1137,
+      "sourceSha256": "12b30438cae22e8c860225caf02205da6cd9b2aee47c35eb71a242ebe255dfc3"
+    },
+    {
+      "number": 19,
+      "text": "one nine. nineteen.",
+      "synthesisText": "One, nine! Nineteen!",
+      "digits": "one nine",
+      "full": "nineteen",
+      "file": "19.wav",
+      "durationMs": 3171.519,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "One, nine!",
+          "startSample": 0,
+          "samples": 32179
+        },
+        {
+          "text": "Nineteen!",
+          "startSample": 43204,
+          "samples": 26728
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91363,
+      "rms": 0.19282,
+      "sha256": "ed6be829f9625a0041d006d3e7feda6d8aa70562eeeaca9526a1ff6348b53934",
+      "sourceDurationMs": 3185.215,
+      "trimStartSamples": 291,
+      "trimEndSamples": 11,
+      "sourceSha256": "c4185aa560628161a4279b9cb7fb898f3074279b9f6ebf0df46dd1f81e00604c"
+    },
+    {
+      "number": 20,
+      "text": "two zero. twenty.",
+      "synthesisText": "Two, zero! Twenty!",
+      "digits": "two zero",
+      "full": "twenty",
+      "file": "20.wav",
+      "durationMs": 3060.0,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, zero!",
+          "startSample": 0,
+          "samples": 33545
+        },
+        {
+          "text": "Twenty!",
+          "startSample": 44570,
+          "samples": 22903
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.8912,
+      "rms": 0.18702,
+      "sha256": "4947ececb8baae5b9ff0e79f56e8874babd0cdbaf21d4d131cbbe3312c422e22",
+      "sourceDurationMs": 3089.841,
+      "trimStartSamples": 658,
+      "trimEndSamples": 0,
+      "sourceSha256": "a78c5b58ebdaa7b70ea92fd4f0fd938b9a27c4e177475832bdd159581f10f593"
+    },
+    {
+      "number": 21,
+      "text": "two one. twenty one.",
+      "synthesisText": "Two, one! Twenty one!",
+      "digits": "two one",
+      "full": "twenty one",
+      "file": "21.wav",
+      "durationMs": 2580.454,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, one!",
+          "startSample": 0,
+          "samples": 30036
+        },
+        {
+          "text": "Twenty one!",
+          "startSample": 41061,
+          "samples": 15838
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.85858,
+      "rms": 0.19147,
+      "sha256": "050eb04dc89086c7973dc608c6f376a6ded6b97784a0a6709ba6593b89ed919f",
+      "sourceDurationMs": 2586.077,
+      "trimStartSamples": 124,
+      "trimEndSamples": 0,
+      "sourceSha256": "3151121e199a3058f73eb95b8728fd383256d58d1509ac4c135dce816b14de01"
+    },
+    {
+      "number": 22,
+      "text": "two two. twenty two.",
+      "synthesisText": "Two, two! Twenty two!",
+      "digits": "two two",
+      "full": "twenty two",
+      "file": "22.wav",
+      "durationMs": 2279.184,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, two!",
+          "startSample": 0,
+          "samples": 18891
+        },
+        {
+          "text": "Twenty two!",
+          "startSample": 29916,
+          "samples": 20340
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.83474,
+      "rms": 0.19524,
+      "sha256": "1fb681544ee12078591c0bb5c576f73535f784b0a6da3ae78eace58d5485c41c",
+      "sourceDurationMs": 2281.995,
+      "trimStartSamples": 0,
+      "trimEndSamples": 62,
+      "sourceSha256": "f770154060c2bc876fa9471dd8467eae8602373e0b5dbed30fd831a13040ab15"
+    },
+    {
+      "number": 23,
+      "text": "two three. twenty three.",
+      "synthesisText": "Two, three! Twenty three!",
+      "digits": "two three",
+      "full": "twenty three",
+      "file": "23.wav",
+      "durationMs": 2592.381,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, three!",
+          "startSample": 0,
+          "samples": 23307
+        },
+        {
+          "text": "Twenty three!",
+          "startSample": 34332,
+          "samples": 22830
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87716,
+      "rms": 0.19035,
+      "sha256": "c867a5a06be8300aba5e0742aee6808f1516ca5d453cf013512d68ee6846cf17",
+      "sourceDurationMs": 2596.553,
+      "trimStartSamples": 20,
+      "trimEndSamples": 72,
+      "sourceSha256": "6ff92d44cdec20c9e528ff23b8f5d5fb95f5569d335314583e16f816217d0d87"
+    },
+    {
+      "number": 24,
+      "text": "two four. twenty four.",
+      "synthesisText": "Two, four! Twenty four!",
+      "digits": "two four",
+      "full": "twenty four",
+      "file": "24.wav",
+      "durationMs": 2134.785,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, four!",
+          "startSample": 0,
+          "samples": 16739
+        },
+        {
+          "text": "Twenty four!",
+          "startSample": 27764,
+          "samples": 19308
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90844,
+      "rms": 0.1988,
+      "sha256": "4cd3899f7e8fd9632ed6ae1ed285b482abfcea2cf5240e870d1fd418d19ac3a0",
+      "sourceDurationMs": 2139.32,
+      "trimStartSamples": 0,
+      "trimEndSamples": 100,
+      "sourceSha256": "a68c9d9f81d99d70ea5a7f1faa8978078d51f512591c804d02b1fb635c7b8f22"
+    },
+    {
+      "number": 25,
+      "text": "two five. twenty five.",
+      "synthesisText": "Two, five! Twenty five!",
+      "digits": "two five",
+      "full": "twenty five",
+      "file": "25.wav",
+      "durationMs": 2465.397,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, five!",
+          "startSample": 0,
+          "samples": 24173
+        },
+        {
+          "text": "Twenty five!",
+          "startSample": 35198,
+          "samples": 19164
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.85397,
+      "rms": 0.20855,
+      "sha256": "ac2da01b85c55cb0f392f6b5567a3154b5fce0e86e8bbeecb9f3b5f2c3a251c3",
+      "sourceDurationMs": 2465.624,
+      "trimStartSamples": 5,
+      "trimEndSamples": 0,
+      "sourceSha256": "ab8015ca00189603481a25c109ce09fbeb470895d2d500c27ce88a255016b7c7"
+    },
+    {
+      "number": 26,
+      "text": "two six. twenty six.",
+      "synthesisText": "Two, six! Twenty six!",
+      "digits": "two six",
+      "full": "twenty six",
+      "file": "26.wav",
+      "durationMs": 2628.571,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, six!",
+          "startSample": 0,
+          "samples": 25600
+        },
+        {
+          "text": "Twenty six!",
+          "startSample": 36625,
+          "samples": 21335
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89892,
+      "rms": 0.18351,
+      "sha256": "906148c4db58a461e83c11c59ab73bf463b32618ba2db2cf28aa17b1ee002a94",
+      "sourceDurationMs": 2628.617,
+      "trimStartSamples": 0,
+      "trimEndSamples": 1,
+      "sourceSha256": "ca6b513f1ec3f34a13dbeda188e0192ab834f10d04bfd24848bac3993f7b22e2"
+    },
+    {
+      "number": 27,
+      "text": "two seven. twenty seven.",
+      "synthesisText": "Two, seven! Twenty seven!",
+      "digits": "two seven",
+      "full": "twenty seven",
+      "file": "27.wav",
+      "durationMs": 2172.925,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, seven!",
+          "startSample": 0,
+          "samples": 17558
+        },
+        {
+          "text": "Twenty seven!",
+          "startSample": 28583,
+          "samples": 19330
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90469,
+      "rms": 0.19005,
+      "sha256": "b2aea7332f6dffb53902085a137dba1d37d6011a3a9945e586875a270f831d6c",
+      "sourceDurationMs": 2174.286,
+      "trimStartSamples": 30,
+      "trimEndSamples": 0,
+      "sourceSha256": "48d58e95124926eb7a4884b9ad4d9fde192621ae8433fa109ef584acfffcdf32"
+    },
+    {
+      "number": 28,
+      "text": "two eight. twenty eight.",
+      "synthesisText": "Two, eight! Twenty eight!",
+      "digits": "two eight",
+      "full": "twenty eight",
+      "file": "28.wav",
+      "durationMs": 2768.889,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, eight!",
+          "startSample": 0,
+          "samples": 29525
+        },
+        {
+          "text": "Twenty eight!",
+          "startSample": 40550,
+          "samples": 20504
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89355,
+      "rms": 0.18446,
+      "sha256": "3d7141fed5cc5316b374eafb2f8463785a6a51d84bfc8d820b45c10160d8a3a2",
+      "sourceDurationMs": 2807.392,
+      "trimStartSamples": 0,
+      "trimEndSamples": 849,
+      "sourceSha256": "107af5080733861442b15535b6b14521780ce7d147b3de8848765b073e4c4d8e"
+    },
+    {
+      "number": 29,
+      "text": "two nine. twenty nine.",
+      "synthesisText": "Two, nine! Twenty nine!",
+      "digits": "two nine",
+      "full": "twenty nine",
+      "file": "29.wav",
+      "durationMs": 2281.678,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Two, nine!",
+          "startSample": 0,
+          "samples": 22126
+        },
+        {
+          "text": "Twenty nine!",
+          "startSample": 33151,
+          "samples": 17160
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.85324,
+      "rms": 0.20238,
+      "sha256": "19b704450439bde2ac4cf1d7a84836c573523de4605ea2e6bdb0bc2847f79f89",
+      "sourceDurationMs": 2325.215,
+      "trimStartSamples": 960,
+      "trimEndSamples": 0,
+      "sourceSha256": "f2d1d6affe75aae48ecc45effff28f2a409102f06e81ae91a4fb088b7e643d55"
+    },
+    {
+      "number": 30,
+      "text": "three zero. thirty.",
+      "synthesisText": "Three. Zero! Thirty!",
+      "digits": "three zero",
+      "full": "thirty",
+      "file": "30.wav",
+      "durationMs": 4326.077,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three. Zero!",
+          "startSample": 0,
+          "samples": 61303
+        },
+        {
+          "text": "Thirty!",
+          "startSample": 72328,
+          "samples": 23062
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92401,
+      "rms": 0.18909,
+      "sha256": "11a735a1a58cbb89930b55a09598ed82cd170309d7c4ec9152ff1926cc490820",
+      "sourceDurationMs": 4326.077,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "388e0052963fb67b72d328775de8cefcecbaa41479f2516c05cb31990f246280"
+    },
+    {
+      "number": 31,
+      "text": "three one. thirty one.",
+      "synthesisText": "Three, one! Thirty one!",
+      "digits": "three one",
+      "full": "thirty one",
+      "file": "31.wav",
+      "durationMs": 3095.102,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, one!",
+          "startSample": 0,
+          "samples": 34672
+        },
+        {
+          "text": "Thirty one!",
+          "startSample": 45697,
+          "samples": 22550
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.86486,
+      "rms": 0.19095,
+      "sha256": "8a839d1635968f47e04f95b082522e2955c96cc4c177339d35a10f6c280cda64",
+      "sourceDurationMs": 3101.769,
+      "trimStartSamples": 0,
+      "trimEndSamples": 147,
+      "sourceSha256": "7437d1df95c86e55d87f5a92c71222906d589f8608838c894055b0f1b2922066"
+    },
+    {
+      "number": 32,
+      "text": "three two. thirty two.",
+      "synthesisText": "Three, two! Thirty two!",
+      "digits": "three two",
+      "full": "thirty two",
+      "file": "32.wav",
+      "durationMs": 3165.941,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, two!",
+          "startSample": 0,
+          "samples": 33956
+        },
+        {
+          "text": "Thirty two!",
+          "startSample": 44981,
+          "samples": 24828
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.86911,
+      "rms": 0.19034,
+      "sha256": "08f20a06c91226496006554cd57cb593292a0f37ed73bd0de5eb4cfb2384caee",
+      "sourceDurationMs": 3206.077,
+      "trimStartSamples": 885,
+      "trimEndSamples": 0,
+      "sourceSha256": "517f387ee3cde8f03a853c5145491dc0bc29cad5764060cbc46f586420cff8d8"
+    },
+    {
+      "number": 33,
+      "text": "three three. thirty three.",
+      "synthesisText": "Three, three! Thirty three!",
+      "digits": "three three",
+      "full": "thirty three",
+      "file": "33.wav",
+      "durationMs": 4064.58,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, three!",
+          "startSample": 0,
+          "samples": 47360
+        },
+        {
+          "text": "Thirty three!",
+          "startSample": 58385,
+          "samples": 31239
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90518,
+      "rms": 0.18051,
+      "sha256": "104f487de423b77d26560010cee71ec25bab4049cbaac976b68175a64e7e42e2",
+      "sourceDurationMs": 4064.58,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "67e25e3fa58b05d5f695f7ce98c083a561a9ff289849e9441c3f5803945b6fef"
+    },
+    {
+      "number": 34,
+      "text": "three four. thirty four.",
+      "synthesisText": "Three, four! Thirty four!",
+      "digits": "three four",
+      "full": "thirty four",
+      "file": "34.wav",
+      "durationMs": 3180.59,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, four!",
+          "startSample": 0,
+          "samples": 37888
+        },
+        {
+          "text": "Thirty four!",
+          "startSample": 48913,
+          "samples": 21219
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.85937,
+      "rms": 0.19365,
+      "sha256": "b1eb01a88c259cd811dbaed552b75def58f1ebd6ac66004c5ddee287ff9e0239",
+      "sourceDurationMs": 3205.805,
+      "trimStartSamples": 0,
+      "trimEndSamples": 556,
+      "sourceSha256": "9609d9b136d153e6bfbfa1fb516e542b5dd184270b94ca0350f1d41694e137be"
+    },
+    {
+      "number": 35,
+      "text": "three five. thirty five.",
+      "synthesisText": "Three, five! Thirty five!",
+      "digits": "three five",
+      "full": "thirty five",
+      "file": "35.wav",
+      "durationMs": 2833.787,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, five!",
+          "startSample": 0,
+          "samples": 27203
+        },
+        {
+          "text": "Thirty five!",
+          "startSample": 38228,
+          "samples": 24257
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.94739,
+      "rms": 0.20746,
+      "sha256": "83b588f382d83f8215169911d529e535e5f69ff177c5a73d034f4f44df9c990c",
+      "sourceDurationMs": 2901.542,
+      "trimStartSamples": 1421,
+      "trimEndSamples": 73,
+      "sourceSha256": "0fd2c83319a4a5c117d16c74c86ef3ab4ea2852cbd255e268af00b992b047df9"
+    },
+    {
+      "number": 36,
+      "text": "three six. thirty six.",
+      "synthesisText": "Three, six! Thirty six!",
+      "digits": "three six",
+      "full": "thirty six",
+      "file": "36.wav",
+      "durationMs": 3248.481,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, six!",
+          "startSample": 0,
+          "samples": 35184
+        },
+        {
+          "text": "Thirty six!",
+          "startSample": 46209,
+          "samples": 25420
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92584,
+      "rms": 0.18075,
+      "sha256": "481422a69b89d12f8c03d27d5ccb5dad103849774f45f7f5045290700e8a8bb3",
+      "sourceDurationMs": 3248.481,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "321ea4f43d0b505f6d79be62cccc2e7ba1c42e271abeda12c893c99b22464965"
+    },
+    {
+      "number": 37,
+      "text": "three seven. thirty seven.",
+      "synthesisText": "Three, seven! Thirty seven!",
+      "digits": "three seven",
+      "full": "thirty seven",
+      "file": "37.wav",
+      "durationMs": 3388.163,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, seven!",
+          "startSample": 0,
+          "samples": 33371
+        },
+        {
+          "text": "Thirty seven!",
+          "startSample": 44396,
+          "samples": 30313
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91656,
+      "rms": 0.18053,
+      "sha256": "1062409868f2d55922fc346bcbf8c9f5f43808b63a9d757c0715db76d99b200f",
+      "sourceDurationMs": 3407.755,
+      "trimStartSamples": 432,
+      "trimEndSamples": 0,
+      "sourceSha256": "17e18ca31757358233fd7e2f19707f2887b06868460b77005d27f17a061f65a2"
+    },
+    {
+      "number": 38,
+      "text": "three eight. thirty eight.",
+      "synthesisText": "Three, eight! Thirty eight!",
+      "digits": "three eight",
+      "full": "thirty eight",
+      "file": "38.wav",
+      "durationMs": 3305.986,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, eight!",
+          "startSample": 0,
+          "samples": 33642
+        },
+        {
+          "text": "Thirty eight!",
+          "startSample": 44667,
+          "samples": 28230
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89554,
+      "rms": 0.18435,
+      "sha256": "3fcb20c06bebe6e635fa8ed1676dec45b25651109d20b7442fc71ef614df6b9c",
+      "sourceDurationMs": 3306.395,
+      "trimStartSamples": 9,
+      "trimEndSamples": 0,
+      "sourceSha256": "70a6372dd737f51e82a17e6e4d9c2e5f01413aa7a31c22fb7a4cb56fa374da38"
+    },
+    {
+      "number": 39,
+      "text": "three nine. thirty nine.",
+      "synthesisText": "Three, nine! Thirty nine!",
+      "digits": "three nine",
+      "full": "thirty nine",
+      "file": "39.wav",
+      "durationMs": 2948.798,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Three, nine!",
+          "startSample": 0,
+          "samples": 33709
+        },
+        {
+          "text": "Thirty nine!",
+          "startSample": 44734,
+          "samples": 20287
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90313,
+      "rms": 0.20633,
+      "sha256": "a1df830d9c4bb7dc85308fa693dba999a31977351e7f2c75c646230fd0c8e031",
+      "sourceDurationMs": 2991.383,
+      "trimStartSamples": 706,
+      "trimEndSamples": 233,
+      "sourceSha256": "721f10e1f7c94e883ba9db76cc1ef32159a0819bf5750eb1e571603d9fde0db6"
+    },
+    {
+      "number": 40,
+      "text": "four zero. forty.",
+      "synthesisText": "Four, zero! Forty!",
+      "digits": "four zero",
+      "full": "forty",
+      "file": "40.wav",
+      "durationMs": 3738.277,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, zero!",
+          "startSample": 0,
+          "samples": 41752
+        },
+        {
+          "text": "Forty!",
+          "startSample": 52777,
+          "samples": 29652
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.94961,
+      "rms": 0.17431,
+      "sha256": "a4c9692ee9f34e1e08fbe4d88b198a275b344d93da743af4753268e38ebc70a5",
+      "sourceDurationMs": 3768.254,
+      "trimStartSamples": 0,
+      "trimEndSamples": 661,
+      "sourceSha256": "e815db607bfeb8cc255cec0b8b035fc6e0f3355e18b14f2ed0db01592bcad0d8"
+    },
+    {
+      "number": 41,
+      "text": "four one. forty one.",
+      "synthesisText": "Four, one! Forty one!",
+      "digits": "four one",
+      "full": "forty one",
+      "file": "41.wav",
+      "durationMs": 3001.179,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, one!",
+          "startSample": 0,
+          "samples": 32993
+        },
+        {
+          "text": "Forty one!",
+          "startSample": 44018,
+          "samples": 22158
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90829,
+      "rms": 0.1801,
+      "sha256": "ecc74bb408993e83e52f90c06999c5550436929c744f6434e64505618053039b",
+      "sourceDurationMs": 3001.179,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "8b81c69d879e32b068c04ecd3f62b6c843210b943c23a76fd572b080ea0f9731"
+    },
+    {
+      "number": 42,
+      "text": "four two. forty two.",
+      "synthesisText": "Four, two! Forty two!",
+      "digits": "four two",
+      "full": "forty two",
+      "file": "42.wav",
+      "durationMs": 3435.828,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, two!",
+          "startSample": 0,
+          "samples": 34855
+        },
+        {
+          "text": "Forty two!",
+          "startSample": 45880,
+          "samples": 29880
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90359,
+      "rms": 0.18222,
+      "sha256": "dd69658267a24e75e1bbfae401f26650e0b99d957773b95f6a1f6cb741a5141f",
+      "sourceDurationMs": 3442.449,
+      "trimStartSamples": 120,
+      "trimEndSamples": 26,
+      "sourceSha256": "57fd05960e47e4fa2dc480beab2f4edb18be73042d31e662eb8baadf0d3075bf"
+    },
+    {
+      "number": 43,
+      "text": "four three. forty three.",
+      "synthesisText": "Four, three! Forty three!",
+      "digits": "four three",
+      "full": "forty three",
+      "file": "43.wav",
+      "durationMs": 3838.503,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, three!",
+          "startSample": 0,
+          "samples": 38182
+        },
+        {
+          "text": "Forty three!",
+          "startSample": 49207,
+          "samples": 35432
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91507,
+      "rms": 0.17338,
+      "sha256": "f4cb47a52aef9b5b406758bcf85d4bbb602918d29d6b6eb8eff71dd916e718fc",
+      "sourceDurationMs": 3933.696,
+      "trimStartSamples": 1691,
+      "trimEndSamples": 408,
+      "sourceSha256": "abf0fce03973780174ba1587a5016d77389ef1d22250af6a7ac986ee2b8f135f"
+    },
+    {
+      "number": 44,
+      "text": "four four. forty four.",
+      "synthesisText": "Four, four! Forty four!",
+      "digits": "four four",
+      "full": "forty four",
+      "file": "44.wav",
+      "durationMs": 3370.068,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, four!",
+          "startSample": 0,
+          "samples": 31223
+        },
+        {
+          "text": "Forty four!",
+          "startSample": 42248,
+          "samples": 32062
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91906,
+      "rms": 0.18275,
+      "sha256": "980760ca7e034a9c868295a8454fd3d42c2f6e944cf57c8a796adfa2f4304cdb",
+      "sourceDurationMs": 3394.422,
+      "trimStartSamples": 90,
+      "trimEndSamples": 447,
+      "sourceSha256": "d9d3d1a189a8247647c11451cb40c2c0de47dbf1eb5414ccf091b5e055b50d02"
+    },
+    {
+      "number": 45,
+      "text": "four five. forty five.",
+      "synthesisText": "Four, five! Forty five!",
+      "digits": "four five",
+      "full": "forty five",
+      "file": "45.wav",
+      "durationMs": 2961.633,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, five!",
+          "startSample": 0,
+          "samples": 34420
+        },
+        {
+          "text": "Forty five!",
+          "startSample": 45445,
+          "samples": 19859
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92477,
+      "rms": 0.21137,
+      "sha256": "6ccf1d482bbff2c3c546a963dfca4670b8861b9613e6d20532874aef161873b2",
+      "sourceDurationMs": 3010.249,
+      "trimStartSamples": 592,
+      "trimEndSamples": 480,
+      "sourceSha256": "b215e3ea0d97567c5e9c3ae1149fde6d8984674a712c67ee49884b5aee23a333"
+    },
+    {
+      "number": 46,
+      "text": "four six. forty six.",
+      "synthesisText": "Four, six! Forty six!",
+      "digits": "four six",
+      "full": "forty six",
+      "file": "46.wav",
+      "durationMs": 3060.454,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, six!",
+          "startSample": 0,
+          "samples": 24614
+        },
+        {
+          "text": "Forty six!",
+          "startSample": 35639,
+          "samples": 31844
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90567,
+      "rms": 0.17919,
+      "sha256": "3e1da9a17ccf624852233e0545c834181d4793c17a8a31a3111f517d44781f28",
+      "sourceDurationMs": 3065.624,
+      "trimStartSamples": 0,
+      "trimEndSamples": 114,
+      "sourceSha256": "5bae02a944f17f515b6acd005c2b8c1527b9076b7619afe06871d5a802b738b5"
+    },
+    {
+      "number": 47,
+      "text": "four seven. forty seven.",
+      "synthesisText": "Four, seven! Forty seven!",
+      "digits": "four seven",
+      "full": "forty seven",
+      "file": "47.wav",
+      "durationMs": 3345.76,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, seven!",
+          "startSample": 0,
+          "samples": 31816
+        },
+        {
+          "text": "Forty seven!",
+          "startSample": 42841,
+          "samples": 30933
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.9216,
+      "rms": 0.17513,
+      "sha256": "821eff72bb73d93795ab0642ee78514116db1cec6db58bb821b9509ca20426d4",
+      "sourceDurationMs": 3376.825,
+      "trimStartSamples": 0,
+      "trimEndSamples": 685,
+      "sourceSha256": "c69144638e88ab22d5b21f28e175203e87e1a34a954b6ffb401b6b4b449f451c"
+    },
+    {
+      "number": 48,
+      "text": "four eight. forty eight.",
+      "synthesisText": "Four, eight! Forty eight!",
+      "digits": "four eight",
+      "full": "forty eight",
+      "file": "48.wav",
+      "durationMs": 3240.181,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, eight!",
+          "startSample": 0,
+          "samples": 34431
+        },
+        {
+          "text": "Forty eight!",
+          "startSample": 45456,
+          "samples": 25990
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91644,
+      "rms": 0.18654,
+      "sha256": "096691b1be887dd3fce3380ef34a30cb7e90355a99ca8003877f79e69a7997d4",
+      "sourceDurationMs": 3440.317,
+      "trimStartSamples": 1254,
+      "trimEndSamples": 3159,
+      "sourceSha256": "d25d145cb302b44dfb4cadad55fa0f83fbbdd64c0271c667d15f075f0770e0f9"
+    },
+    {
+      "number": 49,
+      "text": "four nine. forty nine.",
+      "synthesisText": "Four, nine! Forty nine!",
+      "digits": "four nine",
+      "full": "forty nine",
+      "file": "49.wav",
+      "durationMs": 3040.499,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Four, nine!",
+          "startSample": 0,
+          "samples": 36225
+        },
+        {
+          "text": "Forty nine!",
+          "startSample": 47250,
+          "samples": 19793
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91534,
+      "rms": 0.19697,
+      "sha256": "e6e0c5a2c128621e774b4d703183ed5ab983b253065e45339a3f6030501a6f00",
+      "sourceDurationMs": 3044.49,
+      "trimStartSamples": 0,
+      "trimEndSamples": 88,
+      "sourceSha256": "12ef8b18bdc2143b5d4b6cdc8f500d1ccb8652cdf3a82ea0e80b2e2988536dd5"
+    },
+    {
+      "number": 50,
+      "text": "five zero. fifty.",
+      "synthesisText": "Five, zero! Fifty!",
+      "digits": "five zero",
+      "full": "fifty",
+      "file": "50.wav",
+      "durationMs": 3554.059,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, zero!",
+          "startSample": 0,
+          "samples": 40640
+        },
+        {
+          "text": "Fifty!",
+          "startSample": 51665,
+          "samples": 26702
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92026,
+      "rms": 0.17688,
+      "sha256": "44c17794cec5c83fe0513deb20ec2b3c40b150ffc5f86adf02fb18e26dfa968c",
+      "sourceDurationMs": 3557.551,
+      "trimStartSamples": 17,
+      "trimEndSamples": 60,
+      "sourceSha256": "aa006bb5ae55d2e44e2d221833fbeb71b1e755597d9b8f66af2da34a2ee1d60b"
+    },
+    {
+      "number": 51,
+      "text": "five one. fifty one.",
+      "synthesisText": "Five, one! Fifty one!",
+      "digits": "five one",
+      "full": "fifty one",
+      "file": "51.wav",
+      "durationMs": 2790.975,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, one!",
+          "startSample": 0,
+          "samples": 33753
+        },
+        {
+          "text": "Fifty one!",
+          "startSample": 44778,
+          "samples": 16763
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92474,
+      "rms": 0.18757,
+      "sha256": "cbf51b1d9100b699e8950b3c66fc739aecab402a1c263b9ffd6c68dba433b627",
+      "sourceDurationMs": 2865.714,
+      "trimStartSamples": 1573,
+      "trimEndSamples": 75,
+      "sourceSha256": "e7ef98467b800ed765a4df30afcf3e26cedf85b2631f92435892529412d56363"
+    },
+    {
+      "number": 52,
+      "text": "five two. fifty two.",
+      "synthesisText": "Five, two! Fifty two!",
+      "digits": "five two",
+      "full": "fifty two",
+      "file": "52.wav",
+      "durationMs": 2808.345,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, two!",
+          "startSample": 0,
+          "samples": 28473
+        },
+        {
+          "text": "Fifty two!",
+          "startSample": 39498,
+          "samples": 22426
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90316,
+      "rms": 0.19348,
+      "sha256": "65d07c7fd49bda94244a670f5492bfa818004d6556e1d9bb6dc3145d187ef3a4",
+      "sourceDurationMs": 2868.163,
+      "trimStartSamples": 923,
+      "trimEndSamples": 396,
+      "sourceSha256": "952d8f09996178115f71391377016f24ffdd52d84baeaa0768b422b484795a14"
+    },
+    {
+      "number": 53,
+      "text": "five three. fifty three.",
+      "synthesisText": "Five, three! Fifty three!",
+      "digits": "five three",
+      "full": "fifty three",
+      "file": "53.wav",
+      "durationMs": 3297.052,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, three!",
+          "startSample": 0,
+          "samples": 37178
+        },
+        {
+          "text": "Fifty three!",
+          "startSample": 48203,
+          "samples": 24497
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90509,
+      "rms": 0.18502,
+      "sha256": "d785b1d5bc66460f671ce1840e857d14c14098365eaa437232f0836d439e7636",
+      "sourceDurationMs": 3302.313,
+      "trimStartSamples": 77,
+      "trimEndSamples": 39,
+      "sourceSha256": "6ffd72e7e43f4d886ab50d9dbf98be3c54d00bef9ef78a11ab7f793be3cf9de5"
+    },
+    {
+      "number": 54,
+      "text": "five four. fifty four.",
+      "synthesisText": "Five, four! Fifty four!",
+      "digits": "five four",
+      "full": "fifty four",
+      "file": "54.wav",
+      "durationMs": 2543.447,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, four!",
+          "startSample": 0,
+          "samples": 26109
+        },
+        {
+          "text": "Fifty four!",
+          "startSample": 37134,
+          "samples": 18949
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90527,
+      "rms": 0.19846,
+      "sha256": "ccb0d447dba7847fb0e5df3b8ea846e056333a279656e136f3a7de6b871c9f9b",
+      "sourceDurationMs": 2646.621,
+      "trimStartSamples": 0,
+      "trimEndSamples": 2275,
+      "sourceSha256": "1718c9ce795eec332da525e8282291c4de9ff658df4eeacb9ed213eaebc4c178"
+    },
+    {
+      "number": 55,
+      "text": "five five. fifty five.",
+      "synthesisText": "Five, five! Fifty five!",
+      "digits": "five five",
+      "full": "fifty five",
+      "file": "55.wav",
+      "durationMs": 2409.796,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, five!",
+          "startSample": 0,
+          "samples": 22594
+        },
+        {
+          "text": "Fifty five!",
+          "startSample": 33619,
+          "samples": 19517
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88821,
+      "rms": 0.22328,
+      "sha256": "6c1460f0ec71943dda117fc43ea4039f65267e9e4455f62b3e61fc774343585b",
+      "sourceDurationMs": 2420.771,
+      "trimStartSamples": 0,
+      "trimEndSamples": 242,
+      "sourceSha256": "9f9e8508b23023d3660a2d42515ff36c9bd7e00cd7942bc2209b5e93f9d156ca"
+    },
+    {
+      "number": 56,
+      "text": "five six. fifty six.",
+      "synthesisText": "Five, six! Fifty six!",
+      "digits": "five six",
+      "full": "fifty six",
+      "file": "56.wav",
+      "durationMs": 2791.927,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, six!",
+          "startSample": 0,
+          "samples": 31155
+        },
+        {
+          "text": "Fifty six!",
+          "startSample": 42180,
+          "samples": 19382
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92312,
+      "rms": 0.19521,
+      "sha256": "3821fe1dd6acf9292fdc09ed43728bd95023cf28e28a95b5410f2d1ebcd3b719",
+      "sourceDurationMs": 2905.079,
+      "trimStartSamples": 12,
+      "trimEndSamples": 2483,
+      "sourceSha256": "93bb94b95ce363338e2a3a8520d9fe684e9bc45f868c76fad5c028f585680a9b"
+    },
+    {
+      "number": 57,
+      "text": "five seven. fifty seven.",
+      "synthesisText": "Five, seven! Fifty seven!",
+      "digits": "five seven",
+      "full": "fifty seven",
+      "file": "57.wav",
+      "durationMs": 3039.773,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, seven!",
+          "startSample": 0,
+          "samples": 31643
+        },
+        {
+          "text": "Fifty seven!",
+          "startSample": 42668,
+          "samples": 24359
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91958,
+      "rms": 0.19223,
+      "sha256": "8c75841f39a0dcc9bdecd67c2a80679a2e96424af463ce50a2eea6d55211ff3a",
+      "sourceDurationMs": 3039.773,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "95ff0f331f60c94733fe7cff8ea8ca8d7edbebe7dd10e97b1f4d5791c518fc24"
+    },
+    {
+      "number": 58,
+      "text": "five eight. fifty eight.",
+      "synthesisText": "Five, eight! Fifty eight!",
+      "digits": "five eight",
+      "full": "fifty eight",
+      "file": "58.wav",
+      "durationMs": 2396.78,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, eight!",
+          "startSample": 0,
+          "samples": 21081
+        },
+        {
+          "text": "Fifty eight!",
+          "startSample": 32106,
+          "samples": 20743
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88928,
+      "rms": 0.2139,
+      "sha256": "91eb3e90dd24953313d0eb0202397984b42586e5beb82db29c177b6b05f37c07",
+      "sourceDurationMs": 2505.85,
+      "trimStartSamples": 491,
+      "trimEndSamples": 1914,
+      "sourceSha256": "c7afa3e82113e643b6c02b381a5dc15da5399ddf181e517e174b68f1eab83575"
+    },
+    {
+      "number": 59,
+      "text": "five nine. fifty nine.",
+      "synthesisText": "Five, nine! Fifty nine!",
+      "digits": "five nine",
+      "full": "fifty nine",
+      "file": "59.wav",
+      "durationMs": 2314.422,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Five, nine!",
+          "startSample": 0,
+          "samples": 24081
+        },
+        {
+          "text": "Fifty nine!",
+          "startSample": 35106,
+          "samples": 15927
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89016,
+      "rms": 0.21952,
+      "sha256": "97b0e285de6bd4d44d0b3bb757821ef4d808859add0ab02c96c7bc105ffcc4d2",
+      "sourceDurationMs": 2462.086,
+      "trimStartSamples": 2781,
+      "trimEndSamples": 475,
+      "sourceSha256": "b93f030c921919cc7eb77115251c195727c7d9cff852d43c76475e088d77bd0f"
+    },
+    {
+      "number": 60,
+      "text": "six zero. sixty.",
+      "synthesisText": "Six, zero! Sixty!",
+      "digits": "six zero",
+      "full": "sixty",
+      "file": "60.wav",
+      "durationMs": 2640.816,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, zero!",
+          "startSample": 0,
+          "samples": 27623
+        },
+        {
+          "text": "Sixty!",
+          "startSample": 38648,
+          "samples": 19582
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.9191,
+      "rms": 0.18089,
+      "sha256": "855b75961f90f64c8b1190ccf700a4fcbd19837679f21ac4937d7c42eb3be919",
+      "sourceDurationMs": 2660.091,
+      "trimStartSamples": 16,
+      "trimEndSamples": 409,
+      "sourceSha256": "f3e57e732d76f7f68f5d029195836a99cb5124f7ec17b24f1d900e1adbd17c6e"
+    },
+    {
+      "number": 61,
+      "text": "six one. sixty one.",
+      "synthesisText": "Six, one! Sixty one!",
+      "digits": "six one",
+      "full": "sixty one",
+      "file": "61.wav",
+      "durationMs": 2711.293,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, one!",
+          "startSample": 0,
+          "samples": 26450
+        },
+        {
+          "text": "Sixty one!",
+          "startSample": 37475,
+          "samples": 22309
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92526,
+      "rms": 0.18045,
+      "sha256": "6b9ee2d055c61e25c01e1e37796b25cc1602deb6359dcf3927dfb9b1dcd27453",
+      "sourceDurationMs": 2720.272,
+      "trimStartSamples": 118,
+      "trimEndSamples": 80,
+      "sourceSha256": "fc5665d67e3a6deaf0baaf6c2ca1b90188182822add9b979496cdd3e5a2838c7"
+    },
+    {
+      "number": 62,
+      "text": "six two. sixty two.",
+      "synthesisText": "Six, two! Sixty two!",
+      "digits": "six two",
+      "full": "sixty two",
+      "file": "62.wav",
+      "durationMs": 2976.236,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, two!",
+          "startSample": 0,
+          "samples": 32036
+        },
+        {
+          "text": "Sixty two!",
+          "startSample": 43061,
+          "samples": 22565
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.9274,
+      "rms": 0.17773,
+      "sha256": "2490ff4a04cb717ea86361379a67b0fa12aa472a2ad92e4eba1d32d0c24d7117",
+      "sourceDurationMs": 3059.819,
+      "trimStartSamples": 0,
+      "trimEndSamples": 1843,
+      "sourceSha256": "d5ae209a5abaf371f48a977e7a55766a9ded82fced12db56b6969e372e142485"
+    },
+    {
+      "number": 63,
+      "text": "six three. sixty three.",
+      "synthesisText": "Six, three! Sixty three!",
+      "digits": "six three",
+      "full": "sixty three",
+      "file": "63.wav",
+      "durationMs": 3152.88,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, three!",
+          "startSample": 0,
+          "samples": 30893
+        },
+        {
+          "text": "Sixty three!",
+          "startSample": 41918,
+          "samples": 27603
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.884,
+      "rms": 0.19454,
+      "sha256": "f371f7babb5584d70e2ae637ff7a11300e998d0c4cf911a64f82877255081de6",
+      "sourceDurationMs": 3176.009,
+      "trimStartSamples": 495,
+      "trimEndSamples": 15,
+      "sourceSha256": "216387a5833b19576b9bcb286709eec3019adbc5cbebfdd84f0f6a75ffb24475"
+    },
+    {
+      "number": 64,
+      "text": "six four. sixty four.",
+      "synthesisText": "Six, four! Sixty four!",
+      "digits": "six four",
+      "full": "sixty four",
+      "file": "64.wav",
+      "durationMs": 3012.517,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, four!",
+          "startSample": 0,
+          "samples": 29786
+        },
+        {
+          "text": "Sixty four!",
+          "startSample": 40811,
+          "samples": 25615
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90384,
+      "rms": 0.18566,
+      "sha256": "3e648f8fffa17ab08ba86d62586c157da48eb869a35ac4ad30561845c4c5e7bb",
+      "sourceDurationMs": 3014.467,
+      "trimStartSamples": 43,
+      "trimEndSamples": 0,
+      "sourceSha256": "88628f036003c86e24d23621e987c9b6d26f4b42031e23d14eadb52cac6ef16a"
+    },
+    {
+      "number": 65,
+      "text": "six five. sixty five.",
+      "synthesisText": "Six, five! Sixty five!",
+      "digits": "six five",
+      "full": "sixty five",
+      "file": "65.wav",
+      "durationMs": 2886.259,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, five!",
+          "startSample": 0,
+          "samples": 31081
+        },
+        {
+          "text": "Sixty five!",
+          "startSample": 42106,
+          "samples": 21536
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92141,
+      "rms": 0.19884,
+      "sha256": "5c8a982224d3074d636bcbefaa6c862553619d0f98a7ac9d521c49bc32fc92a6",
+      "sourceDurationMs": 2890.975,
+      "trimStartSamples": 12,
+      "trimEndSamples": 92,
+      "sourceSha256": "a3c1ba342b63da84a307e637ea0bee4c1f7a4bd861f4f442223e4d7a08151ceb"
+    },
+    {
+      "number": 66,
+      "text": "six six. sixty six.",
+      "synthesisText": "Six, six! Sixty six!",
+      "digits": "six six",
+      "full": "sixty six",
+      "file": "66.wav",
+      "durationMs": 3003.946,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, six!",
+          "startSample": 0,
+          "samples": 29115
+        },
+        {
+          "text": "Sixty six!",
+          "startSample": 40140,
+          "samples": 26097
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.94165,
+      "rms": 0.17545,
+      "sha256": "5454f6306b3978d41457b655bbe9e85538535b617c76c722b85541ce5207267a",
+      "sourceDurationMs": 3034.059,
+      "trimStartSamples": 60,
+      "trimEndSamples": 604,
+      "sourceSha256": "f9f893b7802460fcff89a353f3ebda5da6a7e660a622b8a2fdf8d87d7cf9e3be"
+    },
+    {
+      "number": 67,
+      "text": "six seven. sixty seven.",
+      "synthesisText": "Six, seven! Sixty seven!",
+      "digits": "six seven",
+      "full": "sixty seven",
+      "file": "67.wav",
+      "durationMs": 2951.156,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, seven!",
+          "startSample": 0,
+          "samples": 28445
+        },
+        {
+          "text": "Sixty seven!",
+          "startSample": 39470,
+          "samples": 25603
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92209,
+      "rms": 0.18535,
+      "sha256": "3adbb23d4bae88d56ac35a5559fa263833ec59308011e825ae8cd2c139340ea6",
+      "sourceDurationMs": 2951.565,
+      "trimStartSamples": 0,
+      "trimEndSamples": 9,
+      "sourceSha256": "71b44dc30ff6a8da3df3ab9f1976c6964d450d19c818ed6b3054e51f9479a49d"
+    },
+    {
+      "number": 68,
+      "text": "six eight. sixty eight.",
+      "synthesisText": "Six, eight! Sixty eight!",
+      "digits": "six eight",
+      "full": "sixty eight",
+      "file": "68.wav",
+      "durationMs": 2794.785,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, eight!",
+          "startSample": 0,
+          "samples": 23615
+        },
+        {
+          "text": "Sixty eight!",
+          "startSample": 34640,
+          "samples": 26985
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92172,
+      "rms": 0.18062,
+      "sha256": "fd70f38179ea7764d840da35f30894ac77e9405c7d383adf926a2a0158a78b82",
+      "sourceDurationMs": 2794.785,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "792e99330c2f4aaccd2fbf62ac9ce3b063b937feee246afedacc5a578292ae39"
+    },
+    {
+      "number": 69,
+      "text": "six nine. sixty nine.",
+      "synthesisText": "Six, nine! Sixty nine!",
+      "digits": "six nine",
+      "full": "sixty nine",
+      "file": "69.wav",
+      "durationMs": 2683.401,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Six, nine!",
+          "startSample": 0,
+          "samples": 27398
+        },
+        {
+          "text": "Sixty nine!",
+          "startSample": 38423,
+          "samples": 20746
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91101,
+      "rms": 0.19101,
+      "sha256": "46ba3e790c1c5531173279f53b4301183aaa24cbf40e8d10dbbd52d97456ec6c",
+      "sourceDurationMs": 2694.15,
+      "trimStartSamples": 0,
+      "trimEndSamples": 237,
+      "sourceSha256": "4148ca43a58f83ffd73cfddcbd6a0328d2b3b0019265d2f3e08ab9e0cf40029e"
+    },
+    {
+      "number": 70,
+      "text": "seven zero. seventy.",
+      "synthesisText": "Seven, zero! Seventy!",
+      "digits": "seven zero",
+      "full": "seventy",
+      "file": "70.wav",
+      "durationMs": 2905.76,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, zero!",
+          "startSample": 0,
+          "samples": 32284
+        },
+        {
+          "text": "Seventy!",
+          "startSample": 43309,
+          "samples": 20763
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92419,
+      "rms": 0.17297,
+      "sha256": "e0ecea2defa772fc73128f16a236ecdaac1e5062e074fe66f9d652cb3c4818d0",
+      "sourceDurationMs": 2912.608,
+      "trimStartSamples": 0,
+      "trimEndSamples": 151,
+      "sourceSha256": "123b9ab46441be55cb23b28d2034cdbcefa33b416a2f8d527ce6f879a81718c4"
+    },
+    {
+      "number": 71,
+      "text": "seven one. seventy one.",
+      "synthesisText": "Seven, one! Seventy one!",
+      "digits": "seven one",
+      "full": "seventy one",
+      "file": "71.wav",
+      "durationMs": 2940.635,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, one!",
+          "startSample": 0,
+          "samples": 32869
+        },
+        {
+          "text": "Seventy one!",
+          "startSample": 43894,
+          "samples": 20947
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93558,
+      "rms": 0.19272,
+      "sha256": "8145b6af98458a2ccaf69d4671fbceed3665450387daa904a0601a79151c6bc5",
+      "sourceDurationMs": 2955.873,
+      "trimStartSamples": 147,
+      "trimEndSamples": 189,
+      "sourceSha256": "37e1e379ad38b36c19d0e669df06f9934e554a6f0d57871060d26843ef5945c5"
+    },
+    {
+      "number": 72,
+      "text": "seven two. seventy two.",
+      "synthesisText": "Seven, two! Seventy two!",
+      "digits": "seven two",
+      "full": "seventy two",
+      "file": "72.wav",
+      "durationMs": 2480.771,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, two!",
+          "startSample": 0,
+          "samples": 20108
+        },
+        {
+          "text": "Seventy two!",
+          "startSample": 31133,
+          "samples": 23568
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91226,
+      "rms": 0.204,
+      "sha256": "d7cc5c564371d9e90a14b8d729cfb006d01f3d488bcb57218150f68d3127b3aa",
+      "sourceDurationMs": 2482.676,
+      "trimStartSamples": 39,
+      "trimEndSamples": 3,
+      "sourceSha256": "6e6f73a9d1051946db1272ec425206226ed597c2e7a4be8dc8b55069e1fcd9db"
+    },
+    {
+      "number": 73,
+      "text": "seven three. seventy three.",
+      "synthesisText": "Seven, three! Seventy three!",
+      "digits": "seven three",
+      "full": "seventy three",
+      "file": "73.wav",
+      "durationMs": 3088.753,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, three!",
+          "startSample": 0,
+          "samples": 26968
+        },
+        {
+          "text": "Seventy three!",
+          "startSample": 37993,
+          "samples": 30114
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89279,
+      "rms": 0.17689,
+      "sha256": "ba259a940ee5dce1cb63035854dd82c3669156ff7f8e083ab888cc6d4c4847dc",
+      "sourceDurationMs": 3127.302,
+      "trimStartSamples": 0,
+      "trimEndSamples": 850,
+      "sourceSha256": "11a1d7d24d36b65923173fea5d6a57ab6f03906e45636b58ed20d8d2e56b2a30"
+    },
+    {
+      "number": 74,
+      "text": "seven four. seventy four.",
+      "synthesisText": "Seven, four! Seventy four!",
+      "digits": "seven four",
+      "full": "seventy four",
+      "file": "74.wav",
+      "durationMs": 2766.304,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, four!",
+          "startSample": 0,
+          "samples": 19765
+        },
+        {
+          "text": "Seventy four!",
+          "startSample": 30790,
+          "samples": 30207
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88794,
+      "rms": 0.19499,
+      "sha256": "48e57a63eeab40c8391e7cc96a2438365ab2295c16c94f2f89d1fa679181fc83",
+      "sourceDurationMs": 2804.399,
+      "trimStartSamples": 177,
+      "trimEndSamples": 663,
+      "sourceSha256": "1f7f283a6b6e1a5ffd34baf9782e6684840e68fa8bf7a88f660c96c9c6b9704f"
+    },
+    {
+      "number": 75,
+      "text": "seven five. seventy five.",
+      "synthesisText": "Seven, five! Seventy five!",
+      "digits": "seven five",
+      "full": "seventy five",
+      "file": "75.wav",
+      "durationMs": 2659.637,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, five!",
+          "startSample": 0,
+          "samples": 24877
+        },
+        {
+          "text": "Seventy five!",
+          "startSample": 35902,
+          "samples": 22743
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.86044,
+      "rms": 0.20107,
+      "sha256": "d2e926a4fc340c493e051b5597991a0c70c0b547df9cc2d5dca0067002598e84",
+      "sourceDurationMs": 2672.381,
+      "trimStartSamples": 45,
+      "trimEndSamples": 236,
+      "sourceSha256": "cace708335351830e38606aef246e00c62d674c9b91ae1de6270275db184d0ab"
+    },
+    {
+      "number": 76,
+      "text": "seven six. seventy six.",
+      "synthesisText": "Seven, six! Seventy six!",
+      "digits": "seven six",
+      "full": "seventy six",
+      "file": "76.wav",
+      "durationMs": 3207.256,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, six!",
+          "startSample": 0,
+          "samples": 31308
+        },
+        {
+          "text": "Seventy six!",
+          "startSample": 42333,
+          "samples": 28387
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.93042,
+      "rms": 0.16716,
+      "sha256": "541a029d09309cee15ba8fcf7636041e728659b61b2db06e59e3718bbdeb2ba2",
+      "sourceDurationMs": 3239.184,
+      "trimStartSamples": 0,
+      "trimEndSamples": 704,
+      "sourceSha256": "11bc98e1cdef4a10a7c6a1bdf77d3e2045d9e0a3203d8906ca96202fcd036845"
+    },
+    {
+      "number": 77,
+      "text": "seven seven. seventy seven.",
+      "synthesisText": "Seven, seven! Seventy seven!",
+      "digits": "seven seven",
+      "full": "seventy seven",
+      "file": "77.wav",
+      "durationMs": 3218.141,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, seven!",
+          "startSample": 0,
+          "samples": 32022
+        },
+        {
+          "text": "Seventy seven!",
+          "startSample": 43047,
+          "samples": 27913
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.92032,
+      "rms": 0.18203,
+      "sha256": "ab8e0dfdf416c35d86e7d2d92bdd1dcfc293d8ef70250c908fe41bc631ba7c2d",
+      "sourceDurationMs": 3218.458,
+      "trimStartSamples": 0,
+      "trimEndSamples": 7,
+      "sourceSha256": "9ce0f76785dfd4690f333dfc35303b264a5c098f6ec456608786152808cb9f55"
+    },
+    {
+      "number": 78,
+      "text": "seven eight. seventy eight.",
+      "synthesisText": "Seven, eight! Seventy eight!",
+      "digits": "seven eight",
+      "full": "seventy eight",
+      "file": "78.wav",
+      "durationMs": 3157.415,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, eight!",
+          "startSample": 0,
+          "samples": 30788
+        },
+        {
+          "text": "Seventy eight!",
+          "startSample": 41813,
+          "samples": 27808
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.9241,
+      "rms": 0.17314,
+      "sha256": "82395370dc339ce3c55a3014d7646d3b3b6b748d2d86fa2597c65a4aee93a5cf",
+      "sourceDurationMs": 3286.939,
+      "trimStartSamples": 0,
+      "trimEndSamples": 2856,
+      "sourceSha256": "6445123b5a3a4e28609fe9212df7b4ebc2e17f4654e9a50a8003eaec89a22a1c"
+    },
+    {
+      "number": 79,
+      "text": "seven nine. seventy nine.",
+      "synthesisText": "Seven, nine! Seventy nine!",
+      "digits": "seven nine",
+      "full": "seventy nine",
+      "file": "79.wav",
+      "durationMs": 2699.002,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Seven, nine!",
+          "startSample": 0,
+          "samples": 25603
+        },
+        {
+          "text": "Seventy nine!",
+          "startSample": 36628,
+          "samples": 22885
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.89831,
+      "rms": 0.20578,
+      "sha256": "4ff545a76042fc183400207ef9cb2920cc1c73134382c2e73a5353325292f5e8",
+      "sourceDurationMs": 2701.315,
+      "trimStartSamples": 1,
+      "trimEndSamples": 50,
+      "sourceSha256": "6e27238facdafda7fc290a22c0c2b80c7f51653b061886e11b77fc5e1215d497"
+    },
+    {
+      "number": 80,
+      "text": "eight zero. eighty.",
+      "synthesisText": "Eight, zero! Eighty!",
+      "digits": "eight zero",
+      "full": "eighty",
+      "file": "80.wav",
+      "durationMs": 2886.122,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, zero!",
+          "startSample": 0,
+          "samples": 39670
+        },
+        {
+          "text": "Eighty!",
+          "startSample": 50695,
+          "samples": 12944
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90063,
+      "rms": 0.19089,
+      "sha256": "fe2271fbdf309634806c96db63a5b7ac20a4d782f78527e9f3cbd0e7b2743c14",
+      "sourceDurationMs": 2887.755,
+      "trimStartSamples": 33,
+      "trimEndSamples": 3,
+      "sourceSha256": "a9b1987e95dba3b130b7eb1e2503255790244aca37675bee8f5f9f61357afae9"
+    },
+    {
+      "number": 81,
+      "text": "eight one. eighty one.",
+      "synthesisText": "Eight, one! Eighty one!",
+      "digits": "eight one",
+      "full": "eighty one",
+      "file": "81.wav",
+      "durationMs": 2606.803,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, one!",
+          "startSample": 0,
+          "samples": 31405
+        },
+        {
+          "text": "Eighty one!",
+          "startSample": 42430,
+          "samples": 15050
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90341,
+      "rms": 0.19363,
+      "sha256": "449ba02424af00f8f2dff7b06ec7530e54382b6e962de49e9f189d082a3ef8be",
+      "sourceDurationMs": 2700.045,
+      "trimStartSamples": 641,
+      "trimEndSamples": 1415,
+      "sourceSha256": "6b455869fcedbd44633f80bc4196d458bf8f49108b2373d080bff34d6f55ba9f"
+    },
+    {
+      "number": 82,
+      "text": "eight two. eighty two.",
+      "synthesisText": "Eight, two! Eighty two!",
+      "digits": "eight two",
+      "full": "eighty two",
+      "file": "82.wav",
+      "durationMs": 2329.751,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, two!",
+          "startSample": 0,
+          "samples": 24663
+        },
+        {
+          "text": "Eighty two!",
+          "startSample": 35688,
+          "samples": 15683
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.86792,
+      "rms": 0.19691,
+      "sha256": "b9b37dbce49ccdd3815173f57e38b1e9cd86f9c86d104994494e7a56bcb46d08",
+      "sourceDurationMs": 2446.077,
+      "trimStartSamples": 0,
+      "trimEndSamples": 2565,
+      "sourceSha256": "09e70a34370a8469352cbafde8686821d61f6495384a9912de975ddc97cee2a4"
+    },
+    {
+      "number": 83,
+      "text": "eight three. eighty three.",
+      "synthesisText": "Eight, three! Eighty three!",
+      "digits": "eight three",
+      "full": "eighty three",
+      "file": "83.wav",
+      "durationMs": 2938.639,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, three!",
+          "startSample": 0,
+          "samples": 31527
+        },
+        {
+          "text": "Eighty three!",
+          "startSample": 42552,
+          "samples": 22245
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90191,
+      "rms": 0.18491,
+      "sha256": "3ab3f6b3206b213ffd78c94ac628bf43890b124f69b20172ac1337ae66db9b20",
+      "sourceDurationMs": 2940.952,
+      "trimStartSamples": 11,
+      "trimEndSamples": 40,
+      "sourceSha256": "a1952795e7417e69c858574ca149abb72ec239d84ccb1291649feb0e57c47bb1"
+    },
+    {
+      "number": 84,
+      "text": "eight four. eighty four.",
+      "synthesisText": "Eight, four! Eighty four!",
+      "digits": "eight four",
+      "full": "eighty four",
+      "file": "84.wav",
+      "durationMs": 2981.542,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, four!",
+          "startSample": 0,
+          "samples": 32678
+        },
+        {
+          "text": "Eighty four!",
+          "startSample": 43703,
+          "samples": 22040
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88809,
+      "rms": 0.18938,
+      "sha256": "f7a0893cce8f715f2a134bbd428ead444c6a524165fb7464156834a00a4108c9",
+      "sourceDurationMs": 2986.667,
+      "trimStartSamples": 90,
+      "trimEndSamples": 23,
+      "sourceSha256": "0ef625cb6789bac5c681c90d1148f97d76b40ad59a65e93984d51e358e5afb17"
+    },
+    {
+      "number": 85,
+      "text": "eight five. eighty five.",
+      "synthesisText": "Eight, five! Eighty five!",
+      "digits": "eight five",
+      "full": "eighty five",
+      "file": "85.wav",
+      "durationMs": 2517.052,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, five!",
+          "startSample": 0,
+          "samples": 26498
+        },
+        {
+          "text": "Eighty five!",
+          "startSample": 37523,
+          "samples": 17978
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.8963,
+      "rms": 0.22271,
+      "sha256": "3c777662b6142f4d058f8eaea16112d0ec1dba0cbb8d99861cfa0c7d28c62343",
+      "sourceDurationMs": 2518.73,
+      "trimStartSamples": 0,
+      "trimEndSamples": 37,
+      "sourceSha256": "f03f4b7cfaec6dc125ef400bcf7c24d1faa6a84e401aba09a991c7b698283a16"
+    },
+    {
+      "number": 86,
+      "text": "eight six. eighty six.",
+      "synthesisText": "Eight, six! Eighty six!",
+      "digits": "eight six",
+      "full": "eighty six",
+      "file": "86.wav",
+      "durationMs": 2885.034,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, six!",
+          "startSample": 0,
+          "samples": 27860
+        },
+        {
+          "text": "Eighty six!",
+          "startSample": 38885,
+          "samples": 24730
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91958,
+      "rms": 0.1775,
+      "sha256": "0b043e9b4dbc361f55ce578114a52194868580d8b8cbb85b24a51d0832555c24",
+      "sourceDurationMs": 2886.757,
+      "trimStartSamples": 0,
+      "trimEndSamples": 38,
+      "sourceSha256": "eb0ee0fb25614b6a928b5e871b1a54016a5945624004138a228f117670d6c3fc"
+    },
+    {
+      "number": 87,
+      "text": "eight seven. eighty seven.",
+      "synthesisText": "Eight, seven! Eighty seven!",
+      "digits": "eight seven",
+      "full": "eighty seven",
+      "file": "87.wav",
+      "durationMs": 2898.458,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, seven!",
+          "startSample": 0,
+          "samples": 26518
+        },
+        {
+          "text": "Eighty seven!",
+          "startSample": 37543,
+          "samples": 26368
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.91556,
+      "rms": 0.18073,
+      "sha256": "2fe81c2ff49b3453fcb9d85ca6c9a0c8f794d9449dba6cac18cfe838a27e0c41",
+      "sourceDurationMs": 2898.458,
+      "trimStartSamples": 0,
+      "trimEndSamples": 0,
+      "sourceSha256": "4c98abbf6aa7a5f8301cc05d6f8120ee22e25559e1f42046846db5731d51baa7"
+    },
+    {
+      "number": 88,
+      "text": "eight eight. eighty eight.",
+      "synthesisText": "Eight, eight! Eighty eight!",
+      "digits": "eight eight",
+      "full": "eighty eight",
+      "file": "88.wav",
+      "durationMs": 2932.109,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, eight!",
+          "startSample": 0,
+          "samples": 29435
+        },
+        {
+          "text": "Eighty eight!",
+          "startSample": 40460,
+          "samples": 24193
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.90298,
+      "rms": 0.1797,
+      "sha256": "83604e2237432c0d469941e27e2dc7c1fc89992fc27891a23073c8fca14a5063",
+      "sourceDurationMs": 2943.583,
+      "trimStartSamples": 72,
+      "trimEndSamples": 181,
+      "sourceSha256": "cf1a1cd4a0c21f1c625655b799ffc4a4cba69daeba80b0bd4db5a59277515dcc"
+    },
+    {
+      "number": 89,
+      "text": "eight nine. eighty nine.",
+      "synthesisText": "Eight, nine! Eighty nine!",
+      "digits": "eight nine",
+      "full": "eighty nine",
+      "file": "89.wav",
+      "durationMs": 2339.909,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Eight, nine!",
+          "startSample": 0,
+          "samples": 23386
+        },
+        {
+          "text": "Eighty nine!",
+          "startSample": 34411,
+          "samples": 17184
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.87899,
+      "rms": 0.20182,
+      "sha256": "2eea7da9cfb6313d7612d068fa1ef5c23bc94e1fe4796f308b11eb1c11daf8aa",
+      "sourceDurationMs": 2388.934,
+      "trimStartSamples": 1002,
+      "trimEndSamples": 79,
+      "sourceSha256": "3610ee4b8042a968859638152bcd8b7375e7edef30a9a679d6c9cbb5d60ded31"
+    },
+    {
+      "number": 90,
+      "text": "nine zero. ninety.",
+      "synthesisText": "Nine, zero! Ninety!",
+      "digits": "nine zero",
+      "full": "ninety",
+      "file": "90.wav",
+      "durationMs": 3552.336,
+      "sampleRate": 22050,
+      "segments": [
+        {
+          "text": "Nine, zero!",
+          "startSample": 0,
+          "samples": 40564
+        },
+        {
+          "text": "Ninety!",
+          "startSample": 51589,
+          "samples": 26740
+        }
+      ],
+      "gapMs": 500,
+      "peak": 0.88501,
+      "rms": 0.18431,
+      "sha256": "0d478204bafe5d26d9c732a9482d33c1616c899a15c30d846e6ae4eaab72c6dc",
+      "sourceDurationMs": 3555.374,
+      "trimStartSamples": 50,
+      "trimEndSamples": 17,
+      "sourceSha256": "cc6653738a1b90a8091b2eb580e5536a1bfd774a3fc5e99e186d16f090663f64"
+    }
+  ]
+}
