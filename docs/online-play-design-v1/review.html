@@ -1,0 +1,1360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Trust Tambola — Online play design review v1</title>
+    <style>
+      :root {
+        --plum: #290435;
+        --purple: #76207d;
+        --gold: #efd080;
+        --ink: #2b1d30;
+        --muted: #6d6073;
+        --paper: #fffaf2;
+        --line: #e5dce9;
+        --bg: #f5f0f7;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          16px/1.6 system-ui,
+          -apple-system,
+          "Segoe UI",
+          sans-serif;
+      }
+      a {
+        color: var(--purple);
+      }
+      button,
+      a {
+        touch-action: manipulation;
+      }
+      button {
+        font: inherit;
+        cursor: pointer;
+      }
+      a:focus-visible,
+      button:focus-visible {
+        outline: 3px solid #199ebe;
+        outline-offset: 4px;
+      }
+      header {
+        background: var(--plum);
+        color: var(--paper);
+        padding: 56px max(24px, calc((100% - 1320px) / 2)) 44px;
+      }
+      .eyebrow {
+        font-size: 12px;
+        font-weight: 750;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+      }
+      header .eyebrow {
+        color: var(--gold);
+      }
+      h1 {
+        font-size: clamp(32px, 4.2vw, 60px);
+        line-height: 1.1;
+        max-width: 920px;
+        margin: 16px 0 20px;
+        letter-spacing: -1.8px;
+      }
+      header p {
+        max-width: 860px;
+        color: #dfd2e3;
+        font-size: 18px;
+      }
+      .meta {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .pill {
+        border: 1px solid #6f497b;
+        border-radius: 99px;
+        padding: 5px 14px;
+        font-size: 13px;
+      }
+      main {
+        max-width: 1368px;
+        margin: auto;
+        padding: 30px 24px 64px;
+      }
+      .intro {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+        gap: 24px;
+        margin-bottom: 26px;
+      }
+      .panel {
+        background: white;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+      }
+      .panel h2 {
+        font-size: 21px;
+        margin: 0 0 10px;
+      }
+      .panel p {
+        margin: 8px 0;
+      }
+      .resource-links {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 18px;
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 10px 16px;
+        min-height: 44px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background: var(--purple);
+        color: white;
+        font-weight: 650;
+      }
+      .button.secondary {
+        background: white;
+        border-color: #d5c3dd;
+        color: var(--purple);
+      }
+      .notice {
+        background: #fff4d8;
+        border-left: 4px solid #d8ad4d;
+        border-radius: 8px;
+        padding: 12px 16px;
+      }
+      .notice a {
+        font-weight: 650;
+      }
+      .toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin: 24px 0;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        padding: 14px 0;
+        background: var(--bg);
+      }
+      .toggle {
+        display: flex;
+        gap: 6px;
+      }
+      .toggle button {
+        background: white;
+        color: var(--plum);
+        border: 1px solid var(--line);
+        padding: 9px 18px;
+        min-height: 44px;
+        border-radius: 9px;
+      }
+      .toggle button[aria-pressed="true"] {
+        background: var(--plum);
+        color: white;
+      }
+      nav {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      nav a {
+        font-size: 13px;
+      }
+      .board {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 32px;
+        scroll-margin-top: 85px;
+      }
+      .board-heading {
+        padding: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+      .board-heading h2 {
+        margin: 4px 0;
+        font-size: 27px;
+        letter-spacing: -0.5px;
+      }
+      .board-heading p {
+        margin: 0;
+        color: var(--muted);
+      }
+      .board img {
+        width: 100%;
+        display: block;
+      }
+      .screen-links {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0;
+        padding: 16px 24px 18px 46px;
+        gap: 24px;
+      }
+      .text-button {
+        padding: 3px 5px;
+        background: none;
+        border: 0;
+        color: var(--purple);
+        text-align: left;
+        text-decoration: underline;
+      }
+      #screens {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 20px;
+      }
+      #screens[hidden],
+      #boards[hidden] {
+        display: none;
+      }
+      .screen-card {
+        border: 1px solid var(--line);
+        padding: 0;
+        border-radius: 16px;
+        overflow: hidden;
+        background: white;
+        color: var(--ink);
+        text-align: left;
+      }
+      .screen-card:hover {
+        border-color: var(--purple);
+      }
+      .screen-card-title {
+        display: block;
+        min-height: 73px;
+        padding: 14px;
+        font-size: 14px;
+      }
+      .screen-card-title b {
+        color: var(--purple);
+        margin-right: 6px;
+      }
+      .screen-crop {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 418/846;
+        background: #eadff2;
+      }
+      .screen-crop img {
+        display: block;
+        position: absolute;
+        max-width: none;
+        width: 400%;
+        height: auto;
+        top: 0;
+        transform: translateY(-9%);
+      }
+      .notes {
+        margin-top: 25px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      dialog {
+        border: 0;
+        border-radius: 18px;
+        width: min(96vw, 650px);
+        max-height: 95vh;
+        padding: 0;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      dialog::backdrop {
+        background: #170d20d9;
+      }
+      .dialog-head {
+        padding: 16px 20px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        position: sticky;
+        top: 0;
+        z-index: 3;
+      }
+      #detail-title {
+        font-size: 19px;
+        line-height: 1.3;
+        margin: 0;
+      }
+      .close {
+        background: none;
+        border: 0;
+        font-size: 26px;
+        min-width: 44px;
+        min-height: 44px;
+      }
+      #detail-crop {
+        max-width: 420px;
+        margin: 18px auto;
+        border-radius: 12px;
+      }
+      .dialog-foot {
+        padding: 16px 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      footer {
+        padding: 30px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      @media (max-width: 850px) {
+        .intro {
+          grid-template-columns: 1fr;
+        }
+        #screens {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .board-heading {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+        .screen-links {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        nav {
+          display: none;
+        }
+      }
+      @media (max-width: 460px) {
+        header {
+          padding: 32px 20px;
+        }
+        main {
+          padding: 20px 12px;
+        }
+        .panel {
+          padding: 18px;
+        }
+        .toolbar {
+          gap: 10px;
+          flex-wrap: wrap;
+        }
+        .board-heading {
+          padding: 18px;
+        }
+        .screen-card-title {
+          font-size: 12px;
+          padding: 10px;
+        }
+        #screens {
+          gap: 10px;
+        }
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        html {
+          scroll-behavior: smooth;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <aside
+      style="
+        padding: 20px;
+        background: #fff0c7;
+        color: #290435;
+        font: 600 18px/1.5 system-ui;
+      "
+    >
+      Superseded design:
+      <a href="../tambola-circle-design-v2/review.html"
+        >Open the finalized Tambola Circle v2 gallery — 36 screens</a
+      >. This v1 gallery is historical.
+    </aside>
+    <header>
+      <div class="eyebrow">
+        Trust Tambola · Product design review · 21 September 2026
+      </div>
+      <h1>Your people.<br />Your game. Online.</h1>
+      <p>
+        A complete private-table journey: invite family, choose a ticket, mark
+        it together, and review every win.
+      </p>
+      <div class="meta">
+        <span class="pill">28 screen concepts</span
+        ><span class="pill">7 image boards</span
+        ><span class="pill">v1 · Awaiting design lock</span>
+      </div>
+    </header>
+    <main>
+      <div class="intro">
+        <section class="panel">
+          <h2>Review the experience</h2>
+          <p>
+            Start with the boards for the complete journey. Switch to individual
+            screens to inspect details, or click a screen name below a board.
+            Use the screen number when giving feedback.
+          </p>
+          <div class="resource-links">
+            <a class="button" href="IMPLEMENTATION_PLAN.md"
+              >Implementation plan</a
+            ><a class="button secondary" href="SCREEN_SPEC.md"
+              >Screen behavior & decisions</a
+            ><a class="button secondary" href="prompts.json">Image prompts</a>
+          </div>
+        </section>
+        <section class="panel">
+          <h2>Two choices before design lock</h2>
+          <p>
+            <b>Identity:</b> these concepts use a saved device sign-in and a
+            self-declared mobile number.
+          </p>
+          <p>
+            <b>Claim review:</b> all other players review. Disagreement and
+            missing reviewers need an agreed timeout rule.
+          </p>
+          <a href="PHONE_VERIFICATION.md"
+            >Read mobile verification feasibility →</a
+          >
+        </section>
+      </div>
+      <p class="notice">
+        A local SIM number hint does not verify ownership. No-SMS carrier
+        verification requires an online service and supported carriers.
+        <a href="PHONE_VERIFICATION.md">Compare the options.</a>
+      </p>
+      <div class="toolbar">
+        <div class="toggle" aria-label="Gallery view">
+          <button id="view-boards" aria-pressed="true">Boards</button
+          ><button id="view-screens" aria-pressed="false">
+            Individual screens
+          </button>
+        </div>
+        <nav aria-label="Board navigation">
+          <a href="#board-1" data-board-link>01 Get together</a
+          ><a href="#board-2" data-board-link>02 Find your seat</a
+          ><a href="#board-3" data-board-link>03 Play together</a
+          ><a href="#board-4" data-board-link>04 Claims and proof</a
+          ><a href="#board-5" data-board-link>05 Every round has a story</a
+          ><a href="#board-6" data-board-link>06 Account and invite states</a
+          ><a href="#board-7" data-board-link>07 Helpful controls</a>
+        </nav>
+      </div>
+      <div id="boards">
+        <section class="board" id="board-1">
+          <div class="board-heading">
+            <div>
+              <span class="eyebrow">BOARD 01 · SCREENS 1–4</span>
+              <h2>Get together</h2>
+              <p>
+                Home entry, private/public choice, honest phone registration and
+                table setup.
+              </p>
+            </div>
+            <a
+              class="button secondary"
+              href="images/01-entry-and-registration.png"
+              target="_blank"
+              rel="noopener"
+              >Open original PNG ↗</a
+            >
+          </div>
+          <a
+            href="images/01-entry-and-registration.png"
+            target="_blank"
+            rel="noopener"
+            ><img
+              loading="eager"
+              src="images/01-entry-and-registration.png"
+              alt="Trust Tambola concept board: Home, Play online, Player registration, Create table"
+          /></a>
+          <ol start="1" class="screen-links">
+            <li><button class="text-button" data-screen="0">Home</button></li>
+            <li>
+              <button class="text-button" data-screen="1">Play online</button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="2">
+                Player registration
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="3">Create table</button>
+            </li>
+          </ol>
+        </section>
+        <section class="board" id="board-2">
+          <div class="board-heading">
+            <div>
+              <span class="eyebrow">BOARD 02 · SCREENS 5–8</span>
+              <h2>Find your seat</h2>
+              <p>
+                Code or link invites, ticket regeneration and everyone-ready
+                lobby.
+              </p>
+            </div>
+            <a
+              class="button secondary"
+              href="images/02-invites-tickets-lobby.png"
+              target="_blank"
+              rel="noopener"
+              >Open original PNG ↗</a
+            >
+          </div>
+          <a
+            href="images/02-invites-tickets-lobby.png"
+            target="_blank"
+            rel="noopener"
+            ><img
+              loading="lazy"
+              src="images/02-invites-tickets-lobby.png"
+              alt="Trust Tambola concept board: Join a table, Invite friends, Choose your ticket, Table lobby"
+          /></a>
+          <ol start="5" class="screen-links">
+            <li>
+              <button class="text-button" data-screen="4">Join a table</button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="5">
+                Invite friends
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="6">
+                Choose your ticket
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="7">Table lobby</button>
+            </li>
+          </ol>
+        </section>
+        <section class="board" id="board-3">
+          <div class="board-heading">
+            <div>
+              <span class="eyebrow">BOARD 03 · SCREENS 9–12</span>
+              <h2>Play together</h2>
+              <p>
+                Server calls, paper-style markup and live participant tickets.
+              </p>
+            </div>
+            <a
+              class="button secondary"
+              href="images/03-live-game-and-drawing.png"
+              target="_blank"
+              rel="noopener"
+              >Open original PNG ↗</a
+            >
+          </div>
+          <a
+            href="images/03-live-game-and-drawing.png"
+            target="_blank"
+            rel="noopener"
+            ><img
+              loading="lazy"
+              src="images/03-live-game-and-drawing.png"
+              alt="Trust Tambola concept board: Live game, Drawing board, Players, Player &amp; live ticket"
+          /></a>
+          <ol start="9" class="screen-links">
+            <li>
+              <button class="text-button" data-screen="8">Live game</button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="9">Drawing board</button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="10">Players</button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="11">
+                Player &amp; live ticket
+              </button>
+            </li>
+          </ol>
+        </section>
+        <section class="board" id="board-4">
+          <div class="board-heading">
+            <div>
+              <span class="eyebrow">BOARD 04 · SCREENS 13–16</span>
+              <h2>Claims and proof</h2>
+              <p>
+                The caller pauses while everyone reviews the frozen ticket and
+                shared evidence.
+              </p>
+            </div>
+            <a
+              class="button secondary"
+              href="images/04-claims-and-proof.png"
+              target="_blank"
+              rel="noopener"
+              >Open original PNG ↗</a
+            >
+          </div>
+          <a
+            href="images/04-claims-and-proof.png"
+            target="_blank"
+            rel="noopener"
+            ><img
+              loading="lazy"
+              src="images/04-claims-and-proof.png"
+              alt="Trust Tambola concept board: Declare a win, Review a claim, Select proof, Review shared proof"
+          /></a>
+          <ol start="13" class="screen-links">
+            <li>
+              <button class="text-button" data-screen="12">
+                Declare a win
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="13">
+                Review a claim
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="14">Select proof</button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="15">
+                Review shared proof
+              </button>
+            </li>
+          </ol>
+        </section>
+        <section class="board" id="board-5">
+          <div class="board-heading">
+            <div>
+              <span class="eyebrow">BOARD 05 · SCREENS 17–20</span>
+              <h2>Every round has a story</h2>
+              <p>
+                Alternative outcomes, spectator rights, reconnection and fresh
+                rounds.
+              </p>
+            </div>
+            <a
+              class="button secondary"
+              href="images/05-results-and-reconnection.png"
+              target="_blank"
+              rel="noopener"
+              >Open original PNG ↗</a
+            >
+          </div>
+          <a
+            href="images/05-results-and-reconnection.png"
+            target="_blank"
+            rel="noopener"
+            ><img
+              loading="lazy"
+              src="images/05-results-and-reconnection.png"
+              alt="Trust Tambola concept board: Winner confirmed, Claim rejected / spectator, Connection interrupted, Next-round lobby"
+          /></a>
+          <ol start="17" class="screen-links">
+            <li>
+              <button class="text-button" data-screen="16">
+                Winner confirmed
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="17">
+                Claim rejected / spectator
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="18">
+                Connection interrupted
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="19">
+                Next-round lobby
+              </button>
+            </li>
+          </ol>
+        </section>
+        <section class="board" id="board-6">
+          <div class="board-heading">
+            <div>
+              <span class="eyebrow">BOARD 06 · SCREENS 21–24</span>
+              <h2>Account and invite states</h2>
+              <p>Saved device sign-in, recovery and unavailable invites.</p>
+            </div>
+            <a
+              class="button secondary"
+              href="images/06-account-and-invite-states.png"
+              target="_blank"
+              rel="noopener"
+              >Open original PNG ↗</a
+            >
+          </div>
+          <a
+            href="images/06-account-and-invite-states.png"
+            target="_blank"
+            rel="noopener"
+            ><img
+              loading="lazy"
+              src="images/06-account-and-invite-states.png"
+              alt="Trust Tambola concept board: Saved device sign-in, Save recovery code, Restore your profile, Invite unavailable"
+          /></a>
+          <ol start="21" class="screen-links">
+            <li>
+              <button class="text-button" data-screen="20">
+                Saved device sign-in
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="21">
+                Save recovery code
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="22">
+                Restore your profile
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="23">
+                Invite unavailable
+              </button>
+            </li>
+          </ol>
+        </section>
+        <section class="board" id="board-7">
+          <div class="board-heading">
+            <div>
+              <span class="eyebrow">BOARD 07 · SCREENS 25–28</span>
+              <h2>Helpful controls</h2>
+              <p>
+                Number lookup, table management, claimant status and leaving.
+              </p>
+            </div>
+            <a
+              class="button secondary"
+              href="images/07-controls-and-review-status.png"
+              target="_blank"
+              rel="noopener"
+              >Open original PNG ↗</a
+            >
+          </div>
+          <a
+            href="images/07-controls-and-review-status.png"
+            target="_blank"
+            rel="noopener"
+            ><img
+              loading="lazy"
+              src="images/07-controls-and-review-status.png"
+              alt="Trust Tambola concept board: Called numbers, Table controls, Your claim is being reviewed, Leave confirmation"
+          /></a>
+          <ol start="25" class="screen-links">
+            <li>
+              <button class="text-button" data-screen="24">
+                Called numbers
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="25">
+                Table controls
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="26">
+                Your claim is being reviewed
+              </button>
+            </li>
+            <li>
+              <button class="text-button" data-screen="27">
+                Leave confirmation
+              </button>
+            </li>
+          </ol>
+        </section>
+      </div>
+      <div id="screens" hidden>
+        <button
+          class="screen-card"
+          data-screen="0"
+          aria-label="Inspect screen 1: Home"
+        >
+          <span class="screen-card-title"><b>01</b> Home</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/01-entry-and-registration.png"
+              style="left: -0%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="1"
+          aria-label="Inspect screen 2: Play online"
+        >
+          <span class="screen-card-title"><b>02</b> Play online</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/01-entry-and-registration.png"
+              style="left: -100%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="2"
+          aria-label="Inspect screen 3: Player registration"
+        >
+          <span class="screen-card-title"><b>03</b> Player registration</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/01-entry-and-registration.png"
+              style="left: -200%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="3"
+          aria-label="Inspect screen 4: Create table"
+        >
+          <span class="screen-card-title"><b>04</b> Create table</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/01-entry-and-registration.png"
+              style="left: -300%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="4"
+          aria-label="Inspect screen 5: Join a table"
+        >
+          <span class="screen-card-title"><b>05</b> Join a table</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/02-invites-tickets-lobby.png"
+              style="left: -0%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="5"
+          aria-label="Inspect screen 6: Invite friends"
+        >
+          <span class="screen-card-title"><b>06</b> Invite friends</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/02-invites-tickets-lobby.png"
+              style="left: -100%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="6"
+          aria-label="Inspect screen 7: Choose your ticket"
+        >
+          <span class="screen-card-title"><b>07</b> Choose your ticket</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/02-invites-tickets-lobby.png"
+              style="left: -200%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="7"
+          aria-label="Inspect screen 8: Table lobby"
+        >
+          <span class="screen-card-title"><b>08</b> Table lobby</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/02-invites-tickets-lobby.png"
+              style="left: -300%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="8"
+          aria-label="Inspect screen 9: Live game"
+        >
+          <span class="screen-card-title"><b>09</b> Live game</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/03-live-game-and-drawing.png"
+              style="left: -0%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="9"
+          aria-label="Inspect screen 10: Drawing board"
+        >
+          <span class="screen-card-title"><b>10</b> Drawing board</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/03-live-game-and-drawing.png"
+              style="left: -100%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="10"
+          aria-label="Inspect screen 11: Players"
+        >
+          <span class="screen-card-title"><b>11</b> Players</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/03-live-game-and-drawing.png"
+              style="left: -200%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="11"
+          aria-label="Inspect screen 12: Player &amp; live ticket"
+        >
+          <span class="screen-card-title"
+            ><b>12</b> Player &amp; live ticket</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/03-live-game-and-drawing.png"
+              style="left: -300%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="12"
+          aria-label="Inspect screen 13: Declare a win"
+        >
+          <span class="screen-card-title"><b>13</b> Declare a win</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/04-claims-and-proof.png"
+              style="left: -0%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="13"
+          aria-label="Inspect screen 14: Review a claim"
+        >
+          <span class="screen-card-title"><b>14</b> Review a claim</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/04-claims-and-proof.png"
+              style="left: -100%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="14"
+          aria-label="Inspect screen 15: Select proof"
+        >
+          <span class="screen-card-title"><b>15</b> Select proof</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/04-claims-and-proof.png"
+              style="left: -200%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="15"
+          aria-label="Inspect screen 16: Review shared proof"
+        >
+          <span class="screen-card-title"><b>16</b> Review shared proof</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/04-claims-and-proof.png"
+              style="left: -300%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="16"
+          aria-label="Inspect screen 17: Winner confirmed"
+        >
+          <span class="screen-card-title"><b>17</b> Winner confirmed</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/05-results-and-reconnection.png"
+              style="left: -0%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="17"
+          aria-label="Inspect screen 18: Claim rejected / spectator"
+        >
+          <span class="screen-card-title"
+            ><b>18</b> Claim rejected / spectator</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/05-results-and-reconnection.png"
+              style="left: -100%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="18"
+          aria-label="Inspect screen 19: Connection interrupted"
+        >
+          <span class="screen-card-title"><b>19</b> Connection interrupted</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/05-results-and-reconnection.png"
+              style="left: -200%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="19"
+          aria-label="Inspect screen 20: Next-round lobby"
+        >
+          <span class="screen-card-title"><b>20</b> Next-round lobby</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/05-results-and-reconnection.png"
+              style="left: -300%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="20"
+          aria-label="Inspect screen 21: Saved device sign-in"
+        >
+          <span class="screen-card-title"><b>21</b> Saved device sign-in</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/06-account-and-invite-states.png"
+              style="left: -0%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="21"
+          aria-label="Inspect screen 22: Save recovery code"
+        >
+          <span class="screen-card-title"><b>22</b> Save recovery code</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/06-account-and-invite-states.png"
+              style="left: -100%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="22"
+          aria-label="Inspect screen 23: Restore your profile"
+        >
+          <span class="screen-card-title"><b>23</b> Restore your profile</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/06-account-and-invite-states.png"
+              style="left: -200%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="23"
+          aria-label="Inspect screen 24: Invite unavailable"
+        >
+          <span class="screen-card-title"><b>24</b> Invite unavailable</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/06-account-and-invite-states.png"
+              style="left: -300%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="24"
+          aria-label="Inspect screen 25: Called numbers"
+        >
+          <span class="screen-card-title"><b>25</b> Called numbers</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/07-controls-and-review-status.png"
+              style="left: -0%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="25"
+          aria-label="Inspect screen 26: Table controls"
+        >
+          <span class="screen-card-title"><b>26</b> Table controls</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/07-controls-and-review-status.png"
+              style="left: -100%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="26"
+          aria-label="Inspect screen 27: Your claim is being reviewed"
+        >
+          <span class="screen-card-title"
+            ><b>27</b> Your claim is being reviewed</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/07-controls-and-review-status.png"
+              style="left: -200%"
+              alt=""
+          /></span>
+        </button>
+        <button
+          class="screen-card"
+          data-screen="27"
+          aria-label="Inspect screen 28: Leave confirmation"
+        >
+          <span class="screen-card-title"><b>28</b> Leave confirmation</span
+          ><span class="screen-crop"
+            ><img
+              loading="lazy"
+              src="images/07-controls-and-review-status.png"
+              style="left: -300%"
+              alt=""
+          /></span>
+        </button>
+      </div>
+      <section class="panel">
+        <h2>What to validate</h2>
+        <p>
+          Visual direction · phone registration and sharing · all-ready start ·
+          freehand marking · unanimous review and proof · spectator behavior ·
+          next round.
+        </p>
+        <p>
+          Proposed defaults: private only, full house, one ticket each, 2–12
+          active players, calls every 8 seconds. These are review assumptions,
+          not locked requirements.
+        </p>
+      </section>
+      <p class="notes">
+        Generated concept images, not implemented app screenshots. Individual
+        views visually crop the original board; the PNG files remain unchanged.
+        Sample counts, decorative copy and system chrome are illustrative; the
+        written specification governs behavior. Winner and rejected-claim
+        screens are alternative outcomes. No application source was changed.
+      </p>
+      <footer>
+        Built-in image generation · Source prompts included · Atlas-informed
+        repository study · Local review artifact
+      </footer>
+    </main>
+    <dialog id="detail" aria-labelledby="detail-title">
+      <div class="dialog-head">
+        <h2 id="detail-title"></h2>
+        <button class="close" aria-label="Close screen detail">×</button>
+      </div>
+      <div class="screen-crop" id="detail-crop">
+        <img id="detail-image" alt="" />
+      </div>
+      <div class="dialog-foot">
+        <button class="button secondary" id="previous">← Previous</button
+        ><a
+          class="button secondary"
+          id="full-board"
+          target="_blank"
+          rel="noopener"
+          >Original board ↗</a
+        ><button class="button" id="next">Next →</button>
+      </div>
+    </dialog>
+    <script>
+      const groups = [
+        {
+          title: "Get together",
+          file: "01-entry-and-registration.png",
+          note: "Home entry, private/public choice, honest phone registration and table setup.",
+          screens: [
+            "Home",
+            "Play online",
+            "Player registration",
+            "Create table",
+          ],
+        },
+        {
+          title: "Find your seat",
+          file: "02-invites-tickets-lobby.png",
+          note: "Code or link invites, ticket regeneration and everyone-ready lobby.",
+          screens: [
+            "Join a table",
+            "Invite friends",
+            "Choose your ticket",
+            "Table lobby",
+          ],
+        },
+        {
+          title: "Play together",
+          file: "03-live-game-and-drawing.png",
+          note: "Server calls, paper-style markup and live participant tickets.",
+          screens: [
+            "Live game",
+            "Drawing board",
+            "Players",
+            "Player & live ticket",
+          ],
+        },
+        {
+          title: "Claims and proof",
+          file: "04-claims-and-proof.png",
+          note: "The caller pauses while everyone reviews the frozen ticket and shared evidence.",
+          screens: [
+            "Declare a win",
+            "Review a claim",
+            "Select proof",
+            "Review shared proof",
+          ],
+        },
+        {
+          title: "Every round has a story",
+          file: "05-results-and-reconnection.png",
+          note: "Alternative outcomes, spectator rights, reconnection and fresh rounds.",
+          screens: [
+            "Winner confirmed",
+            "Claim rejected / spectator",
+            "Connection interrupted",
+            "Next-round lobby",
+          ],
+        },
+        {
+          title: "Account and invite states",
+          file: "06-account-and-invite-states.png",
+          note: "Saved device sign-in, recovery and unavailable invites.",
+          screens: [
+            "Saved device sign-in",
+            "Save recovery code",
+            "Restore your profile",
+            "Invite unavailable",
+          ],
+        },
+        {
+          title: "Helpful controls",
+          file: "07-controls-and-review-status.png",
+          note: "Number lookup, table management, claimant status and leaving.",
+          screens: [
+            "Called numbers",
+            "Table controls",
+            "Your claim is being reviewed",
+            "Leave confirmation",
+          ],
+        },
+      ];
+      const boardView = document.getElementById("boards"),
+        screenView = document.getElementById("screens"),
+        boardButton = document.getElementById("view-boards"),
+        screenButton = document.getElementById("view-screens");
+      function setView(mode) {
+        const boards = mode === "boards";
+        boardView.hidden = !boards;
+        screenView.hidden = boards;
+        boardButton.setAttribute("aria-pressed", String(boards));
+        screenButton.setAttribute("aria-pressed", String(!boards));
+      }
+      boardButton.addEventListener("click", () => setView("boards"));
+      screenButton.addEventListener("click", () => setView("screens"));
+      document
+        .querySelectorAll("[data-board-link]")
+        .forEach((el) => el.addEventListener("click", () => setView("boards")));
+      const dialog = document.getElementById("detail");
+      let active = 0;
+      function showScreen(index) {
+        active = Math.max(0, Math.min(27, index));
+        const g = groups[Math.floor(active / 4)],
+          column = active % 4;
+        document.getElementById("detail-title").textContent =
+          String(active + 1).padStart(2, "0") + " · " + g.screens[column];
+        const img = document.getElementById("detail-image");
+        img.src = "images/" + g.file;
+        img.style.left = "-" + column * 100 + "%";
+        img.alt = "Concept screen " + (active + 1) + ": " + g.screens[column];
+        document.getElementById("full-board").href = img.getAttribute("src");
+        document.getElementById("previous").disabled = active === 0;
+        document.getElementById("next").disabled = active === 27;
+        if (!dialog.open) dialog.showModal();
+      }
+      document
+        .querySelectorAll("[data-screen]")
+        .forEach((el) =>
+          el.addEventListener("click", () =>
+            showScreen(Number(el.dataset.screen)),
+          ),
+        );
+      document
+        .querySelector(".close")
+        .addEventListener("click", () => dialog.close());
+      document
+        .getElementById("previous")
+        .addEventListener("click", () => showScreen(active - 1));
+      document
+        .getElementById("next")
+        .addEventListener("click", () => showScreen(active + 1));
+      dialog.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") showScreen(active - 1);
+        if (e.key === "ArrowRight") showScreen(active + 1);
+      });
+    </script>
+  </body>
+</html>
